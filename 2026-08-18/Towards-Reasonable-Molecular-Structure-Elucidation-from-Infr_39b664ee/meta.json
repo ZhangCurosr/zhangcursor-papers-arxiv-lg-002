@@ -4,5 +4,32 @@
  "title": "Towards-Reasonable-Molecular-Structure-Elucidation-from-Infr",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-08-18 02:55:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5a8af2e9-cb2d-4927-8b14-d5900807d517.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/5a8af2e9-cb2d-4927-8b14-d5900807d517.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:34:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "红外光谱",
+    "分子结构推导",
+    "偏好优化",
+    "化学反馈",
+    "排序学习",
+    "IR spectroscopy",
+    "molecular structure elucidation"
+   ],
+   "field": "化学信息学/机器学习",
+   "innovations": [
+    "提出FIRMPO框架，将分子式匹配和红外光谱一致性作为化学反馈偏好信号",
+    "设计层级词典偏好方案与定制加权损失函数，显式优化top-1预测",
+    "证明方法模型无关且可插拔，在三个数据集上显著提升多种骨干网络性能"
+   ],
+   "benchmarks": [
+    "QM9S",
+    "IBM",
+    "NIST Chemistry WebBook"
+   ]
+  }
+ }
 }
