@@ -4,5 +4,31 @@
  "title": "Unifying-Graph-Neural-Networks-Through-a-Common-Layer-Equati",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-08-18 02:59:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ff82bfda-c67e-43a3-8b46-17fbebd5f213.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ff82bfda-c67e-43a3-8b46-17fbebd5f213.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:11:09",
+  "chunks": 12,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "统一框架",
+    "架构分类",
+    "槽位纪律",
+    "谱滤波",
+    "几何深度学习",
+    "表达能力",
+    "置换等变性"
+   ],
+   "field": "图神经网络统一框架与理论分析",
+   "innovations": [
+    "提出七组件统一层方程，将200+GNN架构解构为可比槽位",
+    "建立槽位纪律规则，分离信息去向与内容并确保对比语义明确",
+    "提供17个定理/命题系统连接组件设计到过平滑、异配性、1-WL天花板等理论性质"
+   ],
+   "benchmarks": [
+    "无传统实验基准，主要为理论分析与大规模架构分类"
+   ]
+  }
+ }
 }

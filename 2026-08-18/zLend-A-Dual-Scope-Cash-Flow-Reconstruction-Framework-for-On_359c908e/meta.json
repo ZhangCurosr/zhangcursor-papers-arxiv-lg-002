@@ -4,5 +4,30 @@
  "title": "zLend-A-Dual-Scope-Cash-Flow-Reconstruction-Framework-for-On",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-08-18 02:55:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c770fb6c-3706-441f-8ebd-059934a5f87b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/c770fb6c-3706-441f-8ebd-059934a5f87b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:08:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "DeFi lending",
+    "credit scoring",
+    "cash-flow analysis",
+    "on-chain analytics",
+    "dual-scope reconstruction",
+    "liquidity risk"
+   ],
+   "field": "去中心化金融信用评估",
+   "innovations": [
+    "双范围余额重建框架，通过稳定币/总财富视角分歧识别流动性错配风险",
+    "将量化金融最大回撤指标适配为链上无抵押贷款的授信标准",
+    "经$10^-9容差验证的生产级跨语言实现"
+   ],
+   "benchmarks": [
+    "六场景参考钱包验证集",
+    "跨语言实现数值对齐验证"
+   ]
+  }
+ }
 }

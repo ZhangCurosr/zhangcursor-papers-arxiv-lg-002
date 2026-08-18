@@ -4,5 +4,31 @@
  "title": "Unifying-Physical-Backpropagation",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-08-13 14:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f7dc758-cb7c-4a12-8b92-0b3c94f42b38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6f7dc758-cb7c-4a12-8b92-0b3c94f42b38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:06:11",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "物理反向传播",
+    "伴随方法",
+    "缠绕互易性",
+    "PT对称",
+    "非线性系统",
+    "物理机器学习"
+   ],
+   "field": "物理启发的机器学习硬件实现",
+   "innovations": [
+    "提出缠绕互易性统一线性/非线性物理反向传播的可逆性条件",
+    "建立 PDE 约束优化下二阶非线性系统的通用伴随方程与梯度公式",
+    "将平衡传播与非线性稳态物理系统梯度学习相连接"
+   ],
+   "benchmarks": [
+    "Hatano-Nelson 链 (N=4)",
+    "Kerr 非线性系统",
+    "电阻网络梯度"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Transferable-Above-Ground-Biomass-AGB-Estimation-Model-from",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-08-13 14:55:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e2fa6c4-8c87-4927-b07d-3b4566f0fbe7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8e2fa6c4-8c87-4927-b07d-3b4566f0fbe7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "above-ground biomass",
+    "GEDI",
+    "Sentinel-1",
+    "Sentinel-2",
+    "ALOS-2 PALSAR-2",
+    "field calibration",
+    "CNN",
+    "multi-sensor fusion"
+   ],
+   "field": "遥感与碳计量",
+   "innovations": [
+    "单次全局CNN配合轻量场勘校准的两段式框架实现跨区迁移",
+    "双季节合成训练剥离表型噪声以学习稳定的木质结构信号",
+    "Random Forest微调与三阶多项式偏差校正组合消除区域系统偏置"
+   ],
+   "benchmarks": [
+    "ESA CCI Biomass",
+    "GEDI L4A",
+    "Perekezi/Ntchisi/Dzalanyama field plots"
+   ]
+  }
+ }
 }

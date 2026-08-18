@@ -4,5 +4,30 @@
  "title": "Time-Aware-Validation-of-Machine-Learning-Fuel-Consumption-M",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-18 02:54:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2ff0c010-dc21-4c1f-9f7e-94749b53448a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2ff0c010-dc21-4c1f-9f7e-94749b53448a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:04:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fuel consumption prediction",
+    "time-aware validation",
+    "temporal data leakage",
+    "time series cross-validation",
+    "maritime decision support",
+    "high-frequency sensor data"
+   ],
+   "field": "船舶能效预测与时序机器学习",
+   "innovations": [
+    "在固定特征和测试集前提下系统对比三种时间感知验证方案对模型选择结果的决定性影响",
+    "揭示树模型在高自相关1Hz数据随机划分下的虚假优异性与时间感知下的严重退化",
+    "量化航次规划可用特征（SOG-only）的预测精度代价并引入块均值Wilcoxon统计检验框架"
+   ],
+   "benchmarks": [
+    "CCGS Sir Wilfrid Laurier 1Hz operational dataset (3.88M steady-state records)",
+    "ERA5 hindcast metocean fields"
+   ]
+  }
+ }
 }

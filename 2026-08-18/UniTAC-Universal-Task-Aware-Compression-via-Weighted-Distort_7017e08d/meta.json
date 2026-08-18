@@ -4,5 +4,31 @@
  "title": "UniTAC-Universal-Task-Aware-Compression-via-Weighted-Distort",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-18 02:53:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d17a7339-0bb7-4648-9aeb-475c2ecd72c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d17a7339-0bb7-4648-9aeb-475c2ecd72c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:05:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task-aware compression",
+    "weighted rate-distortion",
+    "Vision Transformer codec",
+    "semantic communication",
+    "physical AI",
+    "integrated gradients",
+    "conditional image compression"
+   ],
+   "field": "任务感知图像压缩",
+   "innovations": [
+    "单一 ViT codec 通过运行时注入 per-component importance vector 实现 universal-to-task-specialized 切换，无需重训练",
+    "从 Jacobian 敏感性导出对角加权失真的任务一致性理论，给出 weight-to-task 原则性映射",
+    "NAT+SGAT 双阶段 token-level 条件化设计原生实现权重驱动的比特分配"
+   ],
+   "benchmarks": [
+    "CelebA face attribute classification (Gender, Mouth)",
+    "AffectNet (training)"
+   ]
+  }
+ }
 }

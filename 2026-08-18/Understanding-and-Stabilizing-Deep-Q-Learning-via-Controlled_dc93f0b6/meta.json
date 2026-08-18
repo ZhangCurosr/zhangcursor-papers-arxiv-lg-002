@@ -4,5 +4,31 @@
  "title": "Understanding-and-Stabilizing-Deep-Q-Learning-via-Controlled",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-18 02:57:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a2acc53a-b75e-4f37-8700-6c11e32167f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/a2acc53a-b75e-4f37-8700-6c11e32167f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:05:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "deep reinforcement learning",
+    "training stability",
+    "value estimation",
+    "bootstrapping",
+    "ensemble learning",
+    "distributional RL",
+    "parameter dynamics"
+   ],
+   "field": "深度强化学习训练稳定性",
+   "innovations": [
+    "系统揭示操作层、估计层与参数动态三类交互不稳定性机制",
+    "提出受控自举（跨模型解耦+奖励转移动作解耦+有界Bellman更新）稳定化框架",
+    "引入尖峰比监控参数失衡并设计阈值重置机制恢复网络可塑性"
+   ],
+   "benchmarks": [
+    "Atari-100K",
+    "Procgen"
+   ]
+  }
+ }
 }

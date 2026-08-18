@@ -4,5 +4,32 @@
  "title": "Unsupervised-Learning-of-Cell-Instances-with-Generative-Rout",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-18 02:55:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:07:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督细胞分割",
+    "生成路由金字塔",
+    "对象中心学习",
+    "表型表征",
+    "显微镜图像分析",
+    "实例分割"
+   ],
+   "field": "无监督生物医学图像分析",
+   "innovations": [
+    "提出生成路由金字塔，通过粗到细路由图端到端联合学习实例分割与对象表征",
+    "引入稀疏存在门控与流损失，在保证重构质量的同时实现稀疏实例提取",
+    "推理复杂度O(N)，显著优于传统迭代式对象中心方法"
+   ],
+   "benchmarks": [
+    "Allen hiPSC nuclei",
+    "Fluo-N2DL-HeLa",
+    "PhC-C2DL-PSC",
+    "BBBC013 drug perturbation"
+   ]
+  }
+ }
 }

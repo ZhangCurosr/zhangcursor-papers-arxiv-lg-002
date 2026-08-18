@@ -4,5 +4,31 @@
  "title": "When-Tool-Backed-Skill-Retrieval-Fails-Source-Style-Collapse",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-18 02:53:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f33f283e-252b-4611-9d0c-e22ff641acf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f33f283e-252b-4611-9d0c-e22ff641acf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:07:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tool retrieval",
+    "source-style collapse",
+    "retriever adaptation",
+    "skill-card rendering",
+    "TF-IDF routing",
+    "few-shot repair",
+    "executable capability"
+   ],
+   "field": "工具检索与Agent能力获取",
+   "innovations": [
+    "首次系统诊断同库跨源风格迁移下的检索器坍塌现象并提出'源风格坍塌'概念",
+    "基于查询端TF-IDF质心距离的廉价路由守卫机制（78.9% LOO准确率）",
+    "ToolScout双阶段路由策略：检测→切换aggregate检查点→few-shot继续微调修复"
+   ],
+   "benchmarks": [
+    "ToolRet",
+    "StableToolBench"
+   ]
+  }
+ }
 }

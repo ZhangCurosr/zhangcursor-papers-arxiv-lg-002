@@ -4,5 +4,10 @@
  "title": "Variational-Outlier-Robust-Gaussian-Process-Regression-with",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-18 02:53:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dbb1b360-aeab-460f-8c27-827bbf7fb2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dbb1b360-aeab-460f-8c27-827bbf7fb2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:07:44",
+  "chunks": 1
+ }
 }

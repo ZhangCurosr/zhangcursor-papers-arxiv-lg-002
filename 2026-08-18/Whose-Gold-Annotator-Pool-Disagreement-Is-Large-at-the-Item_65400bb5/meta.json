@@ -4,5 +4,29 @@
  "title": "Whose-Gold-Annotator-Pool-Disagreement-Is-Large-at-the-Item",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-08-18 02:58:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ed0e4ff2-cba5-4204-b5f4-6f5e02bdddc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ed0e4ff2-cba5-4204-b5f4-6f5e02bdddc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 04:07:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference benchmarking",
+    "annotator disagreement",
+    "LLM-as-a-judge",
+    "rank stability",
+    "multi-annotator datasets"
+   ],
+   "field": "LLM 评估与偏好学习",
+   "innovations": [
+    "量化两池标注分歧（23.6%~30.5%标签分歧、9.2%逆转率）",
+    "揭示六模型排行榜不变性为规模效应非聚合鲁棒性",
+    "发现LLM评委系统性倾向众包池而非专家池（−3.7~−6.9pp）"
+   ],
+   "benchmarks": [
+    "MULTIPREF",
+    "MT-Bench"
+   ]
+  }
+ }
 }
