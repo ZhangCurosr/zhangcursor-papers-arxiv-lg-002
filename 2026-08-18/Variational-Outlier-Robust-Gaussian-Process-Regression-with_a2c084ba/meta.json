@@ -4,5 +4,31 @@
  "title": "Variational-Outlier-Robust-Gaussian-Process-Regression-with",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-08-18 14:31:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dbb1b360-aeab-460f-8c27-827bbf7fb2ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/dbb1b360-aeab-460f-8c27-827bbf7fb2ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:35:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian process regression",
+    "outlier-robust regression",
+    "variational inference",
+    "expectation-maximization",
+    "precision multiplier",
+    "adaptive noise modeling"
+   ],
+   "field": "鲁棒机器学习与信号处理",
+   "innovations": [
+    "观测特异性精度乘数的分层生成模型",
+    "变分广义EM联合推断潜变量与GPR参数",
+    "共轭结构保障闭式更新并保留立方复杂度"
+   ],
+   "benchmarks": [
+    "Air Quality",
+    "Energy Efficiency",
+    "Synthetic 2D4D regression"
+   ]
+  }
+ }
 }

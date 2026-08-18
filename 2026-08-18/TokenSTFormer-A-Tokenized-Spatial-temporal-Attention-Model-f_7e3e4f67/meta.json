@@ -4,5 +4,33 @@
  "title": "TokenSTFormer-A-Tokenized-Spatial-temporal-Attention-Model-f",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-18 14:31:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3a6e6ce8-8ee1-41e8-ac44-05e90934e058.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/3a6e6ce8-8ee1-41e8-ac44-05e90934e058.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:33:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Adolescent Idiopathic Scoliosis",
+    "Gait Analysis",
+    "Spatial-Temporal Tokenization",
+    "Vision Transformer",
+    "Medical AI Screening",
+    "Kinematic Knowledge Map"
+   ],
+   "field": "医疗AI与骨科筛查",
+   "innovations": [
+    "TokenSTFormer: 空间-时间tokenization增强的Vision Transformer变体",
+    "Kinematic Knowledge Map: 238维结构化运动特征工程",
+    "ScoliGait: 首个步态视频+X光配对的脊柱侧凸数据集"
+   ],
+   "benchmarks": [
+    "Accuracy",
+    "Sensitivity",
+    "Specificity",
+    "PV+",
+    "PV-"
+   ]
+  }
+ }
 }

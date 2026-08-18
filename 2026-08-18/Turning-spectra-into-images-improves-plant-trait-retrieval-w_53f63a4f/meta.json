@@ -4,5 +4,30 @@
  "title": "Turning-spectra-into-images-improves-plant-trait-retrieval-w",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-18 14:31:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f6db8ca1-2305-4a76-95d1-4c6f04ad3660.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:35:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "高光谱遥感",
+    "植物功能性状",
+    "2D-CNN",
+    "自监督预训练",
+    "可解释AI",
+    "辐射传输模型"
+   ],
+   "field": "高光谱植被性状反演",
+   "innovations": [
+    "系统比较九种1D→2D谱变换，发现最简单Reshape最优（R²=0.684，+0.097）",
+    "2D MAE预训练+线性探测（R²=0.646）超越所有1D基线包括MAE-1D微调",
+    "建立IG/Grad-CAM归因与PROSAIL理论敏感性的逐波段定量验证协议"
+   ],
+   "benchmarks": [
+    "GreenHyperSpectra",
+    "PROSAIL radiative transfer model"
+   ]
+  }
+ }
 }

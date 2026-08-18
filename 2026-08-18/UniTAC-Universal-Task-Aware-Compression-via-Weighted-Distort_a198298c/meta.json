@@ -4,5 +4,30 @@
  "title": "UniTAC-Universal-Task-Aware-Compression-via-Weighted-Distort",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-18 14:31:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd0d7722-4392-4031-b846-4e994c2de883.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/cd0d7722-4392-4031-b846-4e994c2de883.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:34:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task-aware compression",
+    "weighted rate-distortion",
+    "ViT codec",
+    "semantic communication",
+    "Image compression",
+    "physical AI"
+   ],
+   "field": "任务感知图像压缩",
+   "innovations": [
+    "通过可切换 importance vector 实现单模型跨任务重定向，无需重训练",
+    "从任务 Jacobian 导出加权失真并证明 delta-任务一致性",
+    "Token-level 条件注入（NAT 重要性偏置 + SGAT 温度采样）"
+   ],
+   "benchmarks": [
+    "CelebA",
+    "AffectNet"
+   ]
+  }
+ }
 }

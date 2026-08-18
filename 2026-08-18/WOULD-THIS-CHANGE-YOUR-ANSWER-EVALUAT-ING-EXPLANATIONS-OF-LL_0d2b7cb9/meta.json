@@ -4,5 +4,32 @@
  "title": "WOULD-THIS-CHANGE-YOUR-ANSWER-EVALUAT-ING-EXPLANATIONS-OF-LL",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-18 14:31:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8a87d86b-9ced-4696-9dfb-d47328c7ae41.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/8a87d86b-9ced-4696-9dfb-d47328c7ae41.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:35:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM interpretability",
+    "counterfactual explanation",
+    "self-explanation",
+    "activation tools",
+    "auditing games",
+    "behavior evaluation"
+   ],
+   "field": "大语言模型可解释性与行为评估",
+   "innovations": [
+    "提出CHIVE流水线自动挖掘野生LLM行为并生成带反事实验证标签的解释数据",
+    "在自然分布上首次全面评估AO/NLA/SAE工具，发现其对反事实预测无提升",
+    "证明反事实预测训练可泛化至分布外提示源，而开放式解释训练效果混合"
+   ],
+   "benchmarks": [
+    "WildChat",
+    "PETRI",
+    "MMLU hint setting",
+    "AITA sycophancy setting"
+   ]
+  }
+ }
 }

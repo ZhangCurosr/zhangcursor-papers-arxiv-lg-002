@@ -4,5 +4,32 @@
  "title": "When-Tool-Backed-Skill-Retrieval-Fails-Source-Style-Collapse",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-18 14:31:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f33f283e-252b-4611-9d0c-e22ff641acf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/f33f283e-252b-4611-9d0c-e22ff641acf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:36:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Tool RAG",
+    "source-style collapse",
+    "retriever adaptation",
+    "TF-IDF routing",
+    "tool retrieval",
+    "dense retrieval",
+    "Agent capability access",
+    "few-shot repair"
+   ],
+   "field": "工具检索与检索路由",
+   "innovations": [
+    "发现并刻画 Tool RAG 中同语料库源风格坍塌现象",
+    "提出 TF-IDF 质心距离作为轻量源风格不匹配检测器",
+    "设计 ToolScout 源感知路由+少量修正的可复用修复框架"
+   ],
+   "benchmarks": [
+    "ToolRet",
+    "StableToolBench"
+   ]
+  }
+ }
 }

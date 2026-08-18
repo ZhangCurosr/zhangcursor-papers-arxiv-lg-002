@@ -4,5 +4,25 @@
  "title": "The-canonical-facets-of-multi-separator-polytopes",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-18 14:31:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d72bbc9e-7033-4abd-bfb2-8d2a99fe76c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/d72bbc9e-7033-4abd-bfb2-8d2a99fe76c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:34:33",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "multi-separator problem",
+    "polytope facets",
+    "cut-vertex",
+    "connector inequality",
+    "combinatorial optimization",
+    "facet characterization"
+   ],
+   "field": "组合多面体理论与离散优化",
+   "innovations": [
+    "给出上盒不等式 $x_v \\leq 1$ 为 facet 的充要条件：$v$ 非任何交互的 $f$-cut-vertex",
+    "提出 connector 不等式 $x_f = \\sum_{v \\in C} x_v$ 的五个充要 facet 条件（i–v）"
+   ]
+  }
+ }
 }

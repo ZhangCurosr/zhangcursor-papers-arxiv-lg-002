@@ -4,5 +4,31 @@
  "title": "Unsupervised-Learning-of-Cell-Instances-with-Generative-Rout",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-08-18 14:31:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/59dae286-fda5-4087-ad62-fda5b088680d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:34:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unsupervised Learning",
+    "Cell Instance Segmentation",
+    "Object-Centric Learning",
+    "Generative Routing Pyramid",
+    "Microscopy Image Analysis",
+    "Phenotype Representation"
+   ],
+   "field": "无监督细胞实例分割与表征学习",
+   "innovations": [
+    "通过稀疏种子与路由金字塔在单次前向中同步得到实例掩码与对象嵌入",
+    "用存在稀疏化与流量正则化驱动无监督细胞检测与表征联合学习"
+   ],
+   "benchmarks": [
+    "Allen nuclear morphology dataset",
+    "Fluo-N2DL-HeLa",
+    "PhC-C2DL-PSC",
+    "BBBC013 drug perturbation series"
+   ]
+  }
+ }
 }

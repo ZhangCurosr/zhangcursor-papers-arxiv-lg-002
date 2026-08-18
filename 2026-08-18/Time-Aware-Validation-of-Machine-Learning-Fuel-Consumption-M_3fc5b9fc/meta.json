@@ -4,5 +4,35 @@
  "title": "Time-Aware-Validation-of-Machine-Learning-Fuel-Consumption-M",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-18 14:31:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2ff0c010-dc21-4c1f-9f7e-94749b53448a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/2ff0c010-dc21-4c1f-9f7e-94749b53448a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:33:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fuel consumption prediction",
+    "time-aware validation",
+    "temporal leakage",
+    "ship performance",
+    "machine learning",
+    "cross-validation",
+    "Ridge regression",
+    "XGBoost"
+   ],
+   "field": "船舶燃油消耗预测与时序验证",
+   "innovations": [
+    "系统性对比随机与时间感知验证协议对模型选择的影响",
+    "揭示树模型在时序划分下严重过拟合而线性模型更稳健",
+    "量化航行前可用特征（SOG）的预测精度代价"
+   ],
+   "benchmarks": [
+    "CCGS Sir Wilfrid Laurier 1 Hz operational data",
+    "Chronological hold-out set",
+    "Sequential K-Fold CV",
+    "Custom TSCV",
+    "Blocked TSCV"
+   ]
+  }
+ }
 }

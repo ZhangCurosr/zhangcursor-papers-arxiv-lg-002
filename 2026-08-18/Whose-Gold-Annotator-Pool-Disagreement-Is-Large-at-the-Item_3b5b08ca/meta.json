@@ -4,5 +4,29 @@
  "title": "Whose-Gold-Annotator-Pool-Disagreement-Is-Large-at-the-Item",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-08-18 14:31:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ed0e4ff2-cba5-4204-b5f4-6f5e02bdddc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-18/ed0e4ff2-cba5-4204-b5f4-6f5e02bdddc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:36:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preference benchmark",
+    "annotator disagreement",
+    "LLM-as-a-judge",
+    "leaderboard stability",
+    "annotation pool"
+   ],
+   "field": "AI 评估与基准构建",
+   "innovations": [
+    "量化双标注员池项目级分歧并揭示小规模排行榜不变性的假象",
+    "证明LLM评委显著偏向群众池而非专家池",
+    "提出项目级分歧与聚合级稳定性的严格区分及位移概率外推方法"
+   ],
+   "benchmarks": [
+    "MULTIPREF",
+    "MT-BENCH"
+   ]
+  }
+ }
 }
