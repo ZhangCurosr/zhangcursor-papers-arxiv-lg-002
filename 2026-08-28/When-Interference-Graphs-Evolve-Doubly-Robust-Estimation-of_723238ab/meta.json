@@ -4,5 +4,33 @@
  "title": "When-Interference-Graphs-Evolve-Doubly-Robust-Estimation-of",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-28 13:47:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/dbd88b39-82b8-40d6-a732-8cee936945d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/dbd88b39-82b8-40d6-a732-8cee936945d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:18:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "网络因果推断",
+    "同伴效应",
+    "双重稳健估计",
+    "动态网络",
+    "曝光映射",
+    "受控对比"
+   ],
+   "field": "网络因果推断",
+   "innovations": [
+    "提出将自身处理/动态同伴暴露/分配后网络演化总结解耦为三元受控对比轮廓",
+    "构建时序因子化倾向得分与归一化残差增广相结合的 DynaNet-DR 双稳健估计器",
+    "在固定真实时序图上系统评估全 profile 估计精度与自适应稳定化策略"
+   ],
+   "benchmarks": [
+    "CollegeMsg",
+    "email-Eu",
+    "SocioPatterns Primary School 2011",
+    "High School 2012",
+    "MathOverflow"
+   ]
+  }
+ }
 }

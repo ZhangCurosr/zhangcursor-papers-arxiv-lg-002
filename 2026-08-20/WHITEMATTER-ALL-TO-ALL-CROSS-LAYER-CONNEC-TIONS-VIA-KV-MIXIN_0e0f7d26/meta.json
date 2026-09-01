@@ -4,5 +4,35 @@
  "title": "WHITEMATTER-ALL-TO-ALL-CROSS-LAYER-CONNEC-TIONS-VIA-KV-MIXIN",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-08-20 02:57:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a70fd0c7-e683-4901-b069-0864ff2b70c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/a70fd0c7-e683-4901-b069-0864ff2b70c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:15:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer",
+    "cross-layer connections",
+    "KV cache compression",
+    "feedback architecture",
+    "cyclic Gauss-Seidel",
+    "pretraining efficiency"
+   ],
+   "field": "高效大语言模型架构",
+   "innovations": [
+    "全动态跨层KV混合实现token-dependent的任意深度信息访问",
+    "固定循环通道分配在保持单KV读取的同时实现缓存压缩",
+    "循环Gauss-Seidel迭代调度加速训练与前缀收敛"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "LAMBADA",
+    "WikiText",
+    "PIQA",
+    "HellaSwag",
+    "ARC-Easy",
+    "OpenBookQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Universality-and-sharp-thresholds-for-ellipsoid-fitting",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-28 23:23:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1d615a98-6e15-4885-9c63-5b38ee681fc1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/1d615a98-6e15-4885-9c63-5b38ee681fc1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:20:54",
+  "chunks": 6
+ }
 }

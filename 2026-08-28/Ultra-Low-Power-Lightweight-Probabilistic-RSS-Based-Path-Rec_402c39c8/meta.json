@@ -4,5 +4,31 @@
  "title": "Ultra-Low-Power-Lightweight-Probabilistic-RSS-Based-Path-Rec",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-08-28 13:47:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/31116e52-24b1-4623-b8d0-d7d3d55048fc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/31116e52-24b1-4623-b8d0-d7d3d55048fc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:17:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RSS定位",
+    "AoA估计",
+    "高斯过程",
+    "变分推断",
+    "超低功耗追踪",
+    "昆虫行为生态学",
+    "蓝牙低功耗"
+   ],
+   "field": "低资源无线定位与轨迹重建",
+   "innovations": [
+    "从仅3个RSS测量值概率推断AoA的贝叶斯方法，无需密集采样",
+    "基于GP与双随机变分推断的非并发不确定AoA路径重建框架",
+    "38mg/<180µW接收机实现地貌尺度(~300m)~15m精度追踪"
+   ],
+   "benchmarks": [
+    "Norfolk Heritage Park路径重建(MAE~15m@k=3)",
+    "AoA推断精度(MAE<2°@k=200, ~50°@k=5)"
+   ]
+  }
+ }
 }

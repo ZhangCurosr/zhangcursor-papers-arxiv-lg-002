@@ -4,5 +4,32 @@
  "title": "Vector-Symbolic-Policy-Gradient",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-08-20 14:34:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ae71c5d1-13f6-454d-9c20-2d819638a6b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/ae71c5d1-13f6-454d-9c20-2d819638a6b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:14:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "向量符号架构",
+    "策略梯度",
+    "超维计算",
+    "离散动作强化学习",
+    "边缘鲁棒性",
+    "核策略搜索",
+    "多智能体RL"
+   ],
+   "field": "强化学习与向量符号架构交叉",
+   "innovations": [
+    "证明softmax策略梯度更新等价于优势加权超向量捆绑+行归一化的闭式操作",
+    "证明训练后动作超向量为固定大小压缩核展开，推理无需枚举历史样本",
+    "给出双极动作记忆在随机比特翻转下greedy决策错误概率的指数衰减理论界"
+   ],
+   "benchmarks": [
+    "MiniGrid",
+    "Gymnasium Classic Control",
+    "SustainGym Building Control"
+   ]
+  }
+ }
 }

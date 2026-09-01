@@ -4,5 +4,36 @@
  "title": "Understanding-Evolution-Strategies-for-LLM-Reasoning-Broader",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-28 13:47:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d16ebda4-4080-4f0e-99c7-a16792d2bb87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d16ebda4-4080-4f0e-99c7-a16792d2bb87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:17:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Evolution Strategies",
+    "GRPO",
+    "LLM reasoning",
+    "Pass@K",
+    "entropy collapse",
+    "post-training"
+   ],
+   "field": "大语言模型推理后训练",
+   "innovations": [
+    "证明ES种群多样性带来更高Pass@K且避免熵坍缩",
+    "提出ES-GRPO串行组合策略兼顾单样本与多样本准确率",
+    "揭示ES功能性稀疏机制解释大参数漂移不必然导致遗忘"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GPQA",
+    "MBPP",
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH-500",
+    "DeepScaleR"
+   ]
+  }
+ }
 }

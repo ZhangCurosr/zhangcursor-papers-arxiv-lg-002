@@ -4,5 +4,31 @@
  "title": "Vector-Symbolic-Policy-Gradient",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-08-20 02:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/388ee553-3e2a-4326-bc32-7efcd9843108.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/388ee553-3e2a-4326-bc32-7efcd9843108.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:14:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vector-Symbolic Policy Gradient",
+    "Hyperdimensional Computing",
+    "Discrete Action RL",
+    "Robust Reinforcement Learning",
+    "Kernel Policy",
+    "Edge RL"
+   ],
+   "field": "向量符号架构与强化学习",
+   "innovations": [
+    "策略梯度更新等价于优势加权超向量捆绑与行归一化闭式投影",
+    "动作记忆即固定大小压缩核展开，推理时无需枚举历史样本",
+    "双极性动作记忆在随机比特翻转下提供指数衰减的失败概率上界"
+   ],
+   "benchmarks": [
+    "MiniGrid",
+    "Classic Control (Gymnasium)",
+    "SustainGym Building Control"
+   ]
+  }
+ }
 }

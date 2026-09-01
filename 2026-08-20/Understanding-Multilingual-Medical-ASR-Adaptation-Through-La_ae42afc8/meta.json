@@ -4,5 +4,31 @@
  "title": "Understanding-Multilingual-Medical-ASR-Adaptation-Through-La",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-20 02:56:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/53729de4-8973-4b47-ae99-18fd5f81b84d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/53729de4-8973-4b47-ae99-18fd5f81b84d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:14:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical ASR",
+    "Whisper Fine-tuning",
+    "Multilingual Adaptation",
+    "Layer-wise Analysis",
+    "Representation Drift",
+    "Probing Classifier"
+   ],
+   "field": "医疗语音识别与多语言适应",
+   "innovations": [
+    "首次系统比较四种Whisper医疗多语言适应策略并揭示表征变化规律",
+    "提出域/语言/错误可预测性三探针分析框架",
+    "发现ASR性能提升伴随编码器线性错误可预测性减弱的反直觉现象"
+   ],
+   "benchmarks": [
+    "Kaggle Medical Speech Corpus",
+    "PoCaP Corpus",
+    "LibriSpeech test-clean"
+   ]
+  }
+ }
 }

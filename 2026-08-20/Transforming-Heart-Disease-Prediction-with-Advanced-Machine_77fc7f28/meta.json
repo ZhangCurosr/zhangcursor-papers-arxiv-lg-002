@@ -4,5 +4,32 @@
  "title": "Transforming-Heart-Disease-Prediction-with-Advanced-Machine",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-20 14:33:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/579baba0-c193-4f65-9065-79de3d1c6034.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/579baba0-c193-4f65-9065-79de3d1c6034.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:13:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "heart disease prediction",
+    "machine learning",
+    "support vector machine",
+    "SVM",
+    "comparative analysis",
+    "cardiovascular diagnostics",
+    "UCI dataset",
+    "ensemble learning"
+   ],
+   "field": "医疗机器学习",
+   "innovations": [
+    "在UCI和Kaggle双数据集上系统比较10种分类器的统一框架设计",
+    "发现算法最优性具有数据集依赖性（SVM在UCI最优，SC在Kaggle最优）",
+    "采用六维评估指标体系（Accuracy/Precision/Recall/F-measure/MAE/RAE）综合衡量预测性能"
+   ],
+   "benchmarks": [
+    "UCI Heart Disease Dataset",
+    "Kaggle ML Heart Disease Dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Understanding-Multilingual-Medical-ASR-Adaptation-Through-La",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-08-20 14:33:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/252a01fc-7f06-4937-8343-163724956b0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/252a01fc-7f06-4937-8343-163724956b0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:14:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical ASR",
+    "Whisper",
+    "Multilingual Adaptation",
+    "Layer-wise Analysis",
+    "Representation Drift",
+    "Probing Classifier",
+    "Domain Adaptation"
+   ],
+   "field": "医学语音识别与多语言适配",
+   "innovations": [
+    "揭示两阶段医学多语言适配中表征漂移的不对称性：英语医学微调主导表征重组，多语言延续基本保留已学表征",
+    "发现解码WER改善与编码器线性错误可预测信号减弱的解耦现象",
+    "构建域/语言/WER三项探针体系，为MedASR适配提供可复用的层析分析范式"
+   ],
+   "benchmarks": [
+    "Kaggle Medical Speech Dataset",
+    "PoCaP Corpus",
+    "LibriSpeech test-clean (domain probe contrast)"
+   ]
+  }
+ }
 }

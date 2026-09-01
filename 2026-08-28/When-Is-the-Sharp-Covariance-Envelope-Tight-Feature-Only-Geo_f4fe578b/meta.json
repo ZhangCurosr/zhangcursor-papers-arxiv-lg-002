@@ -4,5 +4,30 @@
  "title": "When-Is-the-Sharp-Covariance-Envelope-Tight-Feature-Only-Geo",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-28 13:47:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7d822f45-55e7-4ba1-a7a2-3c1ec9357a02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7d822f45-55e7-4ba1-a7a2-3c1ec9357a02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:21:16",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "envelope methodology",
+    "spatial statistics",
+    "covariance structure",
+    "feature-only regression",
+    "projection commutativity",
+    "geostatistics"
+   ],
+   "field": "空间统计与降维推断",
+   "innovations": [
+    "给出sharp covariance envelope tight的充要条件（投影算子交换性刻画）",
+    "建立Feature-Only Geo模型的可识别性判据",
+    "构造三类易验充分条件族并验证于真实遥感数据"
+   ],
+   "benchmarks": [
+    "NASA MODIS地表温度数据",
+    "模拟空间回归数据集"
+   ]
+  }
+ }
 }

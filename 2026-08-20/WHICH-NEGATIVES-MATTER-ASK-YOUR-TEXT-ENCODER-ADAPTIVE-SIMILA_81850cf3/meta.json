@@ -4,5 +4,33 @@
  "title": "WHICH-NEGATIVES-MATTER-ASK-YOUR-TEXT-ENCODER-ADAPTIVE-SIMILA",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-20 14:34:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/863adf04-de67-4f94-8009-a8c94defe2ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/863adf04-de67-4f94-8009-a8c94defe2ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:15:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dense-caption retrieval",
+    "contrastive learning",
+    "hard negatives",
+    "InfoNCE saturation",
+    "adaptive margin",
+    "vision-language model",
+    "Long-CLIP"
+   ],
+   "field": "视觉-语言检索与对比学习",
+   "innovations": [
+    "发现 InfoNCE 在 dense-caption 场景下的过早饱和问题并通过梯度动力学量化",
+    "提出 HN-CLIP：利用文本编码器自身的文本-文本相似度构建 per-negative 自适应 margin，零额外开销",
+    "仅用 20% 训练数据超越最强 full-data baseline，并在六种 fine-tuning 框架上一致提升"
+   ],
+   "benchmarks": [
+    "DOCCI",
+    "DCI",
+    "Long-DCI",
+    "Urban-1K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHICH-NEGATIVES-MATTER-ASK-YOUR-TEXT-ENCODER-ADAPTIVE-SIMILA",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-08-20 03:00:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/863adf04-de67-4f94-8009-a8c94defe2ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/863adf04-de67-4f94-8009-a8c94defe2ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:15:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dense-caption retrieval",
+    "contrastive learning",
+    "hard negatives",
+    "adaptive margin",
+    "vision-language model",
+    "InfoNCE saturation"
+   ],
+   "field": "视觉语言检索",
+   "innovations": [
+    "诊断InfoNCE在密集描述检索中的过早饱和问题并通过梯度动力学验证",
+    "提出HN-CLIP利用文本编码器自身几何构建逐负样本自适应边界，无需额外数据或参数",
+    "证明boosted目标与token级对齐互补，并提升六种现有微调框架的性能"
+   ],
+   "benchmarks": [
+    "DOCCI",
+    "DCI",
+    "Long-DCI",
+    "Urban-1K"
+   ]
+  }
+ }
 }

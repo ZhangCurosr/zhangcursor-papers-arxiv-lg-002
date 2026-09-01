@@ -4,5 +4,31 @@
  "title": "Visual-Aware-Representation-of-Web-Pages-for-Machine-Learnin",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-20 14:33:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b5613ecc-6f4c-46f7-a80d-19e8c0c553c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b5613ecc-6f4c-46f7-a80d-19e8c0c553c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:15:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Rendered web pages",
+    "Visual-aware representation",
+    "Graph neural networks",
+    "RDF",
+    "Machine learning for web content",
+    "Reproducible dataset",
+    "Layout analysis"
+   ],
+   "field": "网页内容理解与机器学习",
+   "innovations": [
+    "基于RDF的可视化感知网页表示平台，统一渲染、查询与ML工作流",
+    "提供SPARQL到PyG图数据集的转换管道，支持可复现数据集导出",
+    "将PDF文档图神经网络范式迁移至动态网页内容识别任务"
+   ],
+   "benchmarks": [
+    "虚构书店内容元素识别数据集",
+    "Zenodo公开渲染数据集"
+   ]
+  }
+ }
 }

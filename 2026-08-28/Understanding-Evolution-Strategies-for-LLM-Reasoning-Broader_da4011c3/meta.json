@@ -4,5 +4,36 @@
  "title": "Understanding-Evolution-Strategies-for-LLM-Reasoning-Broader",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-28 23:23:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d16ebda4-4080-4f0e-99c7-a16792d2bb87.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/d16ebda4-4080-4f0e-99c7-a16792d2bb87.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:18:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Evolution Strategies",
+    "GRPO",
+    "LLM Reasoning",
+    "Pass@K",
+    "Entropy Collapse",
+    "Parameter Drift",
+    "Zeroth-Order Optimization"
+   ],
+   "field": "大语言模型后训练",
+   "innovations": [
+    "理论上证明ES种群的JS多样性可提升Pass@K",
+    "发现ES更新的功能稀疏性，大漂移不必然导致遗忘",
+    "提出顺序混合ES-GRPO训练策略以兼顾Pass@1与Pass@K"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "GPQA",
+    "MATH-500",
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "DeepScaleR"
+   ]
+  }
+ }
 }

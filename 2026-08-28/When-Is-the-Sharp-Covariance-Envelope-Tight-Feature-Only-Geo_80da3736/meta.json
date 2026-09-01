@@ -4,5 +4,29 @@
  "title": "When-Is-the-Sharp-Covariance-Envelope-Tight-Feature-Only-Geo",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-28 23:24:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7d822f45-55e7-4ba1-a7a2-3c1ec9357a02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/7d822f45-55e7-4ba1-a7a2-3c1ec9357a02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:20:24",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "体积采样",
+    "协方差上界",
+    "Loewner包络",
+    "特征边际",
+    "非加权OLS",
+    "框架理论"
+   ],
+   "field": "高维统计推断与采样理论",
+   "innovations": [
+    "建立特征边际ν_A作为协方差包络紧性的充要判据",
+    "导出响应增强恒等式将协方差分析转化为辅助律下的矩阵求逆期望",
+    "刻画ν_A=0时存在单一残差对所有内部预算同时达成上界的相位边界现象"
+   ],
+   "benchmarks": [
+    "理论紧界（无数值实验）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "VINCENT-Validated-Interaction-Network-for-Cross-drug-Explana",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-27 23:34:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6f53ff46-364c-47a8-9426-f79e2312c965.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/6f53ff46-364c-47a8-9426-f79e2312c965.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:16:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "drug synergy prediction",
+    "motif-pair explanation",
+    "GNN interpretability",
+    "perturbation validation",
+    "post-hoc explanation",
+    "molecular substructure"
+   ],
+   "field": "药物协同预测的可解释性",
+   "innovations": [
+    "提出后训练闭环解释框架 VINCENT，将反复局部扰动验证与 motif 精炼整合为一个解释-验证闭环",
+    "三 view 亲和图（结构局部性+交互模式+反馈）驱动化学连通的 motif 划分",
+    "二阶有限差分扰动交互分数量化跨药 motif pair 的协同贡献并聚合为稳定 score"
+   ],
+   "benchmarks": [
+    "SARS-CoV-2 drug-combination benchmark (ComboNet)",
+    "25-pair literature-annotated reference set (111 pharmacophore motifs)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "sup-3-sup-Training-Robots-to-Reason-in-Natural-Language-via",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-08-27 23:34:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9627ee7b-29ef-420f-ad06-23f28db43f04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/9627ee7b-29ef-420f-ad06-23f28db43f04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 01:17:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robotic reasoning",
+    "vision-language model",
+    "reinforcement learning",
+    "chain-of-thought",
+    "robot manipulation",
+    "test-time compute",
+    "offline RL"
+   ],
+   "field": "机器人操作与VLM推理",
+   "innovations": [
+    "提出R³两阶段后训练方法（mid-training+单步rubric-based RL）使VLM学会自由形式自然语言推理引导低层策略",
+    "实证自由形式语言推理可作为测试时计算机制因果提升机器人长视距操作泛化能力",
+    "揭示mid-training对齐专家行为分布后RL可局部精修，避免直接RL的分布偏移问题"
+   ],
+   "benchmarks": [
+    "Language Table",
+    "Bimanual Grocery Packing"
+   ]
+  }
+ }
 }
