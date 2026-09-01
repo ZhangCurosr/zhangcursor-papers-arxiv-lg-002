@@ -4,5 +4,31 @@
  "title": "T3S-Improving-Multi-Task-Reinforcement-Learning-with-Task-Sp",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-01 17:36:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/63109bab-ff1f-464f-9991-a3e2ae7a6ab9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/63109bab-ff1f-464f-9991-a3e2ae7a6ab9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:10:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task reinforcement learning",
+    "task scheduling",
+    "hypernetwork",
+    "soft mask",
+    "inter-task interference",
+    "Meta-World"
+   ],
+   "field": "多任务强化学习",
+   "innovations": [
+    "特征选择器：超网络生成任务特定软掩码实现特征级细粒度共享",
+    "任务调度器：联合进度与学习速度双指标动态分配采样概率"
+   ],
+   "benchmarks": [
+    "Meta-World MT10-FIXED",
+    "Meta-World MT10-RAND",
+    "Meta-World MT50-FIXED",
+    "Meta-World MT50-RAND"
+   ]
+  }
+ }
 }

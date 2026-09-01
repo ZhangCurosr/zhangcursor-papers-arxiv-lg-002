@@ -4,5 +4,31 @@
  "title": "Two-Centuries-of-Sexism-in-British-Parliament-A-Computationa",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-01 17:36:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6014353d-4d3f-4fee-99f6-3151908be566.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6014353d-4d3f-4fee-99f6-3151908be566.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:12:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hansard",
+    "议会话语",
+    "性别歧视",
+    "矛盾性性别歧视理论",
+    "LLM-as-judge",
+    "政治立场分类",
+    "历史文本分析"
+   ],
+   "field": "计算社会科学与NLP交叉",
+   "innovations": [
+    "将矛盾性性别歧视理论（ASI）首次应用于大规模历史政治文本分析",
+    "发布670万场演讲的性别增强型Hansard数据集（89.3%覆盖）",
+    "揭示支持方与反对方使用本质上不同的性别修辞策略"
+   ],
+   "benchmarks": [
+    "ParlVote",
+    "SST-2 sentiment classifier"
+   ]
+  }
+ }
 }

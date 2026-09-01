@@ -4,5 +4,31 @@
  "title": "Stress-Testing-Efficient-Responsible-AI-Evaluation-When-Comp",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-01 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20c9f7b3-301a-4d05-b04c-3fb184955320.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20c9f7b3-301a-4d05-b04c-3fb184955320.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:10:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "responsible-AI evaluation",
+    "benchmark stress-testing",
+    "quantization fairness",
+    "compute-efficient evaluation",
+    "BBQ",
+    "energy measurement",
+    "protocol robustness"
+   ],
+   "field": "负责任AI评测与绿色机器学习",
+   "innovations": [
+    "首次系统性对比批量/量化/基准缩减七种效率干预在负责任AI多维结论上的稳定性差异",
+    "揭示INT4的影响是模型与上下文特异性的，聚合得分无法定位失效位置",
+    "提出把基准缩减视为版本化测量仪器并直接测量GPU能耗替代精度/时间代理"
+   ],
+   "benchmarks": [
+    "BBQ",
+    "BBQ-V"
+   ]
+  }
+ }
 }

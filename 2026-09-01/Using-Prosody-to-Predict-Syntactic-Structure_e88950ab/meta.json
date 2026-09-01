@@ -4,5 +4,34 @@
  "title": "Using-Prosody-to-Predict-Syntactic-Structure",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-01 17:36:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/55129a77-0cac-4ba1-93cb-3f093d23f5e8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/55129a77-0cac-4ba1-93cb-3f093d23f5e8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:12:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "韵律",
+    "句法结构",
+    "互信息",
+    "多模态语言模型",
+    "信息论",
+    "自发性语音",
+    "计划性语音",
+    "短语边界"
+   ],
+   "field": "计算语言学与语音学交叉",
+   "innovations": [
+    "提出基于互信息的多模态语言模型通用框架，量化韵律对句法的结构无关信息贡献",
+    "模块化评估韵律对句法边界vs.短语类别的差异化信息贡献",
+    "控制句长后证实自发对话中韵律携带的句法信息显著多于计划性朗读"
+   ],
+   "benchmarks": [
+    "LibriTTS",
+    "CANDOR",
+    "互信息(nats)",
+    "不确定性系数(U)"
+   ]
+  }
+ }
 }

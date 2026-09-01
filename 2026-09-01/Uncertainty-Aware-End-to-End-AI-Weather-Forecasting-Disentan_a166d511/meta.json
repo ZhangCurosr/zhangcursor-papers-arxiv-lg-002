@@ -4,5 +4,34 @@
  "title": "Uncertainty-Aware-End-to-End-AI-Weather-Forecasting-Disentan",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-01 17:35:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/de63e51d-6b00-42e8-b0ac-d48fc7a3b0e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/de63e51d-6b00-42e8-b0ac-d48fc7a3b0e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 19:12:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端天气预报",
+    "不确定性量化",
+    "嵌套系综",
+    "MC dropout",
+    "异方差噪声",
+    "方差分解",
+    "观测拒绝实验",
+    "概率天气建模"
+   ],
+   "field": "端到端气象预报与不确定性量化",
+   "innovations": [
+    "将确定性端到端天气模型轻量升级为概率模型，概率微调反向提升均值预报4.2%",
+    "通过全方差定律与嵌套系综实现观测不确定性与模型不确定性的因果可解释解耦",
+    "以~65 A100小时finetune成本达到spread-skill ratio 0.98的中等时效校准水平"
+   ],
+   "benchmarks": [
+    "ERA5 2018 held-out test year",
+    "IFS ENS operational ensemble",
+    "HadISD surface station observations",
+    "WeatherBench 2 protocol"
+   ]
+  }
+ }
 }
