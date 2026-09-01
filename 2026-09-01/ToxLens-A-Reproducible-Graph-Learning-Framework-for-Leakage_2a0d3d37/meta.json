@@ -4,5 +4,32 @@
  "title": "ToxLens-A-Reproducible-Graph-Learning-Framework-for-Leakage",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-01 07:20:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0c7f429d-0b64-4835-94a3-c3eaa596d8ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/0c7f429d-0b64-4835-94a3-c3eaa596d8ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 23:46:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular toxicity",
+    "graph neural networks",
+    "leakage control",
+    "conformal prediction",
+    "applicability domain",
+    "explainable AI",
+    "multi-task learning"
+   ],
+   "field": "计算毒理学与分子机器学习",
+   "innovations": [
+    "结合 sphere-exclusion 与 UMAP-HDBSCAN 的泄漏控制多任务毒性评估流程",
+    "图与全局特征 late concatenation 在多任务毒性分类中优于 GCMI/FiLM 融合",
+    "SHAP-guided 毒理片段挖掘配合机内反事实遮蔽验证的完整性可靠性审计栈"
+   ],
+   "benchmarks": [
+    "Tox21 Challenge",
+    "TDC ADMET (AMES, DILI, hERG)",
+    "UMAP-HDBSCAN 内部 11-endpoint 泄漏控制划分"
+   ]
+  }
+ }
 }
