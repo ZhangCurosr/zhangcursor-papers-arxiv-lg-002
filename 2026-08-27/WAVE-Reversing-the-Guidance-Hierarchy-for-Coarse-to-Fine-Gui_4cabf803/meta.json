@@ -4,5 +4,34 @@
  "title": "WAVE-Reversing-the-Guidance-Hierarchy-for-Coarse-to-Fine-Gui",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-08-27 23:35:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bf1eb4ce-5e92-45da-9a4e-09beb5cea417.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/bf1eb4ce-5e92-45da-9a4e-09beb5cea417.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:50:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Guided Depth Super-Resolution",
+    "Coarse-to-Fine Reconstruction",
+    "Wavelet Transform",
+    "Semantic Gating",
+    "Invertible Coupling",
+    "Foundation Model Distillation"
+   ],
+   "field": "多模态深度图超分辨率",
+   "innovations": [
+    "首次将多级小波分解作为显式粗到细引导控制机制用于GDSR",
+    "将IRN可逆耦合用于跨模态双射融合防止单模态坍缩",
+    "SToRA低秩残差适配器以极低成本适配冻结DINOv3语义token"
+   ],
+   "benchmarks": [
+    "NYU_v2",
+    "Middlebury",
+    "RGBD-D",
+    "Lu",
+    "TOFDSR",
+    "DIML"
+   ]
+  }
+ }
 }

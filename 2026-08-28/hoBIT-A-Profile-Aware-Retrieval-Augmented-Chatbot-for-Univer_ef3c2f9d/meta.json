@@ -4,5 +4,10 @@
  "title": "hoBIT-A-Profile-Aware-Retrieval-Augmented-Chatbot-for-Univer",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-28 23:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/34f8b2f4-4843-42cd-9f91-862f9def4b44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/34f8b2f4-4843-42cd-9f91-862f9def4b44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:51:30",
+  "chunks": 1
+ }
 }

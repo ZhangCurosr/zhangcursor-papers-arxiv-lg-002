@@ -4,5 +4,29 @@
  "title": "Visual-Aware-Representation-of-Web-Pages-for-Machine-Learnin",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-08-20 02:57:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b5613ecc-6f4c-46f7-a80d-19e8c0c553c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-20/b5613ecc-6f4c-46f7-a80d-19e8c0c553c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:49:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "网页视觉表示",
+    "RDF",
+    "图神经网络",
+    "FitLayout",
+    "网页内容识别",
+    "可复现ML"
+   ],
+   "field": "网页信息提取与机器学习",
+   "innovations": [
+    "基于FitLayout的RDF驱动可视化网页表示平台，显式捕获渲染视觉与布局属性",
+    "Python客户端库与PyG集成，实现RDF到GNN图数据的无缝转换",
+    "REST API+SPARQL双通道访问支持可复现数据集导出与共享"
+   ],
+   "benchmarks": [
+    "在线书店演示数据集（1,000页面，37,768视觉区域）"
+   ]
+  }
+ }
 }

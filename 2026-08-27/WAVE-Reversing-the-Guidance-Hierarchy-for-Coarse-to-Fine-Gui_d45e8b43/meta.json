@@ -4,5 +4,10 @@
  "title": "WAVE-Reversing-the-Guidance-Hierarchy-for-Coarse-to-Fine-Gui",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-08-27 12:23:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/273bfe69-62ac-4065-8129-453f1bc37131.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/273bfe69-62ac-4065-8129-453f1bc37131.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:50:37",
+  "chunks": 1
+ }
 }

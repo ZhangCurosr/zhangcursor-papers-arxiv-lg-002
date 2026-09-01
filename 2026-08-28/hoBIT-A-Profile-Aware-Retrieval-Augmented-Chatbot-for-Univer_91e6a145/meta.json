@@ -4,5 +4,30 @@
  "title": "hoBIT-A-Profile-Aware-Retrieval-Augmented-Chatbot-for-Univer",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-08-28 13:49:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/34f8b2f4-4843-42cd-9f91-862f9def4b44.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-28/34f8b2f4-4843-42cd-9f91-862f9def4b44.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 05:51:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RAG",
+    "profile-aware retrieval",
+    "academic advising",
+    "adaptive profiling",
+    "personalization",
+    "knowledge-grounded generation"
+   ],
+   "field": "检索增强生成与个性化",
+   "innovations": [
+    "提出 proFILL 框架，将 profile-dependent evidence validity 内化为索引结构",
+    "设计离线 profile-based indexing 与在线 on-demand adaptive profiling 两阶段机制",
+    "软查询增强与硬元数据过滤双重保障检索准确性"
+   ],
+   "benchmarks": [
+    "Profile-Grounded QA Dataset (1,800 instances, 60 profiles)",
+    "Human Preference Study (48 participants, 10 questions)"
+   ]
+  }
+ }
 }
