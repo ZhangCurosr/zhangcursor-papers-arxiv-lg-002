@@ -4,5 +4,31 @@
  "title": "Train-classical-deploy-quantum-requires-rethinking-generaliz",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-01 17:35:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31b8b1d9-905f-497a-aab4-bc46c9650aa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31b8b1d9-905f-497a-aab4-bc46c9650aa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:10:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量子生成模型",
+    "Train-classical-deploy-quantum",
+    "矩匹配损失",
+    "泛化性",
+    "MMD²",
+    "覆盖率",
+    "QCBM"
+   ],
+   "field": "量子机器学习",
+   "innovations": [
+    "证明矩匹配损失无法认证泛化：容量有界的矩匹配损失存在支撑集大小为 d+1 的精确最小值，覆盖度可低至指数小量",
+    "发现似然训练模型在 TCDQ 范式下泛化性能显著优于矩匹配训练模型",
+    "提出基于采样覆盖度的系统评估框架并验证损失与泛化的脱钩现象"
+   ],
+   "benchmarks": [
+    "Cardinality-constrained dataset (N=16,20,30)",
+    "Genomic single-nucleotide variant dataset (N=16,20)"
+   ]
+  }
+ }
 }

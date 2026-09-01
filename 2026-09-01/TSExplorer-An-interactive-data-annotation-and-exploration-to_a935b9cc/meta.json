@@ -4,5 +4,30 @@
  "title": "TSExplorer-An-interactive-data-annotation-and-exploration-to",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-01 17:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76c4fccc-b56e-4f9a-997f-05dd4297e1bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76c4fccc-b56e-4f9a-997f-05dd4297e1bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 22:09:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序数据",
+    "交互式标注",
+    "降维可视化",
+    "人-机协同",
+    "数据探索",
+    "t-SNE",
+    "UMAP"
+   ],
+   "field": "时序数据标注与探索工具",
+   "innovations": [
+    "支持多2DV方法与多特征表示自由切换的通用交互工具",
+    "集成Farthest-first采样策略用于均匀覆盖特征空间",
+    "同时支持未标注/部分标注/全标注数据的完整生命周期管理"
+   ],
+   "benchmarks": [
+    "RAVDESS"
+   ]
+  }
+ }
 }
