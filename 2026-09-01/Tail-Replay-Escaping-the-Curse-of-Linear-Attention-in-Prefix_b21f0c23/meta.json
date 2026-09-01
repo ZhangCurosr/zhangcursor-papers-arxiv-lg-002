@@ -4,5 +4,29 @@
  "title": "Tail-Replay-Escaping-the-Curse-of-Linear-Attention-in-Prefix",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-09-01 07:21:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9768edc-08c9-4410-b06c-80e6f02f424a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b9768edc-08c9-4410-b06c-80e6f02f424a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prefix caching",
+    "hybrid LLM",
+    "linear attention",
+    "Gated DeltaNet",
+    "serving efficiency"
+   ],
+   "field": "大语言模型系统优化",
+   "innovations": [
+    "首个无需循环状态检查点的混合LLM前缀缓存机制，实现token级无约束复用",
+    "基于近期隐藏状态短回溯的线性注意力循环状态重建方法",
+    "Tail-FFN skip与转移/回放重叠两项效率优化"
+   ],
+   "benchmarks": [
+    "LongBench",
+    "RULER"
+   ]
+  }
+ }
 }

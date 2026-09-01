@@ -4,5 +4,34 @@
  "title": "When-the-Martingale-Never-Stops-Firing-Anytime-Valid-Gating",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-01 07:21:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/576f0eaf-e7ac-43c6-a74c-f78f77552ffe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/576f0eaf-e7ac-43c6-a74c-f78f77552ffe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:02:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anytime-valid inference",
+    "conformal prediction",
+    "online learning",
+    "change detection",
+    "time series forecasting",
+    "adaptive systems",
+    "exchangeability"
+   ],
+   "field": "在线学习与时间序列建模",
+   "innovations": [
+    "实证测量 anytime-valid 监控器在真实依赖数据流上的前提失效情况",
+    "揭示并分析监控器触发与自适应学习者之间危险的放大正反馈循环",
+    "论证并验证无有效性声明的 Huber-style gating 是此类部署中最有价值的组件"
+   ],
+   "benchmarks": [
+    "ETTh2",
+    "ETTm1",
+    "weather",
+    "electricity",
+    "traffic"
+   ]
+  }
+ }
 }

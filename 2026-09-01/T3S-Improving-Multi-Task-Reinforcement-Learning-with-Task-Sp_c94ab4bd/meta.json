@@ -4,5 +4,33 @@
  "title": "T3S-Improving-Multi-Task-Reinforcement-Learning-with-Task-Sp",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-01 07:22:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/63109bab-ff1f-464f-9991-a3e2ae7a6ab9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/63109bab-ff1f-464f-9991-a3e2ae7a6ab9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多任务强化学习",
+    "特征选择器",
+    "超网络",
+    "任务调度",
+    "软掩码",
+    "Meta-World",
+    "SAC"
+   ],
+   "field": "多任务强化学习",
+   "innovations": [
+    "基于超网络的细粒度软掩码特征选择机制，实现任务级参数共享",
+    "结合任务进度与学习速度的双指标动态任务调度策略",
+    "T3S框架与SAC无缝集成，在Meta-World基准上取得SOTA结果"
+   ],
+   "benchmarks": [
+    "Meta-World MT10-FIXED",
+    "Meta-World MT10-RAND",
+    "Meta-World MT50-FIXED",
+    "Meta-World MT50-RAND"
+   ]
+  }
+ }
 }

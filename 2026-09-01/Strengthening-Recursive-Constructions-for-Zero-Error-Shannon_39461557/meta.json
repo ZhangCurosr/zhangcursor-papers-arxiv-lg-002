@@ -4,5 +4,10 @@
  "title": "Strengthening-Recursive-Constructions-for-Zero-Error-Shannon",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-09-01 07:22:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1d215f57-3d69-49ec-bb76-a410ae3eae81.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/1d215f57-3d69-49ec-bb76-a410ae3eae81.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:59:52",
+  "chunks": 1
+ }
 }

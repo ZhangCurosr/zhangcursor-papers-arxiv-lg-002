@@ -4,5 +4,31 @@
  "title": "UNIVERSAL-TRANSFORMERS-FOR-CIRCUIT-COMPUTATIONS-PERFECT-LENG",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-01 07:17:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/03c9455b-bf6f-4ca1-ad17-cc7733b988f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/03c9455b-bf6f-4ca1-ad17-cc7733b988f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:01:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "universal transformer",
+    "length generalization",
+    "circuit evaluation",
+    "mechanistic interpretability",
+    "discrete learning",
+    "compositional generalization"
+   ],
+   "field": "符号学习与算法泛化",
+   "innovations": [
+    "可证明正确的极小参数Transformer电路归约构造",
+    "深度感知位置编码与类型约束线性注意力",
+    "从浅层样本完美学习到可解释离散表示"
+   ],
+   "benchmarks": [
+    "Modular Arithmetic",
+    "Boolean Algebra",
+    "ListOps"
+   ]
+  }
+ }
 }

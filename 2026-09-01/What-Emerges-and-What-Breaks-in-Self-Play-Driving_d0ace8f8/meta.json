@@ -4,5 +4,32 @@
  "title": "What-Emerges-and-What-Breaks-in-Self-Play-Driving",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-01 07:19:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a30d7443-b7d0-4ae9-885f-bda433973cdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a30d7443-b7d0-4ae9-885f-bda433973cdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:02:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自我对弈",
+    "自动驾驶",
+    "强化学习",
+    "Transformer",
+    "奖励函数设计",
+    "仿真训练"
+   ],
+   "field": "自动驾驶策略学习",
+   "innovations": [
+    "在真实城市HD地图上训练自我对弈驾驶策略",
+    "引入Transformer架构并系统分析失败模式",
+    "验证奖励条件化生成多样化驾驶行为"
+   ],
+   "benchmarks": [
+    "CARLA Leaderboard 1.0",
+    "Waymax (WOMD v1.2.0)",
+    "LAV benchmark",
+    "Longest6 benchmark"
+   ]
+  }
+ }
 }

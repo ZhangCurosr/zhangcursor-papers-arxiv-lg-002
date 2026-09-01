@@ -4,5 +4,31 @@
  "title": "What-It-Costs-to-Compose-Rebuild-and-Correct-Precomputed-Mem",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-01 07:18:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6a856fa2-8d07-4c20-8184-3aa51fed9fd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/6a856fa2-8d07-4c20-8184-3aa51fed9fd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:03:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "precomputed memory",
+    "key-value cache",
+    "cartridge",
+    "knowledge editing",
+    "context composition",
+    "continual learning",
+    "in-context learning"
+   ],
+   "field": "大语言模型上下文管理与知识更新",
+   "innovations": [
+    "首次定量测量预计算内存组合惩罚并发现BOS重复可解释约一半损失",
+    "证明热启动重建需回放旧数据才能保持质量，半回放以半成本达到全回放效果",
+    "发现查询时修正的成败取决于是否命名对应问题（命名效应），而非传递机制本身"
+   ],
+   "benchmarks": [
+    "LongHealth",
+    "synthetic clinical/legal records"
+   ]
+  }
+ }
 }

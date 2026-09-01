@@ -4,5 +4,32 @@
  "title": "Supraglacial-Lake-Fate-Is-Knowable-Long-Before-the-Season-En",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-09-01 07:22:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d44f8868-d65b-47cb-afc0-4a5ae4cc346a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/d44f8868-d65b-47cb-afc0-4a5ae4cc346a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "supraglacial lakes",
+    "early classification",
+    "time series",
+    "temporal leakage",
+    "Greenland Ice Sheet",
+    "causal preprocessing",
+    "spatial cross-validation"
+   ],
+   "field": "地球系统科学中的机器学习",
+   "innovations": [
+    "首次按类别量化表冰川湖四季终局的可知时间，发现两类排水事件可在季中提前92/75天可靠识别",
+    "构建了无时序泄漏的因果预处理链并证明其精度损失≤1.3个百分点",
+    "通过6种不同学习器验证认知顺序的数据驱动稳健性，并提出per-outcome触发器的研究方向"
+   ],
+   "benchmarks": [
+    "Dunmire et al. [14] Greenland supraglacial lake dataset (1,000 expert-labeled)",
+    "Leave-one-basin-out spatial cross-validation",
+    "Random 5-fold cross-validation"
+   ]
+  }
+ }
 }

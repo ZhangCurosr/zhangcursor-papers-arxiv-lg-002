@@ -4,5 +4,31 @@
  "title": "Stress-Testing-Efficient-Responsible-AI-Evaluation-When-Comp",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-01 07:18:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20c9f7b3-301a-4d05-b04c-3fb184955320.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/20c9f7b3-301a-4d05-b04c-3fb184955320.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "responsible AI",
+    "benchmark evaluation",
+    "efficient evaluation",
+    "quantization",
+    "bias measurement",
+    "energy consumption",
+    "robustness"
+   ],
+   "field": "负责任AI评估与基准测试",
+   "innovations": [
+    "系统性压力测试7种效率干预对责任AI评估结论稳定性的影响",
+    "揭示基准缩减的可靠性边界与小样本敏感性",
+    "证明INT8/INT4量化能耗可能高于BF16基线的反直觉发现"
+   ],
+   "benchmarks": [
+    "BBQ",
+    "BBQ-V"
+   ]
+  }
+ }
 }

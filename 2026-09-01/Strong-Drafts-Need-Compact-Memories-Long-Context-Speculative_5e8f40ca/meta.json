@@ -4,5 +4,32 @@
  "title": "Strong-Drafts-Need-Compact-Memories-Long-Context-Speculative",
  "token": "sk-o7hgvdkWW...",
  "created_at": "2026-09-01 07:21:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4c5c4f19-738b-45a2-8806-cfc4afc90fd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/4c5c4f19-738b-45a2-8806-cfc4afc90fd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "投机解码",
+    "长上下文推理",
+    "KV缓存压缩",
+    "记忆增强架构",
+    "高效LLM生成",
+    "滑动窗口注意力"
+   ],
+   "field": "高效大语言模型推理",
+   "innovations": [
+    "提出记忆增强滑动窗口草稿机制，以压缩KV记忆替代完整草稿KV缓存，显著降低长上下文投机解码延迟",
+    "设计镜像投影适配器并冻结草稿骨干，以极低训练成本实现增量式压缩记忆链",
+    "在Llama 3.1 8B/70B目标上实现最高3.33×加速，同时保持投机解码无损性"
+   ],
+   "benchmarks": [
+    "LongBench-v1",
+    "GovReport",
+    "QMSum",
+    "MultiNews"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TSExplorer-An-interactive-data-annotation-and-exploration-to",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-01 07:19:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76c4fccc-b56e-4f9a-997f-05dd4297e1bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/76c4fccc-b56e-4f9a-997f-05dd4297e1bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:00:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列标注",
+    "交互式可视化",
+    "2D降维",
+    "t-SNE",
+    "UMAP",
+    "数据探索",
+    "人机协同标注",
+    "多模态时序"
+   ],
+   "field": "时序数据标注与可视化",
+   "innovations": [
+    "将高维特征离线计算与在线交互式2D可视化解耦，支持t-SNE/PCA/UMAP一键切换对比",
+    "提供Random/Ordered/Farthest-first三种算法化样本选择并结合入队浏览机制",
+    "可扩展的widget架构统一支持音频/视频/波形/语谱图等多模态回放与标签交互"
+   ],
+   "benchmarks": [
+    "RAVDESS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Uncertainty-Aware-End-to-End-AI-Weather-Forecasting-Disentan",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-01 07:21:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/de63e51d-6b00-42e8-b0ac-d48fc7a3b0e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/de63e51d-6b00-42e8-b0ac-d48fc7a3b0e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:02:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "端到端天气预测",
+    "不确定性量化",
+    "系综预报",
+    "蒙特卡洛dropout",
+    "aleatoric/epistemic分解",
+    "观测否认实验",
+    "fair CRPS"
+   ],
+   "field": "端到端AI气象预报与不确定性建模",
+   "innovations": [
+    "在模块化E2E架构中为编码器注入学习输入依赖噪声、为处理器注入MC dropout，实现可归因的嵌套系综不确定性分解",
+    "概率微调使均值预报平均提升4.2%且CRPS改善24-38%，证明不确定性注入可与确定性技能提升并存",
+    "提出推理端低成本观测否认实验，因果验证方差分解的合理性，响应严格局限于对应组件分支"
+   ],
+   "benchmarks": [
+    "ERA5 2018 held-out test (WeatherBench 2)",
+    "IFS ENS operational ensemble",
+    "HadISD surface stations"
+   ]
+  }
+ }
 }

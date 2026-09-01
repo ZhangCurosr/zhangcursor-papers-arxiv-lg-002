@@ -4,5 +4,31 @@
  "title": "Title-The-PUR-1-Cyber-Physical-Digital-Twin",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-01 07:20:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a5b68195-fd64-4377-a2dd-2c494830d5a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/a5b68195-fd64-4377-a2dd-2c494830d5a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 11:01:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Digital Twin",
+    "Nuclear Reactor",
+    "High-fidelity Simulation",
+    "Surrogate Model",
+    "Cyber-physical System",
+    "OpenMC",
+    "Real-time Estimation"
+   ],
+   "field": "核反应堆数字孪生与智能监控",
+   "innovations": [
+    "提出面向核环境的全数字孪生需求框架并实现首个运行堆上的实时双向同步验证",
+    "构建高保真多物理场与机器学习代理模型混合架构，突破计算延迟瓶颈实现亚秒级更新"
+   ],
+   "benchmarks": [
+    "Gold foil activation experiment",
+    "Pool temperature measurement",
+    "Operational neutron flux data"
+   ]
+  }
+ }
 }

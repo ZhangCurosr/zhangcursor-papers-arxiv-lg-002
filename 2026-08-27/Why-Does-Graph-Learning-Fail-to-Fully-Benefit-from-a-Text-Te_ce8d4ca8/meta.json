@@ -4,5 +4,30 @@
  "title": "Why-Does-Graph-Learning-Fail-to-Fully-Benefit-from-a-Text-Te",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-27 12:22:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d4c9d0fe-4536-4484-ad2c-ae304d94cbb5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-27/d4c9d0fe-4536-4484-ad2c-ae304d94cbb5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 10:59:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "跨域迁移学习",
+    "图文融合",
+    "自监督预训练",
+    "EM交替优化",
+    "表示对齐"
+   ],
+   "field": "图表示学习与跨域迁移",
+   "innovations": [
+    "提出FUG+GLEM-ITT解耦图文教师与GCN的EM-like框架",
+    "揭示外部锚点强度-安全权衡及六大致因机制",
+    "证明余弦对齐改善不等于分类性能提升的诊断性实验"
+   ],
+   "benchmarks": [
+    "OpenAlex跨域节点分类",
+    "Amazon Digital Music源域"
+   ]
+  }
+ }
 }
