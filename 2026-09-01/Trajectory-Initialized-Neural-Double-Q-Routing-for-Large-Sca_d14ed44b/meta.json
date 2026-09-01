@@ -4,5 +4,10 @@
  "title": "Trajectory-Initialized-Neural-Double-Q-Routing-for-Large-Sca",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-01 07:18:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15131900-6992-48eb-bab4-cd4922605962.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/15131900-6992-48eb-bab4-cd4922605962.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:21:18",
+  "chunks": 1
+ }
 }

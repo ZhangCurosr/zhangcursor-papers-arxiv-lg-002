@@ -4,5 +4,10 @@
  "title": "TRACING-DISTINGUISHABILITY-THROUGH-TRANSFORMER-PROCESSING-WI",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-01 07:21:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/48214b39-939a-446c-a107-fad8f0419859.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/48214b39-939a-446c-a107-fad8f0419859.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:20:06",
+  "chunks": 1
+ }
 }

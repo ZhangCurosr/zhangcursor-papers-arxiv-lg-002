@@ -4,5 +4,38 @@
  "title": "Towards-Stream-Learning-on-Embedded-Systems-Benchmarking-the",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-01 07:18:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b1ef3187-195b-4a9d-8d4d-b167de3084b0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/b1ef3187-195b-4a9d-8d4d-b167de3084b0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:20:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流学习",
+    "内存约束",
+    "嵌入式系统",
+    "概念漂移",
+    "在线学习",
+    "基准评测"
+   ],
+   "field": "流式机器学习/边端智能",
+   "innovations": [
+    "揭示自适应集成与增量树两类不同资源失效模式",
+    "提出框架无关的内存基准评估协议",
+    "定义资源感知的流学习API设计规范"
+   ],
+   "benchmarks": [
+    "AGRa/AGRg",
+    "LEDa/LEDg",
+    "RBFf/RBFm",
+    "Electricity",
+    "Airlines",
+    "HIGGS",
+    "SUSY",
+    "Weather",
+    "Covtype",
+    "Gas Sensor"
+   ]
+  }
+ }
 }

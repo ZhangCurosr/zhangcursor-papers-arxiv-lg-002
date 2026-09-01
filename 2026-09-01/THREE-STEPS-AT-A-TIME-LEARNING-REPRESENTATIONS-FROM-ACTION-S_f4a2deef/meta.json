@@ -4,5 +4,10 @@
  "title": "THREE-STEPS-AT-A-TIME-LEARNING-REPRESENTATIONS-FROM-ACTION-S",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-01 07:21:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/462f6b63-d617-4082-822e-e58d66b3e768.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/462f6b63-d617-4082-822e-e58d66b3e768.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:20:55",
+  "chunks": 1
+ }
 }

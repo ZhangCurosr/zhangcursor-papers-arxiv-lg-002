@@ -4,5 +4,34 @@
  "title": "Two-Centuries-of-Sexism-in-British-Parliament-A-Computationa",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-09-01 07:21:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/78ebc394-18fd-4432-9839-d7b13caa548a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/78ebc394-18fd-4432-9839-d7b13caa548a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:21:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Ambivalent Sexism",
+    "LLM-as-a-judge",
+    "parliamentary discourse",
+    "Hansard corpus",
+    "hostile vs benevolent sexism",
+    "stance classification",
+    "computational social science",
+    "gender and politics"
+   ],
+   "field": "计算社会科学与政治话语分析",
+   "innovations": [
+    "将 ASI 社会心理学框架引入 200 年议会文本的双轴性别歧视分类并验证生态效度",
+    "发布含 89.3% Speaker 性别匹配的 670 万+ 下议院演讲 enriched 数据集",
+    "揭示支持与反对女性参政权两派在敌意/善意性别歧视类型上的根本性修辞分化"
+   ],
+   "benchmarks": [
+    "300 篇人工标注验证集（Stance κ=0.711）",
+    "ParlVote / ParlaSent 议会情感立场资源",
+    "SST-2 情感混淆控制",
+    "跨模型人类标签一致性（Claude/GPT-5/Gemini/DeepSeek）"
+   ]
+  }
+ }
 }

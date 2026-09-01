@@ -4,5 +4,31 @@
  "title": "Train-classical-deploy-quantum-requires-rethinking-generaliz",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-01 07:18:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31b8b1d9-905f-497a-aab4-bc46c9650aa4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-01/31b8b1d9-905f-497a-aab4-bc46c9650aa4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 16:20:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量子生成模型",
+    "TCDQ范式",
+    "矩匹配损失",
+    "MMD²",
+    "泛化评估",
+    "覆盖度",
+    "量子电路Born机"
+   ],
+   "field": "量子机器学习与生成模型",
+   "innovations": [
+    "理论证明有界容量矩损失存在指数稀疏的精确最小化器，其覆盖度指数级低",
+    "通过基准测试揭示矩匹配训练模型的训练损失与泛化性能（覆盖度、向前KL）严重脱钩",
+    "对比证明似然训练模型在泛化性上显著优于矩匹配训练的量子/经典模型"
+   ],
+   "benchmarks": [
+    "基数约束数据集 (N=16,20,30)",
+    "基因组单核苷酸变异数据集 (N=16,20)"
+   ]
+  }
+ }
 }
