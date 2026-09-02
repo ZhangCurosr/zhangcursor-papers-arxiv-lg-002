@@ -4,5 +4,31 @@
  "title": "iPINN-for-Broadband-CARS-Phase-Retrieval-A-Framework-for-Fun",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-02 17:37:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28cc423-e0e8-436d-8a65-c6052398ab39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28cc423-e0e8-436d-8a65-c6052398ab39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:23:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "BCARS",
+    "相位提取",
+    "物理信息神经网络",
+    "逆建模",
+    "Transformer",
+    "NRB去除",
+    "可微分物理层"
+   ],
+   "field": "非线性光谱AI逆建模",
+   "innovations": [
+    "提出iPINN逆参数化框架，直接预测Lorentz峰参数并通过可微分解析前向层实现端到端物理约束",
+    "引入多视图溶剂一致性损失，基于三种NRB函数族增强跨测量条件鲁棒性",
+    "采用24个无位置编码class token配合全局self-attention实现稀疏峰的槽分配"
+   ],
+   "benchmarks": [
+    "Public BCARS phase-retrieval benchmark (5 spectra, toluene 2C/3C + DMSO multi-SNR)",
+    "Focus-depth solvent dataset (7 solvents × 4 focal positions = 28 zero-shot spectra)"
+   ]
+  }
+ }
 }

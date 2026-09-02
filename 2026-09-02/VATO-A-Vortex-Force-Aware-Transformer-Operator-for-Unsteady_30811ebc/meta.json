@@ -4,5 +4,31 @@
  "title": "VATO-A-Vortex-Force-Aware-Transformer-Operator-for-Unsteady",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-02 17:36:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c40637db-292e-4788-98dc-860fbeb10acd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c40637db-292e-4788-98dc-860fbeb10acd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:23:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural operator",
+    "vortex force map",
+    "unsteady separated flow",
+    "aerodynamic surrogate",
+    "residual cross attention",
+    "geometry-aware transformer"
+   ],
+   "field": "AI for fluid mechanics / 气动代理建模",
+   "innovations": [
+    "将VFM涡力图方法耦合到GAOT骨干网络，提出训练时贡献场监督（VATO-S）与残差交叉注意力路由（VATO-A）两种接口",
+    "建立采样匹配控制归因协议，分离VFM耦合效应与流感知采样效应",
+    "在未见攻角与50%外推lead time下验证，VATO-A涡量误差提升31.2%且VFM派生力系数MAE降低28%"
+   ],
+   "benchmarks": [
+    "DEP翼型族54条CFD轨迹",
+    "lead time 1-30ms单步预测",
+    "压力表面积分与VFM体积分双通道力系数回收"
+   ]
+  }
+ }
 }

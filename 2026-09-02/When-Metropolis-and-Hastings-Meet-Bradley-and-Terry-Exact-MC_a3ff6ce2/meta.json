@@ -4,5 +4,10 @@
  "title": "When-Metropolis-and-Hastings-Meet-Bradley-and-Terry-Exact-MC",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-02 17:36:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1206ac01-9ecb-464d-8a52-54ec232c4c51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1206ac01-9ecb-464d-8a52-54ec232c4c51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:24:02",
+  "chunks": 1
+ }
 }

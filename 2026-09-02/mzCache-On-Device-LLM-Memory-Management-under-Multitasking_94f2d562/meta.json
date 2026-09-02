@@ -4,5 +4,32 @@
  "title": "mzCache-On-Device-LLM-Memory-Management-under-Multitasking",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-02 17:35:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a95b42b1-e124-4ede-8681-66830e1edb00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/a95b42b1-e124-4ede-8681-66830e1edb00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 22:24:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Device LLM Inference",
+    "Memory Management",
+    "Mobile Computing",
+    "KV Cache Compression",
+    "Multitasking",
+    "Time-to-First-Token"
+   ],
+   "field": "移动端大模型推理系统",
+   "innovations": [
+    "面向恢复的弹性内存驱逐机制，支持任意驱逐程度的快速恢复",
+    "KV cache 混合 swap 策略，动态平衡内存解压路径与闪存读取路径",
+    "向后驱逐-向前恢复策略，实现 CPU 恢复与 GPU 推理的并行重叠"
+   ],
+   "benchmarks": [
+    "Galaxy S25+",
+    "OnePlus 12",
+    "Qwen3-0.6B",
+    "EXAONE-4.0-1.2B"
+   ]
+  }
+ }
 }
