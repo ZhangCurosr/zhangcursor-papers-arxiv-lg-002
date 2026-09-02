@@ -4,5 +4,31 @@
  "title": "Variable-Selection-for-Feature-Based-Newsvendor",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-02 06:48:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/12751961-655a-4fe5-96cb-aca943f906b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/12751961-655a-4fe5-96cb-aca943f906b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:49:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Feature-based Newsvendor",
+    "Variable Selection",
+    "Perspective Reformulation",
+    "Mixed-Integer Second-Order Cone Programming",
+    "Quantile Regression",
+    "Contextual Stochastic Optimization",
+    "Support Recovery"
+   ],
+   "field": "数据驱动库存决策与稀疏优化",
+   "innovations": [
+    "提出比 Big-M 更紧的透视重构 MISOCP 用于硬基数特征型报童变量选择",
+    "设计带双准则保证的连续松弛随机舍入算法与基于最小–最大对偶的贪心启发式",
+    "建立稀疏报童估计的有限样本误差、样本外风险上界与支撑恢复一致性"
+   ],
+   "benchmarks": [
+    "Synthetic Gaussian linear newsvendor",
+    "Kaggle Favorita retail hardware sales (n=2239, D=1157)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "iPINN-for-Broadband-CARS-Phase-Retrieval-A-Framework-for-Fun",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-02 06:50:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28cc423-e0e8-436d-8a65-c6052398ab39.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/e28cc423-e0e8-436d-8a65-c6052398ab39.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:49:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "BCARS",
+    "phase retrieval",
+    "physics-informed neural network",
+    "inverse modeling",
+    "spectroscopy",
+    "transformer",
+    "non-resonant background removal"
+   ],
+   "field": "非线性光谱相位提取",
+   "innovations": [
+    "提出逆物理信息神经网络直接预测洛伦兹峰值参数并通过可微前向模型联合训练",
+    "引入多视图一致性损失提升模型对不同NRB形状、强度与噪声的鲁棒性",
+    "采用过程数据生成管道随机化测量条件以覆盖广泛实验分布"
+   ],
+   "benchmarks": [
+    "Public BCARS phase-retrieval benchmark (5 spectra)",
+    "Focus-depth solvent dataset (28 spectra across 7 solvents)"
+   ]
+  }
+ }
 }

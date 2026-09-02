@@ -4,5 +4,30 @@
  "title": "Where-the-Verifier-Fails-A-Category-Level-Audit-of-Reward-Si",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-02 06:48:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ac962c61-9cfd-4695-9b00-a934f2dd22e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/ac962c61-9cfd-4695-9b00-a934f2dd22e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 11:49:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "verifier reliability",
+    "metamorphic testing",
+    "reward signals",
+    "mathematical reasoning evaluation"
+   ],
+   "field": "强化学习与可验证奖励",
+   "innovations": [
+    "将变换测试从模型审计转向验证器认证审计",
+    "发现验证器自验证率跨实现差异达41.3点且主要源于空白/标点处理",
+    "揭示基于答案幅度的阶跃式假阳性机制（阈值10⁴）"
+   ],
+   "benchmarks": [
+    "MATH",
+    "GSM8K",
+    "Big-Math"
+   ]
+  }
+ }
 }
