@@ -4,5 +4,31 @@
  "title": "Subspace-Levenberg-Marquardt-Algorithms-in-Training-Neural-N",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-02 06:52:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/86093a3f-586c-4002-ba73-80de0c23b9f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/86093a3f-586c-4002-ba73-80de0c23b9f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:27:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Levenberg-Marquardt",
+    "子空间优化",
+    "二阶方法",
+    "神经网络训练",
+    "Krylov子空间",
+    "HSLM",
+    "非线性最小二乘"
+   ],
+   "field": "神经网络优化算法",
+   "innovations": [
+    "HSLM多源混合子空间构造与充分性判据动态扩展机制",
+    "曲率依赖对角阻尼替代各向同性阻尼以降低病态情形的过阻尼",
+    "利用Krylov子空间位移不变性复用基向量减少阻尼调优成本"
+   ],
+   "benchmarks": [
+    "Damped Oscillation Regression",
+    "13-bit Parity Classification"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "TRIAGE-Three-level-Routing-and-Intelligent-Agent-Guidance-fo",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-09-02 06:48:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/52f441ef-bf05-4863-9217-831a0ed60584.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/52f441ef-bf05-4863-9217-831a0ed60584.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:27:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM Agent",
+    "Token效率",
+    "轨迹复用",
+    "三层路由",
+    "技能提取",
+    "语义检索"
+   ],
+   "field": "LLM Agent效率优化",
+   "innovations": [
+    "提出TaaS（轨迹即技能）范式，将历史执行轨迹抽象为可复用技能",
+    "三层语义路由架构实现62.3% token节省，L2技能替换承担56%流量",
+    "自动技能提取形成经验驱动的自增强效率循环"
+   ],
+   "benchmarks": [
+    "Security Monitoring Dataset (1007 queries)",
+    "ToolBench (15 domains, 345 queries)"
+   ]
+  }
+ }
 }

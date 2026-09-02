@@ -4,5 +4,30 @@
  "title": "The-Structure-of-Quantization-Damage-in-LLMs-Why-the-Next-Bi",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-02 06:48:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/12feffd4-9b5f-4e33-9c90-72cc05c93414.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/12feffd4-9b5f-4e33-9c90-72cc05c93414.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:27:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "mixed-precision intervention",
+    "quantization damage",
+    "granularity allocation",
+    "causal localization",
+    "LLM compression"
+   ],
+   "field": "大语言模型高效推理与压缩",
+   "innovations": [
+    "全局粒度细化优于局部层修复",
+    "证伪三种廉价损伤定位器",
+    "揭示量化恢复的弥散结构与架构族内预测性"
+   ],
+   "benchmarks": [
+    "CORE benchmark (22 tasks)",
+    "Perplexity/CORE recovery gap"
+   ]
+  }
+ }
 }

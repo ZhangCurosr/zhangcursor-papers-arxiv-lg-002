@@ -4,5 +4,33 @@
  "title": "VoiceLongMemEval-Do-Assistants-Remember-How-You-Sounded",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-02 06:52:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5dff25ea-0ff9-4798-91c9-7d13bc8d1434.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/5dff25ea-0ff9-4798-91c9-7d13bc8d1434.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:29:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "副语言记忆",
+    "长期对话记忆",
+    "情感鸿沟",
+    "对抗门控基准",
+    "级联ASR损失",
+    "音频原生模型",
+    "多模态评测"
+   ],
+   "field": "多模态大语言模型评测",
+   "innovations": [
+    "首个将副语言元数据嵌入长期对话记忆的对抗验证基准VLME，523题全通过三阶段门控",
+    "系统性量化跨8模型的Affect Gap（+0.09~+0.38），揭示级联ASR管道在记忆层面的副语言系统性丢失",
+    "发现提示与元数据部分可互换性，分离出纯元数据内容净增益+0.067"
+   ],
+   "benchmarks": [
+    "VLME-202Q (core)",
+    "VLME-Nuanced-181Q",
+    "VLME-Indirect-140Q",
+    "LongMemEval-V2 (前身)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "The-Constitutional-Coverage-Trilemma-in-AI-Governance",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-02 06:52:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dbea8c06-7882-43e1-ac5c-bfd20969dbb4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/dbea8c06-7882-43e1-ac5c-bfd20969dbb4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:28:01",
+  "chunks": 1
+ }
 }

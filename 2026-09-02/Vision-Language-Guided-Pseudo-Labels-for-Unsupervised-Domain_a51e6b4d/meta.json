@@ -4,5 +4,31 @@
  "title": "Vision-Language-Guided-Pseudo-Labels-for-Unsupervised-Domain",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-02 06:49:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2afe2bf2-28a3-4e30-9bf3-28b31bb218e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2afe2bf2-28a3-4e30-9bf3-28b31bb218e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:28:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Unsupervised Domain Adaptation",
+    "Pseudo-labeling",
+    "Vision-Language Models",
+    "Semantic Segmentation",
+    "SAM",
+    "EVA-CLIP",
+    "Industrial Waste Sorting"
+   ],
+   "field": "无监督域适应语义分割",
+   "innovations": [
+    "跨模态伪标签流水线：SAM 区域提议 + EVA-CLIP 语义分配 + 可选 BLIP 验证，绕过分割模型自身置信度",
+    "发现伪标签质量比数量更重要，Full FT 比 LoRA 显著提升下游自训练效果",
+    "BLIP 语言 grounding 作为选择性验证器，在工业场景提供最大增益 (+133.8% 相对提升)"
+   ],
+   "benchmarks": [
+    "GTA5-to-Cityscapes",
+    "LabWaste-to-RealWaste"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Subliminal-Learning-as-Trait-Direction-Drift-A-Mechanism-and",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-02 06:49:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2d37a2e4-49ab-45b3-b97c-9590b807c9a8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/2d37a2e4-49ab-45b3-b97c-9590b807c9a8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:27:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "subliminal learning",
+    "model distillation",
+    "trait-direction drift",
+    "probe-space regularization",
+    "SFT safety",
+    "hidden trait transfer"
+   ],
+   "field": "大模型安全与对齐",
+   "innovations": [
+    "形式化特质方向漂移机制连接偏好差异与SFT累积漂移",
+    "提出探针空间走廊正则化实现定向抑制",
+    "系统诊断跨模型转移衰减原因"
+   ],
+   "benchmarks": [
+    "Qwen2.5-7B-Instruct",
+    "Llama-3.1-8B-Instruct",
+    "Gemma-3-12B-IT"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Verdict-Instability-of-OOD-Scores-under-Reference-Resampling",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-02 06:49:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c73f053d-ee5c-46a9-b3cd-495dcf14b331.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/c73f053d-ee5c-46a9-b3cd-495dcf14b331.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:29:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD detection",
+    "verdict instability",
+    "reference resampling",
+    "post-hoc detectors",
+    "selective prediction",
+    "epistemic uncertainty",
+    "bootstrap variance"
+   ],
+   "field": "分布外检测与不确定性量化",
+   "innovations": [
+    "提出判决不稳定性的无参闭式估计，量化参考集有限性对OOD分数的影响",
+    "发现距离型OOD分数与判决可靠性负相关，仅色散型分数携带正确符号",
+    "建立无标签符号预测规则，证明错误符号拒绝差于随机拒绝"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "CIFAR-10",
+    "DermaMNIST"
+   ]
+  }
+ }
 }

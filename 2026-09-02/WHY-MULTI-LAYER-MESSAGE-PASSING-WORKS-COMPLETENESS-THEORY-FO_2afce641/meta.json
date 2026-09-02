@@ -4,5 +4,28 @@
  "title": "WHY-MULTI-LAYER-MESSAGE-PASSING-WORKS-COMPLETENESS-THEORY-FO",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-02 06:49:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/36256c5c-7f79-4a35-85d3-f0d08f75e240.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/36256c5c-7f79-4a35-85d3-f0d08f75e240.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:29:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "原子间势",
+    "通用逼近定理",
+    "完整性理论",
+    "超图神经网络",
+    "消息传递"
+   ],
+   "field": "机器学习势函数理论",
+   "innovations": [
+    "建立多层稀疏截断图上HGNN的完整性理论，证明L层消息传递等价于L跳邻域信息",
+    "证明完整性与通用逼近等价，并推导出DPA3/CHGNet继承UAT性质，揭示MLP消息函数为必要条件"
+   ],
+   "benchmarks": [
+    "纯理论论文，无实验基准"
+   ]
+  }
+ }
 }

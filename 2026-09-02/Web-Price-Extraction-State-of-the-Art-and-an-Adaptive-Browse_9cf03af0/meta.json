@@ -4,5 +4,30 @@
  "title": "Web-Price-Extraction-State-of-the-Art-and-an-Adaptive-Browse",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-02 06:56:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/803b30a9-2a14-406d-af92-262dd70c3c69.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/803b30a9-2a14-406d-af92-262dd70c3c69.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:30:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "网页价格提取",
+    "无浏览器抓取",
+    "贝叶斯权重更新",
+    "遗传算法优化",
+    "信息抽取",
+    "规则系统",
+    "Web Scraping"
+   ],
+   "field": "Web信息抽取与价格监控",
+   "innovations": [
+    "在无浏览器HTML碎片化规则提取基础上引入贝叶斯逐规则置信度在线更新与遗传算法全局阈值联合优化，使价格提取精度提升13.1个百分点"
+   ],
+   "benchmarks": [
+    "735站Lloret-Gazo基准",
+    "SWDE（80站/8领域）",
+    "本文自建约1000电商URL测试集"
+   ]
+  }
+ }
 }

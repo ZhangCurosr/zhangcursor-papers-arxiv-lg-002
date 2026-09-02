@@ -4,5 +4,33 @@
  "title": "When-Metropolis-and-Hastings-Meet-Bradley-and-Terry-Exact-MC",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-02 06:53:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1206ac01-9ecb-464d-8a52-54ec232c4c51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/1206ac01-9ecb-464d-8a52-54ec232c4c51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 07:32:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Metropolis-Hastings",
+    "MCMC",
+    "Bradley-Terry",
+    "pairwise preference",
+    "conditional generation",
+    "LLM-as-judge",
+    "molecular design"
+   ],
+   "field": "生成模型的条件采样与对齐",
+   "innovations": [
+    "建立MH接受率与BT偏好的理论等价，提出N-vote精确接受规则",
+    "证明固定预算下无法精确实现oracle BT-MH接受率（impossibility）",
+    "构造在Peskun-Tierney意义下最优的精确固定预算MCMC采样器"
+   ],
+   "benchmarks": [
+    "WMT23机器翻译",
+    "MolSkill分子设计",
+    "SDXL-Turbo图像生成",
+    "Llama-3.1文本生成"
+   ]
+  }
+ }
 }
