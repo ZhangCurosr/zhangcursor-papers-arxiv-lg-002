@@ -4,5 +4,32 @@
  "title": "The-Visual-Insensitivity-Gap-Diagnosing-When-Vision-Language",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-02 17:36:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/88e80b54-3366-4c97-a147-6fe48e541255.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:04:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "hallucination诊断",
+    "视觉敏感性指数",
+    "选择性生成",
+    "编码器-LLM断连",
+    "counterfactual干预"
+   ],
+   "field": "多模态模型可解释性与评测",
+   "innovations": [
+    "提出VSI作为逐样本视觉不敏感性指标，揭示40%-97%样本存在编码器-LLM断连",
+    "证明视觉不敏感性是样本固有属性（跨模型Spearman rho=+0.40）而非模型缺陷",
+    "建立条件诊断图景：VSI在多选题推理上AUROC达0.85-0.87，但与softmax置信度正交可混合使用"
+   ],
+   "benchmarks": [
+    "POPE",
+    "MMVP",
+    "HallusionBench",
+    "MMStar"
+   ]
+  }
+ }
 }

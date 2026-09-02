@@ -4,5 +4,39 @@
  "title": "Text-Capability-Loss-in-Vision-Language-Adaptation-An-Attent",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-09-02 17:36:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/19a3816f-2505-4eca-93db-834f2eed8e6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/19a3816f-2505-4eca-93db-834f2eed8e6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:03:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language model",
+    "text capability loss",
+    "attention sink",
+    "Sink Strength",
+    "QK-RMSNORM",
+    "format-sensitive evaluation",
+    "model adaptation",
+    "weight merging"
+   ],
+   "field": "视觉-语言模型适配与能力退化诊断",
+   "innovations": [
+    "提出 Sink Strength 指标在 VL 训练前预测基座 LLM 的格式敏感能力退化风险",
+    "建立 sink-anchored 扰动理论并区分 per-head 与 layerwise QK-RMSNORM 的保护差异",
+    "提供模态对照、后预训练注入与后验权重合并等多组阴性控制以收窄修复路径"
+   ],
+   "benchmarks": [
+    "IFEval",
+    "EQ-Bench v2.1",
+    "GSM8K-CoT",
+    "GPQA-Diamond-CoT",
+    "MMLU",
+    "MMLU-Pro",
+    "MBPP",
+    "RULER",
+    "SEEDBench-IMG"
+   ]
+  }
+ }
 }

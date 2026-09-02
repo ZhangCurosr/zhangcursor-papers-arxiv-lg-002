@@ -4,5 +4,32 @@
  "title": "When-Does-Online-Adaptation-Pay-on-the-Edge-A-Leakage-Free-E",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-09-02 17:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f96f6d7-3525-4bc0-89f9-b0b2d77d94e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-02/3f96f6d7-3525-4bc0-89f9-b0b2d77d94e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-02 19:05:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "online time-series forecasting",
+    "test-time adaptation",
+    "concept drift",
+    "edge computing",
+    "evaluation methodology",
+    "parameter-efficient adaptation",
+    "smart meter"
+   ],
+   "field": "边缘设备在线时间序列预测",
+   "innovations": [
+    "揭示warmup预算两侧非单调敏感性并提出纯验证选择程序",
+    "发现共享学习率默认值偏置SGD+m与Adam比较",
+    "刻画参数高效适应的准确性-适配状态内存-计算前沿面"
+   ],
+   "benchmarks": [
+    "ETTm1/ETTm2/ETTh1/ETTh2",
+    "UCI Appliances",
+    "BDG2 Rat site"
+   ]
+  }
+ }
 }
