@@ -4,5 +4,35 @@
  "title": "When-Vision-Meets-Graphs-A-Survey-on-Graph-Reasoning-and-Lea",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-04 17:22:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/95238c03-299c-4566-8dd0-31c2753d1520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/95238c03-299c-4566-8dd0-31c2753d1520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:06:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Meets Graphs",
+    "Graph Reasoning",
+    "Graph Visualization",
+    "Vision-Language Model",
+    "Graph Neural Network",
+    "Scientific Graph",
+    "RPI Framework"
+   ],
+   "field": "图学习与多模态表示",
+   "innovations": [
+    "提出 RPI 三阶段诊断框架统一分析视觉图方法",
+    "首次系统综述视觉-图交叉领域三大工作流",
+    "揭示感知瓶颈主导多步图推理失败并给出缓解策略"
+   ],
+   "benchmarks": [
+    "VisionGraph",
+    "GITA",
+    "VGCure",
+    "Graph-Verse",
+    "VisGraphVar",
+    "LiveProteinBench"
+   ]
+  }
+ }
 }

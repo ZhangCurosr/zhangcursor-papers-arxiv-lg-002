@@ -4,5 +4,31 @@
  "title": "Witnesses-Explain-Anomalies",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-04 17:22:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7aa9b8de-b151-403d-97cf-8b812e14d919.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/7aa9b8de-b151-403d-97cf-8b812e14d919.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:07:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "anomaly detection",
+    "explainable AI",
+    "unsupervised learning",
+    "directional probing",
+    "feature attribution",
+    "robust statistics"
+   ],
+   "field": "无监督异常检测与可解释AI",
+   "innovations": [
+    "提出WAND：通过单位球面随机方向投影聚合次高斯尾部极值实现无监督异常检测，同时将触发异常的分方向向量作为原生逐特征归因，零额外查询成本",
+    "建立输出敏感探测效率保证：使每个异常至少被一个方向暴露的探针数K仅依赖异常数与维度，与样本量无关（Theorem 1）",
+    "设计MAD校准的双路径（随机球面+坐标轴）保护性混合架构，结合k-spacing多模态鲁棒组件与端到端可微分化，兼顾检测精度、解释忠实度与重尾稳定性"
+   ],
+   "benchmarks": [
+    "ADBench (47 tabular tasks)",
+    "ANO CUB bird concept dataset",
+    "Breast Cancer Wisconsin"
+   ]
+  }
+ }
 }

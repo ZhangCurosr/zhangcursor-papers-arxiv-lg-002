@@ -4,5 +4,33 @@
  "title": "WeatherNext-3-Increasing-resolution-and-performance-of-globa",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 17:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a4275336-257e-48ed-8f29-829336b8edc2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a4275336-257e-48ed-8f29-829336b8edc2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:06:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "天气预测",
+    "AI气象模型",
+    "高分辨率预报",
+    "多模态学习",
+    "概率预报",
+    "卫星数据同化"
+   ],
+   "field": "人工智能气象预报",
+   "innovations": [
+    "端到端融合卫星与站点观测的原生高分辨率（0.1°，逐小时）全球天气预报模型",
+    "基于连续潜在插值和元数据的任意点位站点预报头",
+    "结合认知Dropout与功能扰动集成的不确定性量化方法"
+   ],
+   "benchmarks": [
+    "HRES-fc0",
+    "METAR/Mesonet stations",
+    "IMERG Final",
+    "MRMS",
+    "IBTrACS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "What-is-Smoothness",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-04 17:22:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/40fbb163-9811-4a9b-91fa-66eb489f0816.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/40fbb163-9811-4a9b-91fa-66eb489f0816.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:06:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图信号处理",
+    "群表示论",
+    "Cayley图拉普拉斯",
+    "归纳偏置",
+    "非阿贝尔傅里叶分析",
+    "几何深度学习",
+    "光滑性"
+   ],
+   "field": "群表示论与谱方法在机器学习中的应用",
+   "innovations": [
+    "利用Cayley图拉普拉斯在Peter-Weyl块上的本征值均值定义非阿贝尔群对偶上的irrep排序参数ω",
+    "刻画可容许算子诱导排序的完整线性空间，证明Cayley-拉普拉斯是生成元声明后的唯一选择（模正标度）",
+    "将光滑性理论推广至携带传递群作用的有限集及紧群，并给出频带限制与差分控制的互推定理"
+   ],
+   "benchmarks": [
+    "RNA模块排列优化（12个模块，500次评估预算，降至122维线性分配问题）"
+   ]
+  }
+ }
 }

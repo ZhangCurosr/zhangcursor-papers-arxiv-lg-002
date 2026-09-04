@@ -4,5 +4,29 @@
  "title": "What-Else-Needs-Fixing-Exploring-Cost-Effective-Test-Time-Co",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-04 17:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:06:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "revision propagation",
+    "test-time compute",
+    "LLM benchmark",
+    "conversation-generated artifacts",
+    "JSON patching",
+    "parallel sampling"
+   ],
+   "field": "大语言模型评估与推理优化",
+   "innovations": [
+    "提出首个对话生成工件修订传播基准 RevPropBench",
+    "系统评测 9 种测试时计算方法在修订传播任务上的成本效益",
+    "发现 SELECT 和 MED 是最具性价比的策略，3-4 次调用可提升准确率 2.2-9.7%"
+   ],
+   "benchmarks": [
+    "RevPropBench"
+   ]
+  }
+ }
 }
