@@ -4,5 +4,10 @@
  "title": "Witnesses-Explain-Anomalies",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-09-04 06:59:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/626d4b28-05e1-4db4-bf5e-def2ec783590.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/626d4b28-05e1-4db4-bf5e-def2ec783590.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 07:20:24",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,30 @@
  "title": "WeatherNext-3-Increasing-resolution-and-performance-of-globa",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-04 07:00:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a4275336-257e-48ed-8f29-829336b8edc2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/a4275336-257e-48ed-8f29-829336b8edc2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 07:19:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI weather forecasting",
+    "probabilistic prediction",
+    "multi-modal learning",
+    "satellite data assimilation",
+    "high-resolution modeling"
+   ],
+   "field": "全球AI天气预报",
+   "innovations": [
+    "小时级初始化与0.1°分辨率的端对端多模态AI天气模型",
+    "直接摄取地球静止卫星数据并预测原始观测（降水、站点、气旋）"
+   ],
+   "benchmarks": [
+    "2024全年CRPS评估",
+    "METAR站点泛化评估",
+    "IMERG/MRMS/雨量计降水验证",
+    "IBTrACS热带气旋评估"
+   ]
+  }
+ }
 }

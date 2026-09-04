@@ -4,5 +4,29 @@
  "title": "What-Else-Needs-Fixing-Exploring-Cost-Effective-Test-Time-Co",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-04 06:58:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/1bc177c9-83de-4122-8fa3-a7378740bb0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 07:19:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "revision propagation",
+    "test-time compute",
+    "JSON artifact",
+    "benchmark",
+    "large language models",
+    "conversation-aware generation"
+   ],
+   "field": "大语言模型结构化生成与一致性维护",
+   "innovations": [
+    "提出 RevPropBench 基准，评估对话生成工件中的修订传播能力",
+    "系统比较九种测试时计算方法，发现并行采样结合 LLM/中位数选择最具成本效益",
+    "开源完整基准与标注工具链，推动可复现研究"
+   ],
+   "benchmarks": [
+    "RevPropBench"
+   ]
+  }
+ }
 }

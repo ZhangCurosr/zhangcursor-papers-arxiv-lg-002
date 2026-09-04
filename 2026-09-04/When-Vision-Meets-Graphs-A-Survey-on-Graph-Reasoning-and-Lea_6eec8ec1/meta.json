@@ -4,5 +4,38 @@
  "title": "When-Vision-Meets-Graphs-A-Survey-on-Graph-Reasoning-and-Lea",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-04 07:00:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/95238c03-299c-4566-8dd0-31c2753d1520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/95238c03-299c-4566-8dd0-31c2753d1520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 07:18:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉图推理",
+    "图神经网络",
+    "视觉语言模型",
+    "图可视化",
+    "科学计算",
+    "多模态学习",
+    "图表示学习"
+   ],
+   "field": "图机器学习与视觉交叉",
+   "innovations": [
+    "提出RPI（渲染-感知-推理）统一诊断框架系统梳理视觉+图研究",
+    "首次将图论推理基准、视觉增强GNN与科学域多模态方法纳入统一分类体系",
+    "揭示感知环节是视觉图方法的核心瓶颈并提出图原生预训练与Agent推理路线"
+   ],
+   "benchmarks": [
+    "VisionGraph",
+    "GITA",
+    "VGCure",
+    "Graph-Verse",
+    "VisGraphVar",
+    "VGA",
+    "LiveProteinBench",
+    "FlowGen",
+    "MolVision"
+   ]
+  }
+ }
 }

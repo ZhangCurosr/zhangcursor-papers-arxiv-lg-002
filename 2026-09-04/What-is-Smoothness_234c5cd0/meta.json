@@ -4,5 +4,10 @@
  "title": "What-is-Smoothness",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-04 07:00:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/40fbb163-9811-4a9b-91fa-66eb489f0816.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-04/40fbb163-9811-4a9b-91fa-66eb489f0816.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 07:19:14",
+  "chunks": 1
+ }
 }
