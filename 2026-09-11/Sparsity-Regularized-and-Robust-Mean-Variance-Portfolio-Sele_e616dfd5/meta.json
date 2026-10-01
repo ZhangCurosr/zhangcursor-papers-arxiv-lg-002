@@ -4,5 +4,36 @@
  "title": "Sparsity-Regularized-and-Robust-Mean-Variance-Portfolio-Sele",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-11 07:01:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ca03ef96-b999-4b11-874f-66e489e686bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ca03ef96-b999-4b11-874f-66e489e686bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:36:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mean-variance portfolio",
+    "robust optimization",
+    "ellipsoidal uncertainty",
+    "sparsity",
+    "l0-regularization",
+    "branch-and-bound"
+   ],
+   "field": "金融优化与鲁棒组合管理",
+   "innovations": [
+    "提出椭球鲁棒与精确l0正则的统一框架并给出支撑集结构刻画",
+    "设计新型指数级剪枝规则（命题11）加速分支定界搜索",
+    "推导全局解分量显式上下界并用于热启动资产剔除"
+   ],
+   "benchmarks": [
+    "ItalianBonds",
+    "ETF",
+    "DowJones",
+    "EuroStoxx50",
+    "FTSE100",
+    "NASDAQ100",
+    "S&P500",
+    "Fama-French 100 Size-BTM portfolios"
+   ]
+  }
+ }
 }

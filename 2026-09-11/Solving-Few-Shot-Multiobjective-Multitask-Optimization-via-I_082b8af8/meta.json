@@ -4,5 +4,30 @@
  "title": "Solving-Few-Shot-Multiobjective-Multitask-Optimization-via-I",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-11 17:30:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/3460285d-2c85-4952-aaed-e2f061ab4692.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/3460285d-2c85-4952-aaed-e2f061ab4692.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:35:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot optimization",
+    "multiobjective multitask",
+    "sequential transfer",
+    "Gaussian process",
+    "task prioritization",
+    "negative transfer"
+   ],
+   "field": "进化多目标优化",
+   "innovations": [
+    "IST框架将MTO重构为序贯迁移序列",
+    "似然驱动task优先级机制",
+    "软-max随机选择防永冻"
+   ],
+   "benchmarks": [
+    "MOMTO benchmark (CIHS/CIMS/PIHS/NIHS etc.)",
+    "Yahpo Gym HPO"
+   ]
+  }
+ }
 }

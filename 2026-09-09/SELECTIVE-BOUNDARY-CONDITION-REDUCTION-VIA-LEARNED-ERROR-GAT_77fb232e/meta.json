@@ -4,5 +4,33 @@
  "title": "SELECTIVE-BOUNDARY-CONDITION-REDUCTION-VIA-LEARNED-ERROR-GAT",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-09-09 17:33:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/4a1c6af0-9464-4cd8-9980-16d404f25c1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/4a1c6af0-9464-4cd8-9980-16d404f25c1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:33:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "边界条件选择",
+    "奇异极限",
+    "PDE 参数化",
+    "共形校准",
+    "选择性预测",
+    "误差估计",
+    "数值 PDE",
+    "神经代理"
+   ],
+   "field": "科学机器学习与 PDE 求解",
+   "innovations": [
+    "预测域与边界双误差标量以选择边界条件，避免完整场重建",
+    "在奇异极限（stiff Robin→Dirichlet）场景下结合共形校准提供安全边界",
+    "统一在稳态与演化 PDE 基准上验证选择性替换框架"
+   ],
+   "benchmarks": [
+    "Harmonic galvanic corrosion with boundary jump",
+    "Stationary nonlinear transfer",
+    "Evolutionary nonlinear transfer"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHY-SHARED-ATTENTION-VECTORS-FAIL-A-CASE-FOR-OUTCOME-INDEXED",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-09 07:07:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54a0aedb-c603-4156-95d1-486caecd2737.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54a0aedb-c603-4156-95d1-486caecd2737.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:35:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "注意力学习",
+    "多结果学习",
+    "梯度下降",
+    "EXIT模型",
+    "结果索引注意力",
+    " Mackintosh框架",
+    "连接主义模型",
+    "注意迁移"
+   ],
+   "field": "计算认知科学/机器学习",
+   "innovations": [
+    "证明共享标量注意力向量在多结果条件下必然因梯度叠加坍缩",
+    "提出结果索引注意力矩阵作为架构修复，移除非对角梯度求和"
+   ],
+   "benchmarks": [
+    "Distinct Singular（3结果无冲突）",
+    "Distinct Multi-Outcome（5结果不相交）",
+    "Shared Outcome Spaces（结果空间重叠，触发符号相消）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "WHY-SHARED-ATTENTION-VECTORS-FAIL-A-CASE-FOR-OUTCOME-INDEXED",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-09 17:33:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54a0aedb-c603-4156-95d1-486caecd2737.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/54a0aedb-c603-4156-95d1-486caecd2737.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:35:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "attention vector collapse",
+    "outcome-indexed attention",
+    "Mackintosh model",
+    "multi-outcome learning",
+    "gradient descent instability",
+    "EXIT model",
+    "cognitive modeling"
+   ],
+   "field": "计算认知建模 / 联想学习理论",
+   "innovations": [
+    "证明共享标量注意力在多结果学习中的系统性崩溃",
+    "提出 outcome-indexed attention matrix 作为最小结构修复方案",
+    "揭示梯度符号抵消导致的静默冻结失效模式"
+   ],
+   "benchmarks": [
+    "Distinct Singular",
+    "Distinct Multi-Outcome",
+    "Shared Outcome Space"
+   ]
+  }
+ }
 }

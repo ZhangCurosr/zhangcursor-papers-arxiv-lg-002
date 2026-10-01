@@ -4,5 +4,30 @@
  "title": "Semi-Tensor-Product-Based-Multi-Term-Randomized-T-SVD-and-It",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-11 17:31:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/90f2f7e0-d89e-432c-8b27-d52a83dbc889.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/90f2f7e0-d89e-432c-8b27-d52a83dbc889.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:35:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "张量奇异值分解",
+    "半张量积",
+    "多terms分解",
+    "随机化算法",
+    "张量压缩",
+    "张量补全"
+   ],
+   "field": "张量数值线性代数与视觉数据压缩",
+   "innovations": [
+    "在任意可逆线性变换下定义张量半张量积，打破t-product维度刚性约束",
+    "提出多terms STP-SVD框架，通过正交分量叠加显著提升低秩逼近精度",
+    "将幂迭代随机投影嵌入MSTP-SVD，实现高加速比与可证误差界的统一"
+   ],
+   "benchmarks": [
+    "ISO RGB图像压缩基准(20张)",
+    "derf视频压缩与补全基准(4序列)"
+   ]
+  }
+ }
 }

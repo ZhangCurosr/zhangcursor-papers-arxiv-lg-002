@@ -4,5 +4,32 @@
  "title": "TOPOLOGICAL-NECESSITIES-MECHANISM-INVARIANT-STRATEGIC-SUBGOA",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-11 17:30:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/30ac9d1b-23de-4279-8b41-d570b78310c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/30ac9d1b-23de-4279-8b41-d570b78310c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:40:02",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "持久同调",
+    "子目标规划",
+    "分层强化学习",
+    "可解释 RL",
+    "拓扑瓶颈",
+    "归因控制"
+   ],
+   "field": "分层强化学习与可解释 AI",
+   "innovations": [
+    "零监督拓扑瓶颈枚举",
+    "四重审计框架",
+    "高层-低层归因解耦验证"
+   ],
+   "benchmarks": [
+    "AntMaze-giant",
+    "Kitchen-HIQL",
+    "Puzzle-3x3",
+    "Cube single"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "The-Platonic-brain-bridge-hypothesis-human-brain-networks-as",
  "token": "sk-uRWIgUMtb...",
  "created_at": "2026-09-11 07:04:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c5923f24-9865-47ef-a2e2-4b655b73f0f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c5923f24-9865-47ef-a2e2-4b655b73f0f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:40:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "brain encoding",
+    "omni models",
+    "mixture of experts",
+    "sparse autoencoders",
+    "representation convergence",
+    "architectural prior"
+   ],
+   "field": "脑启发AI架构",
+   "innovations": [
+    "双向验证多模态模型与大脑的功能对应关系，编码模型在Algonauts 2025排名第一",
+    "将Yeo-7皮层网络作为MoE架构先验注入，在5个多模态基准平均提升6.42pp",
+    "构建首个标注主导脑网络的音视频问答基准Brain-AVQA"
+   ],
+   "benchmarks": [
+    "Algonauts 2025 Out-of-Distribution",
+    "Brain-AVQA",
+    "OmniBench",
+    "MMAU",
+    "MMAU-Pro",
+    "MuChoMusic",
+    "MUSIC-AVQA v2.0"
+   ]
+  }
+ }
 }

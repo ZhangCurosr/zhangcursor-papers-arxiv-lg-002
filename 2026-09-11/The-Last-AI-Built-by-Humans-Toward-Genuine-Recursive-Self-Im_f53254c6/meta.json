@@ -4,5 +4,33 @@
  "title": "The-Last-AI-Built-by-Humans-Toward-Genuine-Recursive-Self-Im",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-11 17:30:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c95d7bda-eff1-4834-9576-6e9433fc8007.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c95d7bda-eff1-4834-9576-6e9433fc8007.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:41:47",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "递归自我改进",
+    "自主性分层",
+    "AI Agent",
+    "工业RSI",
+    "能力评估",
+    "共演化循环"
+   ],
+   "field": "AI自主系统与递归自我改进",
+   "innovations": [
+    "提出L0-L5递归自我改进自主性分层框架并定义每层AI与人类的权限边界",
+    "建立10类改进目标分类法覆盖Prompt至Full-system全栈",
+    "报告五个工业RSI实践案例（Theseus/Lark/Humanlaya/ModelBest/Hyra）并量化其可复用的设计模式与改进效果"
+   ],
+   "benchmarks": [
+    "NanoChat Autoresearch",
+    "nanoGPT Speedrun",
+    "SOL-ExecBench",
+    "MGSM",
+    "Theseus 30任务1280 rubrics"
+   ]
+  }
+ }
 }

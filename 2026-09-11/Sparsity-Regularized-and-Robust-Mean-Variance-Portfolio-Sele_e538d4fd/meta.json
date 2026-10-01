@@ -4,5 +4,37 @@
  "title": "Sparsity-Regularized-and-Robust-Mean-Variance-Portfolio-Sele",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-11 17:30:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ca03ef96-b999-4b11-874f-66e489e686bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ca03ef96-b999-4b11-874f-66e489e686bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:36:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "鲁棒优化",
+    "均值-方差组合",
+    "稀疏优化",
+    "ell0正则化",
+    "分支定界",
+    "椭球不确定集"
+   ],
+   "field": "鲁棒组合优化",
+   "innovations": [
+    "将椭球均值不确定与精确l0稀疏惩罚统一建模并分析其局部/全局结构",
+    "提出针对右子树的一次性指数级剪枝规则（Proposition 11）",
+    "基于全局分量下界的warm-start维度压缩策略"
+   ],
+   "benchmarks": [
+    "Gurobi MI-SOCP",
+    "意大利债券",
+    "ETF",
+    "DowJones",
+    "EuroStoxx50",
+    "FTSE100",
+    "NASDAQ100",
+    "S&P500",
+    "Fama-French 100 Size-BM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "THE-OLIGARCH-BARELY-STEERS-MODEL-COLLAPSE-IN-MULTI-MODEL-ECO",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-11 07:02:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/8ae30fde-2bc9-419b-b6c1-a339bb0722e5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/8ae30fde-2bc9-419b-b6c1-a339bb0722e5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:38:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model collapse",
+    "multi-model ecosystem",
+    "oligopoly",
+    "recursive training",
+    "synthetic data contamination",
+    "market concentration"
+   ],
+   "field": "大模型训练动力学与数据生态安全",
+   "innovations": [
+    "发现集中度不变性：寡头份额不改变崩溃终点与速率",
+    "量化拉力效应：90%份额+最强偏差仍无法保证方向转移",
+    "提出旅行倾向指数：池组成以R²=0.68预测崩溃速率"
+   ],
+   "benchmarks": [
+    "DeBERTa几何距离",
+    "gpt2-large困惑度",
+    "distinct-4-gram分数",
+    "self-BLEU-4"
+   ]
+  }
+ }
 }

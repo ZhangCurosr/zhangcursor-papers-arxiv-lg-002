@@ -4,5 +4,37 @@
  "title": "Vision-Data-Centric-Anchoring-for-Robust-and-Interpretable-A",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-09 17:33:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/0c255f3d-0874-4747-a342-62540fd89949.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/0c255f3d-0874-4747-a342-62540fd89949.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:34:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Data-Centric AI",
+    "Agentic AI",
+    "Robustness",
+    "Interpretability",
+    "Domain Generalization",
+    "Data Attribution",
+    "Counterfactual Faithfulness"
+   ],
+   "field": "LLM Agent可靠性与可解释性",
+   "innovations": [
+    "提出Data-Centric Agentic Loop四阶段闭环框架(Curate-Augment-Constrain-Attribute)",
+    "建立failure-driven taxonomy映射四类故障模式与数据中心干预",
+    "形式化(D*, θ*)联合优化并将数据集视为设计变量"
+   ],
+   "benchmarks": [
+    "AgentBoard",
+    "GTA",
+    "SmartPlay",
+    "MixEval",
+    "Mobile-Bench",
+    "PIPE",
+    "AgentNoiseBench",
+    "PALADIN"
+   ]
+  }
+ }
 }

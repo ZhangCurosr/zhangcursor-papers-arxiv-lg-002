@@ -4,5 +4,36 @@
  "title": "Structural-priors-for-data-efficient-language-learning",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-11 07:05:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/432480cc-8f05-4566-8e05-4767a2728b5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/432480cc-8f05-4566-8e05-4767a2728b5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:36:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structural transfer",
+    "data-efficient language learning",
+    "pre-pretraining",
+    "multilingual language modeling",
+    "weight initialization",
+    "BabyLM",
+    "cellular automata",
+    "symbolic data"
+   ],
+   "field": "低资源语言建模与数据高效学习",
+   "innovations": [
+    "提出结构迁移作为多语言语言建模的权重初始化策略，系统评估四种符号数据类型的迁移效果",
+    "建立损失-权重移动-下游能力三维评估框架，揭示结构迁移的效能边界",
+    "发现随机初始化已接近部分结构数据的局部最优，且Zipfian词频分布对迁移无额外增益"
+   ],
+   "benchmarks": [
+    "BabyLM multilingual track",
+    "BLiMP",
+    "GlobalPIQA",
+    "HellaSwag",
+    "WinoGrande",
+    "XStoryCloze"
+   ]
+  }
+ }
 }

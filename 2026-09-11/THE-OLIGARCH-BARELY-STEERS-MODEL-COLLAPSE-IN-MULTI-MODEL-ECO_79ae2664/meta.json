@@ -4,5 +4,31 @@
  "title": "THE-OLIGARCH-BARELY-STEERS-MODEL-COLLAPSE-IN-MULTI-MODEL-ECO",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-11 17:30:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2e8366ec-4e75-4350-943b-b7c84be2fad0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2e8366ec-4e75-4350-943b-b7c84be2fad0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:38:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型崩溃",
+    "多模型生态",
+    "递归训练",
+    "寡头市场",
+    "数据回流",
+    "模型退化"
+   ],
+   "field": "大模型训练动力学",
+   "innovations": [
+    "集中度不变性：市场份额结构不影响崩溃终点与速度",
+    "旅行倾向指数：池内容构成以R²=0.68预测崩溃速度",
+    "人类数据仅减速不转向：25%/50%剂量使漂移减慢1.4×/1.8×但方向不变"
+   ],
+   "benchmarks": [
+    "DeBERTa几何距离",
+    "困惑度退化指标",
+    "Pile-10k人类文本"
+   ]
+  }
+ }
 }

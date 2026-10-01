@@ -4,5 +4,30 @@
  "title": "Solving-Few-Shot-Multiobjective-Multitask-Optimization-via-I",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-11 07:02:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/3460285d-2c85-4952-aaed-e2f061ab4692.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/3460285d-2c85-4952-aaed-e2f061ab4692.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:35:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "少样本优化",
+    "多目标多任务优化",
+    "顺序转移优化",
+    "多任务高斯过程",
+    "知识迁移",
+    "贝叶斯优化"
+   ],
+   "field": "进化计算与多目标优化",
+   "innovations": [
+    "提出IST框架将MOMTO转化为顺序转移问题序列，实现预算自适应定向分配",
+    "设计似然信息感知任务优先级机制，基于MTGP估计的任务协同参数实现数据驱动的任务排序",
+    "将IST框架通用化为可插拔调度层，兼容F-invTrEMO与AMTEA等不同底层STrO求解器"
+   ],
+   "benchmarks": [
+    "MOMTO Benchmark (CIHS/CIMS/CILS/PIHS/PIMS/PILS/NIHS)",
+    "Yahpo Gym Hyperparameter Optimization"
+   ]
+  }
+ }
 }

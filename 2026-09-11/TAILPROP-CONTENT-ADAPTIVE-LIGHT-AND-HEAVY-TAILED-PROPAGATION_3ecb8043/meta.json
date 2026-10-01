@@ -4,5 +4,33 @@
  "title": "TAILPROP-CONTENT-ADAPTIVE-LIGHT-AND-HEAVY-TAILED-PROPAGATION",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-11 17:31:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2492460e-c845-48f0-94df-2c4786ebfe6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2492460e-c845-48f0-94df-2c4786ebfe6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:37:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学启发式视觉模型",
+    "传播动力学",
+    "高斯-柯西混合",
+    "DCT谱域计算",
+    "视觉骨干网络",
+    "异常扩散"
+   ],
+   "field": "视觉表征学习与高效架构",
+   "innovations": [
+    "提出TPO算子，首次在高斯轻尾与柯西重尾两种稳定过程间进行内容自适应混合",
+    "利用空间共享系数实现频域预融合，仅需单次DCT/IDCT达到O(N^1.5)复杂度",
+    "通过多维度消融证明双基互补+输入条件路由的收益独立于分支容量和单阶自适应"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "MS COCO 2017",
+    "ADE20K",
+    "ImageNet-Sketch",
+    "ImageNet-A"
+   ]
+  }
+ }
 }

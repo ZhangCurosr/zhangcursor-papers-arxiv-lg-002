@@ -4,5 +4,33 @@
  "title": "Thinking-with-Looped-Flows",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-11 17:30:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2e27899a-79d3-42b7-be1c-8bfda6f45b85.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/2e27899a-79d3-42b7-be1c-8bfda6f45b85.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:42:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "looped flows",
+    "recurrent reasoning",
+    "flow matching",
+    "denoising diffusion",
+    "test-time scaling",
+    "multi-solution generation"
+   ],
+   "field": "神经符号推理与生成模型",
+   "innovations": [
+    "用局部去噪目标训练循环状态以规避BPTT并学习全局有用递推表示",
+    "将概率流推理与随机积分结合，支持计算缩放与多解生成"
+   ],
+   "benchmarks": [
+    "ARC-AGI-1",
+    "ARC-AGI-2",
+    "Sudoku-Extreme",
+    "Maze-Hard",
+    "N-Queens",
+    "Graph Coloring"
+   ]
+  }
+ }
 }

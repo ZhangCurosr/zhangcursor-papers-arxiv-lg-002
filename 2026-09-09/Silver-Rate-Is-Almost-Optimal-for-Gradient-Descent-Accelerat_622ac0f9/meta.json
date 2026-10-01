@@ -4,5 +4,29 @@
  "title": "Silver-Rate-Is-Almost-Optimal-for-Gradient-Descent-Accelerat",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-09 07:08:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/6274e8ac-8956-433e-81bb-36d46f7a1a13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/6274e8ac-8956-433e-81bb-36d46f7a1a13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:33:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "梯度下降",
+    "步长调度",
+    "凸优化下界",
+    " anytime 加速",
+    "silver schedule",
+    "光滑凸优化"
+   ],
+   "field": "优化理论与收敛性分析",
+   "innovations": [
+    "改进局部困难函数的圆弧梯度旋转构造，将转移比中相邻步长和系数从2降至接近1",
+    "证明非anytime场景下预定义非负步长的最优多项式收敛指数为p_sil=log_2(1+sqrt(2))，关闭银率上界与下界之间的差距"
+   ],
+   "benchmarks": [
+    "smooth convex optimization, non-anytime GD",
+    "smooth convex optimization, anytime GD"
+   ]
+  }
+ }
 }

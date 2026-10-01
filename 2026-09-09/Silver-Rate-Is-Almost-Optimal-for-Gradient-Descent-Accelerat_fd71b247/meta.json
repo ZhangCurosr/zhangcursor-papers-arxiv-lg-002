@@ -4,5 +4,30 @@
  "title": "Silver-Rate-Is-Almost-Optimal-for-Gradient-Descent-Accelerat",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-09 17:32:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/6274e8ac-8956-433e-81bb-36d46f7a1a13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/6274e8ac-8956-433e-81bb-36d46f7a1a13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:33:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "梯度下降",
+    "学习率调度",
+    "光滑凸优化",
+    "下界分析",
+    "anytime",
+    "silver schedule"
+   ],
+   "field": "一阶优化理论",
+   "innovations": [
+    "提出圆弧梯度两坐标硬函数构造，将 transfer ratio 中区间步长系数从2降至任意接近1",
+    "闭合非负学习率调度下GD的非anytime与anytime最优多项式收敛指数"
+   ],
+   "benchmarks": [
+    "Altschuler-Parrilo银调度上界",
+    "Zhang等anytime上界",
+    "Jung等先前下界"
+   ]
+  }
+ }
 }

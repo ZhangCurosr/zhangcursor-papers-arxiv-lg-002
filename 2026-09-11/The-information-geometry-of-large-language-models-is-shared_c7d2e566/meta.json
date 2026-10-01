@@ -4,5 +4,32 @@
  "title": "The-information-geometry-of-large-language-models-is-shared",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-11 07:02:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/07a66dbf-2f2d-4097-b37a-7ed4c98c2705.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/07a66dbf-2f2d-4097-b37a-7ed4c98c2705.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:43:56",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "信息几何",
+    "大语言模型",
+    "模型相似度",
+    "亲和力矩阵",
+    "跨架构一致性",
+    "确定性证书"
+   ],
+   "field": "大语言模型理论基础",
+   "innovations": [
+    "六标量一致性恒等式实现无假设下的跨模型相关性精确分解",
+    "提出确定性一致性下界证书并将实证验证推广至异构架构"
+   ],
+   "benchmarks": [
+    "Pythia-70M/1.4B/6.9B",
+    "Mamba-1.4B",
+    "RWKV-1.5B",
+    "GPT-2-large",
+    "GPT-Neo-1.3B"
+   ]
+  }
+ }
 }

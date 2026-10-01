@@ -4,5 +4,33 @@
  "title": "TART-A-MODULAR-TOOL-FOR-TECHNIQUE-AWARE-AUDIO-TO-TABLATURE-G",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-11 17:30:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ad214fd4-bacc-47c4-85c6-ae5dcf4d6653.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ad214fd4-bacc-47c4-85c6-ae5dcf4d6653.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:38:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "guitar transcription",
+    "automatic music transcription",
+    "technique classification",
+    "tablature generation",
+    "pitch redundancy",
+    "audio-conditioned sequence-to-sequence",
+    "robustness to noise"
+   ],
+   "field": "吉他自动音乐转录",
+   "innovations": [
+    "模块化四阶段流水线首次端到端生成带技巧与指法标注的吉他六线谱",
+    "统一九类表现性技巧分类器以轻量时序模型实现高Macro F1",
+    "音频条件T5模型通过音色融合解决吉他弦-品位歧义"
+   ],
+   "benchmarks": [
+    "GuitarSet",
+    "EGDB",
+    "Noisy GuitarSet",
+    "Noisy EGDB"
+   ]
+  }
+ }
 }

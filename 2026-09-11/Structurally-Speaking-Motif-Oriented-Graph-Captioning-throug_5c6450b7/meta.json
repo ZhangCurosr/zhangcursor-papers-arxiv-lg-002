@@ -4,5 +4,30 @@
  "title": "Structurally-Speaking-Motif-Oriented-Graph-Captioning-throug",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-11 07:02:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/e5e89d85-785e-457a-8c15-4debffd4e033.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/e5e89d85-785e-457a-8c15-4debffd4e033.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:37:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Captioning",
+    "Motif",
+    "Graph-Text Translation",
+    "Structured Prompting",
+    "Cycle Consistency",
+    "LLM Reasoning",
+    "Graph Structure"
+   ],
+   "field": "图语言模型与结构化数据理解",
+   "innovations": [
+    "提出Graph-Caption-Graph与Caption-Graph-Caption双向循环一致性评估框架，分离图可恢复性与motif抽象质量",
+    "设计Structurally Speaking分步推理提示协议，通过邻接表→motif分析的中间表示引导拓扑到抽象的双向翻译",
+    "证明无需微调的结构化few-shot prompt即可将caption压缩9倍同时保持接近完美的图恢复"
+   ],
+   "benchmarks": [
+    "Synthetic Motif-based Graph Dataset (220 graphs, 40 for evaluation)"
+   ]
+  }
+ }
 }

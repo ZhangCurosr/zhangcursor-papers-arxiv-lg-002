@@ -4,5 +4,31 @@
  "title": "The-Last-AI-Built-by-Humans-Toward-Genuine-Recursive-Self-Im",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-11 07:04:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c95d7bda-eff1-4834-9576-6e9433fc8007.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/c95d7bda-eff1-4834-9576-6e9433fc8007.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:42:09",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "Recursive Self-Improvement",
+    "HCI",
+    "五级自主性框架",
+    "MoE稀疏激活",
+    "大模型评估",
+    "AI开发范式"
+   ],
+   "field": "基础模型能力评估与自主演进",
+   "innovations": [
+    "定义RSI递归闭环与五级自主性框架，突破单次训练线性范式",
+    "提出HCI跨领域能力进展统一指标，量化揭示能力域成熟度差异",
+    "定位软件工程与工具使用为RSI高潜力切入点并提供六层级现状图谱"
+   ],
+   "benchmarks": [
+    "GDPval",
+    "Humanity's Last Exam",
+    "NVIDIA AIMO-2"
+   ]
+  }
+ }
 }

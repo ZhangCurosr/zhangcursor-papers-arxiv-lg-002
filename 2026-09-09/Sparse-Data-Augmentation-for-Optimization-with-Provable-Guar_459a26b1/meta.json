@@ -4,5 +4,31 @@
  "title": "Sparse-Data-Augmentation-for-Optimization-with-Provable-Guar",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-09 07:06:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d63b440d-df3a-4480-a26b-1cb45612869d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d63b440d-df3a-4480-a26b-1cb45612869d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:34:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据增强",
+    "几何机器学习",
+    "非凸优化",
+    "群表示论",
+    "谱浓度",
+    "稀疏采样",
+    "不变性学习"
+   ],
+   "field": "几何机器学习与优化理论",
+   "innovations": [
+    "提出一次性稀疏数据增强范式，将群预言机复杂度从O(1/epsilon^4)降至O((log|G|+log(1/delta))/epsilon^2)",
+    "建立固定稀疏采样下完全增广梯度场的均匀逼近界，克服采样与优化轨迹的依赖难题",
+    "利用有限群表示理论与矩阵Bernstein不等式证明随机群平均算子的谱收敛"
+   ],
+   "benchmarks": [
+    "Permutation-invariant sum regression with S_6",
+    "Gaussian kernel factorized model"
+   ]
+  }
+ }
 }

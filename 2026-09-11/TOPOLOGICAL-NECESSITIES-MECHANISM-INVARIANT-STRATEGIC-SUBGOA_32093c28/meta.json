@@ -4,5 +4,10 @@
  "title": "TOPOLOGICAL-NECESSITIES-MECHANISM-INVARIANT-STRATEGIC-SUBGOA",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-11 07:03:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/30ac9d1b-23de-4279-8b41-d570b78310c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/30ac9d1b-23de-4279-8b41-d570b78310c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 10:40:21",
+  "chunks": 5
+ }
 }
