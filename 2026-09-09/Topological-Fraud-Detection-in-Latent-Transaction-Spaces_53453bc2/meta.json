@@ -4,5 +4,32 @@
  "title": "Topological-Fraud-Detection-in-Latent-Transaction-Spaces",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-09 17:33:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7d5c7ef-0e61-4bc5-9f79-b52bad22bc36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7d5c7ef-0e61-4bc5-9f79-b52bad22bc36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:06:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fraud detection",
+    "topological embedding",
+    "privacy-preserving",
+    "UMAP",
+    "self-organizing map",
+    "CatBoost",
+    "autoencoder",
+    "real-time anomaly detection"
+   ],
+   "field": "隐私保护欺诈检测",
+   "innovations": [
+    "在拓扑匿名化嵌入空间中迭代执行无监督过滤与有监督狙击的双阶段欺诈检测框架",
+    "将AE重构误差映射至SOM种子单元并定义安全簇扩展规则以实现硬过滤",
+    "利用树模型（CatBoost/LightGBM）在匿名流形特征上的位级并行实现亚毫秒级推理"
+   ],
+   "benchmarks": [
+    "Kaggle Credit Card Fraud Detection Dataset",
+    "IEEE-CIS Fraud Detection Dataset"
+   ]
+  }
+ }
 }

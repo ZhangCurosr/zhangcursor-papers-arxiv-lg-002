@@ -4,5 +4,34 @@
  "title": "TRAINING-FREE-TASK-VECTORS-FOR-LLM-BEHAVIORAL-CONTROL",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-09 07:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d6fc55b9-5eb2-4d2e-803d-34394d38b0c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/d6fc55b9-5eb2-4d2e-803d-34394d38b0c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:04:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free",
+    "task vector",
+    "model editing",
+    "behavioral control",
+    "LLM steering",
+    "weight-space editing",
+    "composition"
+   ],
+   "field": "大语言模型后训练行为控制",
+   "innovations": [
+    "仅用前向统计将激活 steering 映射为 rank-one 权重更新，无需微调",
+    "证明 TFTV 满足 norm matching、steering 定向与线性组合三大算术性质",
+    "在无需微调前提下实现比现有 training-free 方法更强的性状控制与utility保持"
+   ],
+   "benchmarks": [
+    "Persona Vectors",
+    "MMLU",
+    "GSM8K",
+    "Moral Stories",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

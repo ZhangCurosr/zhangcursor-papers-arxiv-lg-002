@@ -4,5 +4,32 @@
  "title": "Synergistic-Fusion-of-Topological-Structure-and-Temporal-Sem",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-09 07:07:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:03:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "urban region embedding",
+    "zigzag persistence",
+    "topological data analysis",
+    "multi-view fusion",
+    "human mobility",
+    "shared-private decomposition",
+    "dilated TCN"
+   ],
+   "field": "城市区域表征学习与拓扑深度学习",
+   "innovations": [
+    "首次将 zigzag 持续同调用于城市区域嵌入，以持久图刻画移动性连通网络的涌现-持久-消失动力学",
+    "提出共享-私有分解与多阶张量乘法交互相结合的协同融合模块，显式捕获跨视图涌现信号",
+    "仅用单一移动性数据即超越依赖 POI/签到等多模态辅助的对比方法，且参数量最少"
+   ],
+   "benchmarks": [
+    "NYC Crime/Income/Service-Call Prediction (180 regions)",
+    "Chicago Crime/Income/Service-Call Prediction (77 regions)",
+    "MVURE, MGFN, HREP, ReCP, MVJC, ComSRE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "TRAINING-FREE-TASK-VECTORS-FOR-LLM-BEHAVIORAL-CONTROL",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-09 17:32:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/64e16eeb-44ff-4498-9ec7-f07f30d5cbca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:04:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-free task vectors",
+    "behavioral control",
+    "weight-space editing",
+    "activation steering",
+    "model merging",
+    "post-training editing"
+   ],
+   "field": "LLM 行为控制与模型编辑",
+   "innovations": [
+    "提出无需微调即可构造的 rank-one 权重方向（TFTV），支持加法学习、减法遗忘与多特质组合",
+    "证明并验证 norm matching、steering 与线性性质，使训练-free 权重算术编辑更稳定",
+    "在 Llama/Qwen 及 OOD 跨架构上取得更强 trait 控制与更好效用保留的权衡"
+   ],
+   "benchmarks": [
+    "Persona Vectors",
+    "MMLU",
+    "GSM8K",
+    "Moral Stories",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

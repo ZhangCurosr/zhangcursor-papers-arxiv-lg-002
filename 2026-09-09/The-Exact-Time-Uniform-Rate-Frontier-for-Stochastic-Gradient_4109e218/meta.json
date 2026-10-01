@@ -4,5 +4,30 @@
  "title": "The-Exact-Time-Uniform-Rate-Frontier-for-Stochastic-Gradient",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-09 07:07:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f2c37012-22ff-4bae-beb9-2a34488b8237.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f2c37012-22ff-4bae-beb9-2a34488b8237.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:06:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stochastic gradient descent",
+    "time-uniform convergence",
+    "smooth convex optimization",
+    "raw iterate",
+    "confidence sequences",
+    "harmonic series",
+    "dyadic schedule"
+   ],
+   "field": "随机优化理论",
+   "innovations": [
+    "精确刻画标准SGD在光滑凸目标上的时间一致收敛额外因子前界（逆平方和充要条件）",
+    "加性条件重启不等式实现谐波项与置信项的加性分离",
+    "一维四次平坦高斯反例构造证明必要性的Riccati递推矛盾"
+   ],
+   "benchmarks": [
+    "理论速率前界（无数值基准）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Routing-Dense-Layouts-with-History-Aware-Ofline-Reinforcemen",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-09 07:07:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/494373f2-fcfd-4750-b501-f2293344b9a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/494373f2-fcfd-4750-b501-f2293344b9a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:00:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Detailed Routing",
+    "Offline Reinforcement Learning",
+    "Conservative Q-Learning",
+    "LSTM",
+    "Physical Design",
+    "OpenROAD",
+    "Distribution Shift"
+   ],
+   "field": "电子设计自动化（EDA）中的物理设计自动化",
+   "innovations": [
+    "引入LSTM heads的序列感知CQL策略以保留布线迭代历史上下文",
+    "对密度/调整特征施加Bernoulli掩码正则化以缓解跨分布偏移",
+    "构建覆盖高密度难路由工况的开源训练数据集与完整训练-推理pipeline"
+   ],
+   "benchmarks": [
+    "OpenROAD Design Suite (Nangate45)",
+    "8 designs across 6 densities with routing adjustment sweeps"
+   ]
+  }
+ }
 }

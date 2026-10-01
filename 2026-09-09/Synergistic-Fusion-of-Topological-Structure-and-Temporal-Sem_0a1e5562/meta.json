@@ -4,5 +4,34 @@
  "title": "Synergistic-Fusion-of-Topological-Structure-and-Temporal-Sem",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-09 17:33:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2475f01c-e699-4ca6-9b32-1cfe80191130.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:03:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "urban region embedding",
+    "zigzag persistence",
+    "topological data analysis",
+    "multi-view fusion",
+    "mobility modeling",
+    "shared-private decomposition",
+    "synergy module"
+   ],
+   "field": "城市计算与区域嵌入",
+   "innovations": [
+    "首次将zigzag持久同调应用于城市区域嵌入以捕获连通性动态演化",
+    "提出共享-私有分解与多度乘性交互协同模块，显式建模三视图高阶共现信号",
+    "仅用mobility单流即达到犯罪/收入/服务呼叫三项任务的SOTA，超越含POI等多模态基线"
+   ],
+   "benchmarks": [
+    "NYC Taxi Dataset (NYCOD)",
+    "Chicago Data Portal (CHIDP)",
+    "Crime prediction",
+    "Income prediction",
+    "Service-call (311) prediction"
+   ]
+  }
+ }
 }

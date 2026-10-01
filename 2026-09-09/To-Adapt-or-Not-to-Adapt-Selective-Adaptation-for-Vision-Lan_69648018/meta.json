@@ -4,5 +4,43 @@
  "title": "To-Adapt-or-Not-to-Adapt-Selective-Adaptation-for-Vision-Lan",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-09-09 07:07:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/da8d2715-7aaf-45a4-b8c9-2c81fba27cde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/da8d2715-7aaf-45a4-b8c9-2c81fba27cde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:06:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time adaptation",
+    "selective adaptation",
+    "vision-language models",
+    "cross-augmentation similarity",
+    "AEP",
+    "OOD detection"
+   ],
+   "field": "测试时自适应与高效推理",
+   "innovations": [
+    "提出选择性适应任务并形式化为样本级适应必要性检测",
+    "设计 CAS 基线，联合一致性与时分布相似度进行跳过决策",
+    "构建 AEP/EEP 集成指标并在多 TTA 与多数据集上系统验证"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "ImageNet-A",
+    "ImageNet-V",
+    "ImageNet-R",
+    "ImageNet-K",
+    "Flowers102",
+    "DTD",
+    "Pets",
+    "UCF101",
+    "Caltech101",
+    "Aircraft",
+    "EuroSAT",
+    "Cars",
+    "Food101",
+    "SUN397"
+   ]
+  }
+ }
 }

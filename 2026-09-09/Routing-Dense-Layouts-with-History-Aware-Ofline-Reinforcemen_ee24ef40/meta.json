@@ -4,5 +4,31 @@
  "title": "Routing-Dense-Layouts-with-History-Aware-Ofline-Reinforcemen",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-09 17:33:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/494373f2-fcfd-4750-b501-f2293344b9a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/494373f2-fcfd-4750-b501-f2293344b9a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:00:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "detailed routing",
+    "offline reinforcement learning",
+    "conservative Q-learning",
+    "LSTM",
+    "physical design",
+    "OpenROAD",
+    "Nangate45"
+   ],
+   "field": "物理设计自动化工具中的强化学习路由控制",
+   "innovations": [
+    "面向多密度/多调整工况的离线CQL+LSTM路由策略",
+    "基于log/ratio与density×adjustment交互的特征与masking设计以缓解分布偏移",
+    "仅通过4个cost权重接口轻量集成到TritonRoute/OpenROAD而保持搜索算法不变"
+   ],
+   "benchmarks": [
+    "OpenROAD Design Suite Nangate45",
+    "AES, ariane136, bp_be, bp_fe, bp_multi, gcd, ibex, jpeg"
+   ]
+  }
+ }
 }

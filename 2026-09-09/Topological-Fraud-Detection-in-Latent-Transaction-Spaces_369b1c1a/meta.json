@@ -4,5 +4,33 @@
  "title": "Topological-Fraud-Detection-in-Latent-Transaction-Spaces",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-09 07:08:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7d5c7ef-0e61-4bc5-9f79-b52bad22bc36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f7d5c7ef-0e61-4bc5-9f79-b52bad22bc36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:06:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "欺诈检测",
+    "拓扑嵌入",
+    "隐私保护",
+    "UMAP",
+    "自编码器",
+    "自组织映射",
+    "CatBoost",
+    "LightGBM"
+   ],
+   "field": "金融反欺诈与隐私计算",
+   "innovations": [
+    "在拓扑匿名化嵌入空间中进行迭代式狙击/过滤欺诈检测",
+    "AE重建误差至SOM热/安全种子的硬过滤机制",
+    "GMM协方差各向异性评分识别协调欺诈子簇"
+   ],
+   "benchmarks": [
+    "IEEE-CIS Fraud Detection",
+    "Kaggle Credit Card Fraud Detection",
+    "C13加权成本函数"
+   ]
+  }
+ }
 }

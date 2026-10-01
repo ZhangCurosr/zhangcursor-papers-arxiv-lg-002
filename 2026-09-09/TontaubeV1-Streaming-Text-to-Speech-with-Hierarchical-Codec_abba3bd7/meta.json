@@ -4,5 +4,31 @@
  "title": "TontaubeV1-Streaming-Text-to-Speech-with-Hierarchical-Codec",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-09 17:32:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/93053cf8-f65f-404f-9157-491e5d5f2bbc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/93053cf8-f65f-404f-9157-491e5d5f2bbc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:06:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-Speech",
+    "Streaming TTS",
+    "Hierarchical Codec",
+    "DualCodec",
+    "Quantized Audio Generation",
+    "Low-latency TTS",
+    "LLM-as-a-Judge"
+   ],
+   "field": "流式语音合成",
+   "innovations": [
+    "为每个 DualCodec 码本分配独立容量的四阶段级联生成器",
+    "字符级分词配合逻辑 RoPE 坐标实现文本-音频时序对齐",
+    "非因果 Codec 经 VibeVoice 潜在空间重构实现流式输出"
+   ],
+   "benchmarks": [
+    "PG-19 audiobook reading benchmark",
+    "Seed-TTS English zero-shot WER"
+   ]
+  }
+ }
 }

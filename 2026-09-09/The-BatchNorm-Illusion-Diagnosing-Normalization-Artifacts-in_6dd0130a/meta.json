@@ -4,5 +4,32 @@
  "title": "The-BatchNorm-Illusion-Diagnosing-Normalization-Artifacts-in",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-09 17:32:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/89b98136-2d4c-458e-9389-733d9b2489e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/89b98136-2d4c-458e-9389-733d9b2489e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:05:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine unlearning",
+    "BatchNorm",
+    "normalization artifacts",
+    "evaluation bias",
+    "linear probing",
+    "encoder failure"
+   ],
+   "field": "机器遗忘评估方法论",
+   "innovations": [
+    "形式化BN corruption与BN misalignment两种归一化伪影并证明前者对梯度操作不可拦截",
+    "提出权重守恒不动点重校准算子及线性探针唯一分解理论",
+    "实证揭示六种九种方法表观遗忘可被逆转高达78pp且攻击者仅需10图像即可恢复"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "Tiny-ImageNet",
+    "ImageNet-100"
+   ]
+  }
+ }
 }

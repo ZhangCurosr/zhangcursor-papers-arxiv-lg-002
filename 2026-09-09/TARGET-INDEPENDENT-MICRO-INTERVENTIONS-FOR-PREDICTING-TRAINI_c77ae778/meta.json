@@ -4,5 +4,34 @@
  "title": "TARGET-INDEPENDENT-MICRO-INTERVENTIONS-FOR-PREDICTING-TRAINI",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-09 17:33:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/88e34992-1b50-405f-bd00-1b9eab15e096.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/88e34992-1b50-405f-bd00-1b9eab15e096.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:03:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training response prediction",
+    "cross-family transfer",
+    "micro-intervention",
+    "L-STATE",
+    "operator readout",
+    "model checkpoint probing",
+    "language model adaptation"
+   ],
+   "field": "语言模型训练动力学与跨家族泛化",
+   "innovations": [
+    "提出target-independent micro-intervention构建L-STATE并在跨家族sealed测试中验证",
+    "推导平滑局部动态下的响应因子化与端到端跨家族误差上界",
+    "基于GLM science反转发现引入action-wise pulse selector提升Granite预测"
+   ],
+   "benchmarks": [
+    "GLM-4-9B-0414",
+    "Granite-3.1-8B-Instruct",
+    "Qwen2.5-7B-Instruct",
+    "Mistral-7B-Instruct-v0.3",
+    "OLMo-2-1124-7B-Instruct"
+   ]
+  }
+ }
 }

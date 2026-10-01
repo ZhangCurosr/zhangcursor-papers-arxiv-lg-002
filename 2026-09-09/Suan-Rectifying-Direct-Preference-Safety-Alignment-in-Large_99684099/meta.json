@@ -4,5 +4,40 @@
  "title": "Suan-Rectifying-Direct-Preference-Safety-Alignment-in-Large",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-09 17:32:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2bc443aa-7423-4d1e-887f-07716b87b0ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/2bc443aa-7423-4d1e-887f-07716b87b0ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:02:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM安全对齐",
+    "直接偏好优化",
+    "DPO",
+    "过拒绝",
+    "梯度设计"
+   ],
+   "field": "大语言模型安全与对齐",
+   "innovations": [
+    "在梯度层面直接设计偏好损失，绕过传统变分推导以消除似然位移",
+    "引入cosh-based正则化项稳定KL代理梯度，使β单调可控",
+    "无需安全元数据过滤即可实现安全对齐，降低过拒绝率"
+   ],
+   "benchmarks": [
+    "PKU-SafeRLHF",
+    "Malicious Instruct",
+    "HarmBench",
+    "AdvBench",
+    "SORRY-Bench",
+    "XS-Test",
+    "OR-Bench",
+    "AlpacaEval",
+    "ArenaHard",
+    "MT-Bench",
+    "MMLU",
+    "ARC-Challenge",
+    "NoveltyBench"
+   ]
+  }
+ }
 }

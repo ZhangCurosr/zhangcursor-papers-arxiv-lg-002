@@ -4,5 +4,30 @@
  "title": "TV-REGULATED-OPD-DIRECTION-MATTERS-IN-ON-POLICY-DISTILLATION",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-09 07:05:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/26a60b17-1b7c-40eb-b9c8-513b1b15e50d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/26a60b17-1b7c-40eb-b9c8-513b1b15e50d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:04:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "Total Variation",
+    "Knowledge Distillation",
+    "LLM Post-training",
+    "Variance Reduction",
+    "Gradient Coefficient"
+   ],
+   "field": "大语言模型后训练与知识蒸馏",
+   "innovations": [
+    "证明OPD token级sign-only信号等价于条件TV下降方向，无需细粒度幅度重加权",
+    "提出TV-OPD方法：用有界TV估计同时提供局部方向和EMA衰减全局强度",
+    "在1.5B和8B双scale上验证后期训练稳定性显著提升（PeakDrop降低33%）"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025"
+   ]
+  }
+ }
 }

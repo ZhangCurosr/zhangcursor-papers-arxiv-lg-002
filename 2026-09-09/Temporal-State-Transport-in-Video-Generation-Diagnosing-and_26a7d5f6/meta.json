@@ -4,5 +4,29 @@
  "title": "Temporal-State-Transport-in-Video-Generation-Diagnosing-and",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-09-09 07:08:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/be3253b0-7a69-46be-a9c8-71d21628dd27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/be3253b0-7a69-46be-a9c8-71d21628dd27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:04:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "时序注意力",
+    "训练免费增强",
+    "谱张力",
+    "时序一致性"
+   ],
+   "field": "视频生成与推理时注意力调控",
+   "innovations": [
+    "提出谱张力T(A)=H̄_row−H̄_vN作为时序传输失衡的符号诊断",
+    "设计查询温度调节Spectral Transport Homeostasis实现选择性稳态修正",
+    "通过层深-步余弦调度在深层早期步集中校正过混合热点"
+   ],
+   "benchmarks": [
+    "VBench",
+    "Wan2.2-14B人评（30 prompts, 50 raters）"
+   ]
+  }
+ }
 }

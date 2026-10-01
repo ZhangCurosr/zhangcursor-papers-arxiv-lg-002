@@ -4,5 +4,26 @@
  "title": "The-Exact-Time-Uniform-Rate-Frontier-for-Stochastic-Gradient",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-09 17:33:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f2c37012-22ff-4bae-beb9-2a34488b8237.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/f2c37012-22ff-4bae-beb9-2a34488b8237.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:05:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间一致收敛",
+    "随机梯度下降",
+    "光滑凸优化",
+    "原始迭代子",
+    "置信序列",
+    "边际收敛率"
+   ],
+   "field": "优化理论",
+   "innovations": [
+    "精确刻画标准SGD时间一致收敛前沿的倒数平方可和条件",
+    "可加性条件重启不等式实现调和与置信项分离",
+    "一维四次平坦目标的Riccati递推必要性证明"
+   ]
+  }
+ }
 }

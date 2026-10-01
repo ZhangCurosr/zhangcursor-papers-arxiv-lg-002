@@ -4,5 +4,32 @@
  "title": "TV-REGULATED-OPD-DIRECTION-MATTERS-IN-ON-POLICY-DISTILLATION",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-09 17:33:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/26a60b17-1b7c-40eb-b9c8-513b1b15e50d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/26a60b17-1b7c-40eb-b9c8-513b1b15e50d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:04:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "On-Policy Distillation",
+    "Total Variation",
+    "Knowledge Distillation",
+    "LLM Post-training",
+    "Variance Reduction",
+    "Policy Gradient"
+   ],
+   "field": "大语言模型后训练与知识蒸馏",
+   "innovations": [
+    "证明 sign-only OPD 系数等价于条件 TV 下降方向，无需精细 token 级幅度分配",
+    "提出基于采样 token 的单侧有界 TV 估计器与 EMA 全局强度调节机制 TV-OPD",
+    "通过受控幅度消融分离方向与幅度信息，揭示后期训练稳定性来源"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "DAPO-Math-17K",
+    "DeepMath-103K"
+   ]
+  }
+ }
 }

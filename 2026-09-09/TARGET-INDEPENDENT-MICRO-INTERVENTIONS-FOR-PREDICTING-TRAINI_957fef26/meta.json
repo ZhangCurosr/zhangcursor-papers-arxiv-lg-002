@@ -4,5 +4,39 @@
  "title": "TARGET-INDEPENDENT-MICRO-INTERVENTIONS-FOR-PREDICTING-TRAINI",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-09-09 07:07:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/88e34992-1b50-405f-bd00-1b9eab15e096.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/88e34992-1b50-405f-bd00-1b9eab15e096.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:03:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "training-response prediction",
+    "L-STATE",
+    "micro-intervention",
+    "cross-family transfer",
+    "operator readout",
+    "direct readout",
+    "leave-one-family-out"
+   ],
+   "field": "语言模型训练动力学与迁移评估",
+   "innovations": [
+    "提出目标无关脉冲派生的 L-STATE 训练响应状态，支持直接读出与算子读出两种跨族迁移预测方式",
+    "给出显式分解为目标识别/局部性/坐标偏置/源异质性的端到端跨族误差界",
+    "在 GLM-4-9B 与 Granite-3.1-8B 两次密封测试中，算子/直接读出较纯能力基线实现 71.8%-78.3% MSE 下降"
+   ],
+   "benchmarks": [
+    "Qwen2.5-7B-Instruct",
+    "Mistral-7B-Instruct-v0.3",
+    "OLMo-2-1124-7B-Instruct",
+    "GLM-4-9B-0414",
+    "Granite-3.1-8B-Instruct",
+    "GSM8K",
+    "MBPP",
+    "SciQ",
+    "BoolQ",
+    "WikiText-2"
+   ]
+  }
+ }
 }

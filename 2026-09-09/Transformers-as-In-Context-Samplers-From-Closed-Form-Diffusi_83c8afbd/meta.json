@@ -4,5 +4,31 @@
  "title": "Transformers-as-In-Context-Samplers-From-Closed-Form-Diffusi",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-09 07:07:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/be18d2a2-0b75-4168-b639-162995ba3269.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/be18d2a2-0b75-4168-b639-162995ba3269.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:07:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文采样",
+    "闭式扩散",
+    "无估计采样",
+    "In-context Learning",
+    "机制解释"
+   ],
+   "field": "Transformer 生成机理与上下文学习理论",
+   "innovations": [
+    "证明冻结 Transformer 可从上下文精确模拟闭式扩散采样器",
+    "揭示预训练 LLM 中间层表征呈 U 形均匀化动力学并与 EFS 能量曲线一致",
+    "证明标准 softmax Transformer 可近似无估计采样器实现能量基生成"
+   ],
+   "benchmarks": [
+    "Two-moons 合成分布",
+    "CBT 儿童故事文本",
+    "语义主题词（动物/食物/城市）prompt",
+    "Qwen2.5/Llama/GPT-2/Cerebras-GPT 等多规模模型层间 MMD 分析"
+   ]
+  }
+ }
 }
