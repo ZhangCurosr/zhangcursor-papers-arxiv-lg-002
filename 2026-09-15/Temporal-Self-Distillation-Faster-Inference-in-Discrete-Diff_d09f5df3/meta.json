@@ -4,5 +4,35 @@
  "title": "Temporal-Self-Distillation-Faster-Inference-in-Discrete-Diff",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-15 07:52:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/7210107b-07ae-41ba-925b-3d133ea5f0ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/7210107b-07ae-41ba-925b-3d133ea5f0ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:57:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散语言模型",
+    "自蒸馏",
+    "推理加速",
+    "并行解码",
+    "时序蒸馏",
+    "on-policy学习"
+   ],
+   "field": "扩散语言模型高效推理",
+   "innovations": [
+    "提出时序自蒸馏(TSD)方法，在去噪时间步间对模型自身进行on-policy蒸馏，无需离线教师数据",
+    "单时间步蒙特卡洛近似与长度感知奖励加权，显著降低训练开销并防止长度坍缩",
+    "在七个基准上验证，低NFE区域帕累托前沿显著优于基线和dParallel等离线方法"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "Countdown",
+    "Sudoku",
+    "MBPP",
+    "HumanEval",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

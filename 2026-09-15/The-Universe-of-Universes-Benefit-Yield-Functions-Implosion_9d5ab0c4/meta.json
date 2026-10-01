@@ -4,5 +4,33 @@
  "title": "The-Universe-of-Universes-Benefit-Yield-Functions-Implosion",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-15 17:56:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8bbfadab-a16b-4d0c-8ebe-43830784cd7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8bbfadab-a16b-4d0c-8ebe-43830784cd7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:57:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM ensemble",
+    "Benefit Yield Function",
+    "implosion threshold",
+    "Epistemic Hereditary Drift",
+    "multi-agent AI",
+    "model collapse",
+    "retrieval-augmented generation"
+   ],
+   "field": "多LLM集成与系统评估",
+   "innovations": [
+    "形式化定义BYF与内爆阈值θ*，揭示集成性能非单调性",
+    "提出EHD概率模型与制造速度定理，解释生态系统级性能崩溃机制",
+    "构建Universe Graph知识图谱与基础设施感知多目标BYF优化框架"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "HELM Core Suite",
+    "MT-Bench",
+    "UoU BYF Benchmark"
+   ]
+  }
+ }
 }

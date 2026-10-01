@@ -4,5 +4,32 @@
  "title": "Stochastically-Perturbed-Weights-Ensembles-from-Deterministi",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-09 07:10:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36f977e1-9bd2-44f5-9063-38d35954cea0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36f977e1-9bd2-44f5-9063-38d35954cea0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:56:58",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "AI气象预报",
+    "系综预测",
+    "权重扰动",
+    "不确定性量化",
+    "CRPSS",
+    "WeatherBench 2",
+    "概率预报"
+   ],
+   "field": "AI气象学与科学机器学习",
+   "innovations": [
+    "提出冻结预训练权重下的随机扰动系综化框架",
+    "设计适配大气误差动力学的动态扰动调度策略",
+    "在WeatherBench 2上实现与IFS-ENS竞争的CRPSS提升"
+   ],
+   "benchmarks": [
+    "WeatherBench 2",
+    "240 h预报时效CRPSS",
+    "112-init验证网格"
+   ]
+  }
+ }
 }

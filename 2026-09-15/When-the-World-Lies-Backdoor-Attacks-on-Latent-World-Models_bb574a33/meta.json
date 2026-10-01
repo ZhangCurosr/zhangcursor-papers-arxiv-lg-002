@@ -4,5 +4,30 @@
  "title": "When-the-World-Lies-Backdoor-Attacks-on-Latent-World-Models",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-15 17:56:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/b3a87dcb-f281-4305-90c8-60387a994b24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/b3a87dcb-f281-4305-90c8-60387a994b24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor attacks",
+    "world models",
+    "supply chain security",
+    "latent space",
+    "reinforcement learning",
+    "model poisoning"
+   ],
+   "field": "世界模型安全与供应链攻击",
+   "innovations": [
+    "首次提出latent world model的checkpoint-only供应链后门攻击，通过encoder teleport + dynamics shaping使下游控制器自主发现目标动作",
+    "设计controller-aware攻击：actor-facing latent-trap（价值对比塑造）和planner-facing CEM-plan（cost surface重塑）",
+    "证明trigger-gated全维动作劫持可存活于干净下游训练，且对多种defense鲁棒"
+   ],
+   "benchmarks": [
+    "LeWorldModel (Reacher, TwoRoom, PushT, Cube)",
+    "DeepMind Control Suite (Walker, Cheetah, Quadruped)"
+   ]
+  }
+ }
 }

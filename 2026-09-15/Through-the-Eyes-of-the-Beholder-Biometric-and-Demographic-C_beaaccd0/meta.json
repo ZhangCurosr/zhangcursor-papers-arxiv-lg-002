@@ -4,5 +4,30 @@
  "title": "Through-the-Eyes-of-the-Beholder-Biometric-and-Demographic-C",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-15 17:56:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/403a851a-9403-49f3-9dca-ba54f721ead6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/403a851a-9403-49f3-9dca-ba54f721ead6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:58:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sexism detection",
+    "multimodal learning",
+    "meme analysis",
+    "biometric signals",
+    "label distribution learning",
+    "vision-language models",
+    "human-centered AI"
+   ],
+   "field": "多模态内容安全与主观性建模",
+   "innovations": [
+    "Biometric and Demographic Conditioning via FiLM for multimodal sexism detection",
+    "Label distribution learning with KL divergence to model annotator disagreement",
+    "Neural-classical ensemble combining deep multimodal network with stylometric/physiological SVM"
+   ],
+   "benchmarks": [
+    "EXIST 2026 Task 2"
+   ]
+  }
+ }
 }

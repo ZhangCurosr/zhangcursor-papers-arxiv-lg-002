@@ -4,5 +4,30 @@
  "title": "Thin-Shell-Stability-of-Gaussian-Cooling-Logconcave-Sampling",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-15 17:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/9bc604e6-02eb-4b29-a8e8-83ef6cf5e952.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/9bc604e6-02eb-4b29-a8e8-83ef6cf5e952.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:58:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对数凸采样",
+    "高斯冷却",
+    "薄壳稳定性",
+    "冷启动采样",
+    "Rényi散度",
+    "退火调度",
+    "复杂度分析"
+   ],
+   "field": "高维对数凸分布采样算法",
+   "innovations": [
+    "证明高斯冷却路径上薄壳方差的稳定性，推导出新的退火步长上界",
+    "将冷启动对数凸采样复杂度从 O(n^2.75) 提升至 O(n^2.5)，匹配 Speedy walk 下界",
+    "提出集体谱控制技术避免特征值逐维最坏界导致的 n 因子损失"
+   ],
+   "benchmarks": [
+    "无数值基准，为理论复杂度分析"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "When-the-World-Lies-Backdoor-Attacks-on-Latent-World-Models",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-15 07:52:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/b3a87dcb-f281-4305-90c8-60387a994b24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/b3a87dcb-f281-4305-90c8-60387a994b24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent world models",
+    "backdoor attacks",
+    "supply-chain security",
+    "model predictive control",
+    "DreamerV3",
+    "reinforcement learning security",
+    "adversarial robustness"
+   ],
+   "field": "世界模型安全与供应链后门攻击",
+   "innovations": [
+    "首次提出针对 latent world model checkpoint 的供应链后门攻击，后门穿越下游控制器优化环存活",
+    "设计 controller-aware 双通道攻击：actor-facing（隐空间固定点+吸收陷阱）与 planner-facing（可微分 softCEM 代理重塑代价曲面）",
+    "证明触发门控劫持可在干净诊断下隐蔽存活，且通用修复防御无法在保持性能的同时清后门"
+   ],
+   "benchmarks": [
+    "DeepMind Control Suite",
+    "LeWorldModel benchmark"
+   ]
+  }
+ }
 }

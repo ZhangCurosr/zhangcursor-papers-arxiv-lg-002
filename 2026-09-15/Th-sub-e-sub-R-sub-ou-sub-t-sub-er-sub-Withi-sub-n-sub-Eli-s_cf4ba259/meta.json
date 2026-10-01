@@ -4,5 +4,34 @@
  "title": "Th-sub-e-sub-R-sub-ou-sub-t-sub-er-sub-Withi-sub-n-sub-Eli-s",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-09-15 17:56:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/831a1cf0-486e-4fc0-b0c7-9ec20ba5b261.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/831a1cf0-486e-4fc0-b0c7-9ec20ba5b261.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:57:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill routing",
+    "agent LLM",
+    "frozen LLM reading",
+    "product of experts",
+    "SkillTraj",
+    "progressive disclosure",
+    "mid-rollout routing"
+   ],
+   "field": "LLM Agent 技能路由",
+   "innovations": [
+    "从冻结 LLM 中间层隐状态通过两个线性投影提取路由信号，无需外部模型和上下文技能文本",
+    "两阶段 glance-verdict 框架：glance 对比式全局扫描 + verdict 生成式/判别式深度审查，融合为产品专家",
+    "构建 SkillTraj 基准评测 mid-rollout 环境下噪声多轮上下文中的实时技能路由能力"
+   ],
+   "benchmarks": [
+    "SkillRet test",
+    "SRA-Bench",
+    "Eval-Core",
+    "SkillTraj",
+    "Skill-Use"
+   ]
+  }
+ }
 }

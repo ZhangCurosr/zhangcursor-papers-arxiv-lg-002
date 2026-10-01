@@ -4,5 +4,10 @@
  "title": "Validating-Hybrid-State-Cache-Recovery-for-GLM-5-3-Flash-wit",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-15 17:57:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/befbd128-aea6-42b2-9204-c8ece9a5ea10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/befbd128-aea6-42b2-9204-c8ece9a5ea10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:59:06",
+  "chunks": 1
+ }
 }

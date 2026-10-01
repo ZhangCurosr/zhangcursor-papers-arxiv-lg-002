@@ -4,5 +4,31 @@
  "title": "Thompson-Sampling-for-Non-Monotone-Convex-Ridge-Bandits-Mono",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-11 07:03:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ec85f259-94e1-4256-a9e9-08b041c2c46f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/ec85f259-94e1-4256-a9e9-08b041c2c46f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:56:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Thompson Sampling",
+    "Bandit Convex Optimisation",
+    "Ridge Loss",
+    "Information Ratio",
+    "Bayesian Regret",
+    "Non-monotone Link",
+    "Convex Geometry"
+   ],
+   "field": "Bandit Convex Optimization",
+   "innovations": [
+    "证明非单调凸脊损失下 TS 仍享有多项式贝叶斯后悔界 Õ(d^{9/2}√n)",
+    "提出布尔舍入引理将近似低秩矩阵舍入为恰好低秩的 0-1 矩阵以替代 John 椭球二分局",
+    "构造 infimal-convolution 覆盖实现任意固定可测选择规则下的信息比-后悔传递"
+   ],
+   "benchmarks": [
+    "Theoretical regret bound: O(d^{9/2}√n log(ednD))",
+    "Monotone baseline: O(d^{5/2}√n log^2(ednD)) from Bakhtiari et al. COLT 2025"
+   ]
+  }
+ }
 }

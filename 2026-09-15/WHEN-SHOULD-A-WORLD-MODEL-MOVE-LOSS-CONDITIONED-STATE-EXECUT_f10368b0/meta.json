@@ -4,5 +4,33 @@
  "title": "WHEN-SHOULD-A-WORLD-MODEL-MOVE-LOSS-CONDITIONED-STATE-EXECUT",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-15 17:56:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/d7c32129-21c4-4a0e-86b6-bf81151bd45e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/d7c32129-21c4-4a0e-86b6-bf81151bd45e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:59:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "state execution",
+    "loss-conditioned calibration",
+    "selective prediction",
+    "Hoeffding bound",
+    "learn-then-test"
+   ],
+   "field": "世界模型状态执行与选择性决策",
+   "innovations": [
+    "提出loss-conditioned state execution，将state movability与proposal benefit严格区分",
+    "基于learn-then-test的组级Hoeffding LCB门控，认证固定提议相对persistence的期望增益为正",
+    "证明occurrence ranking与绝对损失移动可完全分离，并构造相同variance下相反决策的转移律反例"
+   ],
+   "benchmarks": [
+    "M4 Monthly",
+    "Monash Car Parts",
+    "Minari FourRooms",
+    "Minari MuJoCo",
+    "JD.com six-type unhealthy inventory"
+   ]
+  }
+ }
 }

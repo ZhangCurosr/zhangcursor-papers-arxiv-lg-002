@@ -4,5 +4,32 @@
  "title": "When-Correlations-Mislead-Confounder-Aware-Multi-View-Urban",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-15 07:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/061e732f-29b1-4870-824e-9af47284ae8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/061e732f-29b1-4870-824e-9af47284ae8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多视图表示学习",
+    "混杂因子去除",
+    "城市区域表征",
+    "图神经网络",
+    "去相关正则",
+    "可靠多视图融合"
+   ],
+   "field": "城市计算与多视图表示学习",
+   "innovations": [
+    "在残差空间中执行混杂感知视图间交互，阻断虚假相关传播",
+    "图引导的视图内编码保留视图专属区域结构",
+    "层次化局部/全局图自适应融合实现上下文相关视图加权"
+   ],
+   "benchmarks": [
+    "NY/TaxiChn 签到预测",
+    "Chicago 犯罪预测",
+    "San Francisco 服务呼叫预测",
+    "成都碳排/GDP/人口预测"
+   ]
+  }
+ }
 }

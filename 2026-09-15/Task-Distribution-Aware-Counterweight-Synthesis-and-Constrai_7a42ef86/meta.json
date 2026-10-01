@@ -4,5 +4,33 @@
  "title": "Task-Distribution-Aware-Counterweight-Synthesis-and-Constrai",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-09-15 17:56:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/97d006c1-73d8-4ed1-8819-796ab41f144d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/97d006c1-73d8-4ed1-8819-796ab41f144d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:56:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "gravity compensation",
+    "counterweight synthesis",
+    "task distribution",
+    "mass-radius underdetermination",
+    "serial manipulator",
+    "constrained co-design"
+   ],
+   "field": "机器人机构静平衡与任务分布感知设计",
+   "innovations": [
+    "闭式工作分布感知配重力矩合成律 p*=E[tau_g phi]/(g E[phi^2])",
+    "payload 仿射扩展 p*=p0*+mp*Kp 且斜率由分布决定",
+    "质量-半径欠定性的机制设计显式分离与几何膝无权重诊断"
+   ],
+   "benchmarks": [
+    "uniform joint-space",
+    "approx uniform task-space",
+    "pick-and-place family",
+    "high-gravity-biased",
+    "folded-biased"
+   ]
+  }
+ }
 }

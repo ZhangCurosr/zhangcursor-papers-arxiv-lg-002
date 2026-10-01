@@ -4,5 +4,31 @@
  "title": "When-Correlations-Mislead-Confounder-Aware-Multi-View-Urban",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-09-15 17:56:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/061e732f-29b1-4870-824e-9af47284ae8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/061e732f-29b1-4870-824e-9af47284ae8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "confounder-aware learning",
+    "multi-view representation",
+    "urban region embedding",
+    "graph neural network",
+    "deconfounding",
+    "spatial data integration"
+   ],
+   "field": "城市空间数据挖掘与多视图表示学习",
+   "innovations": [
+    "首次将confounder感知建模引入多视图城市区域表示学习，通过软残差化抑制共享潜变量影响",
+    "设计层次化图感知残差融合模块，在局部与全局图上下文中自适应聚合视图权重",
+    "提出图引导视图内编码保证视图特异性结构在交叉交互前得以保留"
+   ],
+   "benchmarks": [
+    "check-in prediction",
+    "crime forecasting",
+    "service call prediction"
+   ]
+  }
+ }
 }

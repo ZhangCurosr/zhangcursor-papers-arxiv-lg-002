@@ -4,5 +4,10 @@
  "title": "Through-the-Eyes-of-the-Beholder-Biometric-and-Demographic-C",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-15 07:52:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/4590be49-bf7f-462b-af27-0c57aecf5c5c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/4590be49-bf7f-462b-af27-0c57aecf5c5c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:58:25",
+  "chunks": 1
+ }
 }

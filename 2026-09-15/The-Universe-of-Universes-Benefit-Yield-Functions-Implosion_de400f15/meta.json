@@ -4,5 +4,34 @@
  "title": "The-Universe-of-Universes-Benefit-Yield-Functions-Implosion",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-15 07:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8bbfadab-a16b-4d0c-8ebe-43830784cd7e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8bbfadab-a16b-4d0c-8ebe-43830784cd7e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:57:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM ensemble",
+    "benefit yield function",
+    "implosion threshold",
+    "epistemic hereditary drift",
+    "multi-agent AI",
+    "model collapse",
+    "manufacturing velocity",
+    "universe graph"
+   ],
+   "field": "多LLM系统集成与性能建模",
+   "innovations": [
+    "首次形式化集成性能随规模N的BYF曲线并定义implosion threshold θ*",
+    "提出EHD漂移传播模型与Manufacturing Velocity Theorem",
+    "给出θ*的三种操作化估计方法与成本/延迟感知BYF变体"
+   ],
+   "benchmarks": [
+    "MMLU (5-shot)",
+    "HELM Core Suite",
+    "MT-Bench",
+    "UoU BYF Benchmark (新)"
+   ]
+  }
+ }
 }

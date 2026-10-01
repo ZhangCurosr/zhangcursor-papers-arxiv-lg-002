@@ -4,5 +4,36 @@
  "title": "woma-a-real-time-foundation-model-and-its-fine-tuned-models",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-09-15 17:56:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/bd499791-9a44-42c7-9fca-32087e28bdbe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/bd499791-9a44-42c7-9fca-32087e28bdbe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "foundation model",
+    "self-supervised learning",
+    "endoscopy",
+    "real-time inference",
+    "colonoscopy",
+    "gastroscopy",
+    "ConvNeXt"
+   ],
+   "field": "医学影像基础模型",
+   "innovations": [
+    "预注册实验设计筛选八候选基础模型，冻结探针预测微调排名",
+    "单GPU实时多任务推理达247 fps超越TensorRT/PyTorch/ONNX Runtime",
+    "无厂商依赖Vulkan构建实现跨平台零 toolkit 部署"
+   ],
+   "benchmarks": [
+    "PolypGen",
+    "REAL-Colon",
+    "GastroHUN",
+    "Kvasir-SEG",
+    "UGIAD",
+    "GastroVision",
+    "EDD2020"
+   ]
+  }
+ }
 }

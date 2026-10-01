@@ -4,5 +4,27 @@
  "title": "Zero-SNR-Analyticity-of-the-Scalar-MMSE-Is-Equivalent-to-Gau",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-15 17:57:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/9c9ed9b1-3c34-4361-8b46-be6632b2c5b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/9c9ed9b1-3c34-4361-8b46-be6632b2c5b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 22:00:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MMSE",
+    "zero-SNR",
+    "analyticity rigidity",
+    "backward heat flow",
+    "Borel transform",
+    "MGF zeros",
+    "Gevrey asymptotics",
+    "Hermite splitting"
+   ],
+   "field": "信息论与估计理论（数学基础）",
+   "innovations": [
+    "零SNR处MMSE解析性等价于输入为高斯分布的刚性定理",
+    "建立MGF复零点→Borel奇点→MMSE发散系数的定量对应关系"
+   ]
+  }
+ }
 }

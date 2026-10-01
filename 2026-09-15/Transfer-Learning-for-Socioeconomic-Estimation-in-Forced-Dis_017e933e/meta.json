@@ -4,5 +4,32 @@
  "title": "Transfer-Learning-for-Socioeconomic-Estimation-in-Forced-Dis",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-09-15 17:56:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/1ee162a1-4c84-4498-9f0e-37d6eb1bc63c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/1ee162a1-4c84-4498-9f0e-37d6eb1bc63c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:58:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "transfer learning",
+    "socioeconomic estimation",
+    "forced displacement",
+    "earth observation",
+    "vision transformer",
+    "poverty mapping",
+    "humanitarian analytics"
+   ],
+   "field": "低资源社会经济估算与人道主义决策支持",
+   "innovations": [
+    "首次系统评估从国家人口DHS到强制流离失所人群的EO-ML迁移学习",
+    "提出部分微调策略在千级样本下适配预训练时空Transformer至流离失所情境",
+    "证明卫星衍生协变量在难民营相交网格中可解释66%的社会经济指标变异"
+   ],
+   "benchmarks": [
+    "UNHCR Forced Displacement Survey (FDS)",
+    "Results Monitoring Survey (RMS)",
+    "Demographic and Health Survey (DHS)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Temperature-Fragility-and-the-Conditional-Benefits-of-Trunca",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-15 07:52:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/52850517-9f5f-4031-aedd-5582b9205f79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/52850517-9f5f-4031-aedd-5582b9205f79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:57:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "temperature sampling",
+    "truncation sampling",
+    "top-p",
+    "min-p",
+    "top-n_sigma",
+    "decoding robustness",
+    "temperature fragility"
+   ],
+   "field": "大语言模型推理与解码策略",
+   "innovations": [
+    "首次统一控制推理后端在部署温度（0.7–1.3）下对比四种截断采样器 Across 13 个模型",
+    "定义并实证验证 temperature fragility 作为模型固有属性，其坍塌可跨引擎和精度复现",
+    "界定截断采样器只在模型发生高温坍塌时提供显著准确率恢复，为实际部署提供条件化建议"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

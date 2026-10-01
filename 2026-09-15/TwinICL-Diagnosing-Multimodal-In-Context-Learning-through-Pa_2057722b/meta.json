@@ -4,5 +4,28 @@
  "title": "TwinICL-Diagnosing-Multimodal-In-Context-Learning-through-Pa",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-09-15 07:53:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/a160e120-6dfe-41d1-bfbc-e8327a624551.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/a160e120-6dfe-41d1-bfbc-e8327a624551.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:58:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal in-context learning",
+    "modality gap",
+    "paired counterfactual",
+    "diagnostic benchmark",
+    "TwinICL"
+   ],
+   "field": "多模态大模型评测与诊断",
+   "innovations": [
+    "提出TwinICL配对反事实基准，首次严格控制模态变量量化跨模态ICL性能差距",
+    "通过视觉标题+元指令+显式思考三重干预组合恢复多模态ICL近乎满分性能",
+    "分解模态差距来源，证明任务推断非唯一成因，多图像上下文负担同样关键"
+   ],
+   "benchmarks": [
+    "TwinICL (38 tasks, 4 families)"
+   ]
+  }
+ }
 }

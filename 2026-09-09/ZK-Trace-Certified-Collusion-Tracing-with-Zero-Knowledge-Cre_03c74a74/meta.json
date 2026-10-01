@@ -4,5 +4,28 @@
  "title": "ZK-Trace-Certified-Collusion-Tracing-with-Zero-Knowledge-Cre",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-09 17:32:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/a7404e73-472d-4183-807f-7cfd2efadb22.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/a7404e73-472d-4183-807f-7cfd2efadb22.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:56:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "联邦学习",
+    "追踪追踪",
+    "零知识证明",
+    "Tardos指纹码",
+    "GNSS干扰监测",
+    "水印",
+    "蒸馏鲁棒性",
+    "共谋安全"
+   ],
+   "field": "联邦学习模型溯源与安全水印",
+   "innovations": [
+    "身份与接收者溯源双层载体分离设计并统一于零知识凭证验证",
+    "条件错误指控与有限完备性区间算术证书化判决",
+    "特征探针载体在特征匹配蒸馏下的得分稳定性理论保障与实证保留"
+   ]
+  }
+ }
 }

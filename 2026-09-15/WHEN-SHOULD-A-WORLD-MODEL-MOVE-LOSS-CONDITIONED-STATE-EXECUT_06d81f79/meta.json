@@ -4,5 +4,35 @@
  "title": "WHEN-SHOULD-A-WORLD-MODEL-MOVE-LOSS-CONDITIONED-STATE-EXECUT",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-09-15 07:51:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/d7c32129-21c4-4a0e-86b6-bf81151bd45e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/d7c32129-21c4-4a0e-86b6-bf81151bd45e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:59:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "loss-conditioned state execution",
+    "selective prediction",
+    "learn-then-test calibration",
+    "persistence fallback",
+    "bounded-loss certification",
+    "time series forecasting",
+    "action-conditioned dynamics"
+   ],
+   "field": "世界模型状态执行与选择性预测",
+   "innovations": [
+    "严格区分状态可移动性与固定提案收益并证明同一样本统计量可导出相反绝对损失执行决策",
+    "提出基于独立校准与Hoeffding LCB的分组合并同时认证框架，以持久化为feasible fallback",
+    "在合成相变、公开时序基准与工业库存场景中统一量化认证-覆盖-误差权衡"
+   ],
+   "benchmarks": [
+    "Monash Car Parts",
+    "M4 Monthly",
+    "Minari FourRooms",
+    "Minari MuJoCo",
+    "JD.com six-type unhealthy inventory"
+   ]
+  }
+ }
 }
