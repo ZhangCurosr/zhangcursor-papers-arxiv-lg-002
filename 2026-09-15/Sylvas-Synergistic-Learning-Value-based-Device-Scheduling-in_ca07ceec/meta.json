@@ -4,5 +4,10 @@
  "title": "Sylvas-Synergistic-Learning-Value-based-Device-Scheduling-in",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-15 07:51:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/68e0301d-2d4d-4fe1-a2d4-084729d91b2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/68e0301d-2d4d-4fe1-a2d4-084729d91b2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:07:27",
+  "chunks": 1
+ }
 }

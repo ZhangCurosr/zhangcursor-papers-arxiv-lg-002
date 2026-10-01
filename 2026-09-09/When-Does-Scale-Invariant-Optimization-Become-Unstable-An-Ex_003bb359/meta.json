@@ -4,5 +4,33 @@
  "title": "When-Does-Scale-Invariant-Optimization-Become-Unstable-An-Ex",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-09 07:07:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/b4354596-813b-4f5b-a4ef-36b4153a68e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/b4354596-813b-4f5b-a4ef-36b4153a68e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 16:58:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scale-invariant optimization",
+    "weight decay",
+    "learning rate schedule",
+    "normalization dynamics",
+    "effective stepsize",
+    "edge of stability",
+    "homogeneous optimizer"
+   ],
+   "field": "优化动力学与训练理论",
+   "innovations": [
+    "推导尺度不变块有效步长的精确离散时间递推律并通过单标量B_t分离调度力与几何自抑制",
+    "建立齐次优化器框架以指数ν统一分类SGD/SGDM/Adam并解释自适应方法更强的扩张倾向",
+    "在归一化线性模型中证明内平衡点为不稳定螺旋源，从离散几何角度给出周期振荡的第一性原理解释"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "CIFAR-10",
+    "WikiText",
+    "OpenWebText"
+   ]
+  }
+ }
 }

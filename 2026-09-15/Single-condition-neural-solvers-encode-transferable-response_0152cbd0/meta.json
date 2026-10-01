@@ -4,5 +4,34 @@
  "title": "Single-condition-neural-solvers-encode-transferable-response",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-15 07:52:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8dd65ffd-67a6-4846-a4d4-75e4839a0c19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/8dd65ffd-67a6-4846-a4d4-75e4839a0c19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:02:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理信息神经网络",
+    "参数化偏微分方程",
+    "算子学习",
+    "迁移学习",
+    "降阶模型",
+    "响应空间"
+   ],
+   "field": "科学机器学习/偏微分方程数值求解",
+   "innovations": [
+    "提出LST方法利用单条件网络输出雅可比定义可重用响应空间实现跨条件迁移",
+    "提出ATM框架以迁移残差为指标主动富集响应空间库",
+    "揭示训练强化而非创建可迁移响应结构"
+   ],
+   "benchmarks": [
+    "Burgers equation",
+    "Diffusion-reaction equation",
+    "Linear ODE",
+    "Advection equation",
+    "Darcy flow",
+    "Navier-Stokes equation"
+   ]
+  }
+ }
 }

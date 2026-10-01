@@ -4,5 +4,37 @@
  "title": "ZIPCODEC-ULTRA-LOW-FRAME-RATE-STREAMING-SPEECH-CODING",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-11 07:05:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/9721b829-63d2-4824-ac82-8fac6be3a469.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/9721b829-63d2-4824-ac82-8fac6be3a469.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:02:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speech coding",
+    "neural codec",
+    "low frame rate",
+    "streaming",
+    "WavLM distillation",
+    "scalar spherical quantization",
+    "ErfFormer"
+   ],
+   "field": "低帧率流式语音编码",
+   "innovations": [
+    "将流式神经语音编解码器帧率降至 6.25 Hz/0.80 kbps 并保持流式因果性",
+    "提出无归一化无位置编码的 ErfFormer 骨干以支持超长流式推理",
+    "采用标量球面量化（SSQ）实现因子化解瓶颈并隐式表达高维联合码字空间"
+   ],
+   "benchmarks": [
+    "LibriSpeech test-clean",
+    "MLS multilingual",
+    "DASB (ASR/SI/SER/KS/IC/SE/SS)",
+    "VoiceBank",
+    "Libri2Mix-100",
+    "IEMOCAP",
+    "Speech Commands",
+    "SLURP"
+   ]
+  }
+ }
 }

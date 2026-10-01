@@ -4,5 +4,34 @@
  "title": "SlipSense-Multimodal-Tactile-Learning-for-Low-Latency-and-Ge",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-09-15 17:56:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/587d3aa8-9f95-417b-a4a1-ec7343668ca0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/587d3aa8-9f95-417b-a4a1-ec7343668ca0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:02:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "slip detection",
+    "multimodal tactile sensing",
+    "piezoresistive array",
+    "MEMS accelerometer",
+    "cross-platform generalization",
+    "low-latency detection",
+    " TacV5"
+   ],
+   "field": " Dexterous manipulation tactile perception",
+   "innovations": [
+    "Cross-attention fusion of complementary piezo-pressure and XL-vibration modalities achieves 96.7% Macro F1 with <1.6% FPR",
+    "Zero-shot transfer from parallel-jaw UMI gripper to Tesollo dexterous hand across unseen objects, sensor units, and contact configurations",
+    "Log-sum-exp direction-invariant accelerometer encoding enables slip-direction-agnostic detection"
+   ],
+   "benchmarks": [
+    "UMI ID (same platform/sensor/objects)",
+    "UMI OOD (held-out objects)",
+    "UMI Fingerpalm (contact-region shift)",
+    "Tesollo 2-Finger Pinch (cross-platform)",
+    "Tesollo 3-Finger Pinch (multi-finger)"
+   ]
+  }
+ }
 }

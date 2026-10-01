@@ -4,5 +4,30 @@
  "title": "Structured-Features-Overfit-Where-Random-Features-Grok",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-15 17:57:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/6c10fc29-c43d-4009-b3bd-a07e8d5e897e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/6c10fc29-c43d-4009-b3bd-a07e8d5e897e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:06:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "grokking",
+    "over-parameterization",
+    "structured features",
+    "ridge regression",
+    "Fourier feature map",
+    "generalization delay",
+    "teacher-weighted spectrum"
+   ],
+   "field": "理论机器学习：过参数化泛化动力学",
+   "innovations": [
+    "揭示特征图结构化是grokking出现的必要控制变量，过参数化在结构化特征上导致单调overfitting而非延迟泛化",
+    "证明活跃模式数（而非容量比）决定泛化边界，提出teacher-weighted spectral integral误差框架"
+   ],
+   "benchmarks": [
+    "Z_p^2 modular arithmetic character map (p=97)",
+    "a-b linear rule generalization"
+   ]
+  }
+ }
 }

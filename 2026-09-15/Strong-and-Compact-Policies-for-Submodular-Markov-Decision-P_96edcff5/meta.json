@@ -4,5 +4,29 @@
  "title": "Strong-and-Compact-Policies-for-Submodular-Markov-Decision-P",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-15 17:56:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/22df7453-8694-46bd-b0d6-a9b62c3bed0e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/22df7453-8694-46bd-b0d6-a9b62c3bed0e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:06:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Submodular MDP",
+    "Sherali-Adams",
+    "Round-or-Cut",
+    "Submodular Orienteering",
+    "Approximation Algorithm",
+    "Sequential Decision Making"
+   ],
+   "field": "次模优化与序贯决策的算法设计",
+   "innovations": [
+    "提出基于 Sherali-Adams 层级的 LP 放松与仅依赖过去条件的递归随机舍入，实现次模 MDP 的 O(log H) 近似",
+    "将 Round-or-Cut 框架首次推广至一般单调次模函数的最大化问题，通过线性上界生成有效切割平面"
+   ],
+   "benchmarks": [
+    "Submodular Orienteering（次模定向旅游问题）",
+    "Submodular MDP（次模马尔可夫决策过程）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "WHY-DOES-POST-TRAINING-QUANTIZATION-WORK",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-11 07:03:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/e3d2c3c3-e295-4b47-ba55-ec09104a1586.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/e3d2c3c3-e295-4b47-ba55-ec09104a1586.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:00:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "quantization robustness",
+    "error propagation",
+    "LLM compression",
+    "mechanistic interpretability",
+    "NVFP4"
+   ],
+   "field": "大模型量化与效率",
+   "innovations": [
+    "揭示预训练模型中 block-update error 与 block-input error 的 counteraction 机制减缓隐藏误差增长",
+    "从 LM-head 高维几何推导 top-ranked token 分数/概率对量化扰动更具鲁棒性",
+    "通过 random-init vs. pretrained 对照与干预实验提供因果证据"
+   ],
+   "benchmarks": [
+    "C4",
+    "WikiText-103",
+    "GSM8K text",
+    "ARC-C/E",
+    "HellaSwag",
+    "MMLU",
+    "WinoGrande",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

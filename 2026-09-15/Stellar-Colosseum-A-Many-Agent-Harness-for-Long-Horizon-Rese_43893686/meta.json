@@ -4,5 +4,31 @@
  "title": "Stellar-Colosseum-A-Many-Agent-Harness-for-Long-Horizon-Rese",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-09-15 07:51:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/010c722a-3780-46ea-8d47-7ee846b46856.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/010c722a-3780-46ea-8d47-7ee846b46856.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:05:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon research",
+    "multi-agent harness",
+    "theorem proving",
+    "tree-structured aggregation",
+    "adversarial falsification",
+    "TCS-Bench",
+    "competitive programming"
+   ],
+   "field": "长周期数学与理论计算机科学研究自动化",
+   "innovations": [
+    "将研究形式化为策略探索→就绪门控→证明分解→并行子问题求解→全局验证的流水线，并引入 readiness gate 控制分解时机",
+    "阶段内对抗性生成结合重叠随机采样树聚合，保留批评意见而非简单投票",
+    "跨轮次共享研究知识库保留失败路径与未决义务，支撑后续探索与修订"
+   ],
+   "benchmarks": [
+    "TCS-Bench",
+    "Codeforces 222-problem subset"
+   ]
+  }
+ }
 }

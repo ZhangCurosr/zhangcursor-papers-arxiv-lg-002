@@ -4,5 +4,30 @@
  "title": "Solving-Finite-sum-Coupled-Compositional-Optimization-via-Mu",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-15 07:52:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/58363b52-3442-4df3-b2ca-a8af3590b7ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/58363b52-3442-4df3-b2ca-a8af3590b7ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:04:39",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "分布式优化",
+    "复合优化",
+    "有限和",
+    "阶段式策略",
+    "PL条件",
+    "样本复杂度",
+    "梯度估计"
+   ],
+   "field": "分布式随机优化",
+   "innovations": [
+    "提出Mu算法，阶段式策略实现误差逐减半收敛",
+    "强凸情形下样本复杂度达O(√(mn)/(μB₁) log(1/ε))",
+    "通过强凸化技巧统一处理凸与强凸两种设定"
+   ],
+   "benchmarks": [
+    "理论复杂度上界（无具体数据集评测）"
+   ]
+  }
+ }
 }

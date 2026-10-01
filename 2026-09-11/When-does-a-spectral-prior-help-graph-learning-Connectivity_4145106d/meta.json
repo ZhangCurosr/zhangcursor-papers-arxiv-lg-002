@@ -4,5 +4,33 @@
  "title": "When-does-a-spectral-prior-help-graph-learning-Connectivity",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-11 07:01:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/8b1c4188-cfbb-4283-9e7b-1148dc44d5d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/8b1c4188-cfbb-4283-9e7b-1148dc44d5d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:01:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "algebraic connectivity",
+    "spectral prior",
+    "graph neural network",
+    "residual learning",
+    "road network resilience",
+    "domain shift",
+    "Fiedler vector",
+    "graph disruption"
+   ],
+   "field": "谱图机器学习与基础设施韧性分析",
+   "innovations": [
+    "提出有界残差谱学习方法，将Fiedler一阶敏感度作为可审计解析先验，用GNN学习有界非线性修正",
+    "系统性诊断谱先验在域迁移中的‘有偏锚点’效应，通过残差校正斜率量化其失效程度",
+    "在真实全球OSM路网上进行多协议（零样本、LOA、LOCO）迁移测试，揭示方法优势的领域敏感性"
+   ],
+   "benchmarks": [
+    "13个OpenStreetMap城市路网（越南、新加坡等6国）",
+    "合成随机几何图（35-65节点）",
+    "三种故障模式：独立随机、空间聚集、边介数靶向"
+   ]
+  }
+ }
 }

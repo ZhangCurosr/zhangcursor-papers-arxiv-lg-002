@@ -4,5 +4,30 @@
  "title": "When-More-Is-Not-Better-Component-Anti-Synergy-in-a-P300-Spe",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-09-11 07:01:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/555f260b-dd7f-4c66-8297-0c54e0c94937.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-11/555f260b-dd7f-4c66-8297-0c54e0c94937.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:00:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "P300 BCI",
+    "脑机接口",
+    "组件反协同",
+    "Euclidean Alignment",
+    "xDAWN",
+    "语言模型",
+    "完整因子设计"
+   ],
+   "field": "脑机接口信号处理",
+   "innovations": [
+    "揭示P300组件反协同效应，证明'越多越好'假设失效",
+    "确立LM/LLM支持的边界条件：效果依赖底层EEG解码质量",
+    "提供条件性配置策略：校准场景(EA+CB)和零校准场景(EA+XD)最优"
+   ],
+   "benchmarks": [
+    "BNCI2014 009"
+   ]
+  }
+ }
 }

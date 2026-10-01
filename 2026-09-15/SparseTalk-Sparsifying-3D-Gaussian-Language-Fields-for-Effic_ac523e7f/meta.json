@@ -4,5 +4,30 @@
  "title": "SparseTalk-Sparsifying-3D-Gaussian-Language-Fields-for-Effic",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-15 07:53:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/76d390c0-df55-415c-b05d-70a94ba12a51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/76d390c0-df55-415c-b05d-70a94ba12a51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:03:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "Visual Question Answering",
+    "Token Sparsification",
+    "Vision-Language Model",
+    "3D Scene Understanding"
+   ],
+   "field": "3D视觉语言模型高效推理",
+   "innovations": [
+    "提出基于对象的post-hoc稀疏化方法，将token预算分配到前景对象追踪并保留背景上下文",
+    "系统性揭示3D高斯语言场在极低token预算（低至8）下的冗余极限",
+    "发现uniform random作为超越复杂启发式的强baseline"
+   ],
+   "benchmarks": [
+    "ScanQA",
+    "MV-ScanQA",
+    "BEACON3D"
+   ]
+  }
+ }
 }
