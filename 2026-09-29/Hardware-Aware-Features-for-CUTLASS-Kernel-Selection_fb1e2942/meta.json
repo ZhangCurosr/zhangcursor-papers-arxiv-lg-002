@@ -4,5 +4,33 @@
  "title": "Hardware-Aware-Features-for-CUTLASS-Kernel-Selection",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-29 19:07:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/52d8723c-8cf6-49fd-81a0-4176463109e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/52d8723c-8cf6-49fd-81a0-4176463109e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:28:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CUTLASS",
+    "kernel selection",
+    "hardware-aware features",
+    "GEMM autotuning",
+    "learning to rank",
+    "GPU performance modeling",
+    "Hopper architecture"
+   ],
+   "field": "GPU 内核自动调优与性能建模",
+   "innovations": [
+    "提出硬件感知特征表示，将 CUTLASS 候选核与静态可计算的硬件行为估计（内存行为、资源压力、流水线平衡）结合，显著提升免执行选择精度",
+    "构建 4.9M 核大规模 BF16 SM90a GEMM 数据集并设计偏置多样性采样策略（75%/25%），将稀疏高性能尾部发现效率提升近 9 倍"
+   ],
+   "benchmarks": [
+    "GH200 68 组穷举评估（3.9M 核）",
+    "8000 外部 BF16 GEMM 泛化测试",
+    "DeepBench 151 问题跨域验证",
+    "FP32/FP8 跨精度迁移",
+    "FP16 epilogue-fusion 迁移"
+   ]
+  }
+ }
 }

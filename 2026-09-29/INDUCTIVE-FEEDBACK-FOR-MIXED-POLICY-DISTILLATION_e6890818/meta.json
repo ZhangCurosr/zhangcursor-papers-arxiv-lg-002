@@ -4,5 +4,31 @@
  "title": "INDUCTIVE-FEEDBACK-FOR-MIXED-POLICY-DISTILLATION",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-29 07:55:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/20efc82e-564d-4fae-bf82-3ab9533d0ce7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/20efc82e-564d-4fae-bf82-3ab9533d0ce7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:29:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "verbal feedback",
+    "probabilistic confirmation",
+    "mixed-policy distillation",
+    "LLM post-training",
+    "symmetric divergence"
+   ],
+   "field": "语言模型后训练与知识蒸馏",
+   "innovations": [
+    "基于概率确认公理（A0-A3）的相对距离确认分数，隔离反馈信息与教师固有偏好",
+    "共享轨迹的 Jeffreys 散度估计量，通过有界重要性权重同时利用学生与教师 rollout"
+   ],
+   "benchmarks": [
+    "Trivia Fantasy",
+    "EmbodiedEval",
+    "SciKnowEval L3",
+    "ToolAlpaca"
+   ]
+  }
+ }
 }

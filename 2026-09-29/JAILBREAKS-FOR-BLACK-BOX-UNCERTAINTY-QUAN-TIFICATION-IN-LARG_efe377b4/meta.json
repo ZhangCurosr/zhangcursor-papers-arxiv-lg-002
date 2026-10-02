@@ -4,5 +4,32 @@
  "title": "JAILBREAKS-FOR-BLACK-BOX-UNCERTAINTY-QUAN-TIFICATION-IN-LARG",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-29 19:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/eecdadd8-4c34-4a9f-afe3-3bfcdec08459.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/eecdadd8-4c34-4a9f-afe3-3bfcdec08459.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:32:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "large reasoning models",
+    "jailbreak prompting",
+    "black-box calibration",
+    "reinforcement learning alignment",
+    "self-consistency"
+   ],
+   "field": "语言模型可信度与不确定性量化",
+   "innovations": [
+    "提出放松算子理论框架证明jailbreak变换可改善黑盒校准",
+    "首次将jailbreak攻击技术用于benign不确定性量化",
+    "实证验证熵提升与语义多样化作为放松行为的可观测签名"
+   ],
+   "benchmarks": [
+    "SuperGPQA",
+    "Humanity's Last Exam (HLE)",
+    "SynthPAI",
+    "gsm8k"
+   ]
+  }
+ }
 }

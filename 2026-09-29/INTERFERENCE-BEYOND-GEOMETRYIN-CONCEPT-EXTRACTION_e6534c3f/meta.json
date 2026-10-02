@@ -4,5 +4,10 @@
  "title": "INTERFERENCE-BEYOND-GEOMETRYIN-CONCEPT-EXTRACTION",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-29 19:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f12c206c-673e-4269-8646-a5ab1ac65068.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f12c206c-673e-4269-8646-a5ab1ac65068.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:30:18",
+  "chunks": 1
+ }
 }

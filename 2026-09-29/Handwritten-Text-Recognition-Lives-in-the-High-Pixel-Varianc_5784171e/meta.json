@@ -4,5 +4,34 @@
  "title": "Handwritten-Text-Recognition-Lives-in-the-High-Pixel-Varianc",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-29 07:53:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b40fe389-4650-4041-b2c9-cf9b15a366ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b40fe389-4650-4041-b2c9-cf9b15a366ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:27:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Handwritten Text Recognition",
+    "Self-Supervised Learning",
+    "Masked Image Modeling",
+    "JEPA",
+    "Pixel Reconstruction",
+    "Character Error Rate"
+   ],
+   "field": "手写文本识别与自监督表征学习",
+   "innovations": [
+    "证明HTR判别信号集中于高像素方差子空间，与自然图像分类相反",
+    "首次将JEPA风格方法适配到文本识别任务",
+    "首个跨三大家族六方法的严格行级SSL对比研究"
+   ],
+   "benchmarks": [
+    "IAM",
+    "Rimes",
+    "Bentham",
+    "LAM",
+    "Rodrigo",
+    "Parzival"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "FIONA-ACCELERATING-FHE-INFERENCE-WITHPACKING-AWARE-TERNARY-W",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-09-29 19:07:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9308f3fe-cf8d-4dae-a0ec-5d523c0693a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9308f3fe-cf8d-4dae-a0ec-5d523c0693a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:26:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "全同态加密",
+    "FHE推理",
+    "三元量化",
+    "打包布局",
+    "明文-密文乘法",
+    "多项式优化",
+    "隐私保护深度学习"
+   ],
+   "field": "同态加密加速",
+   "innovations": [
+    "打包感知的混合三元/全精度权重路由，基于任务敏感性选择性保留敏感组",
+    "精确编译：重建因子分组、符号和共享、路径合并减少PMult和rescaling",
+    "路由后低次多项式优化，利用三元化收缩的输入范围降低乘法深度"
+   ],
+   "benchmarks": [
+    "CIFAR-10/VGG11",
+    "Tiny-ImageNet/ViT-S/16",
+    "SST-2/BERT-base"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Hierarchical-Clustering-and-Signal-Denoising-on-Digraphs",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-09-29 19:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e92aaab8-2d4d-4fd7-8ff2-d08a7fc80973.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e92aaab8-2d4d-4fd7-8ff2-d08a7fc80973.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:28:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "有向图聚类",
+    "谱聚类",
+    "样条拟插值",
+    "图信号处理",
+    "层次聚类",
+    "信号去噪"
+   ],
+   "field": "图信号处理与有向图机器学习",
+   "innovations": [
+    "提出广义Hermite矩阵同时编码连通性与方向性，并递归构建层次聚类",
+    "由层次聚类的入度/出度区间诱导多级嵌套knot序列用于样条信号分解",
+    "建立非等距knot下样条拟插值以doubling measure表达的稳定性理论"
+   ],
+   "benchmarks": [
+    "DSBM合成有向图",
+    "Cora",
+    "Squirrel",
+    "Telegram",
+    "Wisconsin",
+    "Cornell",
+    "Texas",
+    "Blog"
+   ]
+  }
+ }
 }

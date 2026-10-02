@@ -4,5 +4,32 @@
  "title": "SCALABLE-MINIMUM-VOLUME-SIMPLEX-ESTIMATION-WITH-NON-ASYMPTOT",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-09-23 18:21:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/1e816fd2-62bc-4ad8-afa4-48fec95fd854.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/1e816fd2-62bc-4ad8-afa4-48fec95fd854.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:26:40",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "单纯形反混",
+    "最小体积估计",
+    "神经隐式表示",
+    "非渐近统计保证",
+    "高光谱解混",
+    "可扩展机器学习"
+   ],
+   "field": "可缩放统计学习与几何估计",
+   "innovations": [
+    "提出 DeepMVSA 神经隐式框架，以 O(K^2) 内存实现大规模单纯形估计",
+    "建立已部署估计器的非渐近端到端误差预算与极小极大下界",
+    "用三角对偶矩阵参数化与软边界约束替代硬约束，避免体积膨胀"
+   ],
+   "benchmarks": [
+    "合成数据 N=10^4~10^8",
+    "细胞类型反卷积 42 样本",
+    "AVIRIS Cuprite 高光谱 47500 像素",
+    "Geology-1 卫星场景 9×10^6 像素"
+   ]
+  }
+ }
 }

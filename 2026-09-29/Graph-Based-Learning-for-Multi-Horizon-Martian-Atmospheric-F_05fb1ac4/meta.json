@@ -4,5 +4,10 @@
  "title": "Graph-Based-Learning-for-Multi-Horizon-Martian-Atmospheric-F",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-09-29 07:56:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/53a9fdd0-c30f-4eb0-b0c0-b2ed169b696c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/53a9fdd0-c30f-4eb0-b0c0-b2ed169b696c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:27:36",
+  "chunks": 1
+ }
 }

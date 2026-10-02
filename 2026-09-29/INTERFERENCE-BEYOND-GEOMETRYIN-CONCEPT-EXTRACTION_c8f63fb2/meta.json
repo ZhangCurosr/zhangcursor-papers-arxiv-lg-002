@@ -4,5 +4,31 @@
  "title": "INTERFERENCE-BEYOND-GEOMETRYIN-CONCEPT-EXTRACTION",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-09-29 08:00:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f12c206c-673e-4269-8646-a5ab1ac65068.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f12c206c-673e-4269-8646-a5ab1ac65068.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:30:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse autoencoder",
+    "mechanistic interpretability",
+    "superposition",
+    "feature interference",
+    "dictionary learning",
+    "concept extraction"
+   ],
+   "field": "机械可解释性与稀疏表示学习",
+   "innovations": [
+    "提出有效干扰概念，将干扰分解为几何重叠×共激活频率×条件幅度的联合度量",
+    "推导编码器一致性平衡方程并揭示四种架构 accommodation 机制（局部正交化/偏差补偿/增益适应/编解码解耦）",
+    "在多种 SAE 架构与数据集上受控验证架构自由度对建设性/破坏性干扰格局的系统性影响"
+   ],
+   "benchmarks": [
+    "Pythia-160M-deduped layer 8 residual stream",
+    "MNIST",
+    "SAEBench (Gemma-2-2B layer 12, Pythia-160M layer 8)"
+   ]
+  }
+ }
 }

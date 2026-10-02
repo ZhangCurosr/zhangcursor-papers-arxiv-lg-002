@@ -4,5 +4,36 @@
  "title": "Hierarchical-Clustering-and-Signal-Denoising-on-Digraphs",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-09-29 08:06:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e92aaab8-2d4d-4fd7-8ff2-d08a7fc80973.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e92aaab8-2d4d-4fd7-8ff2-d08a7fc80973.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:28:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "digraph clustering",
+    "spectral clustering",
+    "Hermitian matrix",
+    "spline quasi-interpolation",
+    "graph signal processing",
+    "hierarchical clustering"
+   ],
+   "field": "有向图聚类与图信号处理",
+   "innovations": [
+    "提出广义Hermitian矩阵统一编码连通与方向，并用于半监督谱层次聚类",
+    "将递归粗化的入度/出度区间映射为嵌套非均匀节点序列以构造多分辨率样条",
+    "基于层级样条分解与自适应阈值实现有向图信号去噪"
+   ],
+   "benchmarks": [
+    "DSBM合成有向图",
+    "Cora",
+    "Squirrel",
+    "Telegram",
+    "Cornell",
+    "Wisconsin",
+    "Texas",
+    "Blog"
+   ]
+  }
+ }
 }

@@ -4,5 +4,39 @@
  "title": "IMPROVING-TEST-TIME-SCALING-WITH-ADAPTIVE-LOOPED-TRANSFORMER",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-29 19:06:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a38dbf6-6100-4310-a47f-749e93101138.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/0a38dbf6-6100-4310-a47f-749e93101138.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:29:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time scaling",
+    "looped transformer",
+    "adaptive computation",
+    "post-training",
+    "iteration decider",
+    "lookahead supervision",
+    "reasoning LLM"
+   ],
+   "field": "大语言模型推理效率与测试时缩放",
+   "innovations": [
+    "通过在线迭代增益标签联合后训练主干与决策器，避免训练-推理不匹配",
+    "cost-sensitive 深度监督 + coverage cutoff 设计提升标签质量",
+    "扩展 duo-causal attention 支持 no-gradient lookahead 训练"
+   ],
+   "benchmarks": [
+    "AIME24-26",
+    "AMC23",
+    "MATH500",
+    "OlympiadBench",
+    "GPQA",
+    "SuperGPQA",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench v6",
+    "BFCL v3"
+   ]
+  }
+ }
 }

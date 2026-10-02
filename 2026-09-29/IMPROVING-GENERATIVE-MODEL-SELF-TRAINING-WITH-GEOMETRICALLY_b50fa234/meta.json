@@ -4,5 +4,31 @@
  "title": "IMPROVING-GENERATIVE-MODEL-SELF-TRAINING-WITH-GEOMETRICALLY",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-29 08:01:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a6b9b237-799a-43bd-b58e-5577bad19884.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a6b9b237-799a-43bd-b58e-5577bad19884.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:29:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-training",
+    "generative models",
+    "negative guidance",
+    "Jacobian",
+    "model collapse",
+    "one-step diffusion"
+   ],
+   "field": "生成模型自训练",
+   "innovations": [
+    "提出GMOs通过Jacobian奇异值重加权放大负向信号",
+    "证明GMOs可同时提升保真度与多样性而不trade-off",
+    "给出基于power iteration+Hutchinson的高维近似实现"
+   ],
+   "benchmarks": [
+    "ImageNet256 FID",
+    "CIFAR10 FID",
+    "Precision/Recall/Density/Coverage"
+   ]
+  }
+ }
 }

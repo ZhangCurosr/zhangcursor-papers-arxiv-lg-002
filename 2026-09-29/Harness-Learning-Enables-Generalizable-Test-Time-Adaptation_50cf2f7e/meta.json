@@ -4,5 +4,32 @@
  "title": "Harness-Learning-Enables-Generalizable-Test-Time-Adaptation",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-29 19:06:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/478c3de4-da7d-4eb8-9d08-d2642234432f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/478c3de4-da7d-4eb8-9d08-d2642234432f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:28:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "harness learning",
+    "test-time adaptation",
+    "meta-learning",
+    "executable programs",
+    "reinforcement learning",
+    "agent workflow"
+   ],
+   "field": "可执行程序的元学习与测试时适应",
+   "innovations": [
+    "提出将harness修订视为元学习过程，proposer从执行反馈中学习可泛化的代码编辑策略",
+    "训练后的小模型proposer在单次修订中平均超越35B教师模型",
+    "发现单步RL训练即可使proposer在测试时多轮迭代改进harness，无需专门训练修订序列"
+   ],
+   "benchmarks": [
+    "Reasoning Gym (21 unseen families)",
+    "HotpotQA",
+    "MuSiQue",
+    "2WikiMultihopQA"
+   ]
+  }
+ }
 }

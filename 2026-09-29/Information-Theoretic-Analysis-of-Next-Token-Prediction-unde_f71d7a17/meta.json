@@ -4,5 +4,29 @@
  "title": "Information-Theoretic-Analysis-of-Next-Token-Prediction-unde",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-09-29 19:09:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ad82b978-ca7c-4884-9cd4-1270d2d2a869.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ad82b978-ca7c-4884-9cd4-1270d2d2a869.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:31:42",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "next-token prediction",
+    "rate-distortion theory",
+    "Markov dependency",
+    "generalization bound",
+    "information-theoretic analysis",
+    "language model theory"
+   ],
+   "field": "大语言模型理论分析",
+   "innovations": [
+    "在Markov依赖设定下推导next-token prediction的信息论泛化界",
+    "将率失真理论引入自回归预测的样本复杂度分析",
+    "统一Marton耦合与混合过程集中不等式的分析框架"
+   ],
+   "benchmarks": [
+    "TinyStories"
+   ]
+  }
+ }
 }

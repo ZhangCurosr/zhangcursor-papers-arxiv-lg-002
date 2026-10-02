@@ -4,5 +4,33 @@
  "title": "JAILBREAKS-FOR-BLACK-BOX-UNCERTAINTY-QUAN-TIFICATION-IN-LARG",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-29 07:54:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ce92e856-19c9-477a-9090-7f86821aa8d1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ce92e856-19c9-477a-9090-7f86821aa8d1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:32:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "uncertainty quantification",
+    "black-box UQ",
+    "large reasoning models",
+    "jailbreak prompting",
+    "calibration",
+    "RL alignment",
+    "self-consistency"
+   ],
+   "field": "大语言模型可靠性与校准",
+   "innovations": [
+    "提出松弛算子理论框架，将 jailbreak 提示变换形式化为增大 KL 正则化参数的输入变换，理论证明可降低 ECE",
+    "设计 J4U 方法，将三类 jailbreak 变换（SUFFIX/PROG/ART）重新用于良性 QA 的黑盒不确定性量化",
+    "通过输出熵提升和推理轨迹语义多样化两大可观测行为验证松弛理论预测，形成理论-实验闭环"
+   ],
+   "benchmarks": [
+    "SuperGPQA",
+    "Humanity's Last Exam (HLE)",
+    "SynthPAI",
+    "gsm8k"
+   ]
+  }
+ }
 }

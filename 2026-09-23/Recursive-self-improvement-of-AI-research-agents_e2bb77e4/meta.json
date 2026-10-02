@@ -4,5 +4,33 @@
  "title": "Recursive-self-improvement-of-AI-research-agents",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-23 18:15:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/94e42176-638f-4eeb-b2c3-c274438fb6a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/94e42176-638f-4eeb-b2c3-c274438fb6a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:26:27",
+  "chunks": 3,
+  "meta": {
+   "keywords": [
+    "recursive self-improvement",
+    "AI research agents",
+    "reward hacking",
+    "held-out benchmark",
+    "autonomous agent",
+    "AIDE"
+   ],
+   "field": "AI 代理与自主研究系统",
+   "innovations": [
+    "递归自我改进框架使 AI 研究代理跨轮次持续累积经验并提升性能",
+    "提出隔离-实际性能对比方法系统性检测奖励黑客行为",
+    "构建多领域严格保留测试基准套件评估代理真实泛化能力"
+   ],
+   "benchmarks": [
+    "ALE-Bench",
+    "MLE-Bench",
+    "WeatherBench 2",
+    "FML-Bench",
+    "KernelBench"
+   ]
+  }
+ }
 }

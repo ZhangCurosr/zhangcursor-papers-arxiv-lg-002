@@ -4,5 +4,41 @@
  "title": "IMPROVING-TEST-TIME-SCALING-WITH-ADAPTIVE-LOOPED-TRANSFORMER",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-29 07:52:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c72f79-473a-49ce-a451-ecfd61309411.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c72f79-473a-49ce-a451-ecfd61309411.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 14:29:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "test-time scaling",
+    "looped transformer",
+    "adaptive computation",
+    "post-training",
+    "iteration decider",
+    "depth supervision",
+    "reasoning efficiency"
+   ],
+   "field": "大模型推理效率与测试时计算扩展",
+   "innovations": [
+    "提出TaH2联合后训练循环主干与迭代决策器，通过在线增益监督实现token级自适应深度",
+    "定义并系统度量精度-计算斜率揭示后训练循环模型测试时扩展行为",
+    "Lookahead深度监督机制利用当前主干实际损失增益在线生成深度标签"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AIME26",
+    "AMC23",
+    "MATH500",
+    "OlympiadBench",
+    "GPQA",
+    "SuperGPQA",
+    "HumanEval",
+    "MBPP",
+    "LiveCodeBench v6",
+    "BFCL v3"
+   ]
+  }
+ }
 }
