@@ -4,5 +4,33 @@
  "title": "FLEXIWORLD-LEARNING-AND-PLANNING-VIA-FLEX-IBLE-ACTION-CHUNKS",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-09-29 07:58:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe811087-c546-43d6-9258-c0d0ec5dbbf4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fe811087-c546-43d6-9258-c0d0ec5dbbf4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:48:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent world model",
+    "JEPA",
+    "action chunk",
+    "long-horizon control",
+    "model-based planning",
+    "student forcing",
+    "cross-entropy method"
+   ],
+   "field": "基于世界模型的长视界强化学习/控制",
+   "innovations": [
+    "提出 FlexiWorld，联合学习可变长度 action chunk 的 latent prediction 与 autoregressive 动作生成，结合混合跨度目标监督",
+    "设计 ARCEM 规划器，将 actor-residual 搜索推广至 autoregressive chunks，chunk 内部前缀反馈、边界 latent 预测",
+    "引入 Student Forcing 缓解 exposure bias，同一 checkpoint 支持不同 chunk 长度部署以平衡速度与成功率"
+   ],
+   "benchmarks": [
+    "PushT",
+    "OGBench-Cube",
+    "Reacher",
+    "TwoRoom"
+   ]
+  }
+ }
 }

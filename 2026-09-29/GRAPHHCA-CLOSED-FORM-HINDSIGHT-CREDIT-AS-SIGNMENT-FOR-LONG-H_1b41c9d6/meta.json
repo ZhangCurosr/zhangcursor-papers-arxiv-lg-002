@@ -4,5 +4,30 @@
  "title": "GRAPHHCA-CLOSED-FORM-HINDSIGHT-CREDIT-AS-SIGNMENT-FOR-LONG-H",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-09-29 19:08:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c02c62-3302-41a1-ba4d-6e6636aa4f9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c02c62-3302-41a1-ba4d-6e6636aa4f9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Hindsight Credit Assignment",
+    "Group-based Reinforcement Learning",
+    "LLM Agents",
+    "Step-level Credit",
+    "Value Estimation"
+   ],
+   "field": "强化学习在LLM智能体中的应用",
+   "innovations": [
+    "闭式回溯信用推导，将分布估计简化为标量势",
+    "无模型图估计成功势，通过池化rollout图折扣递归求解",
+    "结合轨迹级与步骤级优势，实现细粒度信用分配"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "Sokoban"
+   ]
+  }
+ }
 }

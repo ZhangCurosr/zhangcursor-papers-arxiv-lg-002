@@ -4,5 +4,33 @@
  "title": "Large-Language-Models-for-Automated-Cross-Domain-Machine-Lea",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-29 07:53:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6e7f14b7-85dd-46be-af48-c6f0fa454f1c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6e7f14b7-85dd-46be-af48-c6f0fa454f1c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:51:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "task type identification",
+    "AutoML",
+    "large language models",
+    "cross-domain",
+    "time series classification",
+    "tabular data",
+    "prompt engineering"
+   ],
+   "field": "AutoML与LLM交叉",
+   "innovations": [
+    "首个面向ML任务类型识别的跨域开放基准（625数据集）",
+    "仅需目标特征即可推断数据域与子任务的LLM框架",
+    "验证目标特异性统计量可实现接近完整信息的任务识别"
+   ],
+   "benchmarks": [
+    "OpenML",
+    "UCI ML Repository",
+    "Kaggle",
+    "Time Series Classification Archive"
+   ]
+  }
+ }
 }

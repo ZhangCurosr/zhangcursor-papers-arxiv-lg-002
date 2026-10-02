@@ -4,5 +4,30 @@
  "title": "Learning-High-Risk-High-Precision-Motion-Control-sup-sup",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-09-29 19:09:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/985b02bd-649a-464b-9db2-a9df23a30844.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/985b02bd-649a-464b-9db2-a9df23a30844.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:52:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "motion control",
+    "mixture of experts",
+    "trajectory optimization",
+    "billiards",
+    "high-precision control"
+   ],
+   "field": "高风险高精度运动控制",
+   "innovations": [
+    "精英样本选择去除温度超参依赖",
+    "距离正则化MoE策略实现多峰值建模",
+    "三阶段课程表防止早期收敛失败"
+   ],
+   "benchmarks": [
+    "1D计算台球",
+    "2D扩展台球"
+   ]
+  }
+ }
 }

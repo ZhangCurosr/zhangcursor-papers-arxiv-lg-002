@@ -4,5 +4,30 @@
  "title": "LEARNING-TO-RE-DRAFT-A-VARIATIONAL-STACKELBERG-GAME-FOR-DISC",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-09-29 19:08:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/30eac7e3-333a-4887-a5f9-cbff1bd93193.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/30eac7e3-333a-4887-a5f9-cbff1bd93193.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:50:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "离散扩散",
+    "Stackelberg博弈",
+    "前向噪声学习",
+    "重起草",
+    "语义感知噪声"
+   ],
+   "field": "离散扩散模型",
+   "innovations": [
+    "将离散扩散训练建模为变分Stackelberg博弈，leader基于follower虚拟更新后的改进评估腐蚀质量",
+    "提出基于token embeddings的语义感知可学习前向噪声过程",
+    "设计单步虚拟梯度近似的高效训练算法避免joint优化退化"
+   ],
+   "benchmarks": [
+    "ZINC分子生成",
+    "TinyStories文本生成",
+    "Spotify播放列表推荐"
+   ]
+  }
+ }
 }

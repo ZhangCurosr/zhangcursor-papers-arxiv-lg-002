@@ -4,5 +4,31 @@
  "title": "KV-streams-for-Efficient-Compaction-in-Agentic-Reinforcement",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-29 19:06:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ce938bc-e31e-42ff-b83e-a0057c43ee77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ce938bc-e31e-42ff-b83e-a0057c43ee77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文压缩",
+    "强化学习",
+    "键值缓存",
+    "大语言模型智能体",
+    "训练效率",
+    "流式推理"
+   ],
+   "field": "高效大语言模型训练与推理",
+   "innovations": [
+    "提出KV-streams机制，通过流式保留KV缓存消除压缩中的重复预填充开销，提升训练吞吐量2.6-5倍",
+    "证明无需SFT预热，仅凭RL即可使模型学会利用流式KV缓存作为伪循环记忆状态",
+    "设计了与任意上下文压缩策略兼容的即插即用训练优化方案，并开源了实现代码"
+   ],
+   "benchmarks": [
+    "TextWorld",
+    "ALFWorld",
+    "SWE-bench Verified"
+   ]
+  }
+ }
 }

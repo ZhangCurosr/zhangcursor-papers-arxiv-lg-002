@@ -4,5 +4,36 @@
  "title": "Gaussian-Neural-Networks",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-09-29 08:06:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b0d35896-23c5-40b6-a8e4-e98929041fdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b0d35896-23c5-40b6-a8e4-e98929041fdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "高斯神经网络",
+    "激活空间正则化",
+    "贝叶斯深度学习",
+    "不确定性量化",
+    "无监督损失",
+    "内层高斯损失"
+   ],
+   "field": "深度学习正则化与不确定性建模",
+   "innovations": [
+    "提出激活空间高斯先验作为新型正则化机制，区别于传统权重空间先验",
+    "设计稀疏/密集两种高斯层架构，稀疏模型仅增加3参数/神经元",
+    "采用no_grad截断损失组合策略解决多损失数值量级失衡问题"
+   ],
+   "benchmarks": [
+    "Airfoil自噪声回归",
+    "Yacht流体动力学回归",
+    "UTKFace年龄回归",
+    "Wine回归/分类",
+    "YearPredictionMSD",
+    "CIFAR-100分类",
+    "MNIST/MNIST-Fashion分类",
+    "Tiny ImageNet分类"
+   ]
+  }
+ }
 }

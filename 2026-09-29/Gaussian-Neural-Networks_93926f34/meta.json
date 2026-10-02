@@ -4,5 +4,37 @@
  "title": "Gaussian-Neural-Networks",
  "token": "sk-s7NFyJaLu...",
  "created_at": "2026-09-29 19:09:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b0d35896-23c5-40b6-a8e4-e98929041fdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b0d35896-23c5-40b6-a8e4-e98929041fdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian Neural Networks",
+    "Regularization",
+    "Bayesian Deep Learning",
+    "Uncertainty Quantification",
+    "Activation-space Prior"
+   ],
+   "field": "深度学习正则化与不确定性建模",
+   "innovations": [
+    "在激活空间引入可学习的高斯先验作为新型正则化机制",
+    "提出no_grad截断的多目标损失设计实现监督/无监督目标的稳定联合优化",
+    "通过激活噪声采样实现低开销的不确定性量化"
+   ],
+   "benchmarks": [
+    "Airfoil",
+    "Yacht",
+    "UTKFace",
+    "Wine Regression",
+    "YearPredictionMSD",
+    "CIFAR-100",
+    "MNIST-digits",
+    "Fashion-MNIST",
+    "Wine Classification",
+    "Tiny ImageNet"
+   ]
+  }
+ }
 }

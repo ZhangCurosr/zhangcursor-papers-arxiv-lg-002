@@ -4,5 +4,31 @@
  "title": "LionMuon-Alternating-Spectral-and-Sign-Descent-for-Eficient",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-09-29 19:07:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/728ec0f4-a8d2-4748-a1ad-bcad4b902f75.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/728ec0f4-a8d2-4748-a1ad-bcad4b902f75.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:53:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimizer",
+    "Lion",
+    "Muon",
+    "alternating descent",
+    "distributed training",
+    "heavy-tailed noise",
+    "LMO"
+   ],
+   "field": "大规模语言模型训练优化器",
+   "innovations": [
+    "提出 SignMuon/LionMuon 交替框架，每 P 步执行一次频谱步其余步执行符号步，共享单一双 EMA 动量缓冲",
+    "在重尾噪声下推导 LionMuon 收敛界，证明周期 P 可插值 Muon 与 Lion 的平滑与噪声常数，并给出内点最优周期存在的条件",
+    "实验证明 LionMuon（P=2,5）在 124M/355M 模型上超越 Muon、AdamW、Lion、Signum，且在 4‑GPU 数据并行中以最少的通信与墙钟时间达到或优于 Muon 最终损失"
+   ],
+   "benchmarks": [
+    "FineWeb",
+    "WikiText-103"
+   ]
+  }
+ }
 }

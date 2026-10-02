@@ -4,5 +4,31 @@
  "title": "GRAPH-WORLD-MODELS-FOR-CONSTRAINED-EPIDEMIC-POLICY-PLANNING",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-29 19:07:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/199eeb63-097f-4e6b-8416-4701c4fba507.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/199eeb63-097f-4e6b-8416-4701c4fba507.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "graph world model",
+    "epidemic policy planning",
+    "constrained optimization",
+    "ADMM",
+    "state-space model",
+    "multi-region coordination"
+   ],
+   "field": "AI for Public Health / 多智能体约束规划",
+   "innovations": [
+    "参数共享图因子化循环状态空间模型（GF-RSSM）用于政策条件流行病动力学建模",
+    "图-时序ADMM（GT-ADMM）结合capped-simplex投影实现每时段共享资源可行性保证",
+    "平滑STL可微优化与精确STL模型相对验证分离的设计"
+   ],
+   "benchmarks": [
+    "Synthetic mobility-coupled multi-region simulator",
+    "US state-level retrospective panel (Track A)",
+    "Real-context semi-synthetic evaluation (Track B)"
+   ]
+  }
+ }
 }

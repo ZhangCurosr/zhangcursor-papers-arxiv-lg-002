@@ -4,5 +4,32 @@
  "title": "Learning-Conditional-Expectation-Operators-via-Functional-Ne",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-09-29 08:08:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31ba9896-60e2-4e98-b825-d05043ac796a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31ba9896-60e2-4e98-b825-d05043ac796a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:51:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conditional expectation operators",
+    "density ratio estimation",
+    "functional Newton methods",
+    "spectral decomposition",
+    "gradient boosting",
+    "tree-based learning"
+   ],
+   "field": "算子学习与谱方法",
+   "innovations": [
+    "块牛顿谱因式分解使条件均值回归方向可直接由回归树近似",
+    "不平衡-再平衡机制提取正交奇异函数与显式奇异值",
+    "总体景观证明任何非退化局部极小均为全局最优 rank-d 截断"
+   ],
+   "benchmarks": [
+    "rank-three close singular values",
+    "discontinuous piecewise-constant kernel",
+    "20-d tabular with irrelevant features",
+    "glass composition–refractive-index"
+   ]
+  }
+ }
 }

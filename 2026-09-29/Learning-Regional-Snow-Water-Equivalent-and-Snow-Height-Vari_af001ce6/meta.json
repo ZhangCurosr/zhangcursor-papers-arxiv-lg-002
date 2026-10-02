@@ -4,5 +4,30 @@
  "title": "Learning-Regional-Snow-Water-Equivalent-and-Snow-Height-Vari",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-09-29 19:09:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3dbaa071-0b2f-4749-b8b6-756897457d54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3dbaa071-0b2f-4749-b8b6-756897457d54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:52:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Snow Water Equivalent",
+    "InSAR",
+    "Sentinel-1",
+    "SegFormer",
+    "Multi-target Regression",
+    "Alpine Snow"
+   ],
+   "field": "遥感积雪反演",
+   "innovations": [
+    "联合多目标回归框架同步估计SWE与HS变化",
+    "特征敏感性分析揭示树模型与Transformer对冗余特征的差异化响应",
+    "空间指标(R²/Pearson r)比平均误差更能区分架构性能并定位系统性偏移误差"
+   ],
+   "benchmarks": [
+    "IT-SNOW reanalysis (500m)",
+    "MAE/RMSE/$R^2$/Pearson r"
+   ]
+  }
+ }
 }

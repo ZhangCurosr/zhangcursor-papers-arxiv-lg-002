@@ -4,5 +4,31 @@
  "title": "Learning-High-Risk-High-Precision-Motion-Control-sup-sup",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-09-29 07:59:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/985b02bd-649a-464b-9db2-a9df23a30844.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/985b02bd-649a-464b-9db2-a9df23a30844.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:52:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "motion control",
+    "high-precision",
+    "billiards",
+    "mixture-of-experts",
+    "curriculum learning",
+    "reward landscape"
+   ],
+   "field": "物理模拟运动控制",
+   "innovations": [
+    "提出SCOOT算法，通过精英样本筛选提升稀疏尖锐奖励景观下的策略学习精度",
+    "在MoE策略中引入距离正则化和非重叠初始化，以建模多模态奖励景观并发现多样化策略",
+    "设计三阶段训练课程，分步学习动作均值、方差和混合权重以稳定训练过程"
+   ],
+   "benchmarks": [
+    "1D Computational Pool",
+    "2D Computational Pool (Brax simulator)"
+   ]
+  }
+ }
 }

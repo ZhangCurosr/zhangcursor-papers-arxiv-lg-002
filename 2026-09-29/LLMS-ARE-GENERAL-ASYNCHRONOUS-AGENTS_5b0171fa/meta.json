@@ -4,5 +4,33 @@
  "title": "LLMS-ARE-GENERAL-ASYNCHRONOUS-AGENTS",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-09-29 19:08:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5881ffba-b6a8-4d70-b974-b8aa8e636338.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5881ffba-b6a8-4d70-b974-b8aa8e636338.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:51:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "异步LLM推理",
+    "CacheBlock共享内存",
+    "混合架构多模态模型",
+    "零训练异步代理",
+    "流式视频理解"
+   ],
+   "field": "大语言模型推理与Agent系统",
+   "innovations": [
+    "提出AsyncLLM框架，将asyncio编程模型引入LLM推理，支持多协程并发与共享内存",
+    "扩展RoPE/GDN/MRoPE的块级组合算法，实现任意cache_view的多模态混合架构支持",
+    "无需微调即用Qwen 3.x实现流式视频理解、游戏代理、系统监控三类异步场景"
+   ],
+   "benchmarks": [
+    "SoccerNet-Caption",
+    "ProactiveVideoQA",
+    "DevOps-Gym Monitoring",
+    "ViZDoom",
+    "MATH-500-Sharded",
+    "ShardedVQA"
+   ]
+  }
+ }
 }

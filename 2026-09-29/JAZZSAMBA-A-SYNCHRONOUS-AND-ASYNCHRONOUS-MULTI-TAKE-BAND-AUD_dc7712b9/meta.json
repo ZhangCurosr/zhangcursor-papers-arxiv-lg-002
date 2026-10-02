@@ -4,5 +4,31 @@
  "title": "JAZZSAMBA-A-SYNCHRONOUS-AND-ASYNCHRONOUS-MULTI-TAKE-BAND-AUD",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-29 19:08:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b6472893-a63f-4a23-9422-1a234257ecc3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b6472893-a63f-4a23-9422-1a234257ecc3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Jazz Dataset",
+    "Source Separation",
+    "Music Generation",
+    "Chart-conditioned",
+    "Multi-track Audio",
+    "MIR"
+   ],
+   "field": "音乐信息检索与生成",
+   "innovations": [
+    "首个包含异步和同步双协议的爵士标准曲多轨数据集",
+    "提供与时间轴对齐的和弦、段落及独奏者标注",
+    "建立了爵士合奏源分离与图表条件伴奏生成的新基准"
+   ],
+   "benchmarks": [
+    "SI-SDR",
+    "COCOLA",
+    "Beat Alignment F1"
+   ]
+  }
+ }
 }

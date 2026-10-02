@@ -4,5 +4,31 @@
  "title": "MECHBENCH-CAN-AI-SCIENTIFIC-AGENTS-DISCOVER-MECHANISMS-BEYON",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-29 07:53:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/02ae3ace-d2d3-4b84-b654-3cf922d3b5c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/02ae3ace-d2d3-4b84-b654-3cf922d3b5c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:53:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机制发现",
+    "科学智能体",
+    "符号回归",
+    "基准测试",
+    "AI科学发现",
+    "现象律"
+   ],
+   "field": "AI for Science / 科学发现",
+   "innovations": [
+    "提出机制探针客观评估内部科学结构恢复而非仅现象律拟合",
+    "构建 MECHBENCH 基准通过可控科学突变与不可区分性筛选分离现象-机制能力",
+    "系统性揭示现象-机制恢复鸿沟且黄金控制下仍低于50%"
+   ],
+   "benchmarks": [
+    "MECHBENCH",
+    "Core-set (n=80)",
+    "Full-set (n=512)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "LEARNING-WHAT-TO-RECALL-ADAPTIVE-MULTI-CUE-EPISODIC-MEMORY-F",
  "token": "sk-8cLXv6NBp...",
  "created_at": "2026-09-29 08:05:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5cfc5eae-11dd-4602-8388-b04edaffb7cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5cfc5eae-11dd-4602-8388-b04edaffb7cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:50:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Models",
+    "Episodic Memory",
+    "Retrieval-Augmented Generation",
+    "Multi-Cue Fusion",
+    "Predictive Supervision",
+    "Video Diffusion"
+   ],
+   "field": "世界模型与长视野记忆",
+   "innovations": [
+    "提出基于预测效用的未来感知监督训练外置情景记忆检索器",
+    "设计查询依赖的自适应多线索融合机制动态学习线索信任权重",
+    "将预测驱动检索框架成功实例化于视频扩散世界模型并验证于多基准"
+   ],
+   "benchmarks": [
+    "LoopNav",
+    "SoundSpaces",
+    "AI2-THOR",
+    "AI2-THOR-dyn"
+   ]
+  }
+ }
 }

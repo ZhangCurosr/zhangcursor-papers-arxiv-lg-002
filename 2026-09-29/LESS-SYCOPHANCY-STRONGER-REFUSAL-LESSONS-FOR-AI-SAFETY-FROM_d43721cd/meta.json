@@ -4,5 +4,32 @@
  "title": "LESS-SYCOPHANCY-STRONGER-REFUSAL-LESSONS-FOR-AI-SAFETY-FROM",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-29 19:07:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/111d00bf-6278-46df-9c0c-2952e9d933bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/111d00bf-6278-46df-9c0c-2952e9d933bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:51:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sycophancy",
+    "refusal",
+    "mechanistic interpretability",
+    "sparse autoencoder",
+    "compensatory feature injection",
+    "AI safety",
+    "activation steering"
+   ],
+   "field": "大模型安全与可解释性",
+   "innovations": [
+    "提出补偿特征注入(CFI)训练范式，通过SAE特征注入降低模型阿谀奉承习得量",
+    "首次实证阿谀奉承控制与直接拒绝能力解耦，揭示用户压力下恢复拒绝的差异化收益",
+    "建立直接拒绝与压力拒绝双轨评测框架，捕捉aggregate指标掩盖的脆弱点"
+   ],
+   "benchmarks": [
+    "SORRY-Bench",
+    "Alpaca",
+    "Qwen-Scope SAE"
+   ]
+  }
+ }
 }

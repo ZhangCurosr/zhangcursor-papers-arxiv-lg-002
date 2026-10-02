@@ -4,5 +4,33 @@
  "title": "JEPA-SPECTRAL-ANTI-COLLAPSEREGULARIZATION-FOR-SELF-SUPERVISE",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-09-29 07:59:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3b624faa-4fdf-4f7e-8357-ac915cf3bc25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/3b624faa-4fdf-4f7e-8357-ac915cf3bc25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:50:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised learning",
+    "JEPA",
+    "anti-collapse regularization",
+    "spectral regularization",
+    "representation rank",
+    "joint-embedding SSL",
+    "λ-balance"
+   ],
+   "field": "自监督表征学习",
+   "innovations": [
+    "从λ-平衡理论推导谱抗塌陷正则化SACReg，直接作用于骨干表征协方差防止维度塌陷",
+    "提出λ-JEPA框架，将SACReg同时施加于骨干和投影空间，首个使JEPA系列逼近DINO/iBOT性能的显式正则化方法",
+    "通过视图平均与随机切片技术实现高维骨干表征的稳健协方差正则化"
+   ],
+   "benchmarks": [
+    "ImageNet-1k linear probing",
+    "ImageNet-1k transfer (8 datasets)",
+    "Something-Something-v2",
+    "Kinetics-400"
+   ]
+  }
+ }
 }

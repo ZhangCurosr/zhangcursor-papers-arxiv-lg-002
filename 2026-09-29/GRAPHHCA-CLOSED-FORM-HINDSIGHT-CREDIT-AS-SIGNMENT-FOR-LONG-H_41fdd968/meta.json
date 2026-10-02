@@ -4,5 +4,32 @@
  "title": "GRAPHHCA-CLOSED-FORM-HINDSIGHT-CREDIT-AS-SIGNMENT-FOR-LONG-H",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-09-29 07:57:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c02c62-3302-41a1-ba4d-6e6636aa4f9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/98c02c62-3302-41a1-ba4d-6e6636aa4f9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:49:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hindsight credit assignment",
+    "group-based RL",
+    "LLM agents",
+    "step-level advantage",
+    "rollout graph",
+    "deterministic transition",
+    "value estimation"
+   ],
+   "field": "大语言模型 Agent 强化学习",
+   "innovations": [
+    "在确定性终端目标任务下推导后见比的闭式表达，将后见分布估计降维为单标量状态成功势能",
+    "基于池化 rollout 图的折扣期望递归无模型估计成功势能，在任意有向图上保证唯一不动点",
+    "步级后见信用与轨迹级优势的互补组合，w_s=0 时精确退化为 GRPO"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop",
+    "6x6 Sokoban"
+   ]
+  }
+ }
 }

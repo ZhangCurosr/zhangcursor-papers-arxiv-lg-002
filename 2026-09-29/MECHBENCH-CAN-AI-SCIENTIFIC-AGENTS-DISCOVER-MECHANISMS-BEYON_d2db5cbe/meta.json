@@ -4,5 +4,34 @@
  "title": "MECHBENCH-CAN-AI-SCIENTIFIC-AGENTS-DISCOVER-MECHANISMS-BEYON",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-09-29 19:07:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c015139b-b860-40d3-b1f0-0dfac03ca707.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c015139b-b860-40d3-b1f0-0dfac03ca707.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 19:53:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanism discovery",
+    "scientific agent",
+    "symbolic regression",
+    "benchmark",
+    "phenomenal law",
+    "mechanism probe",
+    "mutational variant"
+   ],
+   "field": "AI for Science / 自动科学发现",
+   "innovations": [
+    "提出MECHBENCH基准，将现象定律恢复与机制发现分离评估",
+    "引入机制探针与机制不可分辨性筛查，使机制恢复可客观度量",
+    "构建可控科学突变体系，揭示AI代理在机制推理上的泛化鸿沟"
+   ],
+   "benchmarks": [
+    "MECHBench (Core-set n=80, Full-set n=512)",
+    "LLM-SRBench",
+    "NewtonBench",
+    "Science-Gym",
+    "SciLaws-Bench"
+   ]
+  }
+ }
 }
