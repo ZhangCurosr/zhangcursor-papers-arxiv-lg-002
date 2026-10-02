@@ -4,5 +4,31 @@
  "title": "SUPERPCA-SUBSPACE-ANALYSIS-AND-AN-EFFICIENT-ALGORITHM-FOR-HI",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-09-23 18:20:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/392a18fe-6d41-4904-9d4e-098d7956be2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/392a18fe-6d41-4904-9d4e-098d7956be2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:24:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PCA",
+    "spiked covariance model",
+    "subspace estimation",
+    "subsampling",
+    "randomized numerical linear algebra",
+    "finite-sample analysis",
+    "Rayleigh-Ritz"
+   ],
+   "field": "高维统计与数值线性代数",
+   "innovations": [
+    "推导允许子空间维度大于目标维度的后验误差界，突破相邻谱间隙限制",
+    "提出 SuperPCA 算法：通过坐标采样在候选子空间中求解子采样最小二乘实现主成分 refined 估计",
+    "迭代重加权 QRCP 坐标选择策略，在实践中优于 leverage-score sampling"
+   ],
+   "benchmarks": [
+    "Synthetic spiked covariance data (p=1000, k=10)",
+    "MNIST digit mixing experiment (p=784)"
+   ]
+  }
+ }
 }

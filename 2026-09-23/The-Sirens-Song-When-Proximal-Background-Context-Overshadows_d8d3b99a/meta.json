@@ -4,5 +4,33 @@
  "title": "The-Sirens-Song-When-Proximal-Background-Context-Overshadows",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-09-23 18:19:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/48ada386-168b-42df-b672-d8df59c3f5c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/48ada386-168b-42df-b672-d8df59c3f5c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:26:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文",
+    "注意力机制",
+    "近端陷阱",
+    "RoPE",
+    "t分布变换",
+    "方向性匹配",
+    "ProxBench"
+   ],
+   "field": "长上下文语言模型",
+   "innovations": [
+    "发现并形式化Proximity Trap：远端证据利用不足主因是近端背景的累积softmax竞争而非距离本身",
+    "提出LYRA：基于余弦方向相似性与t分布非线性变换的QK打分重塑机制，压缩背景优势并放大证据优势",
+    "构建ProxBench四等级递进干扰基准，精确定量评估模型对近端背景干扰的鲁棒性"
+   ],
+   "benchmarks": [
+    "LongBench-v2",
+    "RULER",
+    "LongBench",
+    "ProxBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Sylvas-Synergistic-Learning-Value-based-Device-Scheduling-in",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-15 17:56:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/68e0301d-2d4d-4fe1-a2d4-084729d91b2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/68e0301d-2d4d-4fe1-a2d4-084729d91b2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:22:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "federated continual learning",
+    "device scheduling",
+    "edge intelligence",
+    "semi-supervised learning",
+    "pseudo-labeling",
+    "resource-constrained optimization"
+   ],
+   "field": "联邦持续学习与边缘智能",
+   "innovations": [
+    "提出分布价值与标签价值协同的学习价值度量框架，统一刻画时空分布动态与伪标签可靠性",
+    "设计时间变化的调度目标，早期侧重temporal drift加速新类适应、后期侧重collective divergence稳定全局代表性",
+    "提出类别级自适应伪标签置信度阈值策略，平衡新类探索与旧类利用"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "SVHN"
+   ]
+  }
+ }
 }

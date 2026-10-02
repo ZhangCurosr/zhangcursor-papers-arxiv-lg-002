@@ -4,5 +4,35 @@
  "title": "TRAIN-WHERE-THE-QUANTIZED-MODEL-GOES-ON-POLICY-DISTILLATION",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-23 18:19:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/862d5f04-f537-4b1c-b81c-03597ec8b043.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/862d5f04-f537-4b1c-b81c-03597ec8b043.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:25:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "low-bit quantization",
+    "quantization-aware distillation",
+    "on-policy distillation",
+    "reasoning recovery",
+    "LLM compression",
+    "exposure bias",
+    "extreme quantization"
+   ],
+   "field": "低比特大模型量化与推理恢复",
+   "innovations": [
+    "提出 QAD+OPD 两阶段框架，首次在子3比特场景将 on-policy 蒸馏与任务验证器结合恢复长推理",
+    "系统揭示量化放大的 exposure bias 并证明其导致长生成重复循环与超预算耗尽",
+    "在 2.79/1.88 有效比特上使 MATH-500 与 HumanEval 平均 BF16 保持率分别翻倍至 70%/91%"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "MATH-500",
+    "AMC23",
+    "MBPP",
+    "HumanEval",
+    "QA9"
+   ]
+  }
+ }
 }

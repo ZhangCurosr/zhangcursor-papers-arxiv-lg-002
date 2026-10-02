@@ -4,5 +4,38 @@
  "title": "PP-Net-A-Hybrid-Physical-Prior-Neural-Network-for-Scattered",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-23 18:19:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/b64dc95f-4d69-402f-8afd-17e923f2f40b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/b64dc95f-4d69-402f-8afd-17e923f2f40b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:23:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "biomedical image restoration",
+    "scattered light removal",
+    "physical prior",
+    "edge deployment",
+    "IoMT",
+    "adaptive dark channel prior",
+    "hybrid neural network",
+    "embedded device"
+   ],
+   "field": "生物医学图像恢复与边缘计算",
+   "innovations": [
+    "ASAP多尺度自适应暗通道先验估计，有效避免固定窗口边缘泄漏",
+    "网络-先验-网络渐进式物理约束架构结合去噪与散射去除",
+    "渐进式合成训练+跨域迁移策略降低配对真值依赖"
+   ],
+   "benchmarks": [
+    "RESIDE-ITS",
+    "RESIDE-6K",
+    "SOTS",
+    "HSTS",
+    "I-HAZE",
+    "O-HAZE",
+    "D-HAZY",
+    "W2S"
+   ]
+  }
+ }
 }

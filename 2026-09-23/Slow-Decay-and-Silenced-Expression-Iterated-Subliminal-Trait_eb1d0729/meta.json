@@ -4,5 +4,33 @@
  "title": "Slow-Decay-and-Silenced-Expression-Iterated-Subliminal-Trait",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-23 18:17:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/7fae2f9b-7826-42a4-8b15-e2406e41f251.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/7fae2f9b-7826-42a4-8b15-e2406e41f251.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:25:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "subliminal learning",
+    "iterated distillation",
+    "activation probe",
+    "trait persistence",
+    "lineage decay",
+    "low-rank adaptation",
+    "model collapse",
+    "mechanistic interpretability"
+   ],
+   "field": "语言模型安全与可解释性",
+   "innovations": [
+    "首次构建 10 代 3 谱系隐式特征传递链并测量慢衰减动力学",
+    "首次在同一 prompt 集上并行展示行为与内部激活分离子",
+    "首次用学生位移方向 steering 未处理基座在沉默 context 下重新诱导特征表达"
+   ],
+   "benchmarks": [
+    "Qwen2.5-7B-Instruct filtered-number-sequence protocol",
+    "300-completion keyword screen with human+LLM audit",
+    "28-layer activation probe with leave-one-lineage-out axis"
+   ]
+  }
+ }
 }

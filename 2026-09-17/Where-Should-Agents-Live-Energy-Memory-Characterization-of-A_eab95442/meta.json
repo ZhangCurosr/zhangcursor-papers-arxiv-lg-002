@@ -4,5 +4,33 @@
  "title": "Where-Should-Agents-Live-Energy-Memory-Characterization-of-A",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-17 19:04:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-18/9d0259ae-ace7-4ba1-aa60-c8adf084cd7c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-18/9d0259ae-ace7-4ba1-aa60-c8adf084cd7c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:23:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Agentic AI",
+    "energy efficiency",
+    "edge computing",
+    "LLM inference",
+    "multi-agent systems",
+    "eCAL",
+    "distributed orchestration",
+    "sustainable networks"
+   ],
+   "field": "边缘云连续体中的可持续AI",
+   "innovations": [
+    "提出agentic-eCAL指标，扩展单模型eCAL至多智能体工作流图",
+    "建立双速率闭式能量模型，揭示prefill/decode交叉驱动的超线性缩放",
+    "实证证明文本传输能耗<0.25%，颠覆传统放置权衡范式"
+   ],
+   "benchmarks": [
+    "Kubeply Infra-Bench (k3s故障修复)",
+    "ML.ENERGY",
+    "TokenPowerBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "The-Dynamics-of-Quasiregular-Neural-Learning",
  "token": "sk-1jVZGxTQ1...",
  "created_at": "2026-09-23 18:17:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/ccbc8312-8510-4f45-b426-090ecb8b2d18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/ccbc8312-8510-4f45-b426-090ecb8b2d18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:26:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quasiregular learning",
+    "U-shaped learning",
+    "overregularization",
+    "neural learning dynamics",
+    "spectral bias",
+    "non-monotonic generalization"
+   ],
+   "field": "神经网络学习动力学",
+   "innovations": [
+    "构建显式已知规律的准正则回归benchmark，实现例外学习轨迹的可追踪量化",
+    "揭示U型例外学习三阶段并证明稀有性×规律结构的交互效应",
+    "证明过度规则化既非正弦专属也非准正则学习必然结果"
+   ],
+   "benchmarks": [
+    "正弦准正则回归 (sin(2πx))",
+    "f1: 复合正弦",
+    "f2: 高斯扰动正弦",
+    "f3: 立方多项式+正弦"
+   ]
+  }
+ }
 }

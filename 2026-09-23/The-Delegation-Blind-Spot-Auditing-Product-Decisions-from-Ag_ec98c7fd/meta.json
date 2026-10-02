@@ -4,5 +4,32 @@
  "title": "The-Delegation-Blind-Spot-Auditing-Product-Decisions-from-Ag",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-23 18:19:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/0d3c86a4-d5f1-4af3-8a00-a7aac518ef04.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/0d3c86a4-d5f1-4af3-8a00-a7aac518ef04.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:26:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "agent delegation",
+    "partial identification",
+    "decision audit",
+    "channel model",
+    "linear programming",
+    "product decision",
+    "synthetic evaluation"
+   ],
+   "field": "AI agent 可解释性与决策审计",
+   "innovations": [
+    "提出决策特定 channel 审计框架，分离结构性模糊与有限样本不确定性",
+    "建立全局/局部识别定理及不可约决策损失下界",
+    "设计决策收据概念并通过确定性提取器证明显式偏好优于 LLM 透传"
+   ],
+   "benchmarks": [
+    "GPT-5.4 Mini/Nano synthetic hotel and cloud tasks",
+    "4800-call frozen experiment",
+    "14400-control multinomial simulation"
+   ]
+  }
+ }
 }

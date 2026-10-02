@@ -4,5 +4,30 @@
  "title": "Transformer-Heads-Looking-for-Order",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-23 18:18:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/5390fda0-36cd-4a00-8e95-da2c2a76e196.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/5390fda0-36cd-4a00-8e95-da2c2a76e196.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:27:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "transformer expressiveness",
+    "single-layer transformer",
+    "attention head complexity",
+    "output MLP",
+    "ordered language",
+    "geometric lower bound",
+    "Ramsey theory"
+   ],
+   "field": "Transformer 理论分析与可计算性",
+   "innovations": [
+    "建立含 output MLP 的单层 transformer 中 1-head 与 2-head 的严格可计算性分层",
+    "提出 ORDERED 布尔语言作为 head 数分层的简洁例证",
+    "将 transformer 行为嵌入 (R, <, +) 一阶理论并在 1-head 情形避免乘法运算，结合几何半空间分离与 Ramsey 定理证明下界"
+   ],
+   "benchmarks": [
+    "ORDERED 布尔语言（合成任务）"
+   ]
+  }
+ }
 }

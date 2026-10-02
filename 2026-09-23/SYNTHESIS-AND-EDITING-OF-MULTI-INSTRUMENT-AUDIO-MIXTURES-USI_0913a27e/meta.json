@@ -4,5 +4,35 @@
  "title": "SYNTHESIS-AND-EDITING-OF-MULTI-INSTRUMENT-AUDIO-MIXTURES-USI",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-09-23 18:18:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/b937c4ff-b8d1-4476-8e3e-b1325cf78d33.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/b937c4ff-b8d1-4476-8e3e-b1325cf78d33.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:24:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MIDI-to-audio",
+    "multi-instrument synthesis",
+    "audio editing",
+    "flow matching",
+    "scalar quantisation",
+    "MIDI representation"
+   ],
+   "field": "MIDI 引导的多乐器音频合成与编辑",
+   "innovations": [
+    "提出 MIDI Span 帧对齐置换不变音符表示，保留帧内精细时序",
+    "基于 SQ 低帧率隐变量的双向上下文条件流匹配多乐器合成框架",
+    "无训练 FlowEdit 适配 MIDI 引导音频编辑并支持缺失乐器生成"
+   ],
+   "benchmarks": [
+    "Slakh",
+    "Slakh (+drums)",
+    "MusicNetEM",
+    "URMP",
+    "GuitarSet",
+    "MAESTRO",
+    "POP909"
+   ]
+  }
+ }
 }

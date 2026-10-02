@@ -4,5 +4,30 @@
  "title": "TASK-DIRECTED-RESIDUAL-ADDUNET-PERFECT-RECONSTRUCTION-ROUTIN",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-09-15 07:51:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/47d7e8b1-ee18-4a41-8cfa-dc2e2387df73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/47d7e8b1-ee18-4a41-8cfa-dc2e2387df73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:22:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "perfect reconstruction",
+    "additive U-Net",
+    "residual networks",
+    "task-directed routing",
+    "multirate filter bank",
+    "speech recognition",
+    "TIMIT"
+   ],
+   "field": "语音前端表征学习",
+   "innovations": [
+    "建立AddUNet与临界采样PR滤波器组的精确等价关系，提出全速率PR松弛以解除子带耦合约束",
+    "残差全速率PR架构：通过显式保留路由分量实现任意非线性算子下的结构级精确重建，无需可逆性或学习解码器",
+    "在TIMIT上固定识别器与训练协议将测试PER从28.60%降至25.76%，同时验证通用ResNet块的可恢复性"
+   ],
+   "benchmarks": [
+    "TIMIT 39-phone recognition"
+   ]
+  }
+ }
 }

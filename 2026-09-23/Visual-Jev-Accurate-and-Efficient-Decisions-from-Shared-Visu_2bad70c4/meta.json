@@ -4,5 +4,33 @@
  "title": "Visual-Jev-Accurate-and-Efficient-Decisions-from-Shared-Visu",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-09-23 18:18:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/1bf0c771-2950-4c90-bba5-ee5d855b0929.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/1bf0c771-2950-4c90-bba5-ee5d855b0929.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:27:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "前缀共享",
+    "批量推理",
+    "候选集决策",
+    "VLM serving",
+    "LoRA微调",
+    "效率优化"
+   ],
+   "field": "视觉语言模型高效推理",
+   "innovations": [
+    "提出Visual Jev框架，将共享视觉前缀与批量后缀执行正交解耦，实现8.9x吞吐加速",
+    "控制实验证明专用决策头在相同数据/预算下无一致优势，LM head softmax为更简首选",
+    "通过交叉reuse×batching设计量化prefix共享与batching各自贡献，并提供灰图盲测基线诊断语言先验"
+   ],
+   "benchmarks": [
+    "GQA",
+    "SNLI-VE",
+    "TextVQA",
+    "TallyQA"
+   ]
+  }
+ }
 }

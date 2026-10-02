@@ -4,5 +4,29 @@
  "title": "TIMEINTERACT-TOWARDS-REAL-TIME-INTERACTIVEINTELLIGENCE-FOR-S",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-23 18:19:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/54b5f971-8c08-45fa-a69c-108f2e48f4e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/54b5f971-8c08-45fa-a69c-108f2e48f4e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:25:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "流式时间序列",
+    "时间序列交互",
+    "大语言模型",
+    "实时推理",
+    "流式编码",
+    "响应触发"
+   ],
+   "field": "流式时间序列交互智能",
+   "innovations": [
+    "首个流式时间序列交互模型，支持持续感知与并发生成",
+    "双视图流式编码器+Plan token历史压缩+KV forking解耦推理",
+    "四层交互能力层级与34K规模流式交互数据集STREAMTSI-34K"
+   ],
+   "benchmarks": [
+    "STREAMTSI-34K"
+   ]
+  }
+ }
 }

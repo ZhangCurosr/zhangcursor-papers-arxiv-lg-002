@@ -4,5 +4,34 @@
  "title": "vidax-A-Unified-JAX-Framework-for-Video-Generative-Models-on",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-09-17 19:04:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-18/986fdeae-4159-468f-ad12-c9b5aadc97f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-18/986fdeae-4159-468f-ad12-c9b5aadc97f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:23:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video generation",
+    "JAX",
+    "TPU",
+    "tensor parallelism",
+    "sequence parallelism",
+    "weight offloading",
+    "flash attention",
+    "inference engine"
+   ],
+   "field": "视频生成模型推理系统",
+   "innovations": [
+    "3轴可组合张量+序列并行网格统一于单一JAX sharding mesh",
+    "host-resident零拷贝权重staging配合per-layer卸载作为推理兜底",
+    "跨框架移植正确性诊断与数值边界案例的系统性文档化"
+   ],
+   "benchmarks": [
+    "TPU v4-8 inference latency",
+    "peak HBM utilization",
+    "compile time",
+    "bit-exact activation parity"
+   ]
+  }
+ }
 }

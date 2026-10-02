@@ -4,5 +4,31 @@
  "title": "SambaGraph-Action-Reaction-Spatio-Temporal-Graphs-for-Soccer",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-23 18:20:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/ee6139d5-c726-4feb-b3c2-218cadf638b1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/ee6139d5-c726-4feb-b3c2-218cadf638b1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:24:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatio-temporal graphs",
+    "soccer tactics",
+    "action-reaction modeling",
+    "tactical retrieval",
+    "multi-agent sports analytics",
+    "graph benchmarks"
+   ],
+   "field": "运动数据分析与时空图学习",
+   "innovations": [
+    "构建首个足球动作-反应图数据集（4,070 episodes, 26,270 pairs），含match-level split-safe设计与四种粗粒度响应标签",
+    "定义响应分类与攻击→防守全库检索双任务协议，揭示硬负样本提升配对区分但不改善检索质量的方法论结论",
+    "系统性对比签名MLP、图-签名融合双编码器与本地LLM，确立紧凑战术签名作为强基线及LLM适合作为解释模块的定位"
+   ],
+   "benchmarks": [
+    "SambaGraph Action-Reaction Classification",
+    "SambaGraph Attack-to-Defense Full-Bank Retrieval",
+    "SambaGraph 8-Candidate LLM Reranking"
+   ]
+  }
+ }
 }
