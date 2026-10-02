@@ -4,5 +4,10 @@
  "title": "NEURONDISCOVER-AGENT-IN-TWIN-FOR-MECHANISTIC-DISCOVERY-IN-NE",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-29 19:09:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/69e435df-4c87-48f1-b992-5e1406074962.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/69e435df-4c87-48f1-b992-5e1406074962.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:34",
+  "chunks": 4
+ }
 }

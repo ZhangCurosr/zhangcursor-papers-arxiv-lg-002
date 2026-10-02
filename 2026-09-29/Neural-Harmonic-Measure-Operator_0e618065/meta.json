@@ -4,5 +4,31 @@
  "title": "Neural-Harmonic-Measure-Operator",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-29 07:52:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9177cade-b9c7-4e09-9aba-7d104ca29033.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9177cade-b9c7-4e09-9aba-7d104ca29033.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural operator",
+    "harmonic measure",
+    "Walk-on-Spheres",
+    "Poisson equation",
+    "boundary integral",
+    "elliptic PDE",
+    "balayage decomposition"
+   ],
+   "field": "偏微分方程神经算子",
+   "innovations": [
+    "首次以神经网络参数化调和测度密度作为几何唯一边界核，实现跨边界条件的免重训练复用",
+    "通过经典平衡分解将 Poisson 源项解耦为零边界提升网络，避免奇异体积求积",
+    "以 WoS 无网格出口采样作为核监督信号，绕过 FEM/网格依赖"
+   ],
+   "benchmarks": [
+    "MCB-B 3D Poisson",
+    "2D MNIST paramBC"
+   ]
+  }
+ }
 }

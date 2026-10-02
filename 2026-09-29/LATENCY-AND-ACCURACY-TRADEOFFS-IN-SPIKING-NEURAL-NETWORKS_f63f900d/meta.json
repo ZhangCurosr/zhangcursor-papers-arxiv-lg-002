@@ -4,5 +4,29 @@
  "title": "LATENCY-AND-ACCURACY-TRADEOFFS-IN-SPIKING-NEURAL-NETWORKS",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-29 08:02:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3ba3d14-561b-46ae-a9ed-3209f4af031f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b3ba3d14-561b-46ae-a9ed-3209f4af031f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:32:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Spiking Neural Networks",
+    "Latency Optimization",
+    "Compute-in-Memory",
+    "Pipeline Delay Search",
+    "Speech Recognition"
+   ],
+   "field": "神经形态计算与高效推理",
+   "innovations": [
+    "提出延迟控制IF核实现跨时间步流水线，挑战SNN必然比QNN慢的假设",
+    "从理论上证明并实证了‘更长等待不一定提高精度’的反直觉现象",
+    "设计管道延迟搜索(PDS)方法，在硬件延迟预算内自动优化层级发放延迟"
+   ],
+   "benchmarks": [
+    "Google Speech Commands v2 (GSC)",
+    "Spiking Speech Commands (SSC)"
+   ]
+  }
+ }
 }

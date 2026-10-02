@@ -4,5 +4,36 @@
  "title": "ON-POLICY-OR-OFF-POLICY-LEARNING-A-SYSTEMATIC-STUDY-OF-DISTI",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-29 19:08:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c73c83d0-7c3d-487b-a98e-4bbc2db03851.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/c73c83d0-7c3d-487b-a98e-4bbc2db03851.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:37:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "off-policy distillation",
+    "knowledge distillation",
+    "catastrophic forgetting",
+    "KL divergence",
+    "rollout policy",
+    "LLM post-training",
+    "strong-to-weak distillation"
+   ],
+   "field": "大语言模型后训练与知识蒸馏",
+   "innovations": [
+    "在控制变量下解耦rollout策略、KL方向和学习率，发现on-policy rollout无一致优势",
+    "通过梯度分析和rollout谱实验证明forward KL对rollout变化高度稳健，reverse KL显著敏感",
+    "刻画on-policy数据在泛化到更难任务变体和抑制偶发teacher风格迁移上的有效场景"
+   ],
+   "benchmarks": [
+    "MedReason",
+    "Science (SciKnowEval)",
+    "Countdown-3/4E",
+    "MMLU-Pro",
+    "TruthfulQA",
+    "MATH-500 (Numina-MATH)"
+   ]
+  }
+ }
 }

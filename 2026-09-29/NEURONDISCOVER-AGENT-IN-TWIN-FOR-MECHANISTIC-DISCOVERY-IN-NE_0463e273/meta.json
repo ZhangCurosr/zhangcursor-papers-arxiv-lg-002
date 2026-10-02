@@ -4,5 +4,31 @@
  "title": "NEURONDISCOVER-AGENT-IN-TWIN-FOR-MECHANISTIC-DISCOVERY-IN-NE",
  "token": "sk-F0hECVUrq...",
  "created_at": "2026-09-29 08:06:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/69e435df-4c87-48f1-b992-5e1406074962.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/69e435df-4c87-48f1-b992-5e1406074962.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:35:49",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "mechanistic discovery",
+    "twin confounding",
+    "agent-in-twin",
+    "WAM",
+    "MIOY graph",
+    "experimental design",
+    "neuroscience"
+   ],
+   "field": "神经微环境机制发现",
+   "innovations": [
+    "提出 Agent-in-Twin 框架联合建模机制假设与模拟误差，解决孪生混淆问题",
+    "设计 MIOY 图与可执行机制程序（EMPs），支持带作用域谓词的关系编译",
+    "联合误差建模实验选择标准，同时优化信息增益、误差调整、成本与验证冗余"
+   ],
+   "benchmarks": [
+    "transport worlds",
+    "neuronal recordings"
+   ]
+  }
+ }
 }

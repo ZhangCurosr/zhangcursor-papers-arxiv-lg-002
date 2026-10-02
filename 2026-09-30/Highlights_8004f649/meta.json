@@ -4,5 +4,34 @@
  "title": "Highlights",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-30 08:08:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eccaa181-da7e-4963-ba9a-3982b361cee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eccaa181-da7e-4963-ba9a-3982b361cee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:38:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "toxicity prediction",
+    "graph neural network",
+    "benchmark",
+    "self-supervised learning",
+    "molecular representation",
+    "drug discovery"
+   ],
+   "field": "计算毒性与分子AI评估",
+   "innovations": [
+    "构建覆盖多毒性终点与严格切分的统一基准框架",
+    "在公平条件下重跑并统计排名20余种图模型",
+    "揭示键中心表示与知识引导在泛化中的优势与局限"
+   ],
+   "benchmarks": [
+    "Tox21",
+    "ClinTox",
+    "Ames",
+    "Carcinogenicity",
+    "Hepatotoxicity",
+    "Cardiotoxicity"
+   ]
+  }
+ }
 }

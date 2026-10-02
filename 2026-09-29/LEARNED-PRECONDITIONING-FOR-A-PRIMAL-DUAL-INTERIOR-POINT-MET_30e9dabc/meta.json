@@ -4,5 +4,33 @@
  "title": "LEARNED-PRECONDITIONING-FOR-A-PRIMAL-DUAL-INTERIOR-POINT-MET",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-29 19:06:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ddfef71-5631-4512-b241-f0313446331b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ddfef71-5631-4512-b241-f0313446331b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:32:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "learning-to-optimize",
+    "interior-point method",
+    "primal-dual method",
+    "warm start",
+    "self-supervised learning",
+    "constrained optimization"
+   ],
+   "field": "学习优化与内点法",
+   "innovations": [
+    "用学习对角预条件替代 Newton 系统求解，避免海森评估与矩阵因子分解",
+    "坐标共享 LSTM-MLP 架构，参数量与问题维度无关",
+    "基于 merit function 与 KKT 残差的自监督 one-step unroll 训练"
+   ],
+   "benchmarks": [
+    "Constrained QP (C-RHS/C-ALL/NC-RHS/NC-ALL, n=200)",
+    "Box-constrained QP (n=10/200/1000)",
+    "Portfolio Optimization",
+    "SVM",
+    "Quadrotor Navigation"
+   ]
+  }
+ }
 }

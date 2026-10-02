@@ -4,5 +4,33 @@
  "title": "NOT-ALL-ROLLOUTS-ARE-WORTH-LEARNING-ON-TRAJECTORY-VALUATION",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-09-29 08:03:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8ad370be-89c2-4478-bcbd-e4b058af5188.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8ad370be-89c2-4478-bcbd-e4b058af5188.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory valuation",
+    "reinforcement learning",
+    "influence function",
+    "post-training",
+    "PPO",
+    "GRPO",
+    "DPO"
+   ],
+   "field": "强化学习数据筛选与后训练优化",
+   "innovations": [
+    "提出仅基于 mini-batch 梯度的动态轨迹估值框架 DTV，无需验证集或影响函数近似",
+    "推导留一法变体 DTV-Loo 并揭示自保护效应，为不同场景提供过滤策略选择依据",
+    "在 PPO/GRPO/DPO 三种范式上统一验证，在 AIME 上 Pass@16 提升 +0.1000、DPO Mismatch-40% 准确率提升 +0.0339"
+   ],
+   "benchmarks": [
+    "MiniGrid",
+    "GSM8K",
+    "AIME 2024",
+    "UltraFeedback"
+   ]
+  }
+ }
 }

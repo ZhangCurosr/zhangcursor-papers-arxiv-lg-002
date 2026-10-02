@@ -4,5 +4,31 @@
  "title": "HIGH-DIMENSIONAL-SIMULATION-BASED-INFERENCE-IN-LATENT-SPACES",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-30 08:09:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7ffb6a47-32b3-4b2c-8a30-ba3355f4d36a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7ffb6a47-32b3-4b2c-8a30-ba3355f4d36a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:37:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "simulation-based inference",
+    "latent space",
+    "amortized Bayesian inference",
+    "dimensionality reduction",
+    "InfoVAE",
+    "flow matching",
+    "diffusion models"
+   ],
+   "field": "贝叶斯逆问题与仿真推断",
+   "innovations": [
+    "提出两阶段潜空间 SBI 框架：冻结 InfoVAE 编码器后在潜空间训练后验，采样解码回原始空间；推导后验/编码/解码三因素误差分解定理并提供实验验证"
+   ],
+   "benchmarks": [
+    "Correlated Gaussian",
+    "Fashion-MNIST Deblurring",
+    "Gaussian Random Fields",
+    "Map to Satellite Inference"
+   ]
+  }
+ }
 }

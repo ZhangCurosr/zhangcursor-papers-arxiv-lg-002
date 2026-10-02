@@ -4,5 +4,33 @@
  "title": "Harnessing-Large-Language-Models-to-Compile-Task-Relevant-Co",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-09-30 08:08:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/511502e9-3f6a-4a9f-86ca-1bbeeaff4015.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/511502e9-3f6a-4a9f-86ca-1bbeeaff4015.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:37:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Bayesian Optimization",
+    "LLM-compiled BO",
+    "Large Language Models",
+    "Contextual BO",
+    "Scientific Discovery",
+    "Code as Policies",
+    "Gaussian Process"
+   ],
+   "field": "贝叶斯优化与大模型交叉",
+   "innovations": [
+    "形式化LLM-compiled BO为广义上下文决策问题",
+    "提出HarBO多阶段编译harness实现上下文到GP工件的结构化转换",
+    "理论分析编译失准下的regret界并揭示上下文信息的探索代价权衡"
+   ],
+   "benchmarks": [
+    "Synthetic multi-peak functions (A-E)",
+    "XGBoost HPO (H/HM)",
+    "KRAS G12D molecular docking (Dock)",
+    "Olympus Suzuki reaction optimisation (O-Suzuki)"
+   ]
+  }
+ }
 }

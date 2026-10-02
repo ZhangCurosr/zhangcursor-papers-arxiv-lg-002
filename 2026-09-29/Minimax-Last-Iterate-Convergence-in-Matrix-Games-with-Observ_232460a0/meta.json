@@ -4,5 +4,26 @@
  "title": "Minimax-Last-Iterate-Convergence-in-Matrix-Games-with-Observ",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-09-29 08:02:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/254169b4-6ed9-4992-957b-dcb1eae1af1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/254169b4-6ed9-4992-957b-dcb1eae1af1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:33:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "last-iterate convergence",
+    "zero-sum matrix games",
+    "bandit feedback",
+    "adaptive averaging",
+    "implicit exploration",
+    "minimax optimality"
+   ],
+   "field": "博弈论在线学习 / 多智能体强化学习",
+   "innovations": [
+    "自适应平均与指数权重比率修正联合设计，直接在regret bound中产生吸收方差负的项，将维度依赖从d²降至√d",
+    "潜在函数分析把方差控制转化为任意时刻保证，实现不依赖时间视界的anytime收敛",
+    "放弃全局收益矩阵估计，改用O(d)内存的显式向量更新，避免log-barrier正则化博弈求解开销"
+   ]
+  }
+ }
 }

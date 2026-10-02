@@ -4,5 +4,30 @@
  "title": "N-rnberg-NLP-at-ChildSafeAds-2026-Structurally-Dissimilar-Vo",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-29 19:08:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bd9b8cb8-361a-477d-a192-51971b82b3e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bd9b8cb8-361a-477d-a192-51971b82b3e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:34:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ChildSafeAds",
+    "voter ensemble",
+    "法律NLP",
+    "多标签分类",
+    "数据访问级别",
+    "通道不重叠交叉验证",
+    "合规风险标志"
+   ],
+   "field": "法律与自然语言处理 / 内容安全监测",
+   "innovations": [
+    "结构异构九选民集成框架（backbone×方法×类别范围正交组合，5-of-9多数投票）",
+    "四级数据访问的系统量化（L1-L4边际收益画像）",
+    "通道不重叠CV作为选模信号并在隐藏测试上验证"
+   ],
+   "benchmarks": [
+    "ChildSafeAds 2026 共享任务 (ST1/ST2/ST3)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "HIGH-DIMENSIONAL-SIMULATION-BASED-INFERENCE-IN-LATENT-SPACES",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-09-30 18:51:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7ffb6a47-32b3-4b2c-8a30-ba3355f4d36a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7ffb6a47-32b3-4b2c-8a30-ba3355f4d36a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:37:31",
+  "chunks": 1
+ }
 }

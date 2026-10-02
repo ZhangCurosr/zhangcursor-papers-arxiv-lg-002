@@ -4,5 +4,29 @@
  "title": "Minimax-Last-Iterate-Convergence-in-Matrix-Games-with-Observ",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-09-29 19:09:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/254169b4-6ed9-4992-957b-dcb1eae1af1b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/254169b4-6ed9-4992-957b-dcb1eae1af1b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:33:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "last-iterate convergence",
+    "zero-sum matrix games",
+    "bandit feedback",
+    "minimax optimality",
+    "implicit exploration",
+    "exponential weights"
+   ],
+   "field": "博弈论中的在线学习与收敛分析",
+   "innovations": [
+    "首次证明观测对手动作时 Bandit 反馈下 last-iterate 收敛的 minimax 最优速率 O(sqrt(d/t))",
+    "自适应平均与比值修正指数加权的联合方差控制设计",
+    "潜在函数 telescoping 分析控制阶段时长以实现 anytime 保证"
+   ],
+   "benchmarks": [
+    "Bandit lower bound Omega(sqrt(d/t))"
+   ]
+  }
+ }
 }

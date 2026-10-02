@@ -4,5 +4,30 @@
  "title": "NATURAL-STATE-PREDICTION-ACCURACY-CAN-HIDE-WEAK-CONTROLLED-R",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-09-29 08:01:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95281c5d-ac75-4e8d-95a4-63e50f775530.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95281c5d-ac75-4e8d-95a4-63e50f775530.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:34:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA诊断",
+    "状态预测",
+    "受控响应性",
+    "上下文稳定性",
+    "机器人表征",
+    "失败预测"
+   ],
+   "field": "具身智能模型可解释性",
+   "innovations": [
+    "提出三轴诊断框架分离自然准确率、目标状态响应性与上下文稳定性",
+    "揭示高自然预测准确率与弱受控响应性共存的诊断分离现象",
+    "证明控制诊断可为策略失败预测提供超越初始误差的额外信息"
+   ],
+   "benchmarks": [
+    "Meta-World Drawer/Faucet",
+    "LIBERO KITCHEN_SCENE2"
+   ]
+  }
+ }
 }

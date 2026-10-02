@@ -4,5 +4,33 @@
  "title": "NOT-ALL-ROLLOUTS-ARE-WORTH-LEARNING-ON-TRAJECTORY-VALUATION",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-09-29 19:08:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8ad370be-89c2-4478-bcbd-e4b058af5188.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8ad370be-89c2-4478-bcbd-e4b058af5188.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory valuation",
+    "reinforcement learning",
+    "influence function",
+    "dynamic filtering",
+    "PPO",
+    "GRPO",
+    "DPO"
+   ],
+   "field": "强化学习数据选择与后训练优化",
+   "innovations": [
+    "提出基于 batch 内梯度对齐的 Dynamic Trajectory Valuation (DTV)，无需验证集即可在线识别有害轨迹",
+    "推导自项/交叉项分解并提出留一法变体 DTV-Loo，揭示并缓解 self-protection effect",
+    "在 PPO/GRPO/DPO 三范式及高噪声场景下验证零阈值自适应过滤的一致有效性"
+   ],
+   "benchmarks": [
+    "MiniGrid Empty-8x8/DoorKey-8x8",
+    "GSM8K (Clean/Mismatch-20%)",
+    "AIME 2024",
+    "UltraFeedback (Clean/Mismatch-20%/Mismatch-40%)"
+   ]
+  }
+ }
 }

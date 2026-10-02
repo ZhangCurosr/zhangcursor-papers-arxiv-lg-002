@@ -4,5 +4,10 @@
  "title": "LEARNED-PRECONDITIONING-FOR-A-PRIMAL-DUAL-INTERIOR-POINT-MET",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-29 07:53:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ddfef71-5631-4512-b241-f0313446331b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2ddfef71-5631-4512-b241-f0313446331b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:32:39",
+  "chunks": 1
+ }
 }

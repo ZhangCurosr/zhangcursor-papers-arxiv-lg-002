@@ -4,5 +4,31 @@
  "title": "NEURONSIFTER-INTERVENTION-PLANNING-IN-CNS-MICROENVIRONMENTS",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-29 08:08:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be379138-07f3-464a-9337-c5d3f43da6f0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/be379138-07f3-464a-9337-c5d3f43da6f0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:35:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "CNS intervention planning",
+    "occupancy-conditioned diffusion",
+    "decision-directed acquisition",
+    "digital twin",
+    "Bayesian experimental design",
+    "Alzheimer's disease"
+   ],
+   "field": "生物医学AI与计算神经科学",
+   "innovations": [
+    "结构化干预编译器将给药方案编译为状态条件性占据场",
+    "占据条件扩散算子保留暴露-响应依赖性",
+    "决策导向证据获取与共享后验接口的决策等价性证明"
+   ],
+   "benchmarks": [
+    "合成AD 64场景块CRPS/排序准确率",
+    "轨迹CRPS对比Transolver/WDNO/DiffusionPDE",
+    "决策获取预算5终端风险0.160"
+   ]
+  }
+ }
 }

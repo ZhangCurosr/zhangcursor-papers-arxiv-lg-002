@@ -4,5 +4,31 @@
  "title": "Muon-Sublates-the-Edge-of-Stability-in-LLM-Pretraining",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-09-29 19:09:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/009d6967-6804-40e9-a182-a6611e221cc9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/009d6967-6804-40e9-a182-a6611e221cc9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:34:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Muon 优化器",
+    "稳定性边缘",
+    "LLM 预训练",
+    "学习率分析",
+    "极分解",
+    "优化动力学"
+   ],
+   "field": "大语言模型训练优化",
+   "innovations": [
+    "推导相干校正的条件损失中性边界 2ρ/η，证明 Muon 打破经典 EoS 耦合",
+    "提出分裂的 EoS 框架：损失中性边界存活但时序方向解耦",
+    "系统验证 batch size 对时序对齐的影响及 LLM 层间异质性"
+   ],
+   "benchmarks": [
+    "CIFAR-10 (MLP/CNN)",
+    "TinyShakespeare (Transformer)",
+    "FineWeb (130M/1B LLM 预训练)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "No-Pain-More-Gain-Iterative-Merging-for-Effective-Multi-Teac",
  "token": "sk-7wel9Fhtk...",
  "created_at": "2026-09-29 08:08:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b5a1f199-dd83-405c-b0fa-5bbac9d0c488.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b5a1f199-dd83-405c-b0fa-5bbac9d0c488.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-teacher distillation",
+    "on-policy distillation",
+    "model merging",
+    "task arithmetic",
+    "SFT",
+    "reinforcement learning"
+   ],
+   "field": "大语言模型多能力整合",
+   "innovations": [
+    "提出无需额外SFT的合并初始化方案，证明初始性能不能预测MOPD最终效果",
+    "设计迭代合并算法IM-MOPD，通过渐进式任务向量修正替代一次性系数搜索",
+    "建立teacher continuation诊断框架揭示合并初始化的prefix兼容性优势"
+   ],
+   "benchmarks": [
+    "MedQA",
+    "CaseHOLD",
+    "FinQA",
+    "IFBench",
+    "τ²-Telecom"
+   ]
+  }
+ }
 }

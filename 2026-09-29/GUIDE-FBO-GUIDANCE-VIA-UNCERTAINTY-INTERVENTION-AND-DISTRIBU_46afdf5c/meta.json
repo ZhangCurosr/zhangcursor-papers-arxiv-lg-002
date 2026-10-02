@@ -4,5 +4,31 @@
  "title": "GUIDE-FBO-GUIDANCE-VIA-UNCERTAINTY-INTERVENTION-AND-DISTRIBU",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-09-29 08:06:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a86135-0d03-4eca-9f7a-bbbb8c254e81.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a86135-0d03-4eca-9f7a-bbbb8c254e81.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:31:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Bayesian Optimization",
+    "Gaussian Process",
+    "Uncertainty Intervention",
+    "Distributional Representation",
+    "Multi-task Optimization"
+   ],
+   "field": "联邦贝叶斯优化",
+   "innovations": [
+    "提出 FI-GP，通过空间重缩放协方差融合联邦引导而保留本地后验均值",
+    "以最优位置分布作为知识交换载体，实现轻量通信下的异构任务协作",
+    "证明 GUIDE-UCB 在 bounded guidance 下保持标准 GP-UCB 的同阶累积 regret 率"
+   ],
+   "benchmarks": [
+    "12 synthetic benchmarks (Ackley, Rastrigin, etc.)",
+    "Landmine Detection",
+    "Activity Recognition",
+    "FedHPO-Bench"
+   ]
+  }
+ }
 }

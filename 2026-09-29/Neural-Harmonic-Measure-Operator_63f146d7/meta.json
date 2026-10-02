@@ -4,5 +4,10 @@
  "title": "Neural-Harmonic-Measure-Operator",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-09-29 19:06:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9177cade-b9c7-4e09-9aba-7d104ca29033.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9177cade-b9c7-4e09-9aba-7d104ca29033.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:36:52",
+  "chunks": 1
+ }
 }

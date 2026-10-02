@@ -4,5 +4,34 @@
  "title": "Highlights",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-09-30 18:51:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eccaa181-da7e-4963-ba9a-3982b361cee0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eccaa181-da7e-4963-ba9a-3982b361cee0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 23:37:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "toxicity prediction",
+    "graph neural network",
+    "benchmark",
+    "drug discovery",
+    "self-supervised learning",
+    "molecular representation"
+   ],
+   "field": "计算毒理学与图深度学习",
+   "innovations": [
+    "构建统一的图深度学习毒性预测基准框架",
+    "系统评估20+模型在4种划分策略下的公平对比",
+    "发现bond-centered表示是最佳模型的共同特征"
+   ],
+   "benchmarks": [
+    "Tox21",
+    "ClinTox",
+    "Ames",
+    "Hepatotoxicity",
+    "Cardiotoxicity",
+    "Carcinogenicity"
+   ]
+  }
+ }
 }
