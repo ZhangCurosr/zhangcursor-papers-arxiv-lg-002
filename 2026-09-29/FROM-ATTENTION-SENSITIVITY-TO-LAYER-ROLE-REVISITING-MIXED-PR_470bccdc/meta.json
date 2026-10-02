@@ -4,5 +4,32 @@
  "title": "FROM-ATTENTION-SENSITIVITY-TO-LAYER-ROLE-REVISITING-MIXED-PR",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-09-29 19:08:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/976b2f1a-77f6-4663-916e-16625ef6dc4c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/976b2f1a-77f6-4663-916e-16625ef6dc4c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:02:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "mixed-precision",
+    "Transformer",
+    "GPTQ",
+    "Hessian trace",
+    "bit allocation",
+    "attention mechanism"
+   ],
+   "field": "大模型高效推理与量化",
+   "innovations": [
+    "提出JAB联合注意力损失同时驱动权重精修与Hessian trace比特分配，消除重建目标与分配准则的脱节",
+    "揭示矩阵角色比曲率更决定MLP/全模型位宽分配，提出Hessian-free的Type-offset先验",
+    "形式化局部目标改进可导致全局perplexity灾难性退化的模式并给出flip-rate防护建议"
+   ],
+   "benchmarks": [
+    "GPT-2 Small WikiText-2",
+    "Mistral-7B WikiText-2",
+    "Mistral-7B C4"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "From-internal-representations-to-model-improvement-through-p",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-09-29 19:07:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bd606fde-322b-4dec-afe6-203081501c4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/bd606fde-322b-4dec-afe6-203081501c4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:09:30",
+  "chunks": 1
+ }
 }

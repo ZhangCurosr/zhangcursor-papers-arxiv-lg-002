@@ -4,5 +4,31 @@
  "title": "Fast-Learning-Rate-Transfer-in-Shallow-Linear-Networks-at-Gr",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-29 19:08:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d9edff94-a31b-4899-84ac-2efca3817148.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d9edff94-a31b-4899-84ac-2efca3817148.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:07:22",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "学习率转移",
+    "快速超参迁移",
+    "浅层线性网络",
+    "μP初始化",
+    "谱动力学",
+    "增长视界"
+   ],
+   "field": "深度学习理论",
+   "innovations": [
+    "证明增长视界下T=o(√n)时学习率可快速转移",
+    "刻画端点收缩因子q_*对转移速率的指数控制作用",
+    "构造谱退化反例阐明快速转移失效边界"
+   ],
+   "benchmarks": [
+    "人工Gram矩阵K=diag(7,4,2,1)",
+    "固定视界T=10",
+    "增长视界T_n=⌈2n^0.15⌉"
+   ]
+  }
+ }
 }

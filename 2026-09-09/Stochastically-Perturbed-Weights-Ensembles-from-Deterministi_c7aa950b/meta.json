@@ -4,5 +4,31 @@
  "title": "Stochastically-Perturbed-Weights-Ensembles-from-Deterministi",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-09 17:33:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36f977e1-9bd2-44f5-9063-38d35954cea0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/36f977e1-9bd2-44f5-9063-38d35954cea0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:02:06",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "集合预报",
+    "ML 天气模型",
+    "权重扰动",
+    "概率预报",
+    "SPW",
+    "WeatherBench-2"
+   ],
+   "field": "机器学习气象预报",
+   "innovations": [
+    "提出零训练成本的推理时权重扰动方法 SPW",
+    "揭示权重噪声与初值扰动在不同预报时效下的主导分工",
+    "提出粗尺度钩子和 Refresh 变体以缓解过分散域均值问题"
+   ],
+   "benchmarks": [
+    "WeatherBench-2",
+    "ERA5",
+    "IFS-ENS"
+   ]
+  }
+ }
 }

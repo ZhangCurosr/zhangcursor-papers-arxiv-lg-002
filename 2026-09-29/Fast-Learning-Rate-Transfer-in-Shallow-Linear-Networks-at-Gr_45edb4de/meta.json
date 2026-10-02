@@ -4,5 +4,30 @@
  "title": "Fast-Learning-Rate-Transfer-in-Shallow-Linear-Networks-at-Gr",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-29 08:08:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d9edff94-a31b-4899-84ac-2efca3817148.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/d9edff94-a31b-4899-84ac-2efca3817148.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:06:51",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "学习率迁移",
+    "浅层线性网络",
+    "谱条件",
+    "得分函数线性化",
+    "有限宽分析",
+    "高斯极限定理",
+    "迁移精度退化"
+   ],
+   "field": "理论深度学习",
+   "innovations": [
+    "建立相对迁移精度c_{n,T}/a_{n,T}的严格下界与高斯极限定理",
+    "构造K=标量阵时的快速迁移失败反例并证明n^{-T}退化速率",
+    "提出基于投影算子可交换性的矩阵幂扰动统一分析框架"
+   ],
+   "benchmarks": [
+    "synthetic isotropic Gaussian data"
+   ]
+  }
+ }
 }

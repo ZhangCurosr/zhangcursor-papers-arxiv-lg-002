@@ -4,5 +4,30 @@
  "title": "First-Learn-Then-Memorize-The-Spectral-Bias-of-Diffusion-Mod",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-29 19:07:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/91127c4d-aabc-488c-805d-2b6ba1869e38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/91127c4d-aabc-488c-805d-2b6ba1869e38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:09:05",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "谱偏差",
+    "随机矩阵理论",
+    "高斯等价原理",
+    "偏差-方差分解",
+    "early stopping对偶"
+   ],
+   "field": "深度学习理论",
+   "innovations": [
+    "Gram矩阵四部分谱分解定理",
+    "泛化-记忆化双峰机制的定量刻画",
+    "ridge与early stopping的谱对偶关系"
+   ],
+   "benchmarks": [
+    "高斯随机数据谱分析",
+    "finite-width数值验证"
+   ]
+  }
+ }
 }

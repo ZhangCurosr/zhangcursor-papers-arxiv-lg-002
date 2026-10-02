@@ -4,5 +4,30 @@
  "title": "GRAPH-WORLD-MODELS-FOR-CONSTRAINED-EPIDEMIC-POLICY-PLANNING",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-29 07:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/096b532b-1afd-40a2-8d6f-06eca883c31a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/096b532b-1afd-40a2-8d6f-06eca883c31a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:10:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph World Models",
+    "Epidemic Policy Planning",
+    "Constrained Optimization",
+    "Multi-region Coordination",
+    "Reinforcement Learning",
+    "Temporal Logic"
+   ],
+   "field": "公共卫生AI与多智能体系统",
+   "innovations": [
+    "图因子化循环状态空间模型实现政策条件联合rollout",
+    "图时序ADMM通过投影保证共享资源严格可行性",
+    "投影后验证机制分离资源可行性与时间规范满足性"
+   ],
+   "benchmarks": [
+    "Synthetic 5-region mobility-coupled simulator",
+    "US state-level panel (HHS, CDC, Advan mobility data)"
+   ]
+  }
+ }
 }

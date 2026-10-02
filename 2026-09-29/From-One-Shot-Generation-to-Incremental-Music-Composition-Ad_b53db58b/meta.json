@@ -4,5 +4,33 @@
  "title": "From-One-Shot-Generation-to-Incremental-Music-Composition-Ad",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-09-29 19:08:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2eb3374b-048f-4e12-9229-9373909074e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/2eb3374b-048f-4e12-9229-9373909074e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:09:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "增量音乐作曲",
+    "持久化符号编辑",
+    "操作感知LLM",
+    "ABC记谱法",
+    "LoRA适配",
+    "分母感知评估",
+    "音乐生成"
+   ],
+   "field": "符号音乐生成与交互",
+   "innovations": [
+    "提出操作感知的持久化状态转换框架实现增量式符号音乐编辑",
+    "构建49万条操作感知对话数据集验证通用LLM的可学习性",
+    "设计分母感知三层评估体系分离语法、合规、音乐特征与记忆"
+   ],
+   "benchmarks": [
+    "IrishMan语料",
+    "Yang-Lerch九维音乐特征",
+    "LCS记忆分析",
+    "Checker准入率与条件合规率"
+   ]
+  }
+ }
 }

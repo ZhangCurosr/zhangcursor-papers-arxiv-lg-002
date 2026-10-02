@@ -4,5 +4,10 @@
  "title": "GEOGAE-SCALABLE-GRAPH-LEVEL-AUTOENCOD-ING-VIA-HYPERBALL-CLOU",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-29 19:07:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dd14264e-56cd-4299-ac0a-9dbbd0dff82f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dd14264e-56cd-4299-ac0a-9dbbd0dff82f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:10:22",
+  "chunks": 1
+ }
 }

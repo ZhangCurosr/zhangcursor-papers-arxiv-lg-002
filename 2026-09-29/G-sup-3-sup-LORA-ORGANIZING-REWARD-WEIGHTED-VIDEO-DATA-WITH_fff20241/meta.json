@@ -4,5 +4,10 @@
  "title": "G-sup-3-sup-LORA-ORGANIZING-REWARD-WEIGHTED-VIDEO-DATA-WITH",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-09-29 19:08:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8900cc08-d896-40ad-9648-0d43f796196f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8900cc08-d896-40ad-9648-0d43f796196f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:09:53",
+  "chunks": 1
+ }
 }

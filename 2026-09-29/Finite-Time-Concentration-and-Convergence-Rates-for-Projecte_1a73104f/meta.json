@@ -4,5 +4,10 @@
  "title": "Finite-Time-Concentration-and-Convergence-Rates-for-Projecte",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-09-29 08:06:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/12ba7880-de60-406b-9a24-dbdb2e60171a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/12ba7880-de60-406b-9a24-dbdb2e60171a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:08:29",
+  "chunks": 7
+ }
 }

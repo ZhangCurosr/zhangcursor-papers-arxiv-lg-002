@@ -4,5 +4,31 @@
  "title": "THE-TOKEN-BEFORE-THE-VALUE-IS-THE-KEY-HOW-HYBRID-ARCHITECTUR",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-09-15 07:54:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/e7b90452-e315-44f5-b123-3778de993fe6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/e7b90452-e315-44f5-b123-3778de993fe6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:00:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "hybrid language models",
+    "mechanistic interpretability",
+    "induction circuits",
+    "carrying matching copying",
+    "activation patching",
+    "layer-type-agnostic probes"
+   ],
+   "field": "混合架构可解释性",
+   "innovations": [
+    "提出层类型无关的配对探针跨 GDN/SWA/Transformer 统一测量 Carrying 和 Matching",
+    "发现 Matching 的组织方式由上游 Carrying 的学习条件决定，lag-one token 是关键",
+    "建立前驱支持-电路分配-自然文本召回的因果链，揭示架构先验与训练证据的共同作用"
+   ],
+   "benchmarks": [
+    "OpenWebText synthetic induction",
+    "Wiki/Python/Math natural text PPL",
+    "Qwen3-4B and Qwen3.5-4B pretrained checkpoints"
+   ]
+  }
+ }
 }

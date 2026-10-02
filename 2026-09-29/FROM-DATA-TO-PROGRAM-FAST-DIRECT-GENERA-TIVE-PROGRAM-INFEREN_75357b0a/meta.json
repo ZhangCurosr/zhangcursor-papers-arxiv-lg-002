@@ -4,5 +4,31 @@
  "title": "FROM-DATA-TO-PROGRAM-FAST-DIRECT-GENERA-TIVE-PROGRAM-INFEREN",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-29 07:59:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f950038d-384d-4d1a-9e1b-7b0c41022579.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/f950038d-384d-4d1a-9e1b-7b0c41022579.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:05:40",
+  "chunks": 9,
+  "meta": {
+   "keywords": [
+    "generative program inference",
+    "tabular distribution modeling",
+    "program discovery",
+    "Gaussian mixture model",
+    "structural causal model",
+    "Copula",
+    "fast density estimation"
+   ],
+   "field": "表格数据生成建模",
+   "innovations": [
+    "提出 PRODiGI，首个从表格数据单次前向推断可执行生成程序（GMM/SCM/Copula）的预训练模型",
+    "非自回归解码器并行填充模板槽位，保证语法有效且推理速度快 44×",
+    "程序空间微调固定主干参数仅优化程序可微参数，兼顾通用性与适配效率"
+   ],
+   "benchmarks": [
+    "Synthetic Mixed-Prior",
+    "OddBench (96 datasets)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "FROM-PERCEPTION-TO-INTEGRATION-REVISITING-THE-INTERNAL-DYNAM",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-09-29 19:09:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/12da6fae-6331-4ab7-83fb-a799ee770a10.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/12da6fae-6331-4ab7-83fb-a799ee770a10.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:04:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "推理效率",
+    "早期停止",
+    "内部分解分析",
+    "答案就绪度",
+    "状态干预"
+   ],
+   "field": "多模态大模型可解释性与高效推理",
+   "innovations": [
+    "揭示复合视觉推理中答案就绪度随推理步骤涌现的现象",
+    "设计基于轻量线性检测器的答案就绪度引导早期停止方法",
+    "建立从感知到整合的VLM内部动态分析框架"
+   ],
+   "benchmarks": [
+    "MMStar",
+    "RealWorldQA"
+   ]
+  }
+ }
 }

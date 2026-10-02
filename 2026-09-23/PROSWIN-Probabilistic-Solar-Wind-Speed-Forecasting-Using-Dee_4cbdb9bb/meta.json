@@ -4,5 +4,33 @@
  "title": "PROSWIN-Probabilistic-Solar-Wind-Speed-Forecasting-Using-Dee",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-09-23 18:18:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/6508d97e-3f5a-49ab-a6d9-3bab0c6453f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/6508d97e-3f5a-49ab-a6d9-3bab0c6453f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:01:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "太阳风速度预测",
+    "概率预报",
+    "分布回归",
+    "对数正态分布",
+    "空间天气",
+    "Swin Transformer"
+   ],
+   "field": "空间天气机器学习预测",
+   "innovations": [
+    "首个基于深度分布回归的太阳风速度概率预测模型，直接输出对数正态条件分布",
+    "提出 Prediction Score 指标，用加权调和平均联合评估时间线与 HSS 峰值误差",
+    "揭示 171A 与 193/211A 通道的信息互补性及 HMI 磁图的低贡献性"
+   ],
+   "benchmarks": [
+    "CRPS",
+    "RMSE",
+    "Brier Skill Score",
+    "POD/FAR/TS",
+    "Prediction Score"
+   ]
+  }
+ }
 }

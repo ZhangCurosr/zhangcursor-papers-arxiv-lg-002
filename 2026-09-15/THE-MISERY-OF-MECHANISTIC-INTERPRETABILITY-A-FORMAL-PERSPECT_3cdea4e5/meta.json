@@ -4,5 +4,32 @@
  "title": "THE-MISERY-OF-MECHANISTIC-INTERPRETABILITY-A-FORMAL-PERSPECT",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-09-15 07:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/5b832a1a-c09d-4369-9d9e-8cc89afa2191.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-15/5b832a1a-c09d-4369-9d9e-8cc89afa2191.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:00:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "interpretable replacement networks",
+    "formal verification",
+    "adversarial robustness",
+    "sparse autoencoders",
+    "faithfulness gap"
+   ],
+   "field": "大语言模型可解释性与形式化验证",
+   "innovations": [
+    "首个IRN忠实性形式化验证框架，认证对抗场景下δ-等价性上下界",
+    "验证感知训练使忠实性差距缩减约90%且保持稀疏性",
+    "高效验证优化：一步lookahead+区间算术避免高维zonotope显式传播"
+   ],
+   "benchmarks": [
+    "WikiText-2",
+    "GPT-2 SAE/TC",
+    "Gemma Scope SAE",
+    "Llama Scope SAE"
+   ]
+  }
+ }
 }

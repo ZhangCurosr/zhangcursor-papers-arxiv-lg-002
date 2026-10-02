@@ -4,5 +4,32 @@
  "title": "FROM-SOFT-TARGETS-TO-REWARD-SIGNALS-HOW-ASSIGNMENT-AND-REWAR",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-09-29 19:08:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5429bbb0-db44-454c-a50b-fa59678fda7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/5429bbb0-db44-454c-a50b-fa59678fda7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:05:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reward model",
+    "soft targets",
+    "preference learning",
+    "assignment geometry",
+    " Bradley-Terry loss",
+    "model alignment"
+   ],
+   "field": "语言模型对齐与奖励建模",
+   "innovations": [
+    "提出分配几何框架分离软目标分散度与配对关系的影响",
+    "发现完整对应关系在所有五种奖励目标下均保留最大干净边际",
+    "揭示目标依赖的衰减排序并发现APLOT均匀目标额外衰减"
+   ],
+   "benchmarks": [
+    "UltraFeedback",
+    "HelpSteer",
+    "RewardBench",
+    "RM-Bench"
+   ]
+  }
+ }
 }

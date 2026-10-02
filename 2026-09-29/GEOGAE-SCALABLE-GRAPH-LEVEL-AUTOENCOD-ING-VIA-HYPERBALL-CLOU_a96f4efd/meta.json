@@ -4,5 +4,35 @@
  "title": "GEOGAE-SCALABLE-GRAPH-LEVEL-AUTOENCOD-ING-VIA-HYPERBALL-CLOU",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-29 08:02:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dd14264e-56cd-4299-ac0a-9dbbd0dff82f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/dd14264e-56cd-4299-ac0a-9dbbd0dff82f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:10:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "graph autoencoder",
+    "hyperball cloud",
+    "Transformer",
+    "scalable graph representation",
+    "topology reconstruction",
+    "multi-layer teacher forcing"
+   ],
+   "field": "图表示学习与图生成",
+   "innovations": [
+    "提出超球体云连续图表示与确定性节点排序，避免节点匹配开销",
+    "以静态几何相交规则实现无阈值边重建，提升推理稳定性",
+    "多层教师强制结合停止logit的动态长度预测，有效缓解自回归exposure bias"
+   ],
+   "benchmarks": [
+    "MUTAG",
+    "AIDS",
+    "IMDB-BIN",
+    "QM9",
+    "SYNTHETIC NEW",
+    "COLLAB",
+    "REDDIT-BIN"
+   ]
+  }
+ }
 }

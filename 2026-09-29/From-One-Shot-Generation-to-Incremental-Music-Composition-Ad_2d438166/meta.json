@@ -4,5 +4,32 @@
  "title": "From-One-Shot-Generation-to-Incremental-Music-Composition-Ad",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-09-29 08:02:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/015d5f6b-ff45-46ce-b9c8-cf9a5206fc17.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/015d5f6b-ff45-46ce-b9c8-cf9a5206fc17.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:08:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "增量音乐作曲",
+    "符号音乐编辑",
+    "大语言模型",
+    "LoRA微调",
+    "ABC记谱法",
+    "持久状态转换",
+    "操作感知对话"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "将对话式符号作曲形式化为操作特定的持久状态转换框架，显式分离交互连续性、变换范围与保留不变量",
+    "构建496,038条操作感知对话数据集并验证通用LLM可通过LoRA微调直接学习音乐编辑交互契约",
+    "设计分母感知的三层评估协议，分离语法准入、操作合规、音乐特征与记忆检测四个独立维度"
+   ],
+   "benchmarks": [
+    "IrishMan语料库",
+    "Yang-Lerch音乐特征评估",
+    "LCS序列重叠记忆检测"
+   ]
+  }
+ }
 }

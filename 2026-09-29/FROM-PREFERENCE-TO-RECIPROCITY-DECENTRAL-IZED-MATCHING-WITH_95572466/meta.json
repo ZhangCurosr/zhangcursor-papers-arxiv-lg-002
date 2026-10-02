@@ -4,5 +4,31 @@
  "title": "FROM-PREFERENCE-TO-RECIPROCITY-DECENTRAL-IZED-MATCHING-WITH",
  "token": "sk-L8fxiXWw6...",
  "created_at": "2026-09-29 08:07:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6fef7d15-5b2e-4b0d-8a3f-7a6edcfdea06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6fef7d15-5b2e-4b0d-8a3f-7a6edcfdea06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:04:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "bipartite matching",
+    "LLM agent-based modeling",
+    "contextual bandit",
+    "decentralized market",
+    "mate preference",
+    "reciprocal acceptance learning",
+    "economic simulation"
+   ],
+   "field": "计算社会科学 / 机制设计与 LLM 行为建模交叉",
+   "innovations": [
+    "解耦偏好估值（LLM）与接受学习（Logistic-UCB）的去中心化双边匹配框架",
+    "在动态误设定 logistic 工作模型下建立局部 pseudo-regret 上界"
+   ],
+   "benchmarks": [
+    "Gale-Shapley deferred acceptance",
+    "Axtell-Kimbrough decentralized matching",
+    "LLM-solver one-shot matching"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "First-Learn-Then-Memorize-The-Spectral-Bias-of-Diffusion-Mod",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-29 08:05:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/91127c4d-aabc-488c-805d-2b6ba1869e38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/91127c4d-aabc-488c-805d-2b6ba1869e38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:08:47",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "扩散模型",
+    "谱偏差",
+    "泛化-记忆",
+    "NTK",
+    "噪声重复",
+    "训练动力学"
+   ],
+   "field": "生成模型理论",
+   "innovations": [
+    "揭示扩散模型泛化先于记忆的谱机制",
+    "证明噪声重复重塑 Gram 矩阵谱产生两 bulk",
+    "建立最优早停与谱截断的精确映射"
+   ],
+   "benchmarks": [
+    "CelebA 灰度 32x32",
+    "FID",
+    "bias-variance 分解"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "FROM-PREFERENCE-TO-RECIPROCITY-DECENTRAL-IZED-MATCHING-WITH",
  "token": "sk-L8fxiXWw6...",
  "created_at": "2026-09-29 19:09:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6fef7d15-5b2e-4b0d-8a3f-7a6edcfdea06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6fef7d15-5b2e-4b0d-8a3f-7a6edcfdea06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:04:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "bipartite matching",
+    "LLM agent-based modeling",
+    "contextual bandits",
+    "decentralized matching",
+    "reciprocal acceptance",
+    "marriage market simulation"
+   ],
+   "field": "computational social science / economic simulation",
+   "innovations": [
+    "Empirically grounded LLM-agent behavioral modeling with gender-specific mate preferences",
+    "Decoupled decentralized matching separating local LLM valuation from agent-specific Logistic-UCB reciprocity learning",
+    "Theoretical local regret bounds and strict bilateral improvement guarantees under dynamic misspecification"
+   ],
+   "benchmarks": [
+    "Gale-Shapley deferred acceptance",
+    "Axtell-Kimbrough decentralized search",
+    "LLM-solver centralized generation"
+   ]
+  }
+ }
 }

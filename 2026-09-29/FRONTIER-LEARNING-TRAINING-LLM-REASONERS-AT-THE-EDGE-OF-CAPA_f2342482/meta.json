@@ -4,5 +4,34 @@
  "title": "FRONTIER-LEARNING-TRAINING-LLM-REASONERS-AT-THE-EDGE-OF-CAPA",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-29 07:53:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8299d3f6-f59b-406b-85df-e2512f112116.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8299d3f6-f59b-406b-85df-e2512f112116.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:05:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Frontier Learning",
+    "Procedural Data Generation",
+    "Reinforcement Learning",
+    "GRPO",
+    "LLM Reasoning",
+    "Curriculum Learning",
+    "Regret-Based Sampling"
+   ],
+   "field": "LLM强化学习后训练",
+   "innovations": [
+    "提出前沿学习框架，在线追踪模型能力边缘",
+    "基于问题级/水平级后悔的动态优先级信号",
+    "状态依赖变异机制持续扩展训练分布"
+   ],
+   "benchmarks": [
+    "COUNTDOWN",
+    "SOKOBAN",
+    "DICE",
+    "DECIMAL ARITHMETIC",
+    "LARGEST ISLAND"
+   ]
+  }
+ }
 }

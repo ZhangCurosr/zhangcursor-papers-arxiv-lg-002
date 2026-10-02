@@ -4,5 +4,33 @@
  "title": "Polyak-Type-Extragradient-Methods-for-Monotone-Root-Finding",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-09-23 18:20:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/a8532d57-4da2-46b3-9ad5-638ec01a85bd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-24/a8532d57-4da2-46b3-9ad5-638ec01a85bd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 08:01:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "extragradient methods",
+    "Polyak step-sizes",
+    "monotone root finding",
+    "adaptive stepsizes",
+    "stochastic approximation",
+    "Hölder continuity",
+    "(L0,L1)-Lipschitz"
+   ],
+   "field": "单调算子根查找与一阶优化",
+   "innovations": [
+    "首次将Polyak步长原理引入外梯度法并给出几何解释",
+    "统一临界条件框架覆盖Lipschitz/Hölder/(L0,L1)三类正则性",
+    "随机设定下建立插值与非插值情形的完整收敛理论"
+   ],
+   "benchmarks": [
+    "二次鞍点问题",
+    "Hölder连续算子测试",
+    "(L0,L1)-Lipschitz鞍点问题",
+    "随机鲁棒最小二乘"
+   ]
+  }
+ }
 }
