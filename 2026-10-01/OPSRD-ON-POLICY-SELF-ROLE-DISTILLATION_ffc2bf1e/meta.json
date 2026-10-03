@@ -4,5 +4,31 @@
  "title": "OPSRD-ON-POLICY-SELF-ROLE-DISTILLATION",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-10-01 08:26:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7732d1a6-8f01-47b3-8056-363be40cc0d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7732d1a6-8f01-47b3-8056-363be40cc0d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "role prompting",
+    "forward KL",
+    "self-distillation",
+    "reasoning",
+    "large language models"
+   ],
+   "field": "大语言模型高效微调与蒸馏",
+   "innovations": [
+    "将固定专家角色作为可复用教学上下文替代参考答案，实现无参考解的on-policy自我蒸馏",
+    "提出entropy-masked forward KL目标，在高熵位置裁剪词汇贡献以纠正学生对教师支持备选token的低估",
+    "系统验证teacher-only角色放置与forward KL散度在所有模型尺度上的最优性"
+   ],
+   "benchmarks": [
+    "AIME 2024",
+    "AIME 2025",
+    "HMMT 2025"
+   ]
+  }
+ }
 }

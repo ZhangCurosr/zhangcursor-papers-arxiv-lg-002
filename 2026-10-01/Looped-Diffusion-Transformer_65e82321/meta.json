@@ -4,5 +4,35 @@
  "title": "Looped-Diffusion-Transformer",
  "token": "sk-ZHrWl9Czg...",
  "created_at": "2026-10-01 08:19:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e64faf9-c19b-4ddf-9a24-24ab507c2181.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e64faf9-c19b-4ddf-9a24-24ab507c2181.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Looped Transformer",
+    "Diffusion Model",
+    "Text-to-Image",
+    "Parameter Efficiency",
+    "Self-Modulating Attention",
+    "Deep Supervision",
+    "Visual Reasoning"
+   ],
+   "field": "文本到图像生成与推理效率",
+   "innovations": [
+    "首次系统研究循环计算在文本到图像生成中的应用，提出 Deep Supervision + Self-Modulating Attention 稳定循环表示",
+    "在推理计算匹配条件下，增加循环深度比增加去噪步数带来更大性能增益",
+    "发现循环可支持隐式视觉推理，在约束满足子任务上超越显式 CoT"
+   ],
+   "benchmarks": [
+    "GenEval",
+    "DPG-Bench",
+    "PRISM",
+    "T2I-CoReBench",
+    "SpatialGenEval",
+    "TIIF-Short"
+   ]
+  }
+ }
 }

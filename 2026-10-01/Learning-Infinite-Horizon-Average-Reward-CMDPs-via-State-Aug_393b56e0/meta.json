@@ -4,5 +4,30 @@
  "title": "Learning-Infinite-Horizon-Average-Reward-CMDPs-via-State-Aug",
  "token": "sk-2QaTYJZfX...",
  "created_at": "2026-10-01 08:27:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/55e468b5-0f8c-4f21-8cfd-c9969639a798.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/55e468b5-0f8c-4f21-8cfd-c9969639a798.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:58:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "平均奖励 CMDP",
+    "状态增广",
+    "Huber 势",
+    "遗憾分析",
+    "弱通信 MDP",
+    "价值截断",
+    "on-policy learning"
+   ],
+   "field": "约束强化学习理论",
+   "innovations": [
+    "将累积约束违反编码为安全状态并通过 Huber 势设计有界重塑奖励，避免对偶乘子变化导致的值函数失控",
+    "首次实现弱通信表格平均奖励 CMDP 下计算高效的 Õ(√T) 遗憾与约束违反联合上界",
+    "将乐观价值迭代与价值截断技术推广至增广 CMDP 设定，证明 clip 后仍保留 optimism"
+   ],
+   "benchmarks": [
+    "Tabular CMDP (modified from Yu et al. 2026, H_env=6, m=2, T=32000)"
+   ]
+  }
+ }
 }

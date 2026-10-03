@@ -4,5 +4,27 @@
  "title": "Minimax-Additive-Regression-under-Unknown-Dependent-Designs",
  "token": "sk-7wel9Fhtk...",
  "created_at": "2026-10-01 08:32:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4850c4c3-e00d-4bdf-a339-e48d185a6a07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4850c4c3-e00d-4bdf-a339-e48d185a6a07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "加法回归",
+    "minimax估计",
+    "非乘积设计",
+    "Riesz基",
+    "functional ANOVA",
+    "依赖设计",
+    "高维非参数"
+   ],
+   "field": "非参数回归理论",
+   "innovations": [
+    "建立非乘积设计下加法回归的Riesz基表示及其与维度无关的稳定界",
+    "提出耦合正则类同时刻画信号与密度正则度并证明minimax最优率",
+    "刻画边际密度正则度γ相对信号正则度β的相位转移现象"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "OPENTSLM-TEEMOE-A-UNIFIED-TIME-SERIES-LANGUAGE-MODEL-FOR-FOR",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-10-01 08:19:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/57f72669-3bed-49e2-ae67-3e1e424bb1cd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/57f72669-3bed-49e2-ae67-3e1e424bb1cd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time-series language model",
+    "mixture of experts",
+    "LoRA adapter composition",
+    "forecast aggregation",
+    "contextual forecasting",
+    "temporal reasoning",
+    "generalist model"
+   ],
+   "field": "时间序列预测与语言模型融合",
+   "innovations": [
+    "首次将 LoRA MoE 控制器用于构建通用时间序列语言模型，独立训练聚合/原生预测/时序分析三个专家并在共享 Qwen3.6-27B 骨干上软组合",
+    "提出数值-语言串联接口：将 13 候选预测分布的统计特征编码为连续 token，经有界修正与分歧门控精炼参考分位数",
+    "以独立训练 + 冻结组合替代联合微调，在约 40B 参数下于 GIFT-Eval/Context is Key/TimeSeriesExam 三榜同时跻身前三"
+   ],
+   "benchmarks": [
+    "GIFT-Eval",
+    "Context is Key",
+    "TimeSeriesExam v1.1"
+   ]
+  }
+ }
 }

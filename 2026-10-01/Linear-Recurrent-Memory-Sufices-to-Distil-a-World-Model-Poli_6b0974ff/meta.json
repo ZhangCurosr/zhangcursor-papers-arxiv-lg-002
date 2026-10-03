@@ -4,5 +4,10 @@
  "title": "Linear-Recurrent-Memory-Sufices-to-Distil-a-World-Model-Poli",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-10-01 08:26:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2e801d6-793e-478c-bb90-d2bfcf8098fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2e801d6-793e-478c-bb90-d2bfcf8098fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:06",
+  "chunks": 1
+ }
 }

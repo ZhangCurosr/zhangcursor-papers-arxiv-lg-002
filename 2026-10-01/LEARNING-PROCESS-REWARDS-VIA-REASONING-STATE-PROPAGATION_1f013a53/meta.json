@@ -4,5 +4,34 @@
  "title": "LEARNING-PROCESS-REWARDS-VIA-REASONING-STATE-PROPAGATION",
  "token": "sk-Ow5x4gcSo...",
  "created_at": "2026-10-01 08:27:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/69cef6b7-7e54-481c-af39-1bd5726b5628.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/69cef6b7-7e54-481c-af39-1bd5726b5628.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:57:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "process reward model",
+    "reasoning state propagation",
+    "reinforcement learning",
+    "test-time scaling",
+    "outcome supervision"
+   ],
+   "field": "过程奖励建模与推理增强",
+   "innovations": [
+    "提出 RSP 通过 break/repair 概率显式建模推理状态转移，将过程标注与结果标注联合利用",
+    "推导结果监督对中间状态转移的后验重加权梯度，证明终端标签可反向传播学习信号",
+    "在 beam search、Best-of-N 和 RL 三场景统一验证，平均较 Qwen2.5-Math-PRM 提升 5.6%（beam search）和 2.1%（RL）"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "Gaokao",
+    "ProcessBench",
+    "DAPO-MATH-17K",
+    "GSM8K",
+    "AIME",
+    "AMC"
+   ]
+  }
+ }
 }

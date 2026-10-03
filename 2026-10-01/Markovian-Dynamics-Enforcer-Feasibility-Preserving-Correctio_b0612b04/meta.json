@@ -4,5 +4,30 @@
  "title": "Markovian-Dynamics-Enforcer-Feasibility-Preserving-Correctio",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-01 08:20:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2c9a026b-377b-4c66-9510-9fc60cfda564.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2c9a026b-377b-4c66-9510-9fc60cfda564.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trajectory feasibility",
+    "dynamics enforcer",
+    "completion-correction",
+    "implicit control inference",
+    "physics-residual hybrid",
+    "inequality correction"
+   ],
+   "field": "可微动力学与轨迹可行性修正",
+   "innovations": [
+    "以学习动力学流形替代分析等式的后验 completion-correction 算子",
+    "在控制空间做梯度不等式修正并每次重积分保持动力学流形",
+    "双阶段自监督交替冻结训练以抑制逆/正向残差合谋"
+   ],
+   "benchmarks": [
+    "DI/UNI/KB/DB 仿真四阶梯",
+    "inD 无人机路口车辆轨迹"
+   ]
+  }
+ }
 }

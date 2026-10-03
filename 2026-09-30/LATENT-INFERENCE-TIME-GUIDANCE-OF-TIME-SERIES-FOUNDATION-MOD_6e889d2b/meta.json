@@ -4,5 +4,10 @@
  "title": "LATENT-INFERENCE-TIME-GUIDANCE-OF-TIME-SERIES-FOUNDATION-MOD",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-30 18:49:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d1c9066d-5931-47cf-bf2a-ebbc785465ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d1c9066d-5931-47cf-bf2a-ebbc785465ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:55:51",
+  "chunks": 1
+ }
 }

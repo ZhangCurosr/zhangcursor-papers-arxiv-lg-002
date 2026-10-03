@@ -4,5 +4,32 @@
  "title": "Learning-to-Explain-While-Planning-Rule-Aligned-Diffusion-Pl",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-10-01 08:25:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/333ca45f-820e-44f5-abae-5012ce321a34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/333ca45f-820e-44f5-abae-5012ce321a34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:58:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion planning",
+    "autonomous driving",
+    "explainable AI",
+    "differentiable rules",
+    "rule attribution",
+    "nuPlan",
+    "interpretability"
+   ],
+   "field": "自动驾驶规划与可解释AI",
+   "innovations": [
+    "将可微驾驶规则直接嵌入扩散策略训练目标，使规则成为内生约束",
+    "基于轨迹梯度的规则优化压力教师蒸馏至轻量在线归因头",
+    "提出时间风险对齐协议验证归因与后续闭环真实风险的语义一致性"
+   ],
+   "benchmarks": [
+    "nuPlan val14",
+    "nuPlan test14-random",
+    "nuPlan test14-hard"
+   ]
+  }
+ }
 }

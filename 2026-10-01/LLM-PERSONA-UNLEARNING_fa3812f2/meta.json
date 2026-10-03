@@ -4,5 +4,10 @@
  "title": "LLM-PERSONA-UNLEARNING",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-10-01 08:20:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a52c6827-9020-4222-a387-346ccab58e56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a52c6827-9020-4222-a387-346ccab58e56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:06",
+  "chunks": 4
+ }
 }

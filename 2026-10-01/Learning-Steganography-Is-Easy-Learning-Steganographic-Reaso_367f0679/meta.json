@@ -4,5 +4,34 @@
  "title": "Learning-Steganography-Is-Easy-Learning-Steganographic-Reaso",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-10-01 08:28:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/35d4f445-2de6-4d2e-a202-c122e52da670.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/35d4f445-2de6-4d2e-a202-c122e52da670.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:58:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chain-of-thought monitoring",
+    "steganographic reasoning",
+    "AI safety",
+    "steganography",
+    "reinforcement learning",
+    "supervised fine-tuning",
+    "emergent capability"
+   ],
+   "field": "AI安全与对齐",
+   "innovations": [
+    "首次系统比较隐写推理与其两个邻近能力（隐写消息传递、编码推理）在三类诱发方法下的学习难度差距",
+    "提出误差注入方法验证模型是否真正通过显式scratchpad进行计算而非潜计算后填充",
+    "复现并修正Zolkowski等报告的早期隐写推理信号，指出其主要来自prompt信息泄露而非真正能力"
+   ],
+   "benchmarks": [
+    "WildChat",
+    "AQuA-RAT",
+    "Binary state tracking",
+    "A5 group tracking",
+    "Knapsack packing"
+   ]
+  }
+ }
 }

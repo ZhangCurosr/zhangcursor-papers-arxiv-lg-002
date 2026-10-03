@@ -4,5 +4,32 @@
  "title": "Low-Discrepancy-Dither-for-Quantized-Recurrent-State-Caches",
  "token": "sk-u8lryRDFU...",
  "created_at": "2026-10-01 08:26:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6c40dd2d-2d93-4b52-a631-1b829d07bcd4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6c40dd2d-2d93-4b52-a631-1b829d07bcd4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mamba量化",
+    "循环状态缓存",
+    "舍入策略",
+    "低差异序列",
+    "Weyl抖动",
+    "随机舍入",
+    "状态空间模型"
+   ],
+   "field": "大模型高效推理与量化",
+   "innovations": [
+    "系统性证明Weyl确定性抖动在Mamba循环状态量化中优于随机舍入，15组设定全胜且零成本",
+    "建立累积误差与阈值序列discrepancy的理论联系，解释rtn长程线性恶化机制",
+    "文档化三个静默实现陷阱（近分数增量、时空混叠、float32相位精度）并提供修复"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "PG-19",
+    "LAMBADA"
+   ]
+  }
+ }
 }

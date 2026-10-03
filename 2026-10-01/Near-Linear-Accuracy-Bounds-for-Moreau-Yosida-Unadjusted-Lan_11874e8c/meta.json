@@ -4,5 +4,30 @@
  "title": "Near-Linear-Accuracy-Bounds-for-Moreau-Yosida-Unadjusted-Lan",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-10-01 08:19:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7994461b-1511-4113-907c-fcdfd476605b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7994461b-1511-4113-907c-fcdfd476605b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:01:37",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Moreau-Yosida近似",
+    "Rényi散度",
+    "Log-Sobolev不等式",
+    "密度比权重",
+    "Poisson方程正则性",
+    "Unadjusted Langevin"
+   ],
+   "field": "MCMC采样理论分析",
+   "innovations": [
+    "高斯分部积分的密度比加权版本",
+    "Rényi散度演化的微分不等式",
+    "Poisson方程的H^2_loc正则性"
+   ],
+   "benchmarks": [
+    "理论界e^{1/4}",
+    "密度比L^alpha界"
+   ]
+  }
+ }
 }

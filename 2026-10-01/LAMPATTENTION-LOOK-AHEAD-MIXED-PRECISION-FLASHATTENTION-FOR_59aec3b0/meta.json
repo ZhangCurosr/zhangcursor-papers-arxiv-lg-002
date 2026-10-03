@@ -4,5 +4,32 @@
  "title": "LAMPATTENTION-LOOK-AHEAD-MIXED-PRECISION-FLASHATTENTION-FOR",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-10-01 08:29:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/dac6b67d-dc82-4d6e-b719-6b469a8382bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/dac6b67d-dc82-4d6e-b719-6b469a8382bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:57:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mixed-precision",
+    "FlashAttention",
+    "numerical stability",
+    "hardware-algorithm co-design",
+    "LLM inference",
+    "look-ahead precision"
+   ],
+   "field": "高效Transformer推理",
+   "innovations": [
+    "将LAMP框架适配到FlashAttention kernel实现两阶段自适应精度分配",
+    "提出基于运行最大值和解析误差界的子块级精度决策机制",
+    "设计支持e4m3累加和LUT指数查表的专用加速器规格"
+   ],
+   "benchmarks": [
+    "C4",
+    "MMLU",
+    "Wikitext",
+    "ARC-Challenge"
+   ]
+  }
+ }
 }

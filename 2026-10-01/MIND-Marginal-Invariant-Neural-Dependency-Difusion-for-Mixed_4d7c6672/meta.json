@@ -4,5 +4,35 @@
  "title": "MIND-Marginal-Invariant-Neural-Dependency-Difusion-for-Mixed",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-10-01 08:23:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b73cf16-5cdb-4677-a29a-6716c1041122.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5b73cf16-5cdb-4677-a29a-6716c1041122.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "表格数据生成",
+    "扩散模型",
+    "Copula",
+    "混合类型数据",
+    "边缘分布建模",
+    "依赖学习"
+   ],
+   "field": "表格数据生成与合成",
+   "innovations": [
+    "显式解耦列边缘分布与跨列依赖学习，通过Copula边缘变换将异构变量映射到统一规范潜空间",
+    "引入Copula切向去噪与混合参数化策略，分离可解析边缘分量与可学习依赖残差",
+    "采样阶段间歇应用秩投影校正边缘漂移，结合二阶依赖正则化稳定生成质量"
+   ],
+   "benchmarks": [
+    "Adult",
+    "Default Credit Card",
+    "FICO HELOC",
+    "Covertype",
+    "Beijing PM2.5",
+    "Online News Popularity",
+    "HeavyTail Stress Test"
+   ]
+  }
+ }
 }

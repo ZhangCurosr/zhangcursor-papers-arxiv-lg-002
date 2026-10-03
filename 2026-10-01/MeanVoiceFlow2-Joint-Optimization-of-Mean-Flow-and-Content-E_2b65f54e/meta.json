@@ -4,5 +4,29 @@
  "title": "MeanVoiceFlow2-Joint-Optimization-of-Mean-Flow-and-Content-E",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-01 08:30:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e0892bab-e78e-4b39-8f07-baa907960e67.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e0892bab-e78e-4b39-8f07-baa907960e67.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot voice conversion",
+    "mean flow",
+    "knowledge distillation",
+    "diffusion-GAN",
+    "content encoder",
+    "one-step generation"
+   ],
+   "field": "零样本语音转换",
+   "innovations": [
+    "联合优化高效内容编码器与流式转换模块，无需外部预训练vocoder",
+    "教师引导的条件增强策略隐式促进内容-说话人解耦，优于显式特征对齐"
+   ],
+   "benchmarks": [
+    "VCTK",
+    "LibriTTS"
+   ]
+  }
+ }
 }

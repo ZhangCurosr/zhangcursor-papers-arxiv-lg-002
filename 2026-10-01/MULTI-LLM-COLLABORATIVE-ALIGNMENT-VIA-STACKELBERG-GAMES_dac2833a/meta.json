@@ -4,5 +4,37 @@
  "title": "MULTI-LLM-COLLABORATIVE-ALIGNMENT-VIA-STACKELBERG-GAMES",
  "token": "sk-j48TqhxQD...",
  "created_at": "2026-10-01 08:27:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/31d02b53-ead8-4fbf-8455-f66d710117b6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/31d02b53-ead8-4fbf-8455-f66d710117b6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-LLM collaboration",
+    "Stackelberg game",
+    "adaptive curriculum",
+    "preference optimization",
+    "DPO",
+    "GRPO",
+    "reputation system",
+    "instruction selection"
+   ],
+   "field": "大语言模型对齐与协作训练",
+   "innovations": [
+    "将多LLM训练时协作形式化为Stackelberg博弈，引入自适应指令选择Leader",
+    "EXP3 bandit驱动的复合奖励机制跟踪模型能力前沿动态变化",
+    "信誉加权同行评审与时间调度对手匹配的协同设计"
+   ],
+   "benchmarks": [
+    "SMDD",
+    "GPQA-Diamond",
+    "MATH",
+    "HumanEval",
+    "AlpacaEval",
+    "IFEval",
+    "TruthfulQA"
+   ]
+  }
+ }
 }

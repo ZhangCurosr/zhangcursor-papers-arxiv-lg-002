@@ -4,5 +4,32 @@
  "title": "MANET-GNN-Learned-Decentralized-Optimization-of-Power-Alloca",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-01 08:21:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cc9039c3-f980-4953-9498-e4496314c6ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cc9039c3-f980-4953-9498-e4496314c6ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MANET",
+    "图神经网络",
+    "去中心化优化",
+    "功率分配",
+    "学习优化",
+    "多信道无线网络",
+    "路由联合优化"
+   ],
+   "field": "无线通信中的图学习与去中心化优化",
+   "innovations": [
+    "统一多通信框架的去中心化GNN功率分配优化器",
+    "无监督训练下将非凸端到端速率目标转化为可微损失",
+    "FiLM边门控消息传递结合候选路径路由头实现低延迟推理"
+   ],
+   "benchmarks": [
+    "QuaDRiGa城市多径信道",
+    "单播/组播/多商品/汇聚/许多到许多通信框架",
+    "中心化优化器、贪心拆分、最宽路径、前馈网络"
+   ]
+  }
+ }
 }

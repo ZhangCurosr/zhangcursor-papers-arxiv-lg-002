@@ -4,5 +4,34 @@
  "title": "OPTS-TTPO-Enhancing-Finite-Sample-Policy-Gradient-Learning-w",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-10-01 08:28:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1daf4de1-693f-43ac-948a-4034d2e98e19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1daf4de1-693f-43ac-948a-4034d2e98e19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:02:31",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "TreeGAE",
+    "Policy Gradient",
+    "Online Search",
+    "RL for LLM",
+    "Credit Assignment",
+    "Gradient Bias"
+   ],
+   "field": "强化学习与策略梯度理论",
+   "innovations": [
+    "将策略梯度推广至树轨迹（TreeGAE）并提供无偏估计条件",
+    "引入后验最大备份实现前缀信用传播并给出梯度偏差理论界",
+    "在 MuJoCo/Atari/LLM RLVR 三大领域验证有限样本下的性能提升"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "MinervaMath",
+    "AMC23",
+    "AIME24",
+    "AIME25",
+    "AIME26"
+   ]
+  }
+ }
 }

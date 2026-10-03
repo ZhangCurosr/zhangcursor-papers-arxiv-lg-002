@@ -4,5 +4,36 @@
  "title": "LEARNING-FUNCTIONAL-SUBSPACES-FOR-NEURAL-NETWORK-COMPRESSION",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-10-01 08:23:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c444e708-a4f0-4b05-8a0d-438faf7186f4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c444e708-a4f0-4b05-8a0d-438faf7186f4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:57:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "low-rank compression",
+    "neural network pruning",
+    "transformer compression",
+    "learnable subspaces",
+    "model distillation",
+    "KV cache optimization"
+   ],
+   "field": "高效神经网络推理",
+   "innovations": [
+    "端到端学习正交投影器替代闭式局部标准进行子空间选择",
+    "测量-KL 排名分配按边际成本贪心分配压缩预算",
+    "绑定组共享投影器实现 13.5× 内存缩减的潜在缓存"
+   ],
+   "benchmarks": [
+    "WikiText-2 perplexity",
+    "ARC-e",
+    "PIQA",
+    "OpenBookQA",
+    "WinoGrande",
+    "HellaSwag",
+    "MathQA",
+    "CIFAR-100 accuracy"
+   ]
+  }
+ }
 }

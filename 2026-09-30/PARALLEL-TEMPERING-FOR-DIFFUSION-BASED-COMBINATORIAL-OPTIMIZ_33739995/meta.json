@@ -4,5 +4,34 @@
  "title": "PARALLEL-TEMPERING-FOR-DIFFUSION-BASED-COMBINATORIAL-OPTIMIZ",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-09-30 18:51:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84deb111-ada4-4a19-ac00-a6e1c38aad30.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/84deb111-ada4-4a19-ac00-a6e1c38aad30.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:56:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "combinatorial optimization",
+    "discrete diffusion",
+    "parallel tempering",
+    "inference-time scaling",
+    "graph optimization",
+    "temperature exchange",
+    "DiffUCO",
+    "SDDS"
+   ],
+   "field": "扩散模型与组合优化",
+   "innovations": [
+    "提出无需重训练的推理时并行温度交换协议PT-Denoise，协调多条离散扩散轨迹",
+    "解耦温度梯子与种群规模，多副本共享温度档以提升交换效率",
+    "以松弛能量代理指导跨温度状态交换，在固定去噪器预算下稳定提升最优解质量"
+   ],
+   "benchmarks": [
+    "MIS RB small/large",
+    "MDS BA small/large",
+    "Max Cut BA small/large",
+    "Max Clique RB small"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "NODEGROUND-A-NODE-CLASSIFICATION-BENCHMARK-IN-THE-GRAPH-FOUN",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-10-01 08:26:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/41623305-7428-4aa8-88b5-18dbac8ff013.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/41623305-7428-4aa8-88b5-18dbac8ff013.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Graph Foundation Models",
+    "Node Classification Benchmark",
+    "Performance-Cost Tradeoff",
+    "GNN Evaluation",
+    "Mean Improvability"
+   ],
+   "field": "图机器学习评测基准",
+   "innovations": [
+    "首个同时系统性对比GFM与强监督方法并联合度量性能与全链路计算成本的节点分类基准",
+    "提出Mean Improvability与Mean Overhead构成的性能-成本Pareto前沿分析框架",
+    "开放run-level结果与公开排行榜，支持跨51数据集、双标签regime与多指标的可复现对比"
+   ],
+   "benchmarks": [
+    "NODEGROUND"
+   ]
+  }
+ }
 }

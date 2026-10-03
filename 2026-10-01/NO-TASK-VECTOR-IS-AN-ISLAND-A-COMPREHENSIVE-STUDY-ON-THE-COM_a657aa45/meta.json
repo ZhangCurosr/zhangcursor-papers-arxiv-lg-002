@@ -4,5 +4,34 @@
  "title": "NO-TASK-VECTOR-IS-AN-ISLAND-A-COMPREHENSIVE-STUDY-ON-THE-COM",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-10-01 08:28:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/71a2ae4e-e969-4fb4-83b0-4a6b2a145a1e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/71a2ae4e-e969-4fb4-83b0-4a6b2a145a1e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "task vector",
+    "model merging",
+    "reinforcement learning with verifiable rewards",
+    "composability",
+    "parameter space merging"
+   ],
+   "field": "大模型后训练与模型合并",
+   "innovations": [
+    "首次系统评估OPD任务向量的同任务与跨任务可组合性，证明较弱OPD学生可互补并提升RL教师",
+    "提出OPD与RL同任务平均后跨任务求和的联合合并构造，在双主干上获得更高多任务平均分",
+    "通过正交分解、方向保持与高能通道重叠等几何诊断，建立更新几何与可组合性的关联解释"
+   ],
+   "benchmarks": [
+    "AIME 2024/2025",
+    "LiveCodeBench",
+    "IFEval",
+    "IFBench",
+    "GPQA-Diamond",
+    "BFCL v3 subset"
+   ]
+  }
+ }
 }

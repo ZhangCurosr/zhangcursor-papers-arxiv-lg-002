@@ -4,5 +4,32 @@
  "title": "Network-based-Spatial-Context-Retrieval-for-Open-weight-LLMs",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-01 08:23:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f9efede0-43d0-482a-8efe-8c138bc80027.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f9efede0-43d0-482a-8efe-8c138bc80027.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 22:00:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "faithfulness benchmark",
+    "spatial context retrieval",
+    "open-weight LLMs",
+    "geographic reasoning",
+    "network catchment",
+    "hallucination evaluation",
+    "RAG faithfulness"
+   ],
+   "field": "GeoAI/地理空间大模型评估",
+   "innovations": [
+    "提出基于路网可达性的spatial brief生成管道，替代欧几里得缓冲区",
+    "构建claim-level忠实度基准，区分brief-true/false与recall/hallucination",
+    "植入错误前提测试模型对已提供证据的捍卫能力，揭示family/generation主导而非scale"
+   ],
+   "benchmarks": [
+    "Chicago food access case",
+    "Paris fifteen-minute city case",
+    "Hanoi old quarter case"
+   ]
+  }
+ }
 }

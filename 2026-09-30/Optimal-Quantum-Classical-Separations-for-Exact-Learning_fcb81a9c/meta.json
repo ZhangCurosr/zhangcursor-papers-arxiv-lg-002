@@ -4,5 +4,31 @@
  "title": "Optimal-Quantum-Classical-Separations-for-Exact-Learning",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-30 18:49:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d0ec48e-b78e-42d3-a73a-546a74068ea2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d0ec48e-b78e-42d3-a73a-546a74068ea2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:56:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "exact learning",
+    "quantum query complexity",
+    "membership queries",
+    "query separation",
+    "fractional teaching dimension",
+    "Adversary bound"
+   ],
+   "field": "量子计算理论 / 查询复杂度",
+   "innovations": [
+    "推翻二十年猜想 R(C)=O(Q^2+Q log N)，证明 R(C)=Ω(Q³ log N / log Q)",
+    "给出最优 D=Ω(Q³ log N) 和 R=Ω(Q³ log N / log Q) 量子-经典分离",
+    "证明分数化分裂参数与分数化扩展教学维度对偶等价 fγ ≍ fETD"
+   ],
+   "benchmarks": [
+    "Servedio-Gortler 理论上限 [SG04]",
+    "Arunachalam et al. 随机模拟上限 [ACL+21]",
+    "Atıci-Servedio 猜想 [AS05]"
+   ]
+  }
+ }
 }

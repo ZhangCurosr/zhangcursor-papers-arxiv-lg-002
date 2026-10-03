@@ -4,5 +4,35 @@
  "title": "MUTUAL-EQUILIBRIUM-MULTIMODAL-REPRESENTA-TION-LEARNING-THROU",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-10-01 08:30:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d2529e50-38e5-4826-a71c-57a700e96839.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d2529e50-38e5-4826-a71c-57a700e96839.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal representation learning",
+    "mutual feedback",
+    "deep equilibrium",
+    "fixed-point iteration",
+    "cross-modal interaction",
+    "Jacobian regularization",
+    "visual grounding"
+   ],
+   "field": "多模态表示学习与融合",
+   "innovations": [
+    "将双模态表示学习建模为耦合动力系统并以固定点作为输出",
+    "提出谱半径区间正则化与残差惩罚以保障稳定性与自洽性",
+    "在表示空间实现持续互馈并给出理论设计与消融验证"
+   ],
+   "benchmarks": [
+    "VQA v2",
+    "SNLI-VE",
+    "VCR",
+    "Hateful Memes",
+    "CMU-MOSEI",
+    "COD10K"
+   ]
+  }
+ }
 }

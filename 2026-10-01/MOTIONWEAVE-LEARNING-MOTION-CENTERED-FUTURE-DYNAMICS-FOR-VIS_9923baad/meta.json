@@ -4,5 +4,29 @@
  "title": "MOTIONWEAVE-LEARNING-MOTION-CENTERED-FUTURE-DYNAMICS-FOR-VIS",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-10-01 08:25:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3d3d276b-4a28-445a-ac0d-34a09bb14c29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3d3d276b-4a28-445a-ac0d-34a09bb14c29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 21:59:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "world model",
+    "motion grounding",
+    "action chunking",
+    "robot manipulation",
+    "multimodal learning"
+   ],
+   "field": "具身智能与视觉-语言-动作模型",
+   "innovations": [
+    "提出 AIMG 模块，利用 horizon-specific 查询与 robot-arm mask 弱监督实现动作相关区域的时空定位",
+    "提出 HRC 模块，通过相邻 horizon 表征差分编码时序运动线索并以门控残差注入 action token",
+    "训练-推理解耦设计：未来帧仅用于训练时 motion-grounding 监督，推理时无额外开销"
+   ],
+   "benchmarks": [
+    "MetaWorld"
+   ]
+  }
+ }
 }
