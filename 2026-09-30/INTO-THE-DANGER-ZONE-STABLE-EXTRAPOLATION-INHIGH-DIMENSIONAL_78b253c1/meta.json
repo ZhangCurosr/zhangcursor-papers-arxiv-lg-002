@@ -4,5 +4,10 @@
  "title": "INTO-THE-DANGER-ZONE-STABLE-EXTRAPOLATION-INHIGH-DIMENSIONAL",
  "token": "sk-0H4qcWJwC...",
  "created_at": "2026-09-30 18:52:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e45dc237-1f27-4182-9948-554cd0d6c285.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e45dc237-1f27-4182-9948-554cd0d6c285.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:51:07",
+  "chunks": 4
+ }
 }

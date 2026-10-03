@@ -4,5 +4,36 @@
  "title": "It-s-All-Training-A-Fully-Synthetic-Single-Stage-Recipe-for",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-30 08:02:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/97f3c2b2-10f8-4bfb-9b76-db9aa85e44f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/97f3c2b2-10f8-4bfb-9b76-db9aa85e44f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:52:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "synthetic data",
+    "single-stage training",
+    "pretraining",
+    "factuality",
+    "small language models",
+    "reasoning traces",
+    "knowledge memorization"
+   ],
+   "field": "合成数据与高效预训练",
+   "innovations": [
+    "提出SYNTH首个完全合成的开源预训练语料库，将预/中/后训练合并为单一阶段",
+    "约束驱动的多轴查询生成与stenographic推理轨迹设计，有效控制多样性并压缩推理表示",
+    "系统性证明合成数据在事实精度与epistemic calibration上的优势，揭示知识边界可控性"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "ARC-Challenge",
+    "TruthfulQA",
+    "FActScore",
+    "BFCL v2",
+    "NuclearQA",
+    "TeleQnA"
+   ]
+  }
+ }
 }

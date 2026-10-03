@@ -4,5 +4,31 @@
  "title": "Hybrid-Joint-Selective-Optimization-Reduced-Space-Levenberg",
  "token": "sk-yEKi8NUQa...",
  "created_at": "2026-09-30 18:51:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/08c2e1da-8ac4-4ccc-bdee-a1500df093c0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/08c2e1da-8ac4-4ccc-bdee-a1500df093c0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:47:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HJSO",
+    "Levenberg-Marquardt",
+    "Parameters of Interest",
+    "PINN",
+    "DeepBSDE",
+    "inverse problems",
+    "reduced-space optimization"
+   ],
+   "field": "科学计算中的混合优化方法",
+   "innovations": [
+    "按问题角色将参数划分为高维剩余块与低维POI块，联合一阶更新后再对POI施加降维LM选择性精炼",
+    "给出条件循环下降定理，证明目标可分解情形下HJSO外循环单调不增"
+   ],
+   "benchmarks": [
+    "Lehmer矩阵特征值问题(200×200)",
+    "逆Bratu方程PINN",
+    "100维非线性Black-Scholes DeepBSDE"
+   ]
+  }
+ }
 }

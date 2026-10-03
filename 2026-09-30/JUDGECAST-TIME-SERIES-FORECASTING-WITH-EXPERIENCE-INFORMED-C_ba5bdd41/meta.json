@@ -4,5 +4,30 @@
  "title": "JUDGECAST-TIME-SERIES-FORECASTING-WITH-EXPERIENCE-INFORMED-C",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-09-30 08:09:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/873d9be5-4e8f-4bf8-b5a9-04fad562d639.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/873d9be5-4e8f-4bf8-b5a9-04fad562d639.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:53:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列预测",
+    "协变量感知预测",
+    "大语言模型",
+    "经验驱动预测",
+    "判断性调整",
+    "残差重建"
+   ],
+   "field": "时间序列预测中的LLM经验复用",
+   "innovations": [
+    "显式协变量逐变量判断与数值调整解耦的两阶段框架",
+    "基于残差重建替代判断并选择性验证的经验构建机制",
+    "无参数更新下的可追溯预测调整与记忆复用"
+   ],
+   "benchmarks": [
+    "EPF Electricity Price Forecasting",
+    "fev-bench (ENTSO-e Load, Rossmann, UK COVID, Rohlik Orders, M5)"
+   ]
+  }
+ }
 }

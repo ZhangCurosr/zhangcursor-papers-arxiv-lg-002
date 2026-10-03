@@ -4,5 +4,10 @@
  "title": "HyDI-A-hybrid-Deep-Learning-Inductive-Logic-Programming-ense",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-30 18:50:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baa105d9-9ff8-4c65-bfc8-d120df5d226c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baa105d9-9ff8-4c65-bfc8-d120df5d226c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:47:28",
+  "chunks": 1
+ }
 }

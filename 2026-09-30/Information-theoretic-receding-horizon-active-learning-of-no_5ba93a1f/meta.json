@@ -4,5 +4,34 @@
  "title": "Information-theoretic-receding-horizon-active-learning-of-no",
  "token": "sk-2QaTYJZfX...",
  "created_at": "2026-09-30 18:52:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cf1b3545-7a95-4aa6-b7c4-d32ff0795cac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cf1b3545-7a95-4aa6-b7c4-d32ff0795cac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:51:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "active learning",
+    "nonlinear dynamical systems",
+    "Bayesian experimental design",
+    "receding horizon",
+    "mutual information",
+    "cross-entropy method",
+    "system identification"
+   ],
+   "field": "非线性动力系统主动学习与贝叶斯实验设计",
+   "innovations": [
+    "预测导向的平均边际互信息(mmMI)准则直接量化目标区域动力学重建不确定性减少",
+    "递推视界非贪婪规划将自适应设计转化为信息状态上的有限开环优化并通过重复重规划隐式闭环",
+    "线性参数高斯结构下解析信息增益配合场景平均近似避免嵌套蒙特卡洛"
+   ],
+   "benchmarks": [
+    "noisy bistable system",
+    "passive excitation",
+    "white noise",
+    "pink noise",
+    "sinusoidal forcing"
+   ]
+  }
+ }
 }

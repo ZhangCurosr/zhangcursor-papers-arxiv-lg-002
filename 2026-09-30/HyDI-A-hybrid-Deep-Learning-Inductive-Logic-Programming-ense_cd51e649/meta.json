@@ -4,5 +4,30 @@
  "title": "HyDI-A-hybrid-Deep-Learning-Inductive-Logic-Programming-ense",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-09-30 08:09:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baa105d9-9ff8-4c65-bfc8-d120df5d226c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baa105d9-9ff8-4c65-bfc8-d120df5d226c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:47:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "HyDI",
+    "Inductive Logic Programming",
+    "Ensemble Learning",
+    "Hierarchical Multi-label Classification",
+    "ChEBI",
+    "Explainable AI"
+   ],
+   "field": "可解释机器学习",
+   "innovations": [
+    "提出DL与ILP混合集成架构HyDI用于层次化多标签分类",
+    "设计可扩展代价函数生成高召回与高精确两类ILP规则",
+    "基于验证F1的自动模型选择机制实现叶子类别分类器择优"
+   ],
+   "benchmarks": [
+    "ChEBI25-3STAR",
+    "F1 Score (Micro/Macro)"
+   ]
+  }
+ }
 }

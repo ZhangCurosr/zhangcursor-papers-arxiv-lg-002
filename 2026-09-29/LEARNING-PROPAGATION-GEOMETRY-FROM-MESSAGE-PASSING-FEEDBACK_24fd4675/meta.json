@@ -4,5 +4,38 @@
  "title": "LEARNING-PROPAGATION-GEOMETRY-FROM-MESSAGE-PASSING-FEEDBACK",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-09-29 19:09:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/45a84d7c-8486-48d7-a6a0-96905deae756.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/45a84d7c-8486-48d7-a6a0-96905deae756.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:45:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "传播几何",
+    "消息传递反馈",
+    "对称正定矩阵",
+    "二阶残差统计",
+    "递归GNN",
+    "三角框架传输"
+   ],
+   "field": "几何图神经网络",
+   "innovations": [
+    "通过消息传递二阶残差反馈联合演化节点特征与局部SPD传播几何",
+    "三角框架传输实现跨局部坐标系的对齐消息聚合",
+    "投影proximal几何更新保证正定性与度数无关Lipschitz稳定性"
+   ],
+   "benchmarks": [
+    "CiteSeer",
+    "PubMed",
+    "Photo",
+    "Computers",
+    "PROTEINS",
+    "Mutagenicity",
+    "NCI1",
+    "BBBP",
+    "ogbg-molhiv"
+   ]
+  }
+ }
 }

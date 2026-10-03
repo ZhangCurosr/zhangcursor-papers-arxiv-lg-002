@@ -4,5 +4,27 @@
  "title": "INTO-THE-DANGER-ZONE-STABLE-EXTRAPOLATION-INHIGH-DIMENSIONAL",
  "token": "sk-0H4qcWJwC...",
  "created_at": "2026-09-30 08:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e45dc237-1f27-4182-9948-554cd0d6c285.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e45dc237-1f27-4182-9948-554cd0d6c285.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:51:47",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "高维外推",
+    "神经算子",
+    "多项式逼近",
+    "L∞误差界",
+    "样本复杂度",
+    "tanh DNN",
+    "稀疏谱展开"
+   ],
+   "field": "科学机器学习/高维近似理论",
+   "innovations": [
+    "tanh DNN 基模拟器实现宽度/深度与定义域尺度 ω 解耦",
+    "建立 DNO 近似最小化器到多项式近似最小化器的显式误差传递引理",
+    "给出高维外推 L∞ 误差的显式收敛界与样本复杂度下界"
+   ]
+  }
+ }
 }

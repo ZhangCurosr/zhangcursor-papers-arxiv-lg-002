@@ -4,5 +4,31 @@
  "title": "Know-Thyself-Teach-Thyself-Internal-Information-Flow-for-Sel",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-09-30 08:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7a4926c-b017-40f8-a36c-ad50d68cbccc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7a4926c-b017-40f8-a36c-ad50d68cbccc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:53:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-distillation",
+    "information flow",
+    "retrieval-augmented generation",
+    "data selection",
+    "knowledge distillation",
+    "recursive self-improvement",
+    "semantic entropy"
+   ],
+   "field": "大语言模型自改进与知识蒸馏",
+   "innovations": [
+    "将无标注自蒸馏建模为潜在信息→realized信息→蒸馏的闭环信息流优化",
+    "提出确定性校准检索与语义信念转移的联合两阶段机制",
+    "理论证明信息流最大化与教师-学生差距的指数收敛率"
+   ],
+   "benchmarks": [
+    "MMLU-Pro",
+    "SciKnowEval"
+   ]
+  }
+ }
 }

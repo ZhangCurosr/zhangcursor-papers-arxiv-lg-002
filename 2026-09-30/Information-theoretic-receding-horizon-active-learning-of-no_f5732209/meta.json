@@ -4,5 +4,10 @@
  "title": "Information-theoretic-receding-horizon-active-learning-of-no",
  "token": "sk-2QaTYJZfX...",
  "created_at": "2026-09-30 08:07:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cf1b3545-7a95-4aa6-b7c4-d32ff0795cac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cf1b3545-7a95-4aa6-b7c4-d32ff0795cac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:52:13",
+  "chunks": 1
+ }
 }

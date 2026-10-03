@@ -4,5 +4,25 @@
  "title": "MULTI-ATTRACTOR-GNNS-SET-VALUED-EXPRESSIVITY-BEYOND-UNIQUE-E",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-09-29 19:08:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ae4b256-3ffd-479a-8a36-ce97d9c51e26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6ae4b256-3ffd-479a-8a36-ce97d9c51e26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:46:41",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "GNN",
+    "集合值表达",
+    "多吸引子",
+    "置换等变",
+    "收敛动力学",
+    "不动点理论"
+   ],
+   "field": "图神经网络理论",
+   "innovations": [
+    "证明单块参数共享GNN经迭代可精确生成集合值解",
+    "揭示收缩等变动力学的不可行性边界条件"
+   ]
+  }
+ }
 }

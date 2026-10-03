@@ -4,5 +4,31 @@
  "title": "IDENTIFIABILITY-GUARANTEES-FOR-DRIVERS-AND-DYNAMICS-OF-DELAY",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-09-30 08:07:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e83abf7-c575-42a6-bf10-770d891ebd1a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3e83abf7-c575-42a6-bf10-770d891ebd1a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:49:06",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "SDDE",
+    "causal discovery",
+    "identifiability",
+    "delay differential equations",
+    "mixing rates",
+    "Harris ergodicity",
+    "nonparametric estimation"
+   ],
+   "field": "因果发现与可识别性理论",
+   "innovations": [
+    "SDDE因果发现总体水平可识别性严格证明",
+    "指数β混合性保证有限样本恢复速率",
+    "Lyapunov-Harris框架用于连续时间因果模型遍历性分析"
+   ],
+   "benchmarks": [
+    "Synthetic SDDE simulations",
+    "Comparison with ODE-based causal discovery baselines"
+   ]
+  }
+ }
 }

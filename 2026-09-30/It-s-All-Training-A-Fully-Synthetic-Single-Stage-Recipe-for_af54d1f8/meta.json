@@ -4,5 +4,10 @@
  "title": "It-s-All-Training-A-Fully-Synthetic-Single-Stage-Recipe-for",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-09-30 18:50:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/480162f3-aa54-499e-87d9-af0499ccfb2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/480162f3-aa54-499e-87d9-af0499ccfb2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:53:00",
+  "chunks": 1
+ }
 }

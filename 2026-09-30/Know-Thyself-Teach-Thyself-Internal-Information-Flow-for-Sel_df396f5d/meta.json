@@ -4,5 +4,31 @@
  "title": "Know-Thyself-Teach-Thyself-Internal-Information-Flow-for-Sel",
  "token": "sk-F3sFpZ8ji...",
  "created_at": "2026-09-30 18:52:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7a4926c-b017-40f8-a36c-ad50d68cbccc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a7a4926c-b017-40f8-a36c-ad50d68cbccc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:54:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自蒸馏",
+    "信息流优化",
+    "无标注学习",
+    "数据选择",
+    "Jensen-Shannon 散度",
+    "on-policy 蒸馏",
+    "递归自我改进"
+   ],
+   "field": "大语言模型自训练与知识蒸馏",
+   "innovations": [
+    "将自蒸馏形式化为潜在信息检索与 realized 信念偏移选择的两阶段信息流优化",
+    "提出置信度校准的隐藏状态轨迹检索与答案级 JS 散度选择信号",
+    "理论证明检索与选择在局部高斯信道假设下的信息转移最优性"
+   ],
+   "benchmarks": [
+    "SciKnowEval",
+    "MMLU-Pro"
+   ]
+  }
+ }
 }

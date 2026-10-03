@@ -4,5 +4,32 @@
  "title": "IDENTIFYING-ODES-FROM-UNSTRUCTURED-DATAWITH-CAUSAL-REPRESENT",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-09-30 18:52:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f1984207-2610-420a-8e08-dee67065d018.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/f1984207-2610-420a-8e08-dee67065d018.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:48:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ODE discovery",
+    "Causal Representation Learning",
+    "SINDy",
+    "Unstructured data",
+    "Identifiability",
+    "Sparse representation",
+    "Polynomial ODEs"
+   ],
+   "field": "可解释AI与科学机器学习",
+   "innovations": [
+    "提出SPEED-AE框架，结合CRL与稀疏ODE发现，从非结构化观测恢复动力方程",
+    "证明多项式ODE下单稀疏性可将可识别性从组件级微分同胚限制到单项式变换",
+    "提供CRL与稀疏方程发现的协同范式，揭示单一手段的不足"
+   ],
+   "benchmarks": [
+    "Lotka-Volterra",
+    "Lorenz (stable and chaotic)",
+    "Double pendulum"
+   ]
+  }
+ }
 }

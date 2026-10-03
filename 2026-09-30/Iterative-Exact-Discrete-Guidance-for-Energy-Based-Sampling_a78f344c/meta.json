@@ -4,5 +4,33 @@
  "title": "Iterative-Exact-Discrete-Guidance-for-Energy-Based-Sampling",
  "token": "sk-vN80CmS1I...",
  "created_at": "2026-09-30 18:51:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1eab6018-4562-4620-9ffd-0eb74489ccb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1eab6018-4562-4620-9ffd-0eb74489ccb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:53:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "能量基于采样",
+    "离散扩散",
+    "后验指导",
+    "有效样本量",
+    "退火路径",
+    "Bregman学习",
+    "Ising模型",
+    "Max-Cut"
+   ],
+   "field": "离散生成模型",
+   "innovations": [
+    "提出迭代精确离散指导框架，将全局Boltzmann倾斜分解为多阶段局部后验修正",
+    "设计ESS控制的自适应退火路径，关联Rényi-2散度与热力学长度",
+    "建立Bregman拟合误差、重叠度量与阶段稳定性的显式误差传播理论"
+   ],
+   "benchmarks": [
+    "Ising 4x4/16x16",
+    "Potts 16x16",
+    "Barabasi-Albert Max-Cut"
+   ]
+  }
+ }
 }

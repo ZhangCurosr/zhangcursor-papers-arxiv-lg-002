@@ -4,5 +4,31 @@
  "title": "Human-inspired-Task-Dimension-Guided-Exploration-for-Efficie",
  "token": "sk-d32lj3sMR...",
  "created_at": "2026-09-30 08:07:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1860cd8a-cb10-4cb7-9796-854df27321d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1860cd8a-cb10-4cb7-9796-854df27321d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:47:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文Bandit",
+    "高维探索",
+    "冷启动推荐",
+    "层次化路由",
+    "语义特征空间",
+    "信用分配"
+   ],
+   "field": "推荐系统与上下文Bandit",
+   "innovations": [
+    "受人类行为启发的任务维度-特征-物品层次化探索框架",
+    "基于语义特征空间的自顶向下候选生成与分层信用分配机制",
+    "模型无关的多级路由设计，可无缝集成多种Bandit骨干网络"
+   ],
+   "benchmarks": [
+    "MovieLens-20M",
+    "Last.fm",
+    "Amazon Beauty & Personal Care"
+   ]
+  }
+ }
 }

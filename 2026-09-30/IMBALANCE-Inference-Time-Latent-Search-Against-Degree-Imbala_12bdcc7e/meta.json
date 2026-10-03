@@ -4,5 +4,30 @@
  "title": "IMBALANCE-Inference-Time-Latent-Search-Against-Degree-Imbala",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-09-30 08:05:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46c78026-76ee-4d5c-a41f-db72201498cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46c78026-76ee-4d5c-a41f-db72201498cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:48:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Graph Embedding",
+    "Link Prediction",
+    "Degree Imbalance",
+    "Inference-Time Optimization",
+    "Latent Search"
+   ],
+   "field": "知识图谱链接预测",
+   "innovations": [
+    "系统性刻画KGE模型中的度数不平衡问题并与训练动态关联",
+    "提出首个面向KGE的推理时潜变量搜索优化方法IMBALANCE",
+    "双项无负采样损失设计，通过冻结参数实现天然正则化"
+   ],
+   "benchmarks": [
+    "FB15k-237",
+    "WN18RR",
+    "YAGO3-10"
+   ]
+  }
+ }
 }

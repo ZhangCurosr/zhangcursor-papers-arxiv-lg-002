@@ -4,5 +4,32 @@
  "title": "Human-inspired-Task-Dimension-Guided-Exploration-for-Efficie",
  "token": "sk-d32lj3sMR...",
  "created_at": "2026-09-30 18:52:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1860cd8a-cb10-4cb7-9796-854df27321d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1860cd8a-cb10-4cb7-9796-854df27321d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:47:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "上下文Bandit",
+    "推荐系统",
+    "探索与利用",
+    "冷启动",
+    "层次化决策",
+    "语义特征",
+    "人类启发式探索"
+   ],
+   "field": "推荐系统与上下文Bandit",
+   "innovations": [
+    "提出TDGE，一种受人类维度引导探索启发的模型无关的三层语义探索框架",
+    "设计了自动构建的“任务维度-特征-项目”层次结构和自上而下的探索调度机制",
+    "提出了层次化信用分配方法，将项目奖励反向传播至关联特征和维度"
+   ],
+   "benchmarks": [
+    "MovieLens-20M",
+    "Last.fm",
+    "Amazon Beauty & Personal Care"
+   ]
+  }
+ }
 }

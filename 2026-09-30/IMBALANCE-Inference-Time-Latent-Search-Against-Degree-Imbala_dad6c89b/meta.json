@@ -4,5 +4,31 @@
  "title": "IMBALANCE-Inference-Time-Latent-Search-Against-Degree-Imbala",
  "token": "sk-UdpjjT427...",
  "created_at": "2026-09-30 18:52:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46c78026-76ee-4d5c-a41f-db72201498cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/46c78026-76ee-4d5c-a41f-db72201498cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 02:49:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Knowledge Graph Embedding",
+    "Link Prediction",
+    "Degree Imbalance",
+    "Inference-time Optimization",
+    "Latent Search",
+    "Long-tail Entities"
+   ],
+   "field": "知识图谱补全与链接预测",
+   "innovations": [
+    "首次系统定义度数不平衡问题并揭示低度数实体的双重学习失败机制",
+    "提出推理时潜在搜索优化IMBALANCE，通过训练上下文+Oracle双项损失即插即用提升KGE预测",
+    "完全避免负采样，以冻结嵌入作为正则化器，大幅提升低度数实体预测性能"
+   ],
+   "benchmarks": [
+    "FB15k-237",
+    "WN18RR",
+    "YAGO3-10"
+   ]
+  }
+ }
 }
