@@ -4,5 +4,30 @@
  "title": "One-Threshold-Does-Not-Fit-All-Languages-Language-Conditiona",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-30 18:50:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2fcdbbfa-e740-4e51-bed0-52e8e498b45d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2fcdbbfa-e740-4e51-bed0-52e8e498b45d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:11:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "多语言NLP",
+    "选择性预测",
+    "低资源语言",
+    " fairness",
+    "reliability",
+    "非洲语言"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "提出语言条件conformal校准方法，为每种语言单独估计阈值实现逐语言覆盖率保证",
+    "量化全局阈值在多语言场景下的公平性缺陷，揭示低资源语言的严重欠覆盖问题"
+   ],
+   "benchmarks": [
+    "MasakhaNEWS",
+    "AfriSenti"
+   ]
+  }
+ }
 }

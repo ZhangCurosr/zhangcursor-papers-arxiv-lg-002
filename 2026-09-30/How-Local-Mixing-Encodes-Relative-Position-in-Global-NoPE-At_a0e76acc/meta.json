@@ -4,5 +4,30 @@
  "title": "How-Local-Mixing-Encodes-Relative-Position-in-Global-NoPE-At",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-09-30 18:50:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b028a121-d3b6-46a7-8ea4-16441256025f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b028a121-d3b6-46a7-8ea4-16441256025f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:04:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "position encoding",
+    "NoPE",
+    "sliding window attention",
+    "recency bias",
+    "long context",
+    "transformer interpretability",
+    "relative position"
+   ],
+   "field": "Transformer 位置编码与长上下文建模",
+   "innovations": [
+    "揭示 SWA/local mixing 在 residual stream 中诱导 recency bias 并被 global NoPE logits 读取的隐式位置编码机制",
+    "证明 hybrid 架构的 recency bias 由固定窗口尺度决定、不随序列长度稀释，区别于纯 NoPE 仅依赖 causal mask 的短程 bias"
+   ],
+   "benchmarks": [
+    "TextbookChapters",
+    "DCLM"
+   ]
+  }
+ }
 }

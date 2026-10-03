@@ -4,5 +4,29 @@
  "title": "Multi-Agent-Flow-Matching-with-Decoupled-Generative-Guidance",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-30 08:02:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c5b0a3ea-85b8-45b5-9fb7-235df210dee1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c5b0a3ea-85b8-45b5-9fb7-235df210dee1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "multi-agent generation",
+    "decentralized guidance",
+    "control barrier function",
+    "coupled constraints",
+    "Wasserstein bound"
+   ],
+   "field": "多智能体生成建模与约束控制",
+   "innovations": [
+    "将解耦控制理论引入多智能体流匹配，实现 agent-wise 引导同时保证 team-level 耦合约束",
+    "提出 SE/PE 两类耦合需求下的有限时域收敛理论与 Wasserstein 分布偏差界"
+   ],
+   "benchmarks": [
+    "Multi-robot bridge-crossing in MuJoCo",
+    "Multi-object tabletop scene generation with affordance requirements"
+   ]
+  }
+ }
 }

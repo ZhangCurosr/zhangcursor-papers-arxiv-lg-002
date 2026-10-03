@@ -4,5 +4,10 @@
  "title": "On-Trajectory-Aware-Training-for-Masked-Diffusion-Language-M",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-30 07:59:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9eed904f-2bdc-4f26-b606-af4591a03ea0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9eed904f-2bdc-4f26-b606-af4591a03ea0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:12:12",
+  "chunks": 1
+ }
 }

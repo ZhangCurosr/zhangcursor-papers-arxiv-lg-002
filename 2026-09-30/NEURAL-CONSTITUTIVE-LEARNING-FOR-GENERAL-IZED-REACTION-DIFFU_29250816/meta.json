@@ -4,5 +4,36 @@
  "title": "NEURAL-CONSTITUTIVE-LEARNING-FOR-GENERAL-IZED-REACTION-DIFFU",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-30 08:10:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5182f104-091e-4eea-99ba-38485e0a916f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5182f104-091e-4eea-99ba-38485e0a916f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:08:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "constitutive learning",
+    "reaction-diffusion",
+    "neural PDE solver",
+    "MCT integrator",
+    "CNO",
+    "EnVarA",
+    "trajectory-free learning"
+   ],
+   "field": "神经偏微分方程求解与本构学习",
+   "innovations": [
+    "将PDE特异性本构响应（迁移率-驱动力、相对反应速率）与共享MCT积分器耦合的统一框架",
+    "支持速度数据监督与已知本构律监督两种路径并实现无轨迹本构学习",
+    "在七个广义反应扩散系统上验证跨系统适用性与未见初始条件/扩展时间的外推能力"
+   ],
+   "benchmarks": [
+    "Linear Diffusion",
+    "Cahn-Hilliard",
+    "Porous Medium",
+    "Fisher-KPP",
+    "Reactive Cahn-Hilliard",
+    "Reactive Porous Medium",
+    "Schnakenberg"
+   ]
+  }
+ }
 }

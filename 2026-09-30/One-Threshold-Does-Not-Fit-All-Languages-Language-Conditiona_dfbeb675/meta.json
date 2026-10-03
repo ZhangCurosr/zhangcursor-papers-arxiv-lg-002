@@ -4,5 +4,10 @@
  "title": "One-Threshold-Does-Not-Fit-All-Languages-Language-Conditiona",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-30 08:04:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2fcdbbfa-e740-4e51-bed0-52e8e498b45d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2fcdbbfa-e740-4e51-bed0-52e8e498b45d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:12:10",
+  "chunks": 1
+ }
 }

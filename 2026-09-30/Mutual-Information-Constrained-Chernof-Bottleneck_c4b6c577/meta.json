@@ -4,5 +4,31 @@
  "title": "Mutual-Information-Constrained-Chernof-Bottleneck",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-30 18:49:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c3f4dc7-784d-4a1f-a428-8cbeecba2816.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/3c3f4dc7-784d-4a1f-a428-8cbeecba2816.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:08:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "信息瓶颈",
+    "Chernof信息",
+    "假设检验",
+    "率失真理论",
+    "Blahut-Arimoto算法",
+    "表示学习",
+    "似然比量化"
+   ],
+   "field": "信息论与表示学习",
+   "innovations": [
+    "用Chernof信息替代IB目标以直接优化下游假设检验错误指数",
+    "证明C(R)曲线严格单调饱和且不必凹，给出k+1基数界",
+    "设计交替优化算法并证明可行性与单调收敛性"
+   ],
+   "benchmarks": [
+    "20 Newsgroups主题检测",
+    "合成源A-F曲线验证"
+   ]
+  }
+ }
 }

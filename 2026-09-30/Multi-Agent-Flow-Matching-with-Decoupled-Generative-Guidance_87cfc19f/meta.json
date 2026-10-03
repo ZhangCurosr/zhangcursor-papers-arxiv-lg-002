@@ -4,5 +4,31 @@
  "title": "Multi-Agent-Flow-Matching-with-Decoupled-Generative-Guidance",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-30 18:49:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c5b0a3ea-85b8-45b5-9fb7-235df210dee1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c5b0a3ea-85b8-45b5-9fb7-235df210dee1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "多智能体生成",
+    "解耦引导",
+    "控制屏障函数",
+    "有限时间收敛",
+    "Wasserstein界",
+    "去中心化生成"
+   ],
+   "field": "多智能体生成建模与可控生成",
+   "innovations": [
+    "提出SE/PE两类解耦生成引导，每个智能体无需依赖其他智能体的同步引导即可满足耦合硬约束",
+    "建立有限时间收敛与可行性理论保证，推导引导诱导分布偏差的Wasserstein上界",
+    "在预训练模型上无需重新训练即可适应新约束，且在未见团队规模上泛化验证"
+   ],
+   "benchmarks": [
+    "Multi-robot bridge crossing (Task 1)",
+    "Multi-object scene generation with affordance requirements (Task 2)"
+   ]
+  }
+ }
 }

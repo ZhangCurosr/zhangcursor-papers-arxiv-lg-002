@@ -4,5 +4,10 @@
  "title": "NEURAL-CONSTITUTIVE-LEARNING-FOR-GENERAL-IZED-REACTION-DIFFU",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-30 18:52:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5182f104-091e-4eea-99ba-38485e0a916f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5182f104-091e-4eea-99ba-38485e0a916f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:09:03",
+  "chunks": 1
+ }
 }

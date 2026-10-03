@@ -4,5 +4,33 @@
  "title": "Neural-topology-optimization-of-ship-structures-under-propul",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-30 07:59:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7b7451de-c25f-4422-baca-12d0baf313cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7b7451de-c25f-4422-baca-12d0baf313cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:09:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Topology Optimization",
+    "Active Input Power",
+    "Neural Reparameterization",
+    "Ship Structures",
+    "Forced Vibration",
+    "KATO",
+    "cKAN",
+    "Structural Dynamics"
+   ],
+   "field": "结构动力学拓扑优化",
+   "innovations": [
+    "首次将AIP目标应用于船舶结构强制振动拓扑优化",
+    "证明cKAN神经生成器在动态振动问题中产生连通二值化结构",
+    "KATO在AIP匹配下二进制静力柔顺性较GCMMA降低22-59倍"
+   ],
+   "benchmarks": [
+    "Static compliance benchmark vs GCMMA",
+    "AIP reduction vs size-optimized references",
+    "Frequency sweep 5-500 Hz with ROM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "MoTIF-X-A-Multimodal-Tokenized-Framework-for-Interpretable-a",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-30 18:53:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/74e9ff47-9b8f-4205-a98b-714c56640873.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/74e9ff47-9b8f-4205-a98b-714c56640873.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Molecular representation learning",
+    "Multimodal integration",
+    "Token-based modeling",
+    "Chemical interpretability",
+    "Drug-target interaction",
+    "ADMET prediction",
+    "Contrastive learning",
+    "Masked token modeling"
+   ],
+   "field": "分子人工智能与药物发现",
+   "innovations": [
+    "以基序为锚点的多模态标记化框架，联合上下文化图、SMILES和3D扭转角标记",
+    "两阶段预训练：层次对比学习grounding基序表示，多模态掩码建模促进跨模态交互",
+    "从分子属性预测统一扩展到DTI预测，基序归因与实验活性变化显著相关"
+   ],
+   "benchmarks": [
+    "OpenADMET ExpansionRx",
+    "MoleculeNet",
+    "BindingDB IC50 regression",
+    "ChEMBL drug cold-start",
+    "BIOSNAP",
+    "DAVIS"
+   ]
+  }
+ }
 }

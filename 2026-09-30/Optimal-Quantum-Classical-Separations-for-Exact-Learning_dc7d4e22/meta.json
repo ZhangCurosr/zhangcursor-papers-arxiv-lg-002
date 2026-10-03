@@ -4,5 +4,32 @@
  "title": "Optimal-Quantum-Classical-Separations-for-Exact-Learning",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-30 08:01:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d0ec48e-b78e-42d3-a73a-546a74068ea2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d0ec48e-b78e-42d3-a73a-546a74068ea2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:12:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "精确学习",
+    "量子查询复杂度",
+    "成员查询",
+    "Grover搜索",
+    "Bernstein-Vazirani",
+    "分离构造",
+    "adversary界"
+   ],
+   "field": "量子计算复杂性理论",
+   "innovations": [
+    "反驳二三十年猜想R=O(Q²+QlogN)，证明R=Ω(Q³logN/logQ)",
+    "首次构造超越Grover/BV范式的量子-经典学习分离",
+    "证明量子布尔化定理Q(C)=Θ(Q_bool(C))"
+   ],
+   "benchmarks": [
+    "Servedio-Gortler上界",
+    "Arunachalam等上界",
+    "Atıci-Servedio猜想"
+   ]
+  }
+ }
 }

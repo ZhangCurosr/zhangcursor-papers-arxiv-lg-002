@@ -4,5 +4,31 @@
  "title": "Normalize-Then-Precondition-A-Hierarchical-Approach-to-Margi",
  "token": "sk-AcnGi1B74...",
  "created_at": "2026-09-30 18:52:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5fb94f6-d378-42e2-ac34-79b16d5b8662.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5fb94f6-d378-42e2-ac34-79b16d5b8662.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:10:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "矩阵优化器",
+    "LLM训练",
+    "谱预条件",
+    "归一化",
+    "Newton-Schulz迭代",
+    "随机Sketch"
+   ],
+   "field": "大语言模型训练优化",
+   "innovations": [
+    "提出Normalize-Then-Precondition层次化框架，将边缘尺度归一化与谱预条件分阶段处理",
+    "设计NormPre-G（全局谱预条件）和NormPre-L（局部谱预条件）两个变体，在多种模型规模上一致优于AdamW/Muon/MANO",
+    "建立简化版NormPre的O(T^{-1/2})收敛性保证，并从谱动力学角度揭示局部预条件捕获全局变换62%-67%能量"
+   ],
+   "benchmarks": [
+    "OpenWebText",
+    "C4",
+    "Pile"
+   ]
+  }
+ }
 }

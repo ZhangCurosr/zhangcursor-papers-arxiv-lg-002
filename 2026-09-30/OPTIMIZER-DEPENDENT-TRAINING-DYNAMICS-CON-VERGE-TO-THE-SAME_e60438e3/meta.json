@@ -4,5 +4,30 @@
  "title": "OPTIMIZER-DEPENDENT-TRAINING-DYNAMICS-CON-VERGE-TO-THE-SAME",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-09-30 18:50:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d568be99-6cef-45f5-9b52-3c188ac2a300.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d568be99-6cef-45f5-9b52-3c188ac2a300.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:10:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural scaling laws",
+    "optimizer dynamics",
+    "adaptive optimization",
+    "teacher-student model",
+    "softmax classification",
+    "scaling exponent",
+    "boundary localization"
+   ],
+   "field": "大规模语言模型训练动力学与缩放律",
+   "innovations": [
+    "将loss分解为径向(范数)与切向(对齐)双通道，各自服从幂律但指数依赖优化器",
+    "发现参数无关的和律2αr+αt=1，解释最优数据指数恒为1/3的普适性",
+    "证明优化器决定每步学习速度但不变每样本学习上限，统一动态指数与超参数标度"
+   ],
+   "benchmarks": [
+    "单层teacher-student softmax分类玩具模型 (n=128, m=32)"
+   ]
+  }
+ }
 }

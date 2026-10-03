@@ -4,5 +4,32 @@
  "title": "Kolmogorov-Arnold-Classifier-Systems-as-Universal-Approximat",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-09-30 08:09:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/846050f9-7803-4908-a968-f3ffa476bbb6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/846050f9-7803-4908-a968-f3ffa476bbb6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:22",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Kolmogorov-Arnold 表示定理",
+    "学习分类器系统",
+    "通用逼近",
+    "高维函数逼近",
+    "进化计算",
+    "维度分解",
+    "XCSF",
+    "LCS"
+   ],
+   "field": "进化机器学习与可解释 AI",
+   "innovations": [
+    "基于 KA 表示定理的 LCS 维度分解范式，突破指数复杂度瓶颈",
+    "首次为 LCS 框架提供构造性通用逼近定理证明",
+    "一维规则统一格式使参数量与输入维度无关（O(1) vs O(n))"
+   ],
+   "benchmarks": [
+    "人工逼近数据集",
+    "真实世界函数逼近数据集"
+   ]
+  }
+ }
 }

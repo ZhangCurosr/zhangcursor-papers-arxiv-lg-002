@@ -4,5 +4,34 @@
  "title": "MoTIF-X-A-Multimodal-Tokenized-Framework-for-Interpretable-a",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-30 08:02:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/74e9ff47-9b8f-4205-a98b-714c56640873.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/74e9ff47-9b8f-4205-a98b-714c56640873.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Molecular representation learning",
+    "Multimodal integration",
+    "Motif token",
+    "Drug-target interaction",
+    "Masked token modeling",
+    "ADMET prediction"
+   ],
+   "field": "计算药物发现",
+   "innovations": [
+    "以 motif 为锚点的跨模态标记化框架，实现早期联合上下文化",
+    "两阶段预训练（层次对比学习 + 多模态掩码建模）协同提升表示质量与泛化性",
+    "在 OpenADMET ExpansionRx 九个端点取得最低 MAE，并有效迁移至药物冷启动 DTI 预测"
+   ],
+   "benchmarks": [
+    "OpenADMET ExpansionRx",
+    "MoleculeNet",
+    "BindingDB IC50",
+    "ChEMBL cold-start",
+    "BIOSNAP",
+    "DAVIS"
+   ]
+  }
+ }
 }

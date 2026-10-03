@@ -4,5 +4,31 @@
  "title": "On-Task-Scope-and-Information-Retention-in-Source-Coding",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-09-30 08:08:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ef9bf7cb-66b6-49b9-9059-661a15544880.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ef9bf7cb-66b6-49b9-9059-661a15544880.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:11:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "source coding",
+    "coding for machines",
+    "rate-distortion",
+    "task scope",
+    "feature coding",
+    "semantic communication"
+   ],
+   "field": "信息论与任务导向压缩",
+   "innovations": [
+    "提出以任务范围取代接收者身份作为编解码保真标准的根本依据，建立多任务间接率失真框架",
+    "给出限制编码器观测下最小速率不变的精确充要条件及速率罚值上下界",
+    "证明随任务族扩展源编码与特征编码速率相等性可被破坏，并通过有限码本和图像压缩实验验证"
+   ],
+   "benchmarks": [
+    "ImageNet ENTITY-30/240",
+    "CIFAR-100 coarse-fine",
+    "Taskonomy depth/semantic/edge"
+   ]
+  }
+ }
 }

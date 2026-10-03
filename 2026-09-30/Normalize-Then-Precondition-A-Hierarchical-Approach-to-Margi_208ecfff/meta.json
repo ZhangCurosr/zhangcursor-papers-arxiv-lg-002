@@ -4,5 +4,32 @@
  "title": "Normalize-Then-Precondition-A-Hierarchical-Approach-to-Margi",
  "token": "sk-AcnGi1B74...",
  "created_at": "2026-09-30 08:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5fb94f6-d378-42e2-ac34-79b16d5b8662.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5fb94f6-d378-42e2-ac34-79b16d5b8662.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:10:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "矩阵优化器",
+    "LLM 训练",
+    "谱预条件",
+    "归一化",
+    "Newton-Schulz 迭代",
+    "随机草图",
+    "收敛性分析"
+   ],
+   "field": "大规模模型训练优化器",
+   "innovations": [
+    "提出 Normalize-Then-Precondition 层次化框架，分离边缘尺度归一化与交互谱预条件",
+    "设计 NormPre-G/NormPre-L 两种全局/局部谱预条件变体并给出可扩展实现",
+    "建立 O(T^{-1/2}) 收敛性保证并验证在多种架构上的优越性"
+   ],
+   "benchmarks": [
+    "GPT-2 Small on OpenWebText",
+    "LLaMA-130M/350M/1.3B on C4",
+    "Qwen3-0.6B/1.7B on Pile"
+   ]
+  }
+ }
 }

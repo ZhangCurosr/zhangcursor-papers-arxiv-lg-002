@@ -4,5 +4,34 @@
  "title": "Neural-topology-optimization-of-ship-structures-under-propul",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-09-30 18:51:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7b7451de-c25f-4422-baca-12d0baf313cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/7b7451de-c25f-4422-baca-12d0baf313cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:09:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "拓扑优化",
+    "主动输入功率",
+    "神经重参数化",
+    "船舶结构",
+    "强迫振动",
+    "KATO",
+    "cKAN",
+    "动态响应优化"
+   ],
+   "field": "结构动力学拓扑优化",
+   "innovations": [
+    "首次将AIP驱动拓扑优化应用于船舶推进机械振动结构设计",
+    "cKAN生成器在阈值化后保持结构连通性并降低22-59倍二进制静柔度",
+    "建立含特征尺寸控制与应力正则化的AIP强制振动完整设计流程"
+   ],
+   "benchmarks": [
+    "静态柔量基准对比",
+    "GCMMA传统优化器对比",
+    "尺寸优化加强筋面板参考",
+    "5-500 Hz频响扫频验证"
+   ]
+  }
+ }
 }

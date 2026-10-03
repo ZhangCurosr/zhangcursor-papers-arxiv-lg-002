@@ -4,5 +4,31 @@
  "title": "Multi-task-learning-for-the-automatic-grading-of-enlarged-pe",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-30 08:06:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/423aa82b-e72d-4ccc-87a3-ede9e4a4f990.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/423aa82b-e72d-4ccc-87a3-ede9e4a4f990.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:08:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task learning",
+    "perivascular spaces",
+    "PVS scoring",
+    "brain MRI",
+    "silver-standard segmentation",
+    "small vessel disease"
+   ],
+   "field": "神经影像分析与脑小血管病自动评估",
+   "innovations": [
+    "首次系统性将银标准PVS分割掩码作为辅助监督信号用于PVS评分模型训练，对比条件CNN/多任务CNN/逻辑回归三种范式",
+    "多任务CNN在BG+CSO双区域非二分化Potters/Wardlaw评分上取得最高mAP 64.08%，且GradCAM证实模型能定位个体PVS",
+    "提出兼顾评分样本与分割样本不平衡的归一化多任务损失函数设计"
+   ],
+   "benchmarks": [
+    "Potters/Wardlaw PVS评分量表（改良3类）",
+    "Silver-standard PVS segmentation masks (MSS1/MSS2/MSS3/LBC1936/VALDO)",
+    "Mean Average Precision (mAP), Macro F1, Accuracy"
+   ]
+  }
+ }
 }

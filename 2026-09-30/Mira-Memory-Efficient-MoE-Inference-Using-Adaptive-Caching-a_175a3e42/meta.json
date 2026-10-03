@@ -4,5 +4,33 @@
  "title": "Mira-Memory-Efficient-MoE-Inference-Using-Adaptive-Caching-a",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-30 18:49:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/366ef445-9818-4f10-8703-45858ceeaf13.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/366ef445-9818-4f10-8703-45858ceeaf13.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:06:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture of Experts",
+    "MoE Inference",
+    "Memory-Efficient Inference",
+    "Expert Quantization",
+    "Predictive Prefetching",
+    "GPU Caching",
+    "Single-GPU LLM"
+   ],
+   "field": "MoE推理系统优化",
+   "innovations": [
+    "i→i+2逐层预测器实现主动专家预取，将反应式offloading转为前瞻性调度",
+    "自定义共享per-row尺度INT8量化三矩阵FFN，降低元数据开销且精度无损",
+    "HOT+STAGE双tier自适应缓存配合token级遥测重平衡，缓解LRU/LFU缓存污染"
+   ],
+   "benchmarks": [
+    "ShareGPT",
+    "WikiText-2",
+    "lm-eval-harness (Arc-E, SciQ, Winogrande, TriviaQA)",
+    "MMLU"
+   ]
+  }
+ }
 }

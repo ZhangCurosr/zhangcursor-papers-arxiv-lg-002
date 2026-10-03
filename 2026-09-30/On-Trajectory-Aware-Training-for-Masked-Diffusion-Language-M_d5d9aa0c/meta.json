@@ -4,5 +4,33 @@
  "title": "On-Trajectory-Aware-Training-for-Masked-Diffusion-Language-M",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-09-30 18:50:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dfd810cd-40bf-4299-b27a-d8cf3cab065e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/dfd810cd-40bf-4299-b27a-d8cf3cab065e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:12:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "masked diffusion language models",
+    "trajectory-aware training",
+    "progressive unmasking",
+    "backpropagation through time",
+    "BPTT",
+    "instruction fine-tuning",
+    "NFE efficiency"
+   ],
+   "field": "扩散语言模型训练与推理对齐",
+   "innovations": [
+    "提出 PUMBA 统一框架，联合渐进去遮罩轨迹、连续隐状态 carry 与跨步 BPTT 三个设计轴",
+    "发现并刻画小揭示数下的局部过拟合机制，给出缓解方案（大训练 u + 置信度阈值）",
+    "理论证明 BPTT 窗口 W 越大逼近最优采样器越近（KL 余项上界），并在 8B 级 SFT 中验证性能-NFE 折中显著提升"
+   ],
+   "benchmarks": [
+    "GSM8K",
+    "IFEval",
+    "MBPP",
+    "TinyGSM"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Multi-task-learning-for-the-automatic-grading-of-enlarged-pe",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-09-30 18:51:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/eefec3e0-fccd-4525-bfd3-a84ac51321b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 14:07:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-task learning",
+    "perivascular spaces",
+    "automatic grading",
+    "MRI segmentation",
+    "silver-standard labels",
+    "small vessel disease"
+   ],
+   "field": "医学影像分析",
+   "innovations": [
+    "首次系统比较银标准分割掩码在PVS评分中的三种融合策略",
+    "证明多任务学习可促进PVS空间定位能力并提升临床有效性",
+    "提出动态损失加权机制处理多任务样本数不对等问题"
+   ],
+   "benchmarks": [
+    "Potters/Wardlaw scale",
+    "mAP",
+    "macro-F1",
+    "Dice similarity coefficient"
+   ]
+  }
+ }
 }
