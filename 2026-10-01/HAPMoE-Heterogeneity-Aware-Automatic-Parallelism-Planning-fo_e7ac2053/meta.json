@@ -4,5 +4,32 @@
  "title": "HAPMoE-Heterogeneity-Aware-Automatic-Parallelism-Planning-fo",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-10-01 08:24:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/880d51b9-69f1-4136-9b95-356ee0b7b07d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/880d51b9-69f1-4136-9b95-356ee0b7b07d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:35:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动并行",
+    "Mixture-of-Experts",
+    "异构训练",
+    "Pipeline并行",
+    "Megatron-LM",
+    "分布式训练"
+   ],
+   "field": "大规模模型分布式训练系统",
+   "innovations": [
+    "异构感知的6维MoE并行空间搜索（PP/TP/DP/CP/EP/TPE）",
+    "非均匀PP/DP分区机制支持异构集群高效调度",
+    "剪枝增强动态规划搜索将搜索时间压缩至60秒内"
+   ],
+   "benchmarks": [
+    "Mixtral-S",
+    "Mixtral-L",
+    "LLaMA-2 7B",
+    "LLaMA-2 13B"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "METACTRL-YOUR-LARGE-LANGUAGE-MODELS-CAN-REASON-BETTER-AND-MO",
  "token": "sk-hUl6GNqAP...",
  "created_at": "2026-09-30 18:51:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e637b6c3-0968-4c44-86cc-73aa39b1970f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e637b6c3-0968-4c44-86cc-73aa39b1970f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:30:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "元认知控制",
+    "大推理模型",
+    "推理效率优化",
+    "强化学习",
+    "测试时计算分配"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "提出MetaCtrl轻量级元认知控制器，通过四种文本干预动作动态调节冻结reasoner的推理轨迹",
+    "设计正确性门控的效率奖励，仅对正确解鼓励缩短推理长度",
+    "零预算、无重训练的跨模型迁移控制策略"
+   ],
+   "benchmarks": [
+    "MATH-500",
+    "AIME 2024",
+    "OmniMath",
+    "OlympiadBench",
+    "GPQA Diamond",
+    "AMC",
+    "LiveCodeBench"
+   ]
+  }
+ }
 }

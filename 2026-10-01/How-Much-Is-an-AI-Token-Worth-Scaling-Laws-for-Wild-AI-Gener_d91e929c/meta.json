@@ -4,5 +4,32 @@
  "title": "How-Much-Is-an-AI-Token-Worth-Scaling-Laws-for-Wild-AI-Gener",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-01 08:21:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a301b6ad-8646-4835-9222-a77a27d51e0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a301b6ad-8646-4835-9222-a77a27d51e0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:36:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaling laws",
+    "AI-generated text",
+    "pretraining data",
+    "wild AI text",
+    "model collapse"
+   ],
+   "field": "语言模型预训练数据策略",
+   "innovations": [
+    "分离收益/危害项的缩放定律，允许AI token价值可正可负",
+    "首次测量野生AI文本对预训练的影响并量化计算代价",
+    "发现质量过滤器系统性偏好AI文档（FineWeb 2.3×、DCLM 9.8×）"
+   ],
+   "benchmarks": [
+    "C4",
+    "FineWeb 2022",
+    "FineWeb 2026 human/AI split",
+    "Paloma",
+    "Cosmopedia"
+   ]
+  }
+ }
 }

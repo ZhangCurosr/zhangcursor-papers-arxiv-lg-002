@@ -4,5 +4,31 @@
  "title": "PATTERN-FORMATION-IN-TRANSFORMERS",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-30 18:50:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13bc1212-9c74-460e-a2b0-0c55c1034aeb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13bc1212-9c74-460e-a2b0-0c55c1034aeb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:31:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer初始化",
+    "模式形成理论",
+    "色散关系",
+    "动力学先验",
+    "rank collapse",
+    "振幅方程",
+    "位置编码设计"
+   ],
+   "field": "Transformer表示理论与初始化",
+   "innovations": [
+    "推导Full Transformer矩阵值色散关系J(q)并分解PE/OV/FFN各自角色",
+    "提出动力学先验概念并用任务对齐初始化提升数据效率与优化速度",
+    "从线性色散到非线性振幅方程完整刻画聚类/行波/特征旋转的饱和与竞争机制"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "受控序列任务T1/T2/T3"
+   ]
+  }
+ }
 }

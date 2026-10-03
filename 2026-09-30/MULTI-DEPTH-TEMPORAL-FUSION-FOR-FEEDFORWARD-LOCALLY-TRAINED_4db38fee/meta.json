@@ -4,5 +4,33 @@
  "title": "MULTI-DEPTH-TEMPORAL-FUSION-FOR-FEEDFORWARD-LOCALLY-TRAINED",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-30 08:05:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baf4fc11-924d-49b1-8036-0cc39b6d1955.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/baf4fc11-924d-49b1-8036-0cc39b6d1955.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:31:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spiking neural networks",
+    "local learning",
+    "STDP",
+    "R-STDP",
+    "time-to-first-spike",
+    "multi-depth temporal fusion",
+    "neuromorphic vision"
+   ],
+   "field": "脉冲神经网络本地学习架构",
+   "innovations": [
+    "MDTF 机制：保留浅层时序码并通过残差与共识双重路径选择性引入深层证据，决定哪些 spike-time 事件可供后续局部可塑性使用",
+    "无标签 TTFS 前端：结合局部去相关、极性分离、对比度上下文门控与响应校准，将静态/事件视觉输入转换为校准稀疏时序码",
+    "多原型 R-STDP 读出面：时间走廊目标强化 + 稀疏 hard-negative anti-STDP 惩罚，每类别多原型表示提升鲁棒性"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion-MNIST",
+    "CIFAR-10",
+    "N-MNIST"
+   ]
+  }
+ }
 }

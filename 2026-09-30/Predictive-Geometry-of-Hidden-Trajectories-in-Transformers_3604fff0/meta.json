@@ -4,5 +4,32 @@
  "title": "Predictive-Geometry-of-Hidden-Trajectories-in-Transformers",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-09-30 18:50:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d0f802ea-ab95-490d-b0d2-b9d716d3cc32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d0f802ea-ab95-490d-b0d2-b9d716d3cc32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:35:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "pullback Fisher",
+    "hidden-state geometry",
+    "token pruning",
+    "low-rank compression",
+    "knowledge distillation",
+    "predictive saliency",
+    "transformer interpretability"
+   ],
+   "field": "大语言模型压缩与可解释性",
+   "innovations": [
+    "从终端next-token loss推导中间层pullback Fisher几何并证明局部Hessian分解",
+    "提出因果支撑的tokenwise Fisher-Jacobian曲率评分",
+    "将预测几何作为低秩分配与蒸馏正则化的损失感知信号"
+   ],
+   "benchmarks": [
+    "WikiText",
+    "OpenWebText",
+    "FineWeb"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "ID-Balancing-Stable-Training-of-Extremely-Sparse-MoE-via-PID",
  "token": "sk-L8fxiXWw6...",
  "created_at": "2026-10-01 08:30:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a315c19c-132c-4cc6-8ace-d37777055750.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a315c19c-132c-4cc6-8ace-d37777055750.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:37:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Load Balancing",
+    "PID Control",
+    "Sparse Routing",
+    "Large Language Models"
+   ],
+   "field": "大规模语言模型训练稳定性",
+   "innovations": [
+    "提出PID控制器统一视角分析无辅助损失MoE负载均衡方法",
+    "设计幅值感知积分项与恶化门控微分项协同的ID Balancing算法"
+   ],
+   "benchmarks": [
+    "MMLU",
+    "MMLU-Pro",
+    "SuperGPQA",
+    "MATH",
+    "GSM8K",
+    "BBH",
+    "MMMLU",
+    "EvalPlus",
+    "MultiPL-E"
+   ]
+  }
+ }
 }

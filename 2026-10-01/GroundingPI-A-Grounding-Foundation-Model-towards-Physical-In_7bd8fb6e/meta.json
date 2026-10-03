@@ -4,5 +4,39 @@
  "title": "GroundingPI-A-Grounding-Foundation-Model-towards-Physical-In",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-10-01 08:31:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a201d960-1482-4ed5-bc96-adc5e58c44a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a201d960-1482-4ed5-bc96-adc5e58c44a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:37:19",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "grounding foundation model",
+    "visual primitives",
+    "quantized coordinate tokens",
+    "GRPO reinforcement learning",
+    "physical intelligence",
+    "embodied AI"
+   ],
+   "field": "多模态视觉 grounding",
+   "innovations": [
+    "量化坐标 token 统一多任务接地接口",
+    "GRPO 组合奖励优化 grounding 精度与格式",
+    "感知原生 foundation model 提升下游数据效率"
+   ],
+   "benchmarks": [
+    "Dense200",
+    "RefCOCO",
+    "COCO",
+    "LVIS",
+    "RoboSpatial",
+    "ScreenSpot-Pro",
+    "SROIE",
+    "M6Doc",
+    "nuScenes",
+    "RoboTwin 2.0",
+    "RoboCasa-GR1"
+   ]
+  }
+ }
 }

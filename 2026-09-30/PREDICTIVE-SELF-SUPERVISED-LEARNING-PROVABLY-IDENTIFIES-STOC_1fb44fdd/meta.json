@@ -4,5 +4,10 @@
  "title": "PREDICTIVE-SELF-SUPERVISED-LEARNING-PROVABLY-IDENTIFIES-STOC",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-30 18:50:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/33d29d63-50b3-49ef-9de7-d76baec682fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/33d29d63-50b3-49ef-9de7-d76baec682fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:33:42",
+  "chunks": 1
+ }
 }

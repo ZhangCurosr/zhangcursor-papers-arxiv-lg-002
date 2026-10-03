@@ -4,5 +4,10 @@
  "title": "PLANETARY-FEATURE-FIELDS-ARE-SCALABLE-EARTH-REPRESENTATIONS",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-30 08:03:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0edfad2d-625f-4c81-9adc-e1702844c849.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0edfad2d-625f-4c81-9adc-e1702844c849.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:32:14",
+  "chunks": 1
+ }
 }

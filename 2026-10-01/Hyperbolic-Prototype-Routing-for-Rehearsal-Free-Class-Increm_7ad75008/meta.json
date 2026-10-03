@@ -4,5 +4,34 @@
  "title": "Hyperbolic-Prototype-Routing-for-Rehearsal-Free-Class-Increm",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-10-01 08:21:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3b1c88f4-776a-426f-ab80-b806e3f8f640.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3b1c88f4-776a-426f-ab80-b806e3f8f640.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:36:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Class-Incremental Learning",
+    "Hyperbolic Geometry",
+    "Parameter-Efficient Fine-Tuning",
+    "LoRA",
+    "Catastrophic Forgetting",
+    "Prototype Routing"
+   ],
+   "field": "类增量学习与连续学习",
+   "innovations": [
+    "动态 LoRA-Expert 分配实现任务级参数隔离",
+    "双曲原型路由利用庞加莱球指数容量扩大类间决策边界"
+   ],
+   "benchmarks": [
+    "CIFAR100",
+    "CUB200",
+    "ImageNet-R",
+    "Omnibenchmark",
+    "VTAB",
+    "CIFAR100-FSCIL",
+    "CUB200-FSCIL"
+   ]
+  }
+ }
 }

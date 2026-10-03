@@ -4,5 +4,30 @@
  "title": "PATTERN-FORMATION-IN-TRANSFORMERS",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-30 08:09:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13bc1212-9c74-460e-a2b0-0c55c1034aeb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/13bc1212-9c74-460e-a2b0-0c55c1034aeb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:31:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer",
+    "pattern formation",
+    "dispersion relation",
+    "inductive bias",
+    "rank collapse",
+    "initialization"
+   ],
+   "field": "Transformer 表征动力学与初始化先验",
+   "innovations": [
+    "推导完整 Transformer 的矩阵色散关系并区分 PE/OV/FFN 作用",
+    "提出行波、驻波与特征旋转等未报告模式的自发涌现与饱和理论",
+    "通过任务对齐的结构初始化在受控任务与 CIFAR-10 ConViT 上提升数据效率与优化速度"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "controlled periodic/shift/rotation sequence tasks"
+   ]
+  }
+ }
 }

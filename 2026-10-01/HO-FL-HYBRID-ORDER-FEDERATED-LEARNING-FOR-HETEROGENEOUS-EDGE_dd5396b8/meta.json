@@ -4,5 +4,34 @@
  "title": "HO-FL-HYBRID-ORDER-FEDERATED-LEARNING-FOR-HETEROGENEOUS-EDGE",
  "token": "sk-MPIaIwMik...",
  "created_at": "2026-10-01 08:27:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffbe80f3-6754-46a6-905f-37507e077b6f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/ffbe80f3-6754-46a6-905f-37507e077b6f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:35:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Federated Learning",
+    "Hybrid-Order Optimization",
+    "Zeroth-Order Optimization",
+    "Heterogeneous Edge Devices",
+    "Client Sampling",
+    "Memory-Constrained Training",
+    "Large Language Models"
+   ],
+   "field": "联邦学习与边缘智能",
+   "innovations": [
+    "首个支持客户端自适应边界的完全分布式混合阶联邦学习框架，通过代理目标与种子重放实现零维度上载",
+    "建立统一非凸收敛理论揭示优化方差与采样偏差的根本权衡，推导维度感知采样策略",
+    "AdamW状态下确定性种子重放机制，使自适应优化器兼容零阶联邦训练"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "BoolQ",
+    "SciQ",
+    "AG News",
+    "SQuAD 1.1"
+   ]
+  }
+ }
 }

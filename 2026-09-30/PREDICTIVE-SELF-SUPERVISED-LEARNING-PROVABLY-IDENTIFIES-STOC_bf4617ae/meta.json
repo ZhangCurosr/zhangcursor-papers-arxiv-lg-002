@@ -4,5 +4,33 @@
  "title": "PREDICTIVE-SELF-SUPERVISED-LEARNING-PROVABLY-IDENTIFIES-STOC",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-30 08:05:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/16769a4b-63b2-444b-92ab-2850bb76130f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/16769a4b-63b2-444b-92ab-2850bb76130f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:33:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "self-supervised learning",
+    "identifiability",
+    "predictive mutual information",
+    "latent distribution matching",
+    "nuisance removal",
+    "exponential family",
+    "affine recovery",
+    "entropy estimation"
+   ],
+   "field": "自监督表示学习与可识别隐变量模型",
+   "innovations": [
+    "证明预测性 SSL 中 MI 最大化与潜在分布匹配分别承担信息保留与信号识别的互补作用",
+    "在随机动态与观测私有干扰设定下建立指数族信号的仿射可识别定理",
+    "在高斯预测器特例下给出信号的仿射回收并辅以多基准实验验证"
+   ],
+   "benchmarks": [
+    "Causal3DIdent",
+    "MuJoCo Hopper",
+    "人工随机动态序列"
+   ]
+  }
+ }
 }

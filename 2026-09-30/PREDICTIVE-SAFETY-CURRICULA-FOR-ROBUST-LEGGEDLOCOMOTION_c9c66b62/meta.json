@@ -4,5 +4,31 @@
  "title": "PREDICTIVE-SAFETY-CURRICULA-FOR-ROBUST-LEGGEDLOCOMOTION",
  "token": "sk-yoA5lsrHK...",
  "created_at": "2026-09-30 18:51:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5da294fd-4bb9-421f-8df5-dc838c7dc765.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5da294fd-4bb9-421f-8df5-dc838c7dc765.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:32:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "curriculum learning",
+    "legged locomotion",
+    "distributional RL",
+    "safety critic",
+    "CVaR",
+    "quadrupedal robot"
+   ],
+   "field": "足式机器人鲁棒控制与安全强化学习",
+   "innovations": [
+    "用分布性安全评论家预测未来安全回报并驱动上下文与事件双重优先采样",
+    "上尾CVaR风险读数显著优于均值读数与经验统计",
+    "预测安全分配在生产硬件上消除小腿碰撞并迁移到楼梯攀爬任务"
+   ],
+   "benchmarks": [
+    "Isaac Lab ANYmal-D rough terrain",
+    "ANYmal-X production stair climbing",
+    "ANYmal-D open-step hardware trials"
+   ]
+  }
+ }
 }

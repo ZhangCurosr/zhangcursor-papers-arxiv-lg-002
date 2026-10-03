@@ -4,5 +4,33 @@
  "title": "PLANETARY-FEATURE-FIELDS-ARE-SCALABLE-EARTH-REPRESENTATIONS",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-30 18:50:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/522a6c60-77c5-469f-8079-8f4cd7adb03d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/522a6c60-77c5-469f-8079-8f4cd7adb03d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:32:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Planetary Feature Fields",
+    "神经场",
+    "地球观测",
+    "持续学习",
+    "因式分解特征体"
+   ],
+   "field": "地球观测表征与压缩",
+   "innovations": [
+    "基于共享因式分解特征体的多产品显式-隐式混合神经场表示",
+    "通过冻结共享场仅训练新增时序切片或解码器实现比特级保留的持续学习"
+   ],
+   "benchmarks": [
+    "PFFBENCH",
+    "PASTIS",
+    "FTW",
+    "SwissCrop25",
+    "EuroMineNet",
+    "BigEarthNet-v2",
+    "So2Sat-LCZ42"
+   ]
+  }
+ }
 }

@@ -4,5 +4,37 @@
  "title": "PROCEDURAL-CORE-A-COMPACT-RECURRENTINITIALIZATION-FOR-VISION",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-30 08:03:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2e7e1b60-49b4-473b-8c92-68d931b68345.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2e7e1b60-49b4-473b-8c92-68d931b68345.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:34:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer initialization",
+    "procedural pretraining",
+    "recurrent parameter sharing",
+    "weight expansion",
+    "high-norm token suppression",
+    "self-supervised vision"
+   ],
+   "field": "Vision Transformer 初始化与结构先验",
+   "innovations": [
+    "将程序化数据训练所得通用结构压缩为可跨规模复用的循环核心权重",
+    "通过深度平铺与 Frobenius 归一化实现任意深度/宽度 Transformer 的确定性初始化",
+    "揭示 Value/Output 路径在高范数 token 抑制中的关键作用并关联稠密预测任务增益"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "CIFAR-100",
+    "ADE20K",
+    "ImageNet-S",
+    "VOC07",
+    "NYUV2",
+    "FINEWEB-EDU",
+    "CODEPARROT",
+    "DINO k-NN"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "How-Many-Labels-Does-a-Language-Need-Annotation-Budgets-and",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-30 18:50:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9a7717aa-e4af-43ce-8aa5-81e6801d376c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/9a7717aa-e4af-43ce-8aa5-81e6801d376c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:29:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "annotation budget",
+    "cross-lingual pooling",
+    "zero-shot transfer",
+    "African languages",
+    "character n-gram",
+    "low-compute NLP",
+    "learning curve",
+    "MasakhaNEWS",
+    "AfriSenti"
+   ],
+   "field": "低资源多语言NLP",
+   "innovations": [
+    "系统量化28个非洲语言任务在CPU可用预算下的标注需求曲线",
+    "揭示跨语言pooling在低预算有益、高预算有害的crossover效应",
+    "完整零样本迁移矩阵并归因于共享脚本/词汇/标签先验而非语言谱系"
+   ],
+   "benchmarks": [
+    "MasakhaNEWS",
+    "AfriSenti"
+   ]
+  }
+ }
 }

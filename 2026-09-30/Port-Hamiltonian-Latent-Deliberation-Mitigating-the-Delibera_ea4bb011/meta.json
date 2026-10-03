@@ -4,5 +4,30 @@
  "title": "Port-Hamiltonian-Latent-Deliberation-Mitigating-the-Delibera",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-30 18:51:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/06bccf25-6497-46af-b3f1-fd0dff27622a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/06bccf25-6497-46af-b3f1-fd0dff27622a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:34:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Test-Time Compute Scaling",
+    "Latent Deliberation",
+    "Port-Hamiltonian Systems",
+    "Helmholtz-Hodge Decomposition",
+    "Riemannian Manifolds",
+    "Symplectic Integration"
+   ],
+   "field": "推理与测试时计算优化",
+   "innovations": [
+    "揭示并形式化了连续潜思辨中的'漂移悬崖'病理",
+    "提出DG-HHD方法打破保守流表达瓶颈同时保持李雅普诺夫稳定性",
+    "建立物理启发的几何框架PH-LD实现稳定高效的长程推理"
+   ],
+   "benchmarks": [
+    "15-Arm Symmetrical Pareto Benchmark",
+    "ProofWriter Multi-Hop Deduction"
+   ]
+  }
+ }
 }

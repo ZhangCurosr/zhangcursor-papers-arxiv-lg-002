@@ -4,5 +4,36 @@
  "title": "PROCEDURAL-CORE-A-COMPACT-RECURRENTINITIALIZATION-FOR-VISION",
  "token": "sk-iaeYeK7Vr...",
  "created_at": "2026-09-30 18:51:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2e7e1b60-49b4-473b-8c92-68d931b68345.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/2e7e1b60-49b4-473b-8c92-68d931b68345.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:34:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer初始化",
+    "过程数据预训练",
+    "循环参数共享",
+    "Vision Transformer",
+    "自监督学习",
+    "多模态迁移"
+   ],
+   "field": "模型初始化与归纳偏置",
+   "innovations": [
+    "将过程数据训练得到的紧凑循环权重展开为任意尺寸 Transformer 的通用初始化",
+    "揭示 attention value/output 路径对抑制高范数 token 并迁移到密集预测任务的关键作用",
+    "通过深度参数共享实现跨尺度确定性展开，单次学习即可替代每目标重训的 procedural warm-up"
+   ],
+   "benchmarks": [
+    "IMAGENET-1K",
+    "CIFAR-100",
+    "ADE20K",
+    "IMAGENET-S",
+    "VOC07",
+    "NYUV2",
+    "FINEWEB-EDU",
+    "CODEPARROT"
+   ]
+  }
+ }
 }

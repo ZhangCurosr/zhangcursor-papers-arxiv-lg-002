@@ -4,5 +4,30 @@
  "title": "POINTWISE-OR-PAIRWISE-WHEN-DO-PAIRWISE-LOSSES-HELP-REWARD-LE",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-30 08:13:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1e5df73b-8181-4c7b-94eb-a3e23b5e6dd5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1e5df73b-8181-4c7b-94eb-a3e23b5e6dd5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:33:50",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "离线奖励学习",
+    "值差回归",
+    "pairwise loss",
+    "半参数因果推断",
+    "coverage coefficient",
+    "minimax lower bound"
+   ],
+   "field": "离线强化学习与因果推断",
+   "innovations": [
+    "提出VDR框架通过centering operator消除nuisance",
+    "证明VR在弱可实性假设下可产生常数值遗憾",
+    "建立VDR估计误差中noise项以1/N衰减的有限类bound"
+   ],
+   "benchmarks": [
+    "Theorem 3.2对抗实例",
+    "Theorem G.1 minimax下界"
+   ]
+  }
+ }
 }

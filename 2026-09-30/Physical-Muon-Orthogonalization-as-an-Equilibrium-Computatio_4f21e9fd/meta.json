@@ -4,5 +4,33 @@
  "title": "Physical-Muon-Orthogonalization-as-an-Equilibrium-Computatio",
  "token": "sk-zKZtEfvnM...",
  "created_at": "2026-09-30 08:08:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0f9ea792-3fba-4a70-958c-de6f2f7c3279.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0f9ea792-3fba-4a70-958c-de6f2f7c3279.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:34:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Physical Muon",
+    "optimizers for neuromorphic computing",
+    "orthogonalization",
+    "in-memory computing",
+    "resistive arrays",
+    "continuous-time matrix flow",
+    "transformer training"
+   ],
+   "field": "硬件感知优化器与存内计算训练",
+   "innovations": [
+    "将 Muon 正交化转化为连续时间流平衡求解以适配电阻阵列",
+    "用随机探针将密集增量展开为矩阵向量读与局部秩-1写",
+    "通过训练与 ngspice 电路闭环联合验证模拟正交化的可行性"
+   ],
+   "benchmarks": [
+    "FineWeb language modeling",
+    "GPT-2 124M energy scaling",
+    "8x8 and 128-wide momentum blocks",
+    "four-class synthetic circuit-in-the-loop task"
+   ]
+  }
+ }
 }

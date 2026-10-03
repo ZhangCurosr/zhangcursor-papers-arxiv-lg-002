@@ -4,5 +4,30 @@
  "title": "HOW-DOES-LOCAL-LANDSCAPE-GEOMETRY-EVOLVE-IN-LANGUAGE-MODEL-P",
  "token": "sk-Dw4PCoiSK...",
  "created_at": "2026-10-01 08:24:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3059c34e-4cc2-49f6-b8a2-f4987d8bee29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3059c34e-4cc2-49f6-b8a2-f4987d8bee29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:35:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "loss landscape",
+    "pre-training dynamics",
+    "learning rate warmup",
+    "batch size scheduling",
+    "sharpness",
+    "noise scale",
+    "large language models"
+   ],
+   "field": "语言模型预训练优化动力学",
+   "innovations": [
+    "揭示LLM预训练两阶段景观演化：早期sharp-to-flat过渡与晚期噪声尺度主导",
+    "提出深度-平坦度权衡定理，建立BS/噪声尺度与basin选择的定量联系",
+    "设计晚期BS ramping调度策略，在数据受限场景下实现~4×token效率提升"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "PHASE-MULTI-REGIME-MODELING-OF-INCOM-PRESSIBLE-MAGNETOHYDROD",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-30 18:51:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959ff26-aff8-4ced-81b3-f0f8f0a2c76f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959ff26-aff8-4ced-81b3-f0f8f0a2c76f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:31:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MHD",
+    "neural operator",
+    "transfer learning",
+    "multi-regime modeling",
+    "diffusion refinement",
+    "divergence-free projection",
+    "turbulence",
+    "Kelvin-Helmholtz instability"
+   ],
+   "field": "可压/不可压磁流体动力学的多机制神经算子建模",
+   "innovations": [
+    "将 POSEIDON/scOT 流体预训练迁移到 MHD 并参数条件化残差适配器实现跨 Re 泛化",
+    "Helmholtz 投影硬约束与涡量/电流密度导出场物理损失提升小尺度保真度",
+    "确定性算子 + 条件扩散残差校正的混合推理框架"
+   ],
+   "benchmarks": [
+    "DINO",
+    "tFNO",
+    "scOT (baseline)",
+    "2-D incompressible MHD turbulence at Re=80-4500",
+    "Kelvin-Helmholtz instability at Re=200, 2050"
+   ]
+  }
+ }
 }

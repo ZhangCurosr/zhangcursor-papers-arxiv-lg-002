@@ -4,5 +4,31 @@
  "title": "PHASE-MULTI-REGIME-MODELING-OF-INCOM-PRESSIBLE-MAGNETOHYDROD",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-09-30 08:05:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959ff26-aff8-4ced-81b3-f0f8f0a2c76f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959ff26-aff8-4ced-81b3-f0f8f0a2c76f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 18:31:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "magnetohydrodynamics",
+    "neural operator",
+    "physics-informed deep learning",
+    "turbulence modeling",
+    "transfer learning",
+    "diffusion model"
+   ],
+   "field": "物理信息机器学习与湍流模拟",
+   "innovations": [
+    "基于POSEOIN的流体预训练表示迁移至MHD并扩展四通道耦合预测",
+    "参数条件化gated adapter+FiLM实现单模型跨Re regime泛化",
+    "Helmholtz硬约束+显式vorticity/current-density损失+残差条件扩散三级物理保真框架"
+   ],
+   "benchmarks": [
+    "2-D incompressible MHD decaying turbulence (Re∈{80,...,4500})",
+    "Kelvin-Helmholtz MHD instability (Re=200, 2050)",
+    "DINO baseline (tFNO + conditional diffusion)"
+   ]
+  }
+ }
 }
