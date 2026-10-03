@@ -4,5 +4,31 @@
  "title": "Learned-Queries-and-Keys-Are-All-You-Need-Replacing-the-Valu",
  "token": "sk-0Q9KcIM9N...",
  "created_at": "2026-09-30 18:52:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d664230-9320-4223-802a-594b0e89e64f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d664230-9320-4223-802a-594b0e89e64f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision Transformer",
+    "attention mechanism",
+    "parameter reduction",
+    "Shearlet transform",
+    "dual-headed attention",
+    "multiplication-avoiding",
+    "efficient transformers"
+   ],
+   "field": "高效视觉 Transformer",
+   "innovations": [
+    "提出双头Transformer用固定变换替代V投影减少约1/3参数",
+    "将Shearlet多尺度方向滤波池引入Vision Transformer的value构造",
+    "设计免乘MF-tanh注意力机制以大幅降低推理计算开销"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Tiny-ImageNet"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "MARCO-Multi-Round-Agentic-Reinforcement-for-Conditional-Mole",
  "token": "sk-Wy5CGD3Z6...",
  "created_at": "2026-09-30 08:07:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d60294ec-cd99-4cdc-ac30-546456017f36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d60294ec-cd99-4cdc-ac30-546456017f36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:59:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分子优化",
+    "多轮强化学习",
+    "指令跟随",
+    "验证器引导",
+    "组相对策略优化",
+    "MuMOInstruct"
+   ],
+   "field": "分子生成与优化",
+   "innovations": [
+    "将条件分子优化建模为有界反馈条件决策过程，训练验证器地面的多轮轨迹",
+    "提出Same-1/Same-5双协议评估同一策略的单响与多响能力",
+    "设计分段相似性奖励与趋势贡献机制平衡属性优化与结构保持"
+   ],
+   "benchmarks": [
+    "MuMOInstruct",
+    "BDP",
+    "BDQ",
+    "BPQ",
+    "HMPQ",
+    "BDPQ"
+   ]
+  }
+ }
 }

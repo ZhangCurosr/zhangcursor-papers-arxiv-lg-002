@@ -4,5 +4,31 @@
  "title": "LUCID-DREAMING-FOR-WORLD-MODELS-LEARNING-TODOUBT-IMAGINATION",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-30 18:51:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5a1e724f-1723-41fa-840b-a50da2463ad0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5a1e724f-1723-41fa-840b-a50da2463ad0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world models",
+    "uncertainty estimation",
+    "subjective logic",
+    "evidential deep learning",
+    "model-based reinforcement learning",
+    "OOD detection"
+   ],
+   "field": "世界模型与不确定性量化",
+   "innovations": [
+    "将转移头 logits 解读为 SL Dirichlet 证据，零参数代价读出 per-transition 怀疑度",
+    "引入证据纪律正则使未经验支撑的转移证据自然衰退",
+    "trust-weighted λ-return 使累计信任沿想象轨迹相乘，自动收紧模型误差上界"
+   ],
+   "benchmarks": [
+    "DeepMind Control",
+    "ViZDoom maze",
+    "Crafter"
+   ]
+  }
+ }
 }

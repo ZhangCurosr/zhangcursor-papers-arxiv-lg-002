@@ -4,5 +4,32 @@
  "title": "LOOPED-ACTOR-DEPTH-RECURRENT-REASONINGMODELS-FOR-REINFORCEME",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-30 08:10:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5093a545-b611-4671-8a14-f57502f84fe2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5093a545-b611-4671-8a14-f57502f84fe2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "looped transformer",
+    "adaptive computation",
+    "depth-recurrent policy",
+    "fixed-point reasoning",
+    "multistep planning",
+    "goal-conditioned RL"
+   ],
+   "field": "强化学习中的自适应计算与规划",
+   "innovations": [
+    "理论证明状态自适应计算在MDP族上渐近优于固定运行时策略",
+    "提出Looped Actor将FPRM适配至RL策略，基于KL散度停止准则实现参数效率与自适应计算结合",
+    "揭示循环迭代逐步精炼多步计划表征的机制并验证计算分配的结构性"
+   ],
+   "benchmarks": [
+    "Boxoban",
+    "Rush Hour",
+    "OGBench"
+   ]
+  }
+ }
 }

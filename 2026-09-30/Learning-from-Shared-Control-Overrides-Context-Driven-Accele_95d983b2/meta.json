@@ -4,5 +4,32 @@
  "title": "Learning-from-Shared-Control-Overrides-Context-Driven-Accele",
  "token": "sk-EwecAZ9oF...",
  "created_at": "2026-09-30 18:51:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a9439cb5-4445-41d4-a2c1-307ee30bfd51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a9439cb5-4445-41d4-a2c1-307ee30bfd51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:56:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ACC个性化",
+    "共享控制接管",
+    "加速曲线预测",
+    "层次聚类",
+    "残差回归",
+    "上下文分类",
+    "自动驾驶人机协同"
+   ],
+   "field": "智能网联汽车个性化控制",
+   "innovations": [
+    "将共享控制接管重新定义为连续加速度轮廓的监督信号，构建离线聚类+在线分类-回归的混合个性化框架",
+    "提出Context-Conditioned 1D-CNN残差回归器，在离散行为模板基础上注入连续微调，避免端到端回归过平滑",
+    "建立分布学评估方法，在强制ACC潜在接管上下文中前瞻预测贴近个体期望的加速行为"
+   ],
+   "benchmarks": [
+    "Forced-ACC Baseline (Trip 1)",
+    "Naturalistic Manual Driving (Trip 2)",
+    "Shared-Control Override Events (Trip 3)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "MaPP-A-Unified-Marginalized-Posterior-Predictive-Framework-f",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-29 19:08:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a443d6ff-4b8a-4942-b792-05aaf8e2c08a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a443d6ff-4b8a-4942-b792-05aaf8e2c08a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:51:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "GRPO",
+    "prompt selection",
+    "Bayesian posterior",
+    "advantage denoising",
+    "data efficiency"
+   ],
+   "field": "强化学习与大模型后训练",
+   "innovations": [
+    "识别并理论分析GRPO中的组成噪声(composition noise)",
+    "提出闭式后验预测边缘化优势估计器MaPP-AD",
+    "推导不确定性感知的提示选择分数MaPP-PS"
+   ],
+   "benchmarks": [
+    "MATH",
+    "AMC23",
+    "MATH500",
+    "Minerva Math",
+    "OlympiadBench",
+    "Countdown",
+    "Geometry3k"
+   ]
+  }
+ }
 }

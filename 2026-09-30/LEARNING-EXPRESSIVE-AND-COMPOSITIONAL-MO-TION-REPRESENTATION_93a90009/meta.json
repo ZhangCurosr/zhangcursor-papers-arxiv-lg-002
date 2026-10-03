@@ -4,5 +4,32 @@
  "title": "LEARNING-EXPRESSIVE-AND-COMPOSITIONAL-MO-TION-REPRESENTATION",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-30 08:10:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad08a11c-0cec-4de9-8c48-5643f167e5dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad08a11c-0cec-4de9-8c48-5643f167e5dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:52:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "humanoid control",
+    "spectral skills",
+    "predictive representation",
+    "skill composition",
+    "hierarchical control",
+    "motion tracking"
+   ],
+   "field": "人形机器人全身控制",
+   "innovations": [
+    "提出谱技能表示，通过预测后续运动学习而非重建输入",
+    "仿射条件设计使技能空间可组合，零样本组合新行为",
+    "相比SONIC降低62%全局跟踪误差，训练效率提升12倍"
+   ],
+   "benchmarks": [
+    "BONES-SEED",
+    "Unitree G1",
+    "124-motion capability set",
+    "4096-motion evaluation set"
+   ]
+  }
+ }
 }

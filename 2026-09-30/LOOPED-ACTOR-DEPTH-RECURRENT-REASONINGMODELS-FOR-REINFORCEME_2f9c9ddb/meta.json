@@ -4,5 +4,31 @@
  "title": "LOOPED-ACTOR-DEPTH-RECURRENT-REASONINGMODELS-FOR-REINFORCEME",
  "token": "sk-kIZn3a0Uw...",
  "created_at": "2026-09-30 18:51:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5093a545-b611-4671-8a14-f57502f84fe2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5093a545-b611-4671-8a14-f57502f84fe2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:54:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "looped transformers",
+    "adaptive computation",
+    "reasoning models",
+    "complexity theory",
+    "Sokoban",
+    "offline RL"
+   ],
+   "field": "强化学习与神经符号/推理模型结合",
+   "innovations": [
+    "将状态自适应的循环 Transformer 推理架构首次系统性地引入 RL 策略学习，实现计算资源的动态分配。",
+    "理论证明了在特定 MDP 族中，自适应计算策略相比最优固定计算策略具有渐近的计算效率优势。"
+   ],
+   "benchmarks": [
+    "Boxoban",
+    "Rush Hour",
+    "OGBench"
+   ]
+  }
+ }
 }

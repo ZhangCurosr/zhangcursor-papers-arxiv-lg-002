@@ -4,5 +4,35 @@
  "title": "LEARNING-EXPRESSIVE-AND-COMPOSITIONAL-MO-TION-REPRESENTATION",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-30 18:52:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad08a11c-0cec-4de9-8c48-5643f167e5dc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ad08a11c-0cec-4de9-8c48-5643f167e5dc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:52:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "humanoid control",
+    "spectral skills",
+    "predictive representation",
+    "skill composition",
+    "hierarchical RL",
+    "motion tracking",
+    "latent interface"
+   ],
+   "field": "人形机器人全身控制",
+   "innovations": [
+    "通过预测运动延续而非重建输入学习spectral skills潜接口，使底层跟踪全局误差降低62%",
+    "利用仿射进入结构的响应雅可比与基技能无关的性质，零样本组合新技能并生成训练未见行为",
+    "将spectral skills作为语言规划器动作空间，长视距下成功率从77.1%提升至91.1%"
+   ],
+   "benchmarks": [
+    "BONES-SEED",
+    "SONIC",
+    "Any2Track",
+    "BeyondMimic",
+    "BFM-Zero",
+    "Unitree G1真机"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "LATENT-INFERENCE-TIME-GUIDANCE-OF-TIME-SERIES-FOUNDATION-MOD",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-30 08:01:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d1c9066d-5931-47cf-bf2a-ebbc785465ed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d1c9066d-5931-47cf-bf2a-ebbc785465ed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:51:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Time Series Foundation Models",
+    "Latent Inference-Time Guidance",
+    "Nonlinear ICA",
+    "Ensemble Forecasting",
+    "Variational Inference",
+    "Inference-Time Adaptation"
+   ],
+   "field": "时序预测与基础模型集成",
+   "innovations": [
+    "提出LITiG-TSFM：基于结构化非线性ICA的冻结TSFM推理时隐引导框架",
+    "建立去噪信号可识别性与变分平滑重构稳定性理论保证（误差不超线性增长）",
+    "无需微调、对低质量专家鲁棒的非线性格成方法，超越线性集成基线"
+   ],
+   "benchmarks": [
+    "London Smart Meter",
+    "Mauna Loa CO2",
+    "NN5 Weekly",
+    "Washington Bicycle Share",
+    "GIFT-Eval",
+    "fev-bench"
+   ]
+  }
+ }
 }

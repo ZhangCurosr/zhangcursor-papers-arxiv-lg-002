@@ -4,5 +4,31 @@
  "title": "Learning-Meta-Skills-for-Agent-Harness-Design-in-Test-Time-A",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-30 18:49:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e99e3f96-cbb0-4193-b095-82625c03e04f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e99e3f96-cbb0-4193-b095-82625c03e04f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:56:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI4AI",
+    "test-time learning",
+    "meta-skill",
+    "agent harness",
+    "fixed-weight self-improvement",
+    "Builder-Target architecture",
+    "reusable support principles"
+   ],
+   "field": "Agent harness design & test-time learning",
+   "innovations": [
+    "提出三字段 meta-skill 结构（when/provide/use）使 Builder 可从 Target 反馈学习可复用支持原则",
+    "构建 construction-execution-reflection 迭代闭环，在双模型固定权重下实现经验到可执行支持的转化",
+    "证明 same-model self-improvement 可行：同一模型可通过学习构建更好 harness 实现自身性能提升"
+   ],
+   "benchmarks": [
+    "Harness-Bench",
+    "NewtonBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "LEARNING-WHAT-TO-REMEMBER-LONG-HORIZON-COUNTERFACTUAL-MEMORY",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-09-30 08:06:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0ff1b6b0-3816-41a1-ad4c-10dda76b4def.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0ff1b6b0-3816-41a1-ad4c-10dda76b4def.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:54:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent memory",
+    "counterfactual credit assignment",
+    "policy optimization",
+    "document-level information extraction",
+    "long-horizon RL",
+    "memory writer",
+    "inherited utility",
+    "potential-shaped reward"
+   ],
+   "field": "大语言模型持久化记忆与信用分配",
+   "innovations": [
+    "提出Memory Gain Policy Optimization (MGPO)，通过冻结reader对相邻记忆状态做反事实比较，将每个重写的长程边际效用隔离为强化学习信号",
+    "证明Memory Gain等价于对factual return施加action-independent控制变量，保持政策梯度期望不变但降低有限样本方差",
+    "学到的记忆writer可跨不同reader架构、不同领域和下游任务零样本复用"
+   ],
+   "benchmarks": [
+    "SciREX",
+    "AIPAN-10K",
+    "BABILong"
+   ]
+  }
+ }
 }

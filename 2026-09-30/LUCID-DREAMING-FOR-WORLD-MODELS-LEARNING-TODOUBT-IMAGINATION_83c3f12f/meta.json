@@ -4,5 +4,32 @@
  "title": "LUCID-DREAMING-FOR-WORLD-MODELS-LEARNING-TODOUBT-IMAGINATION",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-30 08:04:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5a1e724f-1723-41fa-840b-a50da2463ad0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5a1e724f-1723-41fa-840b-a50da2463ad0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "世界模型",
+    "主观逻辑",
+    "不确定性估计",
+    "证据深度学习",
+    "信任累积",
+    "分布外检测",
+    "强化学习"
+   ],
+   "field": "模型基强化学习与世界模型",
+   "innovations": [
+    "将主观逻辑内嵌于世界模型转移头，从经验证据学习怀疑度",
+    "通过证据规范损失和解耦的后验融合，使怀疑度准确反映状态-动作对的支持证据",
+    "将怀疑度沿想象轨迹累乘为信任，用于重加权策略学习返回和决策否决"
+   ],
+   "benchmarks": [
+    "DeepMind Control Suite (DMC)",
+    "ViZDoom Maze",
+    "Crafter"
+   ]
+  }
+ }
 }

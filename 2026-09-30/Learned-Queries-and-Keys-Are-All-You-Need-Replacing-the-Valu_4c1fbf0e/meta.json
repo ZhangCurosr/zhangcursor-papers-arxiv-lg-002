@@ -4,5 +4,29 @@
  "title": "Learned-Queries-and-Keys-Are-All-You-Need-Replacing-the-Valu",
  "token": "sk-0Q9KcIM9N...",
  "created_at": "2026-09-30 08:09:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d664230-9320-4223-802a-594b0e89e64f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6d664230-9320-4223-802a-594b0e89e64f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "双头Transformer",
+    "Value投影替代",
+    "Shearlet变换",
+    "乘法避免注意力",
+    "参数高效ViT"
+   ],
+   "field": "高效视觉Transformer",
+   "innovations": [
+    "提出双头Transformer架构，用固定正交变换替代独立学习的Value投影",
+    "构建Shearlet多尺度方向滤波器组嵌入注意力Value，实现方向感知的双头设计",
+    "提出MF-Tanh无乘法注意力，用元素级符号运算和归一化tanh替代softmax与V投影"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Tiny ImageNet"
+   ]
+  }
+ }
 }

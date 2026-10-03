@@ -4,5 +4,40 @@
  "title": "LOOPED-TRANSFORMERS-AS-OPTIMIZERS",
  "token": "sk-mtb2NN4Ja...",
  "created_at": "2026-09-30 18:51:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b69aa935-2584-48a6-85f9-d80f88209783.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b69aa935-2584-48a6-85f9-d80f88209783.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Looped Transformers",
+    "fast weight",
+    "recurrent transition",
+    "test-time compute",
+    "parameter-efficient depth scaling",
+    "optimization view"
+   ],
+   "field": "Transformer 架构设计与高效推理",
+   "innovations": [
+    "提出投影-目标-优化器三要素的统一循环转移分析框架，将循环状态视为 fast weight",
+    "发现并修正 Parcae/HyperLoop 的输入映射失配，提升已有模型性能",
+    "基于 delta 目标与因果自适应步长设计 OperLoop，在匹配 FLOPs 下超越所有 looop 与非 looop 基线"
+   ],
+   "benchmarks": [
+    "Wikitext",
+    "Lambada",
+    "ARC-c",
+    "ARC-e",
+    "HellaSwag",
+    "WinoGrande",
+    "PIQA",
+    "GSM8K",
+    "HumanEval",
+    "HumanEval+",
+    "MMLU",
+    "BBH"
+   ]
+  }
+ }
 }

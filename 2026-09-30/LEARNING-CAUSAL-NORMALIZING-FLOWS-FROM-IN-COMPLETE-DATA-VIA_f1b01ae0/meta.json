@@ -4,5 +4,31 @@
  "title": "LEARNING-CAUSAL-NORMALIZING-FLOWS-FROM-IN-COMPLETE-DATA-VIA",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-30 18:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc3ece21-bbf6-45b4-839f-e637ec869f12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cc3ece21-bbf6-45b4-839f-e637ec869f12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:54:02",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "因果归一化流",
+    "缺失数据处理",
+    "边缘似然",
+    "因果可识别性",
+    "生成模型",
+    "结构因果模型"
+   ],
+   "field": "因果机器学习与不完整数据",
+   "innovations": [
+    "提出 MissCNF，直接从部分观测数据训练因果归一化流，无需插补或删除",
+    "推导边缘似然的祖先闭包简化计算，大幅降低复杂度",
+    "建立因果族正性条件，精确刻画 MAR 下联合分布的可识别性与不可识别区域"
+   ],
+   "benchmarks": [
+    "8个合成SCM (Chain/Fork/Collider/Triangle × Linear/Non-linear)",
+    "MCAR/MAR/MNAR 缺失机制，30%/60%/90% 缺失率",
+    "KL散度, RMSE_ATE, RMSE_CF, 局部KL误差"
+   ]
+  }
+ }
 }

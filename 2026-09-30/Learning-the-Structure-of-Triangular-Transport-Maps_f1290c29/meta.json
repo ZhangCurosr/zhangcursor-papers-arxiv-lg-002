@@ -4,5 +4,32 @@
  "title": "Learning-the-Structure-of-Triangular-Transport-Maps",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-09-30 08:08:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d4887f11-7417-48e1-bfbe-743b233f2e6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d4887f11-7417-48e1-bfbe-743b233f2e6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:58:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "三角传输映射",
+    "结构学习",
+    "SoftSort",
+    "BatchEnsemble",
+    "密度估计",
+    "L0门控",
+    "可微排序"
+   ],
+   "field": "概率建模与传输方法",
+   "innovations": [
+    "提出SSTM联合学习三角传输映射、变量排序和稀疏性于单一优化中，避免分离式结构搜索",
+    "设计单调BatchEnsemble通过共享权重+rank-1适配器实现参数高效的K分量映射，同时保证对角单调性",
+    "用SoftSort可微松弛排序结合L0门控稀疏学习，在保持三角结构前提下实现端到端联合优化"
+   ],
+   "benchmarks": [
+    "Synthetic DAGs (Erdos-Renyi, Scale-Free, Neal's Funnel, Hierarchical)",
+    "UCI Benchmarks (POWER, GAS, HEPMASS, MINIBOONE)",
+    "Sachs Protein Signaling Data"
+   ]
+  }
+ }
 }

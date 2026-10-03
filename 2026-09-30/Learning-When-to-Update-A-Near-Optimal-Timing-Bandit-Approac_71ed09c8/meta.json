@@ -4,5 +4,10 @@
  "title": "Learning-When-to-Update-A-Near-Optimal-Timing-Bandit-Approac",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-09-30 08:05:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5b8afea3-bba1-4dc8-826e-89c41787d59c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/5b8afea3-bba1-4dc8-826e-89c41787d59c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:57:11",
+  "chunks": 4
+ }
 }

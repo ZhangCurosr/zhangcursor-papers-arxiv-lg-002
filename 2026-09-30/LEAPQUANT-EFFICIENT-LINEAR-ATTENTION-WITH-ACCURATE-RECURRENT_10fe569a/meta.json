@@ -4,5 +4,33 @@
  "title": "LEAPQUANT-EFFICIENT-LINEAR-ATTENTION-WITH-ACCURATE-RECURRENT",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-30 08:01:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/995f6eb8-ead0-44ca-b5e7-a5e14fae9c34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/995f6eb8-ead0-44ca-b5e7-a5e14fae9c34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:51:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "linear attention",
+    "recurrent state quantization",
+    "post-training quantization",
+    "GDN",
+    "KDA",
+    "inference optimization"
+   ],
+   "field": "大语言模型推理优化",
+   "innovations": [
+    "逐窗口量化：将量化频率从每token降至每窗口一次，抑制递推舍入误差累加",
+    "补偿Token：用高分辨率秩一矩阵吸收状态outlier，使残差更易低比特量化",
+    "残差平滑：对角尺度归一化进一步均衡量化精度，三项技术联合实现免训练8-bit无损量化"
+   ],
+   "benchmarks": [
+    "AIME 2026",
+    "GPQA-Diamond",
+    "MMLU-Pro",
+    "LiveCodeBench v6",
+    "GSM8K"
+   ]
+  }
+ }
 }

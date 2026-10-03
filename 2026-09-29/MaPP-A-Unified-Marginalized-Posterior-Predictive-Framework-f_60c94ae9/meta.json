@@ -4,5 +4,38 @@
  "title": "MaPP-A-Unified-Marginalized-Posterior-Predictive-Framework-f",
  "token": "sk-RV5chRIVy...",
  "created_at": "2026-09-29 07:58:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a443d6ff-4b8a-4942-b792-05aaf8e2c08a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a443d6ff-4b8a-4942-b792-05aaf8e2c08a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:50:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "GRPO",
+    "prompt selection",
+    "posterior-predictive",
+    "composition noise",
+    "Beta-Binomial",
+    "Rao-Blackwellization",
+    "data-efficient RL"
+   ],
+   "field": "大模型强化学习微调",
+   "innovations": [
+    "发现并形式化 GRPO 中由组组成不确定性引起的组合噪声，证明其对梯度估计形成不可约误差下界",
+    "提出 MaPP-AD：利用留一 Beta 后验对 GRPO 优势做闭式边缘化，得到组组成不变的内在优势估计",
+    "提出 MaPP-PS：在同一后验上推导不确定性感知提示选择评分，通过 Jensen 不等式自动降权高方差提示"
+   ],
+   "benchmarks": [
+    "MATH",
+    "AMC23",
+    "MATH500",
+    "Minerva Math",
+    "OlympiadBench",
+    "Countdown-34",
+    "Countdown-4",
+    "Geometry3k"
+   ]
+  }
+ }
 }

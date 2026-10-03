@@ -4,5 +4,30 @@
  "title": "Learning-Meta-Skills-for-Agent-Harness-Design-in-Test-Time-A",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-30 08:03:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fe0500fd-6d7d-4d4b-a57a-0d82ac952d66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/fe0500fd-6d7d-4d4b-a57a-0d82ac952d66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:55:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI4AI",
+    "test-time",
+    "meta-skill",
+    "agent harness",
+    "self-improvement",
+    "reusable support principles"
+   ],
+   "field": "Agent harness design & test-time AI4AI",
+   "innovations": [
+    "提出 meta-skill 三元组 (when, provide, use) 表示可复用的支持设计原则",
+    "构建 construction-execution-reflection 循环从 Target 反馈中学习 meta-skills 并冻结部署",
+    "验证 same-model 自进化路径：固定权重下模型通过学习构建更好 harness 实现自我提升"
+   ],
+   "benchmarks": [
+    "Harness-Bench",
+    "NewtonBench"
+   ]
+  }
+ }
 }

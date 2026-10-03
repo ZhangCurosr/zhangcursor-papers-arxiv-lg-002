@@ -4,5 +4,31 @@
  "title": "LEARNING-MACROSCOPIC-DYNAMICS-WITHOUT-RE-CONSTRUCTING-MICROS",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-09-30 18:51:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/39f84340-ee06-411b-83c4-a955be4bb0fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/39f84340-ee06-411b-83c4-a955be4bb0fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:53:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "潜动态学习",
+    "免重建表征",
+    "尺度坍缩",
+    "交替训练",
+    "宏观预测",
+    "条件流匹配"
+   ],
+   "field": "物理系统降阶建模与表示学习",
+   "innovations": [
+    "提出TAMPL免重建交替训练框架，用冻结目标编码器防止潜变量尺度坍缩",
+    "理论上证明重建目标与宏观预测的谱竞争机制及联合训练的尺度非强制性",
+    "在线性系统中建立TAMPL交替训练的局部收敛充分条件"
+   ],
+   "benchmarks": [
+    "Lattice SIRS",
+    "Binary Particle Mixing",
+    "Polymer Extension"
+   ]
+  }
+ }
 }

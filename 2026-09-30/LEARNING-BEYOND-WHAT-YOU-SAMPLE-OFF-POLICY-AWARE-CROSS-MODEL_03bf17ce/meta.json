@@ -4,5 +4,33 @@
  "title": "LEARNING-BEYOND-WHAT-YOU-SAMPLE-OFF-POLICY-AWARE-CROSS-MODEL",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-30 08:01:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c73c384b-2cf0-4692-93f7-21632671e106.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c73c384b-2cf0-4692-93f7-21632671e106.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-03 08:52:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "RLVR",
+    "GRPO",
+    "cross-model learning",
+    "off-policy",
+    "trajectory exchange",
+    "complementary success"
+   ],
+   "field": "大语言模型强化学习",
+   "innovations": [
+    "互补且平衡的全失败组分组合交换策略",
+    "源计算优势保留与序列级兼容性门控双重控制",
+    "peer-last训练顺序激活token级裁剪机制"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "AIME2024",
+    "AIME2025",
+    "AMC23",
+    "Minerva"
+   ]
+  }
+ }
 }
