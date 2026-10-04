@@ -4,5 +4,30 @@
  "title": "Revisiting-On-policy-Adversarial-Black-Box-Distillation-Cali",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-10-01 08:23:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/40806651-f665-4939-9618-3b98a5b6c6bf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/40806651-f665-4939-9618-3b98a5b6c6bf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 23:44:30",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "black-box distillation",
+    "on-policy RL",
+    "reward geometry",
+    "optimal transport",
+    "adversarial training",
+    "language model"
+   ],
+   "field": "语言模型蒸馏与对齐",
+   "innovations": [
+    "提出 GRGC 两阶段干预 critic→advantage 接口以缓解群级奖励几何失配",
+    "设计高斯群级最优传输正则化校准奖励离散度与尺度",
+    "构造有符号幂变换在保持单调性的同时放大组内区分度"
+   ],
+   "benchmarks": [
+    "LMSYS-Chat",
+    "Dolly-Train"
+   ]
+  }
+ }
 }
