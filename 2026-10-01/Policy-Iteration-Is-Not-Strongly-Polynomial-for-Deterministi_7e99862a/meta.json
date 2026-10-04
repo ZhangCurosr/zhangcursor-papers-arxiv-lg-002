@@ -4,5 +4,29 @@
  "title": "Policy-Iteration-Is-Not-Strongly-Polynomial-for-Deterministi",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-10-01 08:19:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/741953d6-a40d-49ad-af7e-77676496e6fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/741953d6-a40d-49ad-af7e-77676496e6fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:18:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "policy iteration",
+    "deterministic MDP",
+    "strongly polynomial",
+    "lower bound",
+    "Dantzig's pivoting rule",
+    "algorithmic anarchy"
+   ],
+   "field": "强化学习理论/马尔可夫决策过程复杂度分析",
+   "innovations": [
+    "证明确定性折扣MDP上Howard策略迭代存在指数迭代下界（每状态最多2个动作）",
+    "在对数奖励位数限制下建立拉伸指数迭代下界，推翻多项式可能性的猜想",
+    "揭示Howard同时更新与Dantzig顺序更新之间的指数分离，定义算法无政府状态的价格"
+   ],
+   "benchmarks": [
+    "理论下界构造（无数值基准）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Patient-Centered-Treatment-Planning-for-Chronic-Multimorbidi",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-01 08:20:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/928844ad-784c-4d74-952b-eabcb03a81da.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/928844ad-784c-4d74-952b-eabcb03a81da.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:18:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "患者偏好建模",
+    "分层强化学习",
+    "离线强化学习",
+    "慢性病共病管理",
+    "分解动作空间",
+    "半马尔可夫决策过程",
+    "Option-Critic",
+    "临床决策支持"
+   ],
+   "field": "离线强化学习在慢性共病治疗规划中的应用",
+   "innovations": [
+    "将患者偏好作为结构性可行性约束（动作掩码）而非软奖励信号实现零违规",
+    "提出FAHOC架构：Option-Critic层次结构叠加分解动作Q函数，实现跨快慢时标独立信用分配",
+    "建立协作价值支配定理与Q函数分解误差的闭式上界提供理论保证"
+   ],
+   "benchmarks": [
+    "FQE",
+    "WIS",
+    "DR（Doubly Robust）",
+    "Δ-指南一致性曲面"
+   ]
+  }
+ }
 }

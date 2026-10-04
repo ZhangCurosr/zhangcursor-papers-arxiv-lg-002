@@ -4,5 +4,39 @@
  "title": "QATFactory-A-Versatile-Deployment-Aligned-Framework-for-Quan",
  "token": "sk-U7bL6pfXM...",
  "created_at": "2026-10-01 08:25:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f0e6be3d-bed5-4e1c-8fac-837332db5f98.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f0e6be3d-bed5-4e1c-8fac-837332db5f98.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:19:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "quantization-aware training",
+    "NVFP4",
+    "MXFP4",
+    "QAD",
+    "QARL",
+    "low-precision LLM",
+    "deployment-aligned",
+    "LoRA adaptation"
+   ],
+   "field": "大模型低比特量化与部署",
+   "innovations": [
+    "以推理引擎为数值规范的部署对齐 QAT/QAD 框架，BF16 模拟 FP4 训练",
+    "首次系统揭示 NVFP4 与 MXFP4 在 W4A16 vs W4A4 训练策略上的格式依赖性差异",
+    "解耦 native 低精度 rollout 与 BF16 量化感知训练的 QARL 架构，实现端到端吞吐与质量双提升"
+   ],
+   "benchmarks": [
+    "GPQA-Diamond",
+    "MMLU-Pro",
+    "MMMLU",
+    "LiveCodeBench",
+    "BigCodeBench",
+    "AIME25",
+    "MATH500",
+    "GSM8K",
+    "OlympiadBench"
+   ]
+  }
+ }
 }

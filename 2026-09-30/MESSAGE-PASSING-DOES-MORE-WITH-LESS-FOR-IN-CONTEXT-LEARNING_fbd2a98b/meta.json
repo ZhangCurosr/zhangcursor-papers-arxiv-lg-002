@@ -4,5 +4,32 @@
  "title": "MESSAGE-PASSING-DOES-MORE-WITH-LESS-FOR-IN-CONTEXT-LEARNING",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-30 18:52:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b5145598-9dd9-42ac-8ec1-4ce1f654f400.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b5145598-9dd9-42ac-8ec1-4ce1f654f400.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:15:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图上下文学习",
+    "消息传递",
+    "图基础模型",
+    "合成先验",
+    "结构因果模型",
+    "In-context learning",
+    "graph neural networks"
+   ],
+   "field": "图机器学习与基础模型",
+   "innovations": [
+    "基于稀疏消息传递的可扩展图ICL架构Ephris，推理复杂度从O(N^2)降至O(NF+E)",
+    "融合图传播的关系动力学多样化合成先验（diffusion/cascade/degree-dependent mixing）",
+    "在51个数据集上同时超越15个HP调优GNN和6个GFM，且推理速度比GraphPFN快13倍以上"
+   ],
+   "benchmarks": [
+    "51个节点分类数据集（OGB、GOOD、AllSet等）",
+    "Graph Out-of-Distribution (GOOD)",
+    "AllSet hypergraph datasets"
+   ]
+  }
+ }
 }

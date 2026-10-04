@@ -4,5 +4,10 @@
  "title": "Predicting-Multi-View-Rashomon-Representation-Can-We-Learn-W",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-01 08:27:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/26375a84-58ef-4a81-82dc-c70b1133c143.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/26375a84-58ef-4a81-82dc-c70b1133c143.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:19:15",
+  "chunks": 1
+ }
 }

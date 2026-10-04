@@ -4,5 +4,30 @@
  "title": "RESERVE-AWARE-CONTRAST-CERTIFICATES-FOR-CONSERVATIVE-BANDITS",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-10-01 08:26:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/59f5509b-272c-439e-8a06-d8020a2a88ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/59f5509b-272c-439e-8a06-d8020a2a88ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:21:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conservative bandits",
+    "contrast certificates",
+    "confidence sets",
+    "baseline uncertainty",
+    "safe exploration",
+    "prefix refresh"
+   ],
+   "field": "保守上下界与安全强化学习",
+   "innovations": [
+    "共享对比置信集消除独立界定的重复不确定性惩罚",
+    "Prefix-refresh机制实现历史决策的动态重认证而不丢弃已认证信用",
+    "Reserve-ledger分离统计证据与允许性能赤字的 anytime 安全性证明"
+   ],
+   "benchmarks": [
+    "Linear bandit with uncertain baseline",
+    "36 hyperparameter settings with 256 episodes each"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Importance-Aware-Feature-Sparsification-for-Wireless-Split-L",
  "token": "sk-wUD9ZXHNo...",
  "created_at": "2026-10-01 08:30:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/808a99fd-ffd3-417c-9049-8e3f24b71443.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/808a99fd-ffd3-417c-9049-8e3f24b71443.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:16:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Split Learning",
+    "Feature Sparsification",
+    "Grad-CAM",
+    "Communication Efficiency",
+    "Non-i.i.d. Learning",
+    "Parallel Split Learning",
+    "Class-Balanced Aggregation"
+   ],
+   "field": "无线边缘智能/通信高效分布式学习",
+   "innovations": [
+    "将Grad-CAM真类别梯度重要性集成至SL训练循环，实现服务器侧任务感知稀疏化且零额外客户端计算",
+    "提出类均衡重要性向量聚合机制，有效缓解非i.i.d.数据下的头部类别偏差",
+    "推导非渐近收敛界并显式刻画mini-batch size与稀疏比的联合trade-off"
+   ],
+   "benchmarks": [
+    "CIFAR-100",
+    "CIFAR-10",
+    "Oxford-IIIT Pet (Segmentation)"
+   ]
+  }
+ }
 }

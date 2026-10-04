@@ -4,5 +4,32 @@
  "title": "Prototype-Rule-Neurosymbolic-Regularization-for-Rank-Constra",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-10-01 08:24:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/88ffa55e-2106-4a28-a9ad-289c7f053adc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/88ffa55e-2106-4a28-a9ad-289c7f053adc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:19:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经符号学习",
+    "Rank-R张量网络",
+    "原型正则化",
+    "高光谱分类",
+    "标签稀缺",
+    "空间泄漏控制"
+   ],
+   "field": "神经符号机器学习",
+   "innovations": [
+    "将可微分原型规则正则化引入Rank-R张量神经网络，显式约束类几何结构",
+    "在共享检查点下分离训练时正则化与推理时原型融合的机制贡献",
+    "在空间泄漏控制评估协议下系统研究神经符号正则化的数据集与架构依赖性"
+   ],
+   "benchmarks": [
+    "Pavia University",
+    "Indian Pines",
+    "Salinas",
+    "Botswana"
+   ]
+  }
+ }
 }

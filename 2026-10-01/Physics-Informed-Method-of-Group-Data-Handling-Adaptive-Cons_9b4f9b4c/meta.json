@@ -4,5 +4,29 @@
  "title": "Physics-Informed-Method-of-Group-Data-Handling-Adaptive-Cons",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-01 08:25:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2e23dbe5-3d67-4652-b283-861081fa17e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2e23dbe5-3d67-4652-b283-861081fa17e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:18:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Physics-Informed Methods",
+    "GMDH",
+    "Navier-Stokes Equations",
+    "Adaptive Function Approximation",
+    "Taylor-Green Flow",
+    "Chebyshev Spectral Methods"
+   ],
+   "field": "物理信息机器学习与偏微分方程数值求解",
+   "innovations": [
+    "将物理残差一阶变分用于候选基函数的自适应结构构建",
+    "通过函数包机制解耦结构演化与系数优化，支持多种构建策略的统一消融",
+    "在相同Chebyshev基下证明渐进选择性构建显著优于一次性全空间激活"
+   ],
+   "benchmarks": [
+    "Taylor-Green vortex benchmark (2D incompressible Navier-Stokes)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "RAINATLAS-A-MULTI-CONTINENTAL-DATASET-FOR-PRECIPITATION-DOWN",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-01 08:30:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/85cbf430-44f5-4462-a9de-81682c5b6f2b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/85cbf430-44f5-4462-a9de-81682c5b6f2b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "降水降尺度",
+    "地理泛化",
+    "生成模型",
+    "多云数据集",
+    "公里级预报"
+   ],
+   "field": "气象机器学习",
+   "innovations": [
+    "首个跨三大洲公里级降水降尺度ML基准数据集RainAtlas",
+    "基于降雨率饱和函数的重要性空间块采样策略",
+    "系统性揭示训练数据气候多样性是地理泛化性能的关键决定因素"
+   ],
+   "benchmarks": [
+    "RainBench",
+    "RainNet",
+    "RainShift"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "RATIO-REASONING-ANALYSIS-AND-TOKEN-LEVEL-INFERENCE-OPTIMIZAT",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-01 08:24:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/92ab49ea-0c07-4b21-8b5d-65fae200f007.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/92ab49ea-0c07-4b21-8b5d-65fae200f007.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "reasoning models",
+    "token-level calibration",
+    "overthinking",
+    "inference-time intervention"
+   ],
+   "field": "推理模型高效部署与量化",
+   "innovations": [
+    "提出无需训练的 token 级推理校准框架 RATIO，联合 QRBA 与 TSPD 实现模型特定 overthinking token 发现与惩罚",
+    "引入 logit 空间自适应校准与 AWQ/GPTQ 双量化器保守聚合策略",
+    "构建融合分布偏移、正确性条件与重复模式的 multi-evidence token 验证 pipeline"
+   ],
+   "benchmarks": [
+    "AIME",
+    "GPQA-Diamond",
+    "MATH-500",
+    "GSM8K",
+    "HumanEval"
+   ]
+  }
+ }
 }

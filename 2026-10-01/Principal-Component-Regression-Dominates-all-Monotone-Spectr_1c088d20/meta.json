@@ -4,5 +4,28 @@
  "title": "Principal-Component-Regression-Dominates-all-Monotone-Spectr",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-10-01 08:23:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c0196747-de26-4dbb-9990-f2ec3f14f32d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c0196747-de26-4dbb-9990-f2ec3f14f32d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:08",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "主成分回归",
+    "单调谱",
+    "谱分析",
+    "高维回归",
+    "线性方法"
+   ],
+   "field": "监督学习与谱方法",
+   "innovations": [
+    "系统揭示PCR在单调谱数据集上的优越性",
+    "建立单调谱假设与PCR性能的理论联系"
+   ],
+   "benchmarks": [
+    "单调谱合成数据集",
+    "真实世界单调谱数据"
+   ]
+  }
+ }
 }

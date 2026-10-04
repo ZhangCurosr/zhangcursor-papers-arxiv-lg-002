@@ -4,5 +4,31 @@
  "title": "PREEMPTIVE-LLM-UNLEARNING-AGAINST-FORBIDDEN-CAPABILITY-ACQUI",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-01 08:20:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2cbc61e1-8a9a-4d45-94cf-7ac208e14d54.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2cbc61e1-8a9a-4d45-94cf-7ac208e14d54.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:17:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "preemptive unlearning",
+    "gradient sealing",
+    "LLM safety",
+    "model editing",
+    "robust unlearning",
+    "open-weight protection"
+   ],
+   "field": "LLM安全与可编辑性",
+   "innovations": [
+    "首次形式化抢占式遗忘问题，论证回顾式遗忘在梯度路径层面的固有缺陷（Prop 3.1）",
+    "提出GSU梯度密封机制，利用SiLU负尾区导数特性实现一阶通路封锁，避免二阶计算",
+    "代理前瞻+层级通道选择+联合密封的三步范式，在TOFU和WMDP上显著优于回顾式基线"
+   ],
+   "benchmarks": [
+    "TOFU",
+    "WMDP-Bio",
+    "WMDP-Cyber"
+   ]
+  }
+ }
 }

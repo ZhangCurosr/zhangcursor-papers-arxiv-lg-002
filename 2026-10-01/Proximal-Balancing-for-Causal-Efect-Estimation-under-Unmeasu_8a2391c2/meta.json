@@ -4,5 +4,10 @@
  "title": "Proximal-Balancing-for-Causal-Efect-Estimation-under-Unmeasu",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-01 08:22:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4707100d-f056-400d-9e5f-97b8f1b4ba58.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4707100d-f056-400d-9e5f-97b8f1b4ba58.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:15",
+  "chunks": 3
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Image-Classifiers-are-Efficient-Self-Supervised-Video-Repres",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-01 08:18:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4e8cf833-72e0-444a-99ee-b5d694564930.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4e8cf833-72e0-444a-99ee-b5d694564930.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:16:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督视频表示学习",
+    "掩码Siamese网络",
+    "超图像",
+    "ViT",
+    "计算效率"
+   ],
+   "field": "视频自监督学习",
+   "innovations": [
+    "首次将掩码Siamese网络扩展到视频自监督表示学习",
+    "提出分层掩码策略结合空间管状掩码与时间帧丢弃",
+    "无解码器架构直接利用图像预训练权重，预训练轮次减少160倍"
+   ],
+   "benchmarks": [
+    "Kinetics-400",
+    "UCF101",
+    "HMDB51",
+    "Something-Something V2"
+   ]
+  }
+ }
 }

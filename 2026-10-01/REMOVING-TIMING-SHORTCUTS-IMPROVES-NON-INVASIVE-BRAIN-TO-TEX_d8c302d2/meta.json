@@ -4,5 +4,33 @@
  "title": "REMOVING-TIMING-SHORTCUTS-IMPROVES-NON-INVASIVE-BRAIN-TO-TEX",
  "token": "sk-EqwJR1nOB...",
  "created_at": "2026-10-01 08:18:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a59c5245-0ba6-4198-a496-df1ba8d2fc03.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a59c5245-0ba6-4198-a496-df1ba8d2fc03.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "brain-to-text",
+    "non-invasive BCI",
+    "MEG decoding",
+    "shortcut learning",
+    "word-aligned decoding",
+    "language model prior",
+    "LibriBrain100"
+   ],
+   "field": "非侵入式脑机接口与神经语言解码",
+   "innovations": [
+    "揭示并定量验证词对齐联合解码中的重叠窗时长捷径",
+    "提出 SimpleB2T 独立解码+多观测聚合+LLM重排序流程",
+    "证明移除捷径后聚合与语言先验策略才真正有效"
+   ],
+   "benchmarks": [
+    "LibriBrain100 subject-0",
+    "Clinical Communication Benchmark (200 sentences)",
+    "Armeni et al. 10-hour MEG dataset",
+    "Le Petit Prince MEG listening dataset"
+   ]
+  }
+ }
 }

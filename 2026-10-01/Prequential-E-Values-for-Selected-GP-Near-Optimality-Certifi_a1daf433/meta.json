@@ -4,5 +4,30 @@
  "title": "Prequential-E-Values-for-Selected-GP-Near-Optimality-Certifi",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-10-01 08:27:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5be56db1-b189-47fa-b402-c3be015fba25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5be56db1-b189-47fa-b402-c3be015fba25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:18:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian process",
+    "near-optimality certificate",
+    "prequential e-values",
+    "post-selection inference",
+    "anytime validity",
+    "Bayesian optimization"
+   ],
+   "field": "贝叶斯优化与序列决策",
+   "innovations": [
+    "Prequential e-value audit机制使GP包络后选择可审计且保持anytime有效性",
+    "最大存活者组合策略避免有利幸存者风险泄露",
+    "bounded-score KL下界+e-value上界的联合任何时刻有效证书"
+   ],
+   "benchmarks": [
+    "512-seed RBF length-scale stress sweep",
+    "d=3,4 smooth objectives with known optima"
+   ]
+  }
+ }
 }

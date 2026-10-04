@@ -4,5 +4,31 @@
  "title": "QuantCode-Model-Specializing-Language-Models-for-Executable",
  "token": "sk-dL4eG1TgK...",
  "created_at": "2026-10-01 08:28:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/74996b39-92c0-436b-95dc-839ea6d5ea85.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/74996b39-92c0-436b-95dc-839ea6d5ea85.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码生成",
+    "算法交易",
+    "持续预训练",
+    "监督微调",
+    "可执行代码评测",
+    "tool-call退化",
+    "agentic软件工程"
+   ],
+   "field": "领域特定代码生成与可执行LLM specialization",
+   "innovations": [
+    "提出持续预训练+验证式SFT两阶段算法交易代码生成路线并给出可直接比较的35B/397B谱系结果",
+    "发现并量化领域specialization导致的结构化tool-call解析合规性退化能力保留失败",
+    "提出基于权重合并与恢复性SFT两种tool-call修复干预并给出定量对比"
+   ],
+   "benchmarks": [
+    "QuantCode-Bench",
+    "SWE-bench-like algorithmic-trading repository track"
+   ]
+  }
+ }
 }

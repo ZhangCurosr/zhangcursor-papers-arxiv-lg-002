@@ -4,5 +4,31 @@
  "title": "RIEMANNIAN-FLOW-MODELS-WITH-REINFORCEMENT-LEARNING-FOR-MOLEC",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-01 08:26:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a167e54c-b077-400f-b440-61423e495d03.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/a167e54c-b077-400f-b440-61423e495d03.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:21:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular crystal structure prediction",
+    "Riemannian flow matching",
+    "reinforcement learning",
+    "coarse-grained generative model",
+    "equivariant network",
+    "GRPO",
+    "surrogate SDE"
+   ],
+   "field": "分子晶体结构预测",
+   "innovations": [
+    "首次在分子晶体构型流形（SO(3)×Sym₃⁺×(T³×SO(3))^M）上建立等变Riemannian Flow Matching生成模型，并用极分解保证晶胞测地线插值始终正定",
+    "将GRPO策略梯度RL从欧氏空间推广到Riemannian流形，通过在切空间加噪+指数映射实现精确的surrogate SDE和一步似然比计算",
+    "提出PCA取向歧义的噪声数据增强方案，在不显式canonicalize的情况下训练等变模型覆盖点群轨道"
+   ],
+   "benchmarks": [
+    "OMC25-MCF (first 128 structures)",
+    "CCDC Sixth Blind Test (NACJAF, XAFPAY, XAFQIH)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "ROBUSTIFYING-ASYNCHRONOUS-SGD-VIA-SOFT-THROTTLING",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-10-01 08:24:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/425eea64-2f3e-49b3-9e4e-b85e1a1d425a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/425eea64-2f3e-49b3-9e4e-b85e1a1d425a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:21:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "异步 SGD",
+    "拜占庭鲁棒",
+    "软限流",
+    "分布式优化",
+    "非凸收敛",
+    "洪水攻击"
+   ],
+   "field": "分布式机器学习的鲁棒优化",
+   "innovations": [
+    "提出软限流+硬重启机制将异步SGD推广为拜占庭鲁棒算法，无需延迟有界假设",
+    "建立双阶段虚拟迭代分析框架，证明统一收敛率涵盖异步与同步两个极限",
+    "揭示软限流在无拜占庭场景下同样可加速异步SGD收敛"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Least-squares optimization"
+   ]
+  }
+ }
 }

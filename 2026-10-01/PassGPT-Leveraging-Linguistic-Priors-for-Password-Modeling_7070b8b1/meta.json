@@ -4,5 +4,30 @@
  "title": "PassGPT-Leveraging-Linguistic-Priors-for-Password-Modeling",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-01 08:26:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/62c1baae-1538-416d-824b-c7fb9256686c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/62c1baae-1538-416d-824b-c7fb9256686c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:17:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "password guessing",
+    "language models",
+    "transfer learning",
+    "GPT-2",
+    "discrete diffusion",
+    "cross-distribution robustness"
+   ],
+   "field": "密码建模与安全评估",
+   "innovations": [
+    "将GPT-2语言学先验通过字符感知BPE映射迁移至密码生成（PassGPT+）",
+    "提出吸收态离散扩散模型PassDifusion作为非自回归基线",
+    "建立跨泄漏集保留率评估协议验证通用密码结构学习"
+   ],
+   "benchmarks": [
+    "RockYou (≤10字符)",
+    "2020 ignis-10M跨分布集"
+   ]
+  }
+ }
 }

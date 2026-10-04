@@ -4,5 +4,31 @@
  "title": "RELIABILITY-AWARE-CHECKPOINT-SELECTION-FOR-DOMAIN-GENERALIZA",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-10-01 08:27:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8a2f0474-c9c1-4049-bd65-ef5de574d61a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8a2f0474-c9c1-4049-bd65-ef5de574d61a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:21:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "domain generalization",
+    "checkpoint selection",
+    "model calibration",
+    "reliability-aware selection",
+    "source-only validation",
+    "predictive uncertainty"
+   ],
+   "field": "领域泛化中的模型选择与校准",
+   "innovations": [
+    "提出准确率约束可靠性选择（AC）框架，在固定轨迹内基于源域 NLL 与 CwECE 重选高概率质量 checkpoint",
+    "给出有限样本源准确率理论界，证明容忍度 δ 对种群源准确率的控制保障",
+    "揭示 near-optimal 准确率 checkpoint 间的可靠性变异现象，为无目标数据的重选提供实证依据"
+   ],
+   "benchmarks": [
+    "PACS",
+    "OfficeHome",
+    "TerraIncognita"
+   ]
+  }
+ }
 }

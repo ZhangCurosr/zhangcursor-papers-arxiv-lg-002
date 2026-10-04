@@ -4,5 +4,30 @@
  "title": "QuanVI-Score-based-Variational-Inference-via-Quantum-Maximal",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-10-01 08:32:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60ba5577-713e-4715-a8d2-b8a7e2dfb1d4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60ba5577-713e-4715-a8d2-b8a7e2dfb1d4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:20:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "score-based variational inference",
+    "quantum tensor network",
+    "mixed-state density operator",
+    "matrix product operator",
+    "Fisher divergence",
+    "Bayesian posterior approximation"
+   ],
+   "field": "变分推断与概率建模",
+   "innovations": [
+    "将 EigenVI 的纯态特征向量推广为混合态密度算子，用最大混合态表示简并低能特征子空间",
+    "采用链式 MPO 量子张量网络参数化密度算子，使参数复杂度从 K^{2D} 降至 O((D+E)K^{2L})",
+    "引入复数 QTN 参数化增强对难解非高斯目标的表达力与优化稳定性"
+   ],
+   "benchmarks": [
+    "POSTERIORDB (gpregr, hmm, hmm_bball_0)",
+    "Synthetic: Gaussian, X-shape, GMM3, Ring, Funnel at D=5/10/20/100"
+   ]
+  }
+ }
 }

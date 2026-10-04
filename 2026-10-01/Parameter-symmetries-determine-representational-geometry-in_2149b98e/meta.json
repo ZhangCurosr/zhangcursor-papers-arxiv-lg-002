@@ -4,5 +4,29 @@
  "title": "Parameter-symmetries-determine-representational-geometry-in",
  "token": "sk-AcnGi1B74...",
  "created_at": "2026-10-01 08:27:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/af7c59b0-b2e9-4941-9fe7-38b11e60e22e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/af7c59b0-b2e9-4941-9fe7-38b11e60e22e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:18:44",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "参数对称性",
+    "表征几何",
+    "ReLU网络",
+    "XOR任务",
+    "梯度下降",
+    "齐次性"
+   ],
+   "field": "神经网络理论基础",
+   "innovations": [
+    "建立参数对称性到表征几何的决定性框架",
+    "发现XOR任务上六种主导解型的闭式刻画",
+    "阐明参数缩放射线下BCE损失的渐近性质"
+   ],
+   "benchmarks": [
+    "XOR任务"
+   ]
+  }
+ }
 }

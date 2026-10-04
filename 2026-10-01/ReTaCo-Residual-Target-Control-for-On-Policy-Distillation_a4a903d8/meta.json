@@ -4,5 +4,39 @@
  "title": "ReTaCo-Residual-Target-Control-for-On-Policy-Distillation",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-01 08:25:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/29590af4-ff4b-4913-8016-e0fd7b39bbfb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/29590af4-ff4b-4913-8016-e0fd7b39bbfb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:22:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "knowledge distillation",
+    "residual target",
+    "reverse KL",
+    "forward KL",
+    "entropy-aware distillation",
+    "language model compression"
+   ],
+   "field": "大语言模型压缩与蒸馏",
+   "innovations": [
+    "揭示EOPD重归一化forward项隐式质量目标为1的理论缺陷",
+    "提出显式残差目标ReTaCo实现可控制的概率质量转移",
+    "证明固定前缀下唯一最优解及选择质量随β单调性"
+   ],
+   "benchmarks": [
+    "MATH500",
+    "OlympiadBench",
+    "AMC",
+    "AIME24",
+    "AIME25",
+    "HumanEval+",
+    "MBPP+",
+    "ARC-C",
+    "MMLU-Pro",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

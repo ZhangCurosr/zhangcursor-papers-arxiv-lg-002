@@ -4,5 +4,31 @@
  "title": "In-a-Streaming-World-Should-You-Stand-Still-A-Comprehensive",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-10-01 08:28:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60b7820c-c764-42a5-8096-33d728bce1ca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/60b7820c-c764-42a5-8096-33d728bce1ca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 00:16:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Time Series Anomaly Detection",
+    "Streaming",
+    "Concept Drift",
+    "Benchmark",
+    "Online vs Streaming",
+    "TSB-AD-M",
+    "AUC-PR"
+   ],
+   "field": "时间序列异常检测",
+   "innovations": [
+    "提出 StrAD 统一流式基准并首次系统对比 Online 与 Streaming TSAD 方法",
+    "构建 TSB-drift 真实漂移子集（基于 JS 散度自动筛选 75 条含概念漂移序列）",
+    "反直觉发现：Online 静态模型平均显著优于原生 Streaming 方法（+64% AUC-PR）"
+   ],
+   "benchmarks": [
+    "TSB-AD-M",
+    "TSB-drift"
+   ]
+  }
+ }
 }
