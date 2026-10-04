@@ -4,5 +4,34 @@
  "title": "SAFETY-OF-LATENT-COMMUNICATION-IN-MULTI-AGENT-SYSTEMS",
  "token": "sk-B2hxqutYc...",
  "created_at": "2026-10-01 08:27:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/aae7a7ea-eb22-4afa-9dc3-33ceddd2dce3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/aae7a7ea-eb22-4afa-9dc3-33ceddd2dce3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 06:34:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent communication",
+    "multi-agent safety",
+    "adversarial attacks",
+    "safety alignment",
+    "reward-guided optimization",
+    "communication links"
+   ],
+   "field": "多智能体系统安全与对齐",
+   "innovations": [
+    "揭示良性潜通信链接训练可显著降低冻结模型的首token拒绝概率并提升有害合规",
+    "提出无有害目标响应的奖励引导GRPO攻击，同时提升危害与任务效用",
+    "仅更新通信链接即可修复受损系统，将平均有害合规从70.3降至4.8"
+   ],
+   "benchmarks": [
+    "HarmBench",
+    "StrongREJECT",
+    "JailbreakBench",
+    "AdvBench",
+    "MATH500",
+    "GPQA-Diamond"
+   ]
+  }
+ }
 }

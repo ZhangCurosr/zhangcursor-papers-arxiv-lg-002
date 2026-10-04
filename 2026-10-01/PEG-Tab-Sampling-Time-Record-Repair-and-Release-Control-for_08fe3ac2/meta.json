@@ -4,5 +4,32 @@
  "title": "PEG-Tab-Sampling-Time-Record-Repair-and-Release-Control-for",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-01 08:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/34533d8f-73bd-48e8-bc65-7d7ca0c016f1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/34533d8f-73bd-48e8-bc65-7d7ca0c016f1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 06:32:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular synthesis",
+    "post-training repair",
+    "privacy risk control",
+    "DGPs",
+    "memorization audit"
+   ],
+   "field": "表格数据合成与隐私控制",
+   "innovations": [
+    "冻结生成器训练后修复与统一发布门控",
+    "跨异构生成器的原生修复接口共享评分",
+    "开发-迁移固定协议与独立保留审计"
+   ],
+   "benchmarks": [
+    "Adult",
+    "Default Credit",
+    "Online Shoppers",
+    "South German Credit",
+    "Student Performance"
+   ]
+  }
+ }
 }

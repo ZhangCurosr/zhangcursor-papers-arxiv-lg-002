@@ -4,5 +4,29 @@
  "title": "Role-Adaptive-Policy-Optimization-for-Offline-Reinforcement",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-10-01 08:19:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/28d06380-9c92-431d-85c6-e60ca16780b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/28d06380-9c92-431d-85c6-e60ca16780b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 06:34:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "离线强化学习",
+    "元梯度学习",
+    "策略正则化",
+    "TD3+BC",
+    "IQL",
+    "角色自适应"
+   ],
+   "field": "离线强化学习",
+   "innovations": [
+    "提出基于元梯度的角色自适应策略更新系数学习方法，区分执行与Bootstrap角色",
+    "设计局部Critic改进代理（端点梯度曲率惩罚）与目标RMS稳定性损失"
+   ],
+   "benchmarks": [
+    "D4RL Locomotion",
+    "D4RL AntMaze"
+   ]
+  }
+ }
 }

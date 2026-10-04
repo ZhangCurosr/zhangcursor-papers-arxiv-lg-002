@@ -4,5 +4,10 @@
  "title": "On-the-Complexity-of-Preference-Based-Bandits",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-10-01 08:29:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/df2db9e1-28ec-4328-9b2a-ef0c4497f52e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/df2db9e1-28ec-4328-9b2a-ef0c4497f52e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 06:33:04",
+  "chunks": 1
+ }
 }

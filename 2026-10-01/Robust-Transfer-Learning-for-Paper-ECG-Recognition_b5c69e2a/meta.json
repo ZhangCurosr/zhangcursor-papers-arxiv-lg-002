@@ -4,5 +4,31 @@
  "title": "Robust-Transfer-Learning-for-Paper-ECG-Recognition",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-10-01 08:22:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/89b95f61-58dd-415b-ad1f-4d2008b82270.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/89b95f61-58dd-415b-ad1f-4d2008b82270.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 06:33:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "paper ECG",
+    "robust representation learning",
+    "rank-aware contrastive learning",
+    "progressive degradation",
+    "few-shot transfer",
+    "ECG foundation model"
+   ],
+   "field": "医学图像表示学习与鲁棒迁移",
+   "innovations": [
+    "提出秩感知对比损失，显式建模退化等级的序数关系以增强重度退化下的鲁棒性",
+    "构建渐进式退化训练与评测流水线，实现跨布局/伪影/少样本的综合压力测试",
+    "在1%标注与Severity 4退化条件下超越波形基础模型ECG-FM并在真实医院数据上验证"
+   ],
+   "benchmarks": [
+    "CODE-II sex classification and age regression",
+    "EchoNext structural heart disease classification",
+    "Hospital paper ECG (312 samples, 37 diagnostic labels)"
+   ]
+  }
+ }
 }
