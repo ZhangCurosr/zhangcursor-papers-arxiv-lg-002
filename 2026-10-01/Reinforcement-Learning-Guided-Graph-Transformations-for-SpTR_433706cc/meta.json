@@ -4,5 +4,29 @@
  "title": "Reinforcement-Learning-Guided-Graph-Transformations-for-SpTR",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-01 08:23:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2ad69fb-99e0-401e-8a66-9062a35755d9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b2ad69fb-99e0-401e-8a66-9062a35755d9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 12:59:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Sparse Triangular Solve",
+    "reinforcement learning",
+    "graph transformation",
+    "parallel computing",
+    "performance optimization",
+    "Maskable PPO"
+   ],
+   "field": "科学计算性能优化",
+   "innovations": [
+    "将SpTRSV图变换形式化为RL序列决策问题，用Maskable PPO学习矩阵依赖变换策略",
+    "设计多目标奖励函数联合优化层级减少与负载均衡，自动权衡竞争目标",
+    "提出亲和力值机制和自适应薄层阈值，解决探索空间过早枯竭问题"
+   ],
+   "benchmarks": [
+    "SuiteSparse Matrix Collection"
+   ]
+  }
+ }
 }

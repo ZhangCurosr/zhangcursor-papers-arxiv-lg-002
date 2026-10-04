@@ -4,5 +4,31 @@
  "title": "Is-Weight-Tying-Still-Beneficial-for-Decoder-Only-LLMs-in-Pr",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-10-01 08:21:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/533b4128-482c-431c-8500-339c73eb339c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/533b4128-482c-431c-8500-339c73eb339c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 12:57:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differential privacy",
+    "DP-SGD",
+    "ghost clipping",
+    "weight tying",
+    "decoder-only LLMs",
+    "privacy-preserving fine-tuning"
+   ],
+   "field": "差分隐私与大语言模型",
+   "innovations": [
+    "揭示weight tying在DP-SGD下失效并给出交叉项的严格推导",
+    "证明untied embeddings结合ghost clipping可实现隐私-效用-效率三重优化",
+    "首次系统评估架构参数共享假设与高效隐私裁剪策略的兼容性"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "QNLI",
+    "QQP"
+   ]
+  }
+ }
 }

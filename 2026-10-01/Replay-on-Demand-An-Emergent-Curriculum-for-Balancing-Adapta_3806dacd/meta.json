@@ -4,5 +4,32 @@
  "title": "Replay-on-Demand-An-Emergent-Curriculum-for-Balancing-Adapta",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-01 08:26:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/48530809-1c06-4033-877e-e9345c0ac9ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/48530809-1c06-4033-877e-e9345c0ac9ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 12:59:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Continual Pretraining",
+    "Replay",
+    "Data Selection",
+    "Forgetting Mitigation",
+    "Reducible Loss",
+    "Curriculum Learning"
+   ],
+   "field": "语言模型持续预训练",
+   "innovations": [
+    "提出RoD通过源特定可减少损失让适配与回放样本联合竞争共享训练预算，动态生成在线课程",
+    "证明跨模型/域/尺度（8.75× scale gap）的有效性，小模型构建的课程可迁移至大模型"
+   ],
+   "benchmarks": [
+    "Legal adaptation",
+    "German adaptation",
+    "CapTrack capability taxonomy",
+    "Nemotron family",
+    "Qwen3.5 family"
+   ]
+  }
+ }
 }

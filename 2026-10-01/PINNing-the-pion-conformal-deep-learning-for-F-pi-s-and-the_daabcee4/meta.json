@@ -4,5 +4,35 @@
  "title": "PINNing-the-pion-conformal-deep-learning-for-F-pi-s-and-the",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-01 08:27:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7b5363f4-6c96-4395-a429-10963d5e5a0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/7b5363f4-6c96-4395-a429-10963d5e5a0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 12:58:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PINN",
+    "共形映射",
+    "π介子电磁形状因子",
+    "神经切线核",
+    "Watson定理",
+    "强子真空极化",
+    "muon g-2",
+    "S矩阵"
+   ],
+   "field": "物理学与机器学习交叉：量子场论中的物理信息神经网络",
+   "innovations": [
+    "共形z平面嵌入PINN同时解决S矩阵解析性和NTK谱饥饿问题",
+    "通道感知条件架构开关原生处理τ衰变与e+e-数据的同位旋破缺差异",
+    "从有机涌现的零自由结构和CMD-3/BaBar数据张力中提取模型无关物理"
+   ],
+   "benchmarks": [
+    "BaBar e+e-→π+π-(γ) ISR数据",
+    "CMD-3 e+e-→π+π-能扫数据",
+    "Belle τ→π-π0ντ衰变数据",
+    "Roy方程ππ相移",
+    "Muon g-2 Theory Initiative基准"
+   ]
+  }
+ }
 }

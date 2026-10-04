@@ -4,5 +4,31 @@
  "title": "RefCon-Iterative-Refinement-and-Contrastive-Memory-Extractio",
  "token": "sk-pbKDuH2mM...",
  "created_at": "2026-10-01 08:27:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b997bb75-0993-471e-b1f6-d4e1afd61ec6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/b997bb75-0993-471e-b1f6-d4e1afd61ec6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 12:58:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "memory extraction",
+    "test-time scaling",
+    "context-evolving agent",
+    "self-refine",
+    "self-contrast",
+    "MaTTS"
+   ],
+   "field": "Agent 记忆与持续学习",
+   "innovations": [
+    "联合序列自优化与并行自对比的无标签记忆提取框架 RefCon",
+    "DivCon 多样性变体揭示探索与优化的权衡",
+    "跨三档模型与 SWE-bench 验证的 plug-in 化 MaTTS 方案"
+   ],
+   "benchmarks": [
+    "AppWorld",
+    "BFCL-V3",
+    "SWE-bench Verified (Mini)"
+   ]
+  }
+ }
 }
