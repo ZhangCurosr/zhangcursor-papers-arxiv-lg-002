@@ -4,5 +4,32 @@
  "title": "When-Topology-Betrays-Privacy-Latice-Based-Reconstruction-At",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-09 07:09:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/0de05003-4624-4ca7-9457-794660e6ace0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-09/0de05003-4624-4ca7-9457-794660e6ace0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 17:14:06",
+  "chunks": 6,
+  "meta": {
+   "keywords": [
+    "去中心化联邦学习",
+    "安全聚合",
+    "格基攻击",
+    "隐藏子集和问题",
+    "梯度反演",
+    "拓扑隐私"
+   ],
+   "field": "联邦学习隐私与安全",
+   "innovations": [
+    "将DFL-SA过程形式化归约为多维HSSP/mHLCP",
+    "提出结合格基约化与结构滤波的三层渐进认知攻击框架",
+    "验证恢复梯度对下游GIA任务的无损性与权重矩阵敏感性"
+   ],
+   "benchmarks": [
+    "SSIM/LPIPS/PSNR",
+    "Cosine Similarity",
+    "Rouge-L",
+    "BERTScore"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "PMOSFM-PRECONDITIONED-MANIFOLD-MATCHINGFOR-ONE-STEP-PHYSICS",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-10-01 08:19:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6ff11ec7-ffe3-4e54-aa93-ce77d933a974.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6ff11ec7-ffe3-4e54-aa93-ce77d933a974.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 17:12:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physics-constrained generation",
+    "flow matching",
+    "manifold parameterization",
+    "one-step generation",
+    "preconditioned optimization",
+    "PDE-constrained sampling"
+   ],
+   "field": "物理约束生成模型",
+   "innovations": [
+    "将物理约束编码到精确流形参数化中以消除残差 Gauss-Newton 曲率，实现一步硬约束生成",
+    "分离几何预条件（解码器诱导度量标度）与输入协方差白化以改善优化条件数",
+    "物理端点匹配损失通过两时间分支对齐实现有限区间一致性约束"
+   ],
+   "benchmarks": [
+    "Darcy Flow",
+    "Dynamic Stall",
+    "Burgers",
+    "Kolmogorov Flow",
+    "Turbulence Forecasting and Reconstruction"
+   ]
+  }
+ }
 }
