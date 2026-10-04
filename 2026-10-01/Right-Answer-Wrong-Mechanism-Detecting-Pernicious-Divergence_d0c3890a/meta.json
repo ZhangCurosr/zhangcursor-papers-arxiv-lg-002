@@ -4,5 +4,30 @@
  "title": "Right-Answer-Wrong-Mechanism-Detecting-Pernicious-Divergence",
  "token": "sk-dqq3c6Uup...",
  "created_at": "2026-10-01 08:29:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5a7c1bdc-4779-4d16-a7f0-21a5df727ac1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/5a7c1bdc-4779-4d16-a7f0-21a5df727ac1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-04 20:37:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "causal intervention",
+    "activation patching",
+    "distributed alignment search",
+    "hidden pathway",
+    "out-of-distribution detection"
+   ],
+   "field": "机制可解释性",
+   "innovations": [
+    "种植隐藏路径基准测试因果干预的有害发散",
+    "HPC下游钳制检测器识别错误机制成功",
+    "发现DAS优化偏好捷径及on-manifold惩罚的缓解效果"
+   ],
+   "benchmarks": [
+    "GPT-2 small SVA",
+    "GPT-2 small Gender pronouns"
+   ]
+  }
+ }
 }
