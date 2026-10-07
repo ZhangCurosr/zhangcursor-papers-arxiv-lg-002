@@ -1,0 +1,249 @@
+# The Robot Is Not Its Description: GaugeBench for Representation Robustness in Morphology-Aware Policies
+
+Rahath Malladi<sup>1</sup>, Arshia Sangwan<sup>2</sup>, Rajesh K. Gupta<sup>1</sup>, Tauhidur Rahman<sup>1</sup>
+
+Abstract— A robot description does more than specify a physical mechanism: it also encodes arbitrary conventions, such as joint-axis direction, joint-angle zero, and the order and names of links and joints. Morphology-aware policies consume interfaces built from these descriptions, yet cross-embodiment evaluation typically changes the robot while keeping those conventions fixed. This leaves a simple question unanswered: does behavior survive when the robot stays fixed but its description changes? GaugeBench isolates this case by rewriting a fixed mechanism under physically equivalent conventions, verifying that its physics and policy interface are preserved, and then evaluating the same policy weights. The result is stark: three MetaMorph policies score 4030.6 on 80 familiar robots, but only 51.6 when those same robots are equivalently re-described, while 98 genuinely held-out robots score 1489.6. A new description can therefore be more damaging than a new robot. Tracing the failure reveals that axis reversal alone reproduces the collapse, joint-angle zero changes are nearly harmless, and reordering lies between them; moreover, changing joint-state and torque coordinates alone is sufficient to cause the failure, while changing description-derived features alone is not. The same phenomenon appears in ModuMorph and an unrelated PyBullet framework. Yet it is not irreversible: exact two-description transport restores the original controller, and training across equivalent axis conventions raises retained return under axis reversal from 3.6% to 80.6%. Together, these results separate mechanism robustness from representation robustness and show that cross-embodiment evaluation should test both.
+
+## I. INTRODUCTION
+
+One physical mechanism admits many numerical descriptions. Two files can agree on every link, mass, inertia, and joint placement and still disagree on the direction an engineer called positive for a hinge, on the pose that hinge calls zero, and on the order and names of parts. Classical rigid-body equations transform covariantly under a consistent change of generalized coordinates, so a textbook routine returns the same world-frame motion from either file [1], [2]. A robot is a mechanism. A description is one way of writing it down.
+
+Cross-embodiment robot learning increasingly conditions a single policy on a structured robot description, and tests it by changing the robot. Robustness here has two distinct axes, and that practice measures only one of them. Mechanism robustness asks whether a policy transfers from the machines it trained on to a new one, $M _ { \mathrm { t r a i n } } \to M _ { \mathrm { n e w } }$ . Representation robustness asks whether it preserves behavior when one fixed mechanism M is expressed by two physically equivalent descriptions D(M) and $D ^ { \prime } ( M )$ , with the machine itself untouched. Existing cross-robot benchmarks probe the first while keeping one description convention per robot [3]. GaugeBench isolates the second (Fig. 1).
+
+Nothing here assumes that an unconstrained neural policy should be invariant to a coordinate convention it never saw. In <sup>1</sup>University of California San Diego, <sup>2</sup>New York University.
+
+general, it has no reason to be. The question is what that costs an evaluation. Cross-embodiment results are read as evidence that a policy has learned something about robots, and we ask how much of that evidence rests on a convention the benchmark never varies. Answering it requires a mechanism that stays fixed while its description changes.
+
+The answer is not graceful degradation. Across three MetaMorph policies, mean return falls from 4030.6 on 80 familiar robots to 51.6 on those same robots under certified equivalent descriptions, while 98 physically held-out robots from the same procedural generator return 1489.6. Across the three baseline policy families we evaluate, every policy loses more from re-describing a robot it was trained on than from meeting the held-out population. A new robot can be easier than a new description of the same robot. We call this comparison the Same-Robot Paradox.
+
+Changing the conventions one at a time shows that a single one is enough. Reversing joint-axis directions retains 3.6 percent of the original return against 97.7 for joint-angle zeros and 35.8 for reordering, and driving axis reversal’s two channels separately, joint-state and torque coordinates alone retain 2.5 percent while description-derived features alone retain 37.6 percent. The effect is not specific to one implementation, reproducing on ModuMorph and, under axis reversal alone, on released policies from an unrelated line of work on modular robot control running in PyBullet. Exact interface transport then recovers the original controller with unchanged weights, and training over randomly drawn equivalent axis conventions raises retained return under axis reversal from 3.6 to 80.6 percent.
+
+Contributions: First, an evaluation axis. GaugeBench separates mechanism robustness from representation robustness, scoring fixed morphology-aware policies on descriptions whose physics and policy interface are certified equivalent before any episode is run. Second, a same-robot representation failure, and which channel reproduces it. An equivalent description of a familiar robot costs these policies more than a physically held-out robot, and controlled interventions show that changing joint-state and action coordinates alone reproduces the collapse while changing description-derived features alone does not. Third, generality and response. The failure reproduces on ModuMorph and on an independent PyBullet system. Exact transport recovers the original controller with unchanged weights, and axis-convention randomization raises retained return under axis reversal from 3.6 to 80.6 percent for the one convention family it samples.
+
+![](images/bda72b6b78c77e42a319b913c0aca3db49f9c944bbf31062b0b35958c90bc7a4.jpg)  
+Fig. 1. One mechanism, many descriptions, and the evaluation axis that exposes them. A description records a mechanism together with arbitrary conventions: joint-axis directions σ , joint-angle zeros $q _ { 0 , j } ,$ , link-and-joint order p, and part names. GaugeBench rewrites a robot under a different choice of them, certifies physical and interface equivalence, and only then scores the same weights. MetaMorph keeps roughly a third of its return on a physically held-out robot but almost nothing on an equivalent rewrite of a robot it trained on.
+
+## II. RELATED WORK
+
+## A. Morphology-aware policy learning
+
+MetaMorph [4] tokenizes a kinematic graph for a Transformer, ModuMorph [5] modulates a shared backbone with per-robot context, and Body Transformer [6] masks attention by embodiment graph, each treating the description as a stand-in for the robot under one convention per machine. Current work extends the interface to morphology tokens [7] and morphology-conditioned world models [8], while crossembodiment benchmarks evaluate transfer to novel embodiments [3]. Policies conditioned on images and language [9], [10] fix proprioception and action ordering in a comparable way, though we do not transform those interfaces and make no claim about them. We evaluate released systems whose interfaces can be reproduced and transformed exactly, which is what makes a causal test possible.
+
+## B. Symmetry, equivariance, and canonicalization
+
+In classical rigid-body mechanics, these conventions are bookkeeping, and physical predictions do not depend on which one is chosen [1], [2]. Whether learned policies that consume descriptions inherit that independence is an empirical question. Four changes are easy to conflate. Cross-robot benchmarks vary the mechanism. Geometric deep learning handles a rigid motion of a whole scene under global SE(3) symmetry [11], with gauge-equivariant networks addressing tangent-frame choice on manifolds [12]. Morphological symmetry exploits a symmetry a mechanism genuinely has, such as left–right limb pairs [13]. Ours is the fourth: a rewrite of one fixed mechanism’s numbers, which leaves the mechanism and its asymmetries where they were and so exists for every robot, symmetric or not.
+
+Repairing such a rewrite is standard machinery, and we claim no novelty for it. Conjugating a fixed policy by an exact interface transport is the lifted policy of an MDP isomorphism [14]. Canonicalization maps an input to a canonical representative, applies a base model, and transports the output back, whether by frame averaging [15], a learned canonicalizer [16], or an SE(2) wrapper around a trained manipulation policy [17]. Proposition 1 only specializes that construction to the full policy-visible input. What is new here is the evaluation axis: certifying physically equivalent descriptions before scoring, measuring what re-description costs against what a new mechanism costs, decomposing that cost by convention, and replicating it across independent systems.
+
+## C. Closest recent work
+
+Tai [18] shows that one vision–language–action checkpoint becomes a different controller when its action-scaling metadata changes, so fixed weights can depend on nonphysical metadata. That change also alters the physical action produced, so the controller itself is not preserved. We instead certify physical equivalence before evaluation and put the loss in context against held-out robots. Yang and Hatton [19] make inverse-dynamics identification independent of the generalized-coordinate chart. Their object is a model-fitting objective scored by prediction accuracy, whereas ours is a closed-loop policy scored by task behavior.
+
+## III. ROBOT DESCRIPTION EQUIVALENCE
+
+## A. Descriptions and physical equivalence
+
+Let a mechanism M be described by $D = ( \nu , \mathcal { E } , \{ T _ { i } \}$ $\{ \hat { s } _ { j } \} , \{ m _ { i } \} , \{ c _ { i } \} , \{ I _ { i } \} , \nu \big )$ , with links V, joints $\mathcal { E } ,$ parentto-child frames $T _ { i } ~ \in ~ S E ( 3 )$ , unit screw axes $\hat { s } _ { j }$ , masses, centre-of-mass offsets, inertias, and an identifier assignment ν naming links and joints.
+
+The evaluated policies do not consume D directly. They consume a policy interface built from it: per-part feature vectors in the order the file lists them, graph edges, padding masks, and per-joint features, alongside the robot state and task observation. Write x for everything the policy sees and a for the action. The distinction carries the paper’s causal result, because a description change can reach the interface through description-derived features, through joint-state and action coordinates, or both.
+
+Definition 1 (Physical equivalence): A transformation g carrying D to $D ^ { \prime } = g \cdot D$ is physically equivalent if it acts by an invertible change of generalized coordinates $A _ { g } ,$ extended to joint velocities and torques, under which both descriptions realize the same mechanism in exact arithmetic. Chart-independent quantities agree directly: world-frame link and contact geometry, tip velocity, kinetic energy, and the trajectory a matched torque sequence produces. Chartdependent ones agree only after transport by $A _ { g } ,$ which is how spatial Jacobians, the mass matrix, inverse dynamics, and forward accelerations are compared, since each transforms covariantly.
+
+Physical equivalence is a property of the descriptions. What a policy meets is the pair of invertible conversions $\rho _ { x } ( g )$ and $\rho _ { a } ( g )$ that $A _ { g }$ induces on the complete policy interface and on actions.
+
+Definition 1 is a statement about exact arithmetic. What can be checked is an implementation of it. GaugeBench certifies each rewrite numerically over a 100-step rollout from the environment’s reset pose under actuator commands drawn uniformly from $\pm 0 . 1$ per step. Each quantity in Definition 1 is checked separately rather than pooled, in its own units and after transport where it depends on the chart, and its largest componentwise absolute difference must stay within an absolute $1 0 ^ { - 7 }$ . Certification runs in the same simulator configuration used to score the policy, which is part of the claim, because a rewrite can preserve physics under one contact setting and not another, as Sec. V-D shows.
+
+Exact mathematics and floating-point code differ slightly. Adding an offset to a joint angle and subtracting it again returns the original angle on paper, and in float64 returns it bitwise in 86 percent of cases from this family and within one unit in the last place on the rest. Conversion back to the original interface is therefore required to agree within a tolerance fixed from the available precision rather than bitwise.
+
+Four description choices are varied. Joint-axis direction $\sigma _ { j } ~ \in ~ \{ \pm 1 \}$ determines which direction around a joint is positive. Joint-angle zero $q _ { 0 , j }$ is the offset that fixes which physical pose the rewritten file calls $q _ { j } ^ { \prime } \ = \ 0$ . Link-andjoint order is the order in which parts are written in the file and passed to the policy, a permutation $p .$ Link and joint names may be replaced bijectively, with every reference updated. Combined changes are verified together, because small numerical errors need not remain small after composition.
+
+## B. Converting policy inputs and actions
+
+For changes to axis direction, angle zero, and link-and-joint order, joint coordinates and torques convert as
+
+$$
+\begin{array} { r } { q _ { j } ^ { \prime } = \sigma _ { j } \bigl ( q _ { p ^ { - 1 } ( j ) } - q _ { 0 , j } \bigr ) , \quad \dot { q } _ { j } ^ { \prime } = \sigma _ { j } \dot { q } _ { p ^ { - 1 } ( j ) } , \quad \tau _ { j } ^ { \prime } = \sigma _ { j } \tau _ { p ^ { - 1 } ( j ) } , } \end{array}\tag{1}
+$$
+
+so a change of zero shifts the angle but not its rate. Joint limits travel with their joints, mirrored by a sign flip and shifted by a change of zero, and the features computed from the description follow suit: part vectors are reordered, direction-dependent quantities change sign, and graph edges and padding masks take the new order. Rewriting a description without also converting observations and actions would change the physical controller rather than only its representation, so we verify Eq. (1) for every case before running the policy.
+
+## C. Exact repair
+
+Write $\rho _ { x } ( g )$ for conversion of the full policy input, $\rho _ { a } ( g )$ for conversion of actions, and $x ^ { \prime } = \rho _ { x } ( g ) x .$
+
+Proposition 1 (Full-input description repair): Let π be a fixed policy evaluated deterministically, and let $g$ admit invertible input and action conversions in exact arithmetic. The rewritten interface presents $x _ { t } ^ { \prime } = \rho _ { x } ( g ) x _ { t }$ from reset onward, converts each action back with $\rho _ { a } ( g ) ^ { - 1 }$ before execution in the original coordinate system, and evaluates reward and termination on the original physical trajectory. For a correspondence $\hat { g }$ recovered from the two descriptions, define
+
+$$
+\pi _ { \mathrm { r e p a i r } } ( x ^ { \prime } ) = \rho _ { a } ( \hat { g } ) \pi \bigl ( \rho _ { x } ( \hat { g } ) ^ { - 1 } x ^ { \prime } \bigr ) .\tag{2}
+$$
+
+If ${ \hat { g } } = g ,$ the closed loop formed by $\pi _ { \mathrm { r e p a i r } }$ on $D ^ { \prime }$ realizes the same physical trajectory as $\pi$ on $D .$ Proof: For ${ \hat { g } } = g$ , the inverse input transport in (2) recovers $x _ { t } ,$ the policy therefore produces $\pi ( \boldsymbol { x } _ { t } )$ , and the output transport followed by the interface’s inverse conversion recovers the same physical action. Induction on t gives the original physical trajectory.
+
+Two consequences matter. Repair depends on recovering the correct link-and-joint correspondence from the two files without access to their generator, and the conversion must cover every policy input: correcting joint state while leaving description-derived features, edges, or masks in the rewritten order does not reproduce the original behavior. The proposition assumes exact arithmetic and bounds no floatingpoint error, and Sec. V reports the measured residuals. For a policy with memory, it applies to the full input history while the hidden state stays in the original coordinates, which is how we repair the recurrent policy in Sec. V-D.
+
+## IV. GAUGEBENCH
+
+GaugeBench applies metamorphic testing [20] to a robot policy in three steps: rewrite the robot under specified alternative conventions, verify that physics, observations, and actions remain equivalent under Definition 1, and score the unchanged policy on the original description, on the rewritten description, and after repair. GaugeBench scores only rewrites that pass verification, and a failed repair stays in the average as a failure rather than being dropped. Verification residuals are reported with the relevant equivalence checks.
+
+Repair is verified at the interface rather than by return. Observations and actions convert to the rewritten interface and back without running the simulator, on five probe states per case. The discrete channels, graph edges, padding masks, and traversals must reconstruct exactly; the continuous proprioceptive and context channels must agree within $1 0 ^ { - 1 4 }$ and actions must round trip exactly. That $1 0 ^ { - 1 4 }$ is a fixed multiple of float64 epsilon taken from the operation count of the transport, not from the residuals it judges. Full-episode return agreement is reported only as a diagnostic. Interface reconstruction determines whether conversion passed, because over a thousand steps a last-digit difference can change a contact event and produce a large return difference.
+
+Three quantities carry the results, and they do not have equal standing. The primary endpoint is the same-robot loss in native return units, the original score minus the rewritten score for the same robot and episode. The scale-free readout used in the figures is do-nothing-adjusted retained performance. The contextual comparator is the new-robot loss, the original score on the 80 evaluated robots minus the score on 98 heldout morphologies from the same procedural generator. Both losses start from the same 80-robot score and are therefore directly comparable.
+
+Retained performance is computed for each robot, rewrite, and episode as the rewritten score above that robot’s own do-nothing score, obtained with zero torque in place of the policy, divided by the original score above the same baseline, then averaged over episodes, rewrites, robots, and policies. Standing still is worth between −20.1 and +26.7 depending on the robot, averaging −0.5, so one shared baseline would distort both tails. The fifth percentile and worst case therefore stay in return units, as tail diagnostics rather than endpoints. Held-out bars divide held-out by original means above baseline.
+
+A method scores nothing unless it covers every requested rewrite, and reports ambiguity rather than guessing. Every experiment carries a control supplied with the known correct mapping, states the simulator configuration it ran in, and repairs two-sided, receiving both descriptions. Repair is onesided when given only the rewritten one, which remains future work.
+
+## V. EXPERIMENTS
+
+Statistical design. The independently trained policy is the top-level replicate, and there are three per system. Robots, rewrites, and episodes replicate within a policy: they characterize conditional variation and do not add independent trained policies. Top-level statements therefore carry a Student interval across policy-level values. Where an interval resamples the evaluation hierarchy instead, we say so, and it is conditional on these three policies. The three PyBullet policies are released artifacts differing in capacity rather than training seeds, so we do not read them as seed-level replication.
+
+## A. The Same-Robot Paradox on MetaMorph
+
+We train official MetaMorph on the official UNIMAL-100 flat-terrain locomotion task for the published budget of 99.9M transitions, and require competence before testing any rewritten description: over the 100 training robots and 32 deterministic episodes each, mean per-robot return must reach 1000, the median 500, and at least 80 robots be positive. All three met it. The 98 test robots are disjoint from training but come from the same procedural generator, so they measure ordinary generalization rather than an arbitrary distribution shift. Rewrites are scored on 80 training robots, excluding a fixed 20-robot development set; the evaluated 80 are not easier, averaging 4030.6 versus 4226.6 on the excluded 20. Each rewrite reverses joint axes, changes joint-angle zeros, and reorders links and joints while keeping their names.
+
+TABLE I  
+METAMORPH UNDER EQUIVALENT REWRITES. 3 POLICIES NAMED BY TRAINING SEED, 80 ROBOTS, 10 REWRITES, 32 EPISODES PER CASE.
+<table><tr><td></td><td>1409</td><td>1410</td><td>1411</td><td>Mean</td></tr><tr><td>Reference, original descriptions</td><td></td><td></td><td></td><td></td></tr><tr><td>100 training robots</td><td>4048.8</td><td>4168.0</td><td>3992.6</td><td>4069.8</td></tr><tr><td>98 held-out robots</td><td>1291.6</td><td>1667.7</td><td>1509.4</td><td>1489.6</td></tr><tr><td>80 evaluated robots</td><td>4007.9</td><td>4145.2</td><td>3938.8</td><td>4030.6</td></tr><tr><td colspan="5">Equivalent rewrite, same 80 robots</td></tr><tr><td>Mean return</td><td>51.4</td><td>54.3</td><td>49.1</td><td>51.6</td></tr><tr><td>5th percentile</td><td>-39.1</td><td>-31.6</td><td>-25.1</td><td>-31.9</td></tr><tr><td>Worst case</td><td>-53.7</td><td>-42.6</td><td>-36.0</td><td>-44.1</td></tr><tr><td>With corrected normalization</td><td>54.4</td><td>65.5</td><td>60.1</td><td>60.0</td></tr><tr><td colspan="5">Comparison, common baseline</td></tr><tr><td>Same-robot loss</td><td>3956.5</td><td>4090.9</td><td>3889.8</td><td>3979.1</td></tr><tr><td>Retained (%)</td><td>1.46</td><td>1.44</td><td>1.42</td><td>1.44</td></tr><tr><td>New-robot loss</td><td>2716.3</td><td>2477.5</td><td>2429.4</td><td>2541.1</td></tr><tr><td>Excess same-robot loss</td><td>+1240.2</td><td></td><td></td><td>+1613.4 +1460.4 +1438.0</td></tr></table>
+
+All three policies collapse together (Table I and Fig. 2a). Original return of roughly 4000 falls to roughly 50 under equivalent rewrites. Both tail readouts fall below zero, so some rewritten descriptions leave a gait that is actively counterproductive rather than broken. The primary endpoint is the paired same-robot loss, with a policy-level interval of [3724.6, 4233.5], and as a descriptive secondary measure the policies retain 1.44 percent. For 9, 16, and 11 of the 80 robots, the rewritten-description policy performs worse than applying zero torque.
+
+The held-out population sets a scale for that loss. Those 98 robots average 1489.6, so measured from the same original score the new-robot loss is 2541.1, and every policy loses more from rewriting a familiar robot than from meeting a new one. Both losses rest on that shared score, so their difference is descriptive. We attach no interval to the difference, because rewritten return already sits near its lower limit, so the difference mainly reflects how well each policy generalizes.
+
+Two controls narrow the explanation. Correcting the stored mean and variance used to scale observations raises return only from 51.6 to 60.0, closing 0.2 percent of the 98.7 percent gap, so stale normalizer statistics are not the cause. Supplying the correct link-and-joint correspondence instead makes the unchanged weights reproduce the original return exactly in all 2,400 cases, as does a correspondence recovered from the description bytes alone. The weights keep their competence, and what changed is how the interface presents inputs and reads actions.
+
+## B. Which convention breaks the policy
+
+The main experiment changes three conventions at once, so it cannot say which one matters. We therefore vary each convention separately using the same three policies and 80 robots. For each of the three conventions, we evaluate five rewrites per robot and 32 episodes per case, giving 1,200 unique robot-rewrite pairs, each evaluated by the same 3 policies. All pairs remain physically equivalent, with a largest verification error of $1 . 8 6 \times \mathrm { { \dot { 1 } } 0 ^ { - 1 0 } }$ , and none of the changes is cosmetic. Each actuated joint flips independently with probability one half, realizing 46.5 percent flipped over 5 to 15 joints; zero offsets are sampled uniformly from ±0.5 rad and realize 0.259 rad mean absolute; and the permutation leaves 14.7 percent of movable tokens in place. Percentages are computed within each policy and then averaged. Unless stated otherwise, intervals resample policies, robots, rewrites, and episodes hierarchically and are therefore conditional on these three trained policies.
+
+(a) MetaMorph (MuJoCo)  
+![](images/f2cab5b6af77164588c487628044e3d7c7fe22ba4e5b7a01bfd18913c49a9561.jpg)
+
+![](images/75c9b8b8122aa8776391ace5b19cd6b90cb607f48b884cdebb9b5d77fa3bc112.jpg)
+
+(c) Modular policies (PyBullet)  
+![](images/573f0b381085d937a9f6d8ebb3066a6a0f601a449f310a378ce7f23f072e615a.jpg)  
+Fig. 2. An equivalent re-description of a familiar robot is more damaging than a physically held-out robot, in all three baseline policy families. Each panel holds one family’s trained policies fixed across the four conditions numbered beneath it: familiar robots under their original descriptions, physically held-out robots, familiar robots under equivalent rewrites, and those rewrites after repair. Only the second changes the mechanism. Bars are performance retained above a do-nothing score, zero for panel (c), averaged over policies, with the absolute score beneath, and points are the individual policies. Transport restores 100.0% aggregate retained performance, matching the original episode for episode except in five of 25,600 paired episodes in one ModuMorph policy. Panel (c) rewrites axis directions alone, because reordering is not certified physically equivalent in that simulator, and its three policies are released artifacts differing in capacity rather than training seeds.
+
+Reversing joint-axis directions alone is sufficient to reproduce the collapse (Table II). It retains 3.6 percent against 1.9 percent when all three conventions change, reaching approximately the same floor as the combined rewrite. The combined column uses the five rewrite seeds drawn for this comparison, which is why it reads 1.9 percent rather than the 1.44 percent in Table I, which averages over all ten primary rewrites. For every policy, the axis-reversal loss exceeds the loss on new robots: the excess is [1022, 1586] under hierarchical resampling and [825, 1783] under a Student interval across policies. Changing joint-angle zeros costs only 91.5 return, or 2.3 percent, with intervals [62, 121] and [44, 139] that exclude zero, so the effect is small but measurable. Link-and-joint order is intermediate at 35.8 percent; its loss differs from the new-robot loss by only +4.5, with a Student interval of [−428, 437], so we neither claim nor rule out that reordering alone establishes the paradox, though its upper bound remains below the lower bound for axis reversal. In the final block of Table II, we report excess same-robot loss, defined as same-robot loss minus new-robot loss, so positive values mean that rewriting a familiar robot is more damaging than encountering a genuinely new one.
+
+These outcomes fit the architectures, which use learned position embeddings and carry no invariance to reversing joint coordinates. The convention-wise effects are not additive: axis reversal and the combined change both reach the performance floor, so their losses cannot tell us what fraction of the combined failure is attributable to axis reversal, and interactions between conventions prevent interpreting the oneat-a-time effects as components of a sum. Fig. 3 further shows that the collapse is not driven by a small number of unusually fragile robots.
+
+TABLE II  
+EFFECT OF INDIVIDUAL DESCRIPTION CONVENTIONS.
+<table><tr><td></td><td>Joint-axis direction</td><td>Joint-angle zero</td><td>Link-and- joint order</td><td>Combined</td></tr><tr><td>Rewritten return</td><td>146.6</td><td>3939.2</td><td>1445.9</td><td>78.0</td></tr><tr><td>Retained (%)</td><td>3.6</td><td>97.7</td><td>35.8</td><td>1.9</td></tr><tr><td>5th percentile</td><td>-17.8</td><td>3773.3</td><td>612.7</td><td>-19.3</td></tr><tr><td>Worst case</td><td>-26.3</td><td>3748.1</td><td>528.7</td><td>-25.2</td></tr><tr><td>Same-robot loss</td><td>3884.1</td><td>91.5</td><td>2584.7</td><td>3952.6</td></tr><tr><td>95% interval</td><td>[3726, 4038]</td><td>[62, 121]</td><td>[2434,2733]</td><td>[3793, 4110]</td></tr><tr><td>Excess same-robot loss, same-robot minus new-robot</td><td></td><td></td><td></td><td></td></tr><tr><td>Estimate</td><td>+1303.8</td><td>-2488.8</td><td>+4.5</td><td>+1372.4</td></tr><tr><td>95% interval</td><td>[1022, 1586] [-2736,-2253]</td><td></td><td></td><td>][-274,280] [1087,1657]</td></tr></table>
+
+## C. Which part of the interface reproduces the failure
+
+Which channel is sufficient to reproduce the collapse? Reversing a joint axis changes two parts of the policy interface at the same time: the joint limits and axis features derived from the description, and the coordinate system in which joint states are observed and torques are commanded. We drive each channel on its own. Neither partial change is internally consistent, and neither describes a physically valid robot, so these are diagnostic interventions, outside GaugeBench, and are not scored as equivalent-description tests.
+
+The channels separate cleanly. Changing only joint-state and torque coordinates retains 2.5 percent, reproducing the collapse through that channel alone. Changing only the description-derived features retains 37.6 percent, and every policy keeps walking, with a fifth-percentile return of +547.3 against −38.4 when only state and torque coordinates change. Three losses then fall within 3 percent of each other: 2541.1 on held-out robots, 2584.7 after reordering, and 2517.6 after changing only the axis-related description features.
+
+Changing the coordinate interface alone is therefore sufficient to reproduce the catastrophic collapse, and changing the description-derived features alone is not, costing instead about what ordinary generalization to a new robot costs. The extreme sensitivity implicates the coordinate interface through which the policy observes and acts on the mechanism rather than a failure to read morphology features. Because the coordinate-only and full axis-reversal conditions both lie near the floor, and the interventions are not additive, their magnitudes do not apportion the combined loss between the channels, and we do not interpret the ordering of 3930.6 against 3884.1 for the complete axis reversal.
+
+For axis reversal and reordering, the mapping recovered from the descriptions is bitwise identical to the supplied one. Across all 1,200 cases, every discrete value reconstructs exactly; the largest continuous error is $6 . 6 6 \times 1 0 ^ { - 1 6 }$ against the $1 0 ^ { - 1 4 }$ bound, and actions round trip exactly.
+
+## D. The same failure in two other systems
+
+ModuMorph. To test whether this is specific to one morphology encoder, we trained official ModuMorph at the same policy seeds, budget, task, and observation, action and normalizer contract, on the same morphologies, and re-described the same 80. All three policies are competent under the criterion above, and the design is 3 policies, 80 morphologies, 10 transformations, and 32 episodes per case (Fig. 2b). Original return is 4336.5 against 54.1 after rewriting, a mean same-robot loss of 4282.5, with per-policy values of 4249.0, 4305.8, and 4292.6 and a policy-level interval of [4208.6, 4356.3]. The policies retain 1.32 percent. For 7, 9, and 11 of the 80 robots, they do worse than applying zero torque, and every policy again loses more to a rewritten familiar robot than to a held-out one. Both known and structure-recovered mappings restore all three. Agreement under the known mapping is a diagnostic: two policies reproduce all 25,600 paired episodes exactly and the third reproduces 25,595, the five exceptions differing by 7.4 return after a last-digit rounding difference reaches a contact event. The two official configurations differ in several ways at once, so this shows the failure is not confined to one robot encoder, without isolating which difference matters.
+
+Independent-system replication. MetaMorph and Modu-Morph share an ecosystem, so we ran GaugeBench against released policies from an unrelated line of work on modular robot control [21]. The experimental stack is independent of the evidence above: PyBullet [22] rather than MuJoCo [23], hardware modules rather than procedural bodies, model-based RL rather than PPO, a per-module recurrent graph network rather than a Transformer, and commanded body-velocity tracking rather than forward locomotion reward. Twelve trained designs and 10 transformations give 120 design– rewrite pairs, each evaluated by 3 released policies over 8 episodes, so 360 policy-evaluation cases. Twelve heldout designs are drawn deterministically from the remaining compiled designs.
+
+Here we reverse joint-axis directions only, using the same independent coin flip per joint as in the MetaMorph experiment. Serialization order is excluded rather than reported uncertified, because this simulator orders contact pairs by link index under URDF USE SELF COLLISION, so reordering could change the physics rather than preserve it. Reversing an axis and mirroring its joint limits describes the same physical hinge using the opposite positive direction, and under the framework’s own simulator settings all 120 pairs certify, the largest base-state error and the largest converted joint-state error both being exactly 0.0.
+
+The paradox reproduces (Fig. 2c). Progress along the commanded direction averages 1.356 m with original descriptions and 1.143 m on a new design, but 0.014 m, or 1.05 percent, after rewriting a familiar one. The same-robot loss of 1.342 m is 6.3 times the new-robot loss of 0.213 m. Per policy, the difference is +1.12, +1.13 and +1.14 m, with resampling over designs, rewrites and episodes giving [0.986, 1.272] m conditional on these released policies. New designs cost these policies far less than they cost MetaMorph, yet rewritten descriptions reduce both systems to about one percent, and 157 of the 360 policy-evaluation cases move opposite the commanded direction. Both mapping-based repairs are exact. Matching by part name cannot repair axis reversal, because names do not record axis direction, a limit of that matching method rather than of the repair problem.
+
+This framework also isolates the coordinate channel by construction, since axis reversal changes joint states and actions while module types and the attachment graph stay identical across all 120 pairs. A description-blind controller from the same release, a shared network selecting layers by design index, behaves the same way, travelling 0.359 m originally and −0.007 m after axis reversal, though its original score is a quarter of the modular policies’ and the comparison is directional only.
+
+## E. Training across the axis convention family
+
+A direct mitigation is to stop treating one axis convention as privileged. We therefore train three additional MetaMorph policies matched one-to-one with the three baselines by training seed, using the same robots, budget, architecture, optimizer, task, and morphology set. The only change is exposure to axis conventions: at the start of each training episode, with probability one half, the robot is rewritten under a randomly drawn equivalent axis convention from the same family used by GaugeBench. Evaluation draws are independent of those seen during training, and all three policies satisfy the same competence criterion as the baselines. Table III reports means across the three matched policy pairs; the Change column is the paired axis-randomized minus standard difference. Randomized augmentation itself is standard machinery. The question here is whether exposure to equivalent conventions is enough to remove the representation fragility revealed above.
+
+The effect is large. Under axis reversal, the randomized policies retain 80.6 percent of their original-description return, compared with only 3.6 percent for the standard policies. The three matched policies retain 73.7, 86.9, and 81.3 percent, and a Student interval on the matched-seed improvement is [60.6, 93.3] percentage points. The lower tail improves with the mean: the worst robot returns 2519.4 rather than −26.3, leaving no evaluated robot near the do-nothing floor. For axis reversal, the Same-Robot Paradox therefore reverses: these policies lose less from rewriting a familiar robot than from transferring to the held-out population.
+
+(b) Per-robot ratio, by policy  
+(a) Returns across evaluated robots  
+![](images/21a68768a9668ca1256ff0258ff909ce973ef58dcdb4c8b8d81b4b9ee5369999.jpg)
+
+![](images/d8447045fbf4ecf275d6fa88f32327ea85440093a24f79ff8c7c773044eb7fc0.jpg)
+
+![](images/d91d8630cff9456b0970c2335f16b07b91091291e23bd32c7b8e40867a02b590.jpg)  
+Fig. 3. The collapse is uniform across robots and policies, and one convention alone reproduces it. (a) Per-robot return on the 80 evaluated robots sorted by original performance, with bands spanning the three policies. Rewritten return stays near zero across the entire range, so the mean is not carried by a few fragile robots. (b) Per-robot raw ratio of rewritten to original return, one column per trained policy. All 240 robot–policy pairs fall below 15 percent, and the axis is not truncated. (c) Do-nothing-adjusted return retained per convention, against the held-out reference. Joint-axis direction alone reaches the floor the combined rewrite reaches, while the joint-angle zero is nearly harmless. Error bars are the between-policy standard deviation, and thes effects are not additive.
+
+TABLE III  
+AXIS-CONVENTION RANDOMIZATION.
+<table><tr><td>Standard</td><td colspan="2">Axis- randomized</td><td>Change</td></tr><tr><td>Original-description return</td><td>4030.6</td><td>3606.3</td><td>-424</td></tr><tr><td>Axis-reversed return</td><td>146.6</td><td>2911.8</td><td>+2765</td></tr><tr><td>Return retained</td><td>3.6%</td><td>80.6%</td><td>+77.0 pts</td></tr><tr><td>Combined rewrite</td><td>1.9%</td><td>30.9%</td><td>+28.9 pts</td></tr><tr><td>Held-out return</td><td>1489.6</td><td>1491.2</td><td>+2</td></tr></table>
+
+The mitigation is neither free nor complete. Originaldescription return falls from 4030.6 to 3606.3, a decrease of 424 on average, or about 10 percent, with a matched-seed interval of $[ - 6 1 6 , - 2 3 2 ]$ . Held-out performance is essentially unchanged at the resolution of three policies, moving from 1489.6 to 1491.2. Robustness also remains incomplete outside the convention family seen during training: when axis reversal is combined with the two untreated convention changes, retained return rises from 1.9 to only 30.9 percent. This is consistent with substantial residual sensitivity to joint-anglezero and ordering conventions.
+
+The gain is not simply memorization of evaluation-time axis patterns. Training samples from the convention family rather than enumerating it: for the median evaluated robot, the probability that the exact axis pattern used at evaluation ever appeared during training is only 0.27. The recovered performance therefore reflects generalization across equivalent axis conventions rather than recall of specific descriptions.
+
+The two responses address different failure modes. Exact transport diagnoses representation misalignment when both descriptions are available and demonstrates that the frozen policy remains competent. Axis randomization instead asks whether robustness to an entire convention family can be acquired during training; once trained this way, the policy no longer requires the original description at evaluation time for the convention family it has learned to tolerate.
+
+## F. Recovering the correspondence without shared names
+
+Repair so far assumed shared identifiers, where name matching suffices, recovering 800/800 with maximum zerooffset error $2 . 2 \times 1 0 ^ { - 1 6 }$ rad. Descriptions from sources that never agreed on a namespace are the harder case, so we repeat the three convention changes on the same 80 robots while replacing every link and body name with a unique arbitrary one. The design is 3 policies, 80 robots, 5 rewrites, and 32 episodes, and all 400 robot–rewrite pairs pass the equivalence check, with a largest physics error of $1 . 4 \times 1 0 ^ { - 1 0 }$ Mean original return is 4020.2 and falls to 34.1, a same-robot loss of 3986.1, which we do not read as worse than the 3979.1 of the stable-identifier family, since this family draws different rewrite seeds and different evaluation episode seeds on the same three trained policies. Every policy orders the two penalties the same way, so the paradox survives the harder family.
+
+Renaming removes the shortcut but not the repair (Fig. 4). Name matching recovers 0/400 and correctly declines to guess. Structure matching recovers 400/400 and restores the original return exactly, against 0.9 percent with no repair. It matches parts using the structure of the two descriptions, their rooted kinematic trees and the physical attributes our rewrites leave unchanged, which is canonical labeling of attributed rooted trees [24], and reports ambiguity where identical branches admit several mappings. Every evaluated robot is structurally asymmetric, so no such case arose, and refusal is exercised only by a unit test on a deliberately symmetric description, so repair is not validated under ambiguous symmetry. Other matching methods could do the same, and we make no claim that it is necessary.
+
+## VI. DISCUSSION AND LIMITATIONS
+
+Mechanism robustness, $M _ { \mathrm { t r a i n } } \to M _ { \mathrm { n e w } }$ , does not imply representation robustness, $D ( M ) \to D ^ { \prime } ( M )$ . Every policy in the three primary comparison families transfers to a genuinely new machine better than it survives an equivalent rewrite of one it already knows. A policy that changes behavior under a physically equivalent description of a familiar robot is responding to more than the robot it controls.
+
+![](images/ed4d323e92f5e57f3ff86f578dfd0c797d66a2ed8faf5d96983957707e8889c5.jpg)  
+Fig. 4. Renaming defeats the trivial fix, but not repair itself. (a) With shared part names, a known correspondence and one recovered from description structure both restore the original return exactly, while correcting observation normalization alone does almost nothing. (b) With every name replaced, name matching recovers nothing and correctly declines to guess, while structure matching recovers all of them, and (c) repair there restores the original return exactly. Bars are means over the three policies, points the individual policies. Every repair is two-sided, receiving both descriptions and retraining nothing.
+
+A description gives a policy structural features describing the robot and the coordinate conventions in which joint states and actions are expressed. For MetaMorph, where we drove the two separately, changing the first alone costs about what ordinary transfer to a new robot costs, while changing the second alone reproduces the collapse. It is the second that makes an equivalent rewrite of a familiar robot worse than an unfamiliar one. Exact transport shows the weights keep their competence throughout, and training exposure shows part of this robustness can be learned, without solving the general case.
+
+Several limits bound the claims. The evidence is simulation only, covers the evaluated morphology-aware policy families rather than every current method, and rests on three independently trained policies per MuJoCo system, which is the sample size behind every top-level interval. Simulation is also what makes the comparison tight: the description changes while the mechanism is held exactly fixed, where hardware would add calibration, wear, and sensing differences a description-only test cannot absorb. Repair is two-sided throughout, so recovery from the rewritten description alone remains open, as does policy-level repair where identical branches make the correspondence ambiguous. The trainingtime mitigation randomizes one convention family, leaves the other two untreated, and is not a claim of invariance. We do not estimate how often the evaluated convention changes occur in deployed robot-description pipelines, and GaugeBench measures their consequences when an equivalent description is used rather than present-day prevalence.
+
+Morphology-aware cross-robot policies, whose interfaces expose joints and parts explicitly, should therefore be evaluated not only on new mechanisms but also on equivalent descriptions of mechanisms they already know, with physical equivalence certified before anything is scored. Whether policies that carry the robot interface implicitly behave the same way is open, and the axis is well defined for them too.
+
+## REFERENCES
+
+[1] R. Featherstone, Rigid Body Dynamics Algorithms. Springer Science & Business Media, 2008.
+
+[2] R. M. Murray, Z. Li, and S. S. Sastry, A Mathematical Introduction to Robotic Manipulation. CRC Press, 2017.
+
+[3] M. Parakh, A. Kirchmeyer, B. Han, and J. Deng, “AnyBody: A benchmark suite for cross-embodiment manipulation,” arXiv preprint arXiv:2505.14986, 2025.
+
+[4] A. Gupta, L. Fan, S. Ganguli, and L. Fei-Fei, “MetaMorph: Learning universal controllers with transformers,” in International Conference on Learning Representations (ICLR), 2022.
+
+[5] Z. Xiong, J. Beck, and S. Whiteson, “Universal morphology control via contextual modulation,” in International Conference on Machine Learning (ICML), 2023.
+
+[6] C. Sferrazza, D.-M. Huang, F. Liu, J. Lee, and P. Abbeel, “Body Transformer: Leveraging robot embodiment for policy learning,” in Conference on Robot Learning (CoRL), 2024.
+
+[7] K. Suzuki, J. Liu, Y. Wang, C. Hori, M. Brand, D. Romeres, and T. Koike-Akino, “Embedding morphology into transformers for crossrobot policy learning,” arXiv preprint arXiv:2603.00182, 2026.
+
+[8] M. H. Danesh, C. Li, A. Abyaneh, A. Houssaini, K. Ellis, G. Berseth, M. Hutter, and H.-C. Lin, “Morphology-conditioned world model for cross-embodiment quadrupedal locomotion,” arXiv preprint arXiv:2604.08780, 2026.
+
+[9] Open X-Embodiment Collaboration, “Open X-Embodiment: Robotic learning datasets and RT-X models,” arXiv preprint arXiv:2310.08864, 2023.
+
+[10] K. Black, N. Brown, D. Driess, et al., “π<sub>0</sub>: A vision-language-action flow model for general robot control,” arXiv preprint arXiv:2410.24164, 2024.
+
+[11] M. M. Bronstein, J. Bruna, T. Cohen, and P. Velickovi ˇ c, “Geometric ´ deep learning: Grids, groups, graphs, geodesics, and gauges,” arXiv preprint arXiv:2104.13478, 2021.
+
+[12] T. S. Cohen, M. Weiler, H. Berkhout, and M. Welling, “Gauge equivariant convolutional networks and the icosahedral CNN,” International Conference on Machine Learning (ICML), 2019.
+
+[13] S. Wei, X. Chen, F. Xie, G. E. Katz, Z. Gan, and L. Gan, “Beyond topology: A morphological symmetry graph representation for locomotion policy learning,” arXiv preprint arXiv:2512.00727, 2025.
+
+[14] E. van der Pol, D. E. Worrall, H. van Hoof, F. A. Oliehoek, and M. Welling, “MDP homomorphic networks: Group symmetries in reinforcement learning,” in Advances in Neural Information Processing Systems (NeurIPS), 2020.
+
+[15] O. Puny, M. Atzmon, H. Ben-Hamu, I. Misra, A. Grover, E. J. Smith, and Y. Lipman, “Frame averaging for invariant and equivariant network design,” in International Conference on Learning Representations (ICLR), 2022.
+
+[16] S.-O. Kaba, A. K. Mondal, Y. Zhang, Y. Bengio, and S. Ravanbakhsh, “Equivariance with learned canonicalization functions,” in International Conference on Machine Learning (ICML), 2023.
+
+[17] J. Deng, Y. Wang, Y. Zhu, T. Feng, T. Wo, and Z. Shao, “Eq.Bot: Enhance robotic manipulation learning via group equivariant canonicalization,” arXiv preprint arXiv:2511.15194, 2025.
+
+[18] J. Tai, “Same weights, different robot: A deployment safety view of VLA policies,” arXiv preprint arXiv:2606.03724, 2026.
+
+[19] Y. Yang and R. L. Hatton, “Coordinate-independent robot model identification,” arXiv preprint arXiv:2603.14656, 2026.
+
+[20] T. Y. Chen, S. C. Cheung, and S. M. Yiu, “Metamorphic testing: A new approach for generating next test cases,” Dept. Comput. Sci., Hong Kong Univ. Sci. Technol., Tech. Rep. HKUST-CS98-01, 1998.
+
+[21] J. Whitman, M. Travers, and H. Choset, “Learning modular robot control policies,” IEEE Transactions on Robotics, vol. 39, pp. 4095– 4113, 2023.
+
+[22] E. Coumans and Y. Bai, “PyBullet, a Python module for physics simulation for games, robotics and machine learning,” http://pybullet. org, 2016–2021.
+
+[23] E. Todorov, T. Erez, and Y. Tassa, “MuJoCo: A physics engine for model-based control,” in IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2012.
+
+[24] A. V. Aho, J. E. Hopcroft, and J. D. Ullman, The Design and Analysis of Computer Algorithms. Addison-Wesley, 1974.
