@@ -4,5 +4,28 @@
  "title": "Singular-Value-Decomposition",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-07 08:15:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c245f8c8-4b89-4347-83e3-99c5522b4eec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c245f8c8-4b89-4347-83e3-99c5522b4eec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:41:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "奇异值分解",
+    "SVD",
+    "几何推导",
+    "幂迭代法",
+    "核方法",
+    "低秩近似",
+    "谱定理",
+    "变分构造"
+   ],
+   "field": "线性代数与机器学习理论基础",
+   "innovations": [
+    "从几何实验重新发现SVD，谱定理成为被证明的结论而非起点",
+    "变分构造与幂迭代法同构，证明即算法",
+    "精确划定SVD在各ML方法中的贡献边界"
+   ]
+  }
+ }
 }

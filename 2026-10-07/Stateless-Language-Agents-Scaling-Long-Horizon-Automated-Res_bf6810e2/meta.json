@@ -4,5 +4,32 @@
  "title": "Stateless-Language-Agents-Scaling-Long-Horizon-Automated-Res",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-10-07 08:14:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:41:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "stateless language agent",
+    "long-horizon automation",
+    "automated research",
+    "multi-agent coordination",
+    "context management",
+    "code optimization"
+   ],
+   "field": "多智能体自动化研究系统",
+   "innovations": [
+    "提出有状态搜索与无状态智能体的架构原则，由 harness 持有全部研究状态并按角色按需重构每次 agent 上下文",
+    "设计证据驱动的 Advisor-Worker 两角色协调机制，以 lane-local best 与 regime pivot re-seed 保留替代探索方向",
+    "在十亿 token 级别构建统一评测协议，证明聚焦上下文与显式分配的效应随运行长度累积放大且 Advisor 开销<0.6%"
+   ],
+   "benchmarks": [
+    "FrontierSWE",
+    "Anthropic VLIW SIMD Kernel Optimization",
+    "SOL-ExecBench",
+    "FrontierCS Structured-LWE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "TRACE-Rollout-Guided-Quantization-Aware-Training-for-FP4-Rei",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-07 08:14:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/47752944-121a-4d27-9632-18d9efb35f9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/47752944-121a-4d27-9632-18d9efb35f9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:43:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FP4量化",
+    "强化学习",
+    "MoE语言模型",
+    "训练-推理不一致",
+    "量化感知训练"
+   ],
+   "field": "大模型低精度训练与量化",
+   "innovations": [
+    "用rollout侧量化结果直接指导训练侧FP4 rounding以最小化跨路径差异",
+    "仅保留深层mantissa+scale的轻量化量化信息缓存机制"
+   ],
+   "benchmarks": [
+    "LiveCodeBench v6",
+    "AIME 2024/2025",
+    "HMMT 2025",
+    "Terminal-Bench 2.1",
+    "DeepSWE v1.1",
+    "GDPval"
+   ]
+  }
+ }
 }

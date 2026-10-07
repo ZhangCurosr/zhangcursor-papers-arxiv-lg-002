@@ -4,5 +4,33 @@
  "title": "Scalable-extraction-and-visualization-of-multi-attribute-log",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-07 08:19:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7e2684cc-5013-4164-b6c7-b9ae07ff70ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7e2684cc-5013-4164-b6c7-b9ae07ff70ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:39:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "logical dependency",
+    "functional dependency",
+    "tabular data",
+    "hypergraph",
+    "vantage-point tree",
+    "dependency visualization",
+    "scalable extraction"
+   ],
+   "field": "表格数据挖掘与依赖发现",
+   "innovations": [
+    "统一 Q 分数框架联合抽取多属性 LD 与 FD 并区分最小化策略",
+    "超图引导的局部化依赖搜索使高维场景可扩展",
+    "基于 VP-tree 的非对称依赖近似检索加速首层矩阵构建"
+   ],
+   "benchmarks": [
+    "FDTool",
+    "US Census",
+    "METABRIC",
+    "Tic Insurance"
+   ]
+  }
+ }
 }

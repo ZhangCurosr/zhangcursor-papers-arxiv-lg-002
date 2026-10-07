@@ -4,5 +4,10 @@
  "title": "Seeing-the-Invisible-Physics-Guided-Visual-Prompting-for-Tem",
  "token": "sk-RiyVHqe9d...",
  "created_at": "2026-10-07 08:15:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/fc337ba1-e506-4675-8b5c-699abb23c419.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/fc337ba1-e506-4675-8b5c-699abb23c419.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:40:55",
+  "chunks": 1
+ }
 }

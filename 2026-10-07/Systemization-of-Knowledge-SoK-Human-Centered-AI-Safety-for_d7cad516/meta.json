@@ -4,5 +4,32 @@
  "title": "Systemization-of-Knowledge-SoK-Human-Centered-AI-Safety-for",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-10-07 08:13:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e45cce4a-8ede-40f0-a389-3f1698121443.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e45cce4a-8ede-40f0-a389-3f1698121443.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:42:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "青少年AI安全",
+    "系统性综述",
+    "风险-对策映射",
+    "YAIR分类",
+    "MIT缓解分类",
+    "人机交互",
+    "AI治理"
+   ],
+   "field": "青少年AI安全与HCI系统性综述",
+   "innovations": [
+    "构建风险-对策双轴映射矩阵并按提议/设计/实施/评估四级成熟度分层，使保护缺口可视化",
+    "揭示现有分类法对青少年特异性风险与对策的结构盲区（发展适应、教学支架、同伴脱离、儿童-家庭同意）",
+    "提出从组件级精度评估转向真实部署中青少年伤害防护效果的评估范式转换"
+   ],
+   "benchmarks": [
+    "YouthSafe（青少年-GenAI对话安全基准）",
+    "YAIR风险分类（6类84项编号风险）",
+    "MIT AI Risk Mitigation Taxonomy（4域23子类）"
+   ]
+  }
+ }
 }

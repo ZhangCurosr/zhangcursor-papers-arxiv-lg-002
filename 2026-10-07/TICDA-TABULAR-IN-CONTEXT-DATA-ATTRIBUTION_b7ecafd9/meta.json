@@ -4,5 +4,34 @@
  "title": "TICDA-TABULAR-IN-CONTEXT-DATA-ATTRIBUTION",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-07 08:13:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dfad6cab-490d-45ba-9e85-f102f2e4c7c4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/dfad6cab-490d-45ba-9e85-f102f2e4c7c4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:43:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular foundation models",
+    "in-context learning",
+    "data attribution",
+    "influence functions",
+    "context curation",
+    "active learning",
+    "label error detection"
+   ],
+   "field": "表格基础模型的可解释性与数据归因",
+   "innovations": [
+    "提出TICDA：在TFM冻结表征上拟合岭回归代理，单次前向传递推导闭式解的影响力得分，绕过ICL无参数更新的障碍",
+    "设计自影响与查询影响两种互补度量，分别用于标注错误检测和上下文裁剪，并验证跨TFM属性得分迁移",
+    "推导基于TICDA的主动学习获取策略，利用Sherman-Morrison闭式更新实现高效batch选择"
+   ],
+   "benchmarks": [
+    "TabArena (38 datasets)",
+    "TabICLv2",
+    "TabDPT 1.2",
+    "TabPFN-3",
+    "TabPFN-3.5"
+   ]
+  }
+ }
 }

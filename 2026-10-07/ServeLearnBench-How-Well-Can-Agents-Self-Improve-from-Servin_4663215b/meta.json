@@ -4,5 +4,32 @@
  "title": "ServeLearnBench-How-Well-Can-Agents-Self-Improve-from-Servin",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-10-07 08:14:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c984dc9e-3bad-49e3-8173-523498762fef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c984dc9e-3bad-49e3-8173-523498762fef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:41:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "Agent 服务经验学习",
+    "动态环境基准",
+    "Hidden 策略推断",
+    "探索多样性"
+   ],
+   "field": "Agent 持续学习与在线适应",
+   "innovations": [
+    "提出 EESD 抽象与 ServeLearnBench 基准（53 窗口/7,718 任务/3 领域×3 难度）",
+    "揭示 AUC_E 探索多样性与最终性能 ρ=1.00 的完美相关",
+    "双切面评测（Hidden-Dependent vs Fully Specified）量化持续学习的收益与代价"
+   ],
+   "benchmarks": [
+    "ServeLearnBench",
+    "τ-bench",
+    "LLF-Bench",
+    "StreamBench",
+    "StateMemBench"
+   ]
+  }
+ }
 }

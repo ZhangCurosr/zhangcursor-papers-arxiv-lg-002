@@ -4,5 +4,33 @@
  "title": "Secure-Speculative-Decoding-for-Large-Language-Models",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-07 08:14:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:40:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推测解码",
+    "安全-效用不对称",
+    "有损推测解码",
+    "jailbreak",
+    "prompt injection",
+    "LLM安全",
+    "推理加速"
+   ],
+   "field": "大语言模型推理安全",
+   "innovations": [
+    "首次系统性揭示有损推测解码的安全-效用不对称性",
+    "提出SECURESD位置感知验证校正方法，以极小开销恢复安全性能"
+   ],
+   "benchmarks": [
+    "Jailbreak-SD",
+    "OpenPromptInjection",
+    "AgentDojo",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

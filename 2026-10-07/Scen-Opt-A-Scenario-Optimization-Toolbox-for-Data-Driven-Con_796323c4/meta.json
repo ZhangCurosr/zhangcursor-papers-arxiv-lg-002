@@ -4,5 +4,33 @@
  "title": "Scen-Opt-A-Scenario-Optimization-Toolbox-for-Data-Driven-Con",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-10-07 08:13:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/92916986-c016-4139-9159-a7eb4b9ded12.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/92916986-c016-4139-9159-a7eb4b9ded12.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "场景优化",
+    "数据驱动凸规划",
+    "风险证书",
+    "支撑集",
+    "CVXPY",
+    "概率泛化保证"
+   ],
+   "field": "数据驱动优化与鲁棒控制",
+   "innovations": [
+    "首个开源场景优化工具箱Scen-Opt，统一支持LP/QP/SDP三类凸规划及其四种变体",
+    "基于支撑集自动识别的双侧风险证书计算流程，含退化检测",
+    "现代Web GUI配合符号/数值双模式输入，支持8种数据格式"
+   ],
+   "benchmarks": [
+    "Inventory Management",
+    "Portfolio CVaR",
+    "Radiation Therapy",
+    "Minimum Enclosing Ellipsoid",
+    "LPV Stability"
+   ]
+  }
+ }
 }

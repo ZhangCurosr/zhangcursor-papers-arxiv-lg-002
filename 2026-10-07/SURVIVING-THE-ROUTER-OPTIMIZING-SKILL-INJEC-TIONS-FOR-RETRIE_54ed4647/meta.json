@@ -4,5 +4,30 @@
  "title": "SURVIVING-THE-ROUTER-OPTIMIZING-SKILL-INJEC-TIONS-FOR-RETRIE",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-10-07 08:13:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/063e90db-4c95-41de-8461-70b3f80c323f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/063e90db-4c95-41de-8461-70b3f80c323f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:38:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "skill injection",
+    "prompt injection",
+    "LLM agent security",
+    "retrieval attack",
+    "agent skill",
+    "security evaluation"
+   ],
+   "field": "LLM Agent 安全与鲁棒性",
+   "innovations": [
+    "揭示skill router对技能注入攻击的关键过滤作用，纠正现有工作的高估偏差",
+    "提出CORSA聚类级路由器感知优化框架，两阶段分离优化检索与执行目标",
+    "系统验证跨模型/路由器/Agent框架的注入技能迁移性与泛化性"
+   ],
+   "benchmarks": [
+    "SkillRouter",
+    "SKILLINJECT payload taxonomy"
+   ]
+  }
+ }
 }

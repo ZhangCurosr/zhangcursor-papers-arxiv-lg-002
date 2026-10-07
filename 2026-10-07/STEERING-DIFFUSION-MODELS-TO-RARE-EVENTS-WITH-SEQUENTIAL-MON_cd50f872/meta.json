@@ -4,5 +4,29 @@
  "title": "STEERING-DIFFUSION-MODELS-TO-RARE-EVENTS-WITH-SEQUENTIAL-MON",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-07 08:14:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/23905eab-8afd-478e-ac55-01bb9c0c2f84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/23905eab-8afd-478e-ac55-01bb9c0c2f84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:40:01",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "rare event estimation",
+    "diffusion model guidance",
+    "sequential Monte Carlo",
+    "Doob reward",
+    "splitting estimator"
+   ],
+   "field": "生成模型稀有事件采样",
+   "innovations": [
+    "Doob奖励递归与倾斜链构造",
+    "SMC-扩散模型统一框架与无偏性证明",
+    "Gaussian核下引导梯度的精确化简"
+   ],
+   "benchmarks": [
+    "SNIS估计偏差分析",
+    "Splitting Estimator Formulation I/II对比"
+   ]
+  }
+ }
 }

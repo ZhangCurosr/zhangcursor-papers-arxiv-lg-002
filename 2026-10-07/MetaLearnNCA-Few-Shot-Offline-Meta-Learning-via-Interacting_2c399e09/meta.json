@@ -4,5 +4,34 @@
  "title": "MetaLearnNCA-Few-Shot-Offline-Meta-Learning-via-Interacting",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-07 08:18:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/709e0f97-83bc-41ae-9a39-c9c956c427f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/709e0f97-83bc-41ae-9a39-c9c956c427f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:37:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot meta-learning",
+    "neural cellular automata",
+    "gradient-free learning",
+    "spatial program",
+    "out-of-distribution transfer",
+    "decentralized optimization"
+   ],
+   "field": "少样本元学习与神经形态计算",
+   "innovations": [
+    "通过耦合 Active-NCA 与 Meta-NCA 的分布式交互实现无需测试时梯度的少样本离线适应",
+    "将像素级空间残差误差转化为 2D 程序场的去中心化细胞优化器",
+    "在非冯·诺依曼底物上验证梯度-free 学习-学习的涌现与结构容错性"
+   ],
+   "benchmarks": [
+    "Omniglot",
+    "MNIST",
+    "Fashion-MNIST",
+    "KMNIST",
+    "USPS",
+    "MedMNIST"
+   ]
+  }
+ }
 }

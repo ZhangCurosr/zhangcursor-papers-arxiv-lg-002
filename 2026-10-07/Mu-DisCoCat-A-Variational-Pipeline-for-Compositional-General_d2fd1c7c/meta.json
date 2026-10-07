@@ -4,5 +4,29 @@
  "title": "Mu-DisCoCat-A-Variational-Pipeline-for-Compositional-General",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-07 08:13:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e71cfccd-d237-43e9-b994-f9bb3e90af57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e71cfccd-d237-43e9-b994-f9bb3e90af57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:37:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合概念泛化",
+    "DisCoCat",
+    "变分量子电路",
+    "多模态量子学习",
+    "破坏性SWAP测试",
+    "量子硬件验证"
+   ],
+   "field": "量子自然语言处理与组合泛化",
+   "innovations": [
+    "多模态DisCoCat两阶段训练框架",
+    "硬件兼容的破坏性SWAP测试实现",
+    "量子模型以极少参数实现优于CLIP的组合泛化"
+   ],
+   "benchmarks": [
+    "CoBi2/CLEVR OOD组合评估"
+   ]
+  }
+ }
 }

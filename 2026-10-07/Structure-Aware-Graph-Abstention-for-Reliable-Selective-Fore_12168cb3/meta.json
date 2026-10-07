@@ -4,5 +4,35 @@
  "title": "Structure-Aware-Graph-Abstention-for-Reliable-Selective-Fore",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-07 08:15:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/adfa74bf-a914-4bd7-8275-1a3b580942cb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/adfa74bf-a914-4bd7-8275-1a3b580942cb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:42:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "selective forecasting",
+    "structure-aware abstention",
+    "multivariate time series",
+    "graph energy",
+    "temporal energy model",
+    "structured uncertainty"
+   ],
+   "field": "多变量时间序列选择性预测",
+   "innovations": [
+    "提出关系一致性作为选择性预测的独立可靠性轴，通过可学习稀疏图与狄利克雷式结构能量 $E_{\\text{struct}}$ 实现",
+    "设计错误加权图正则 + score–error 对齐两个辅助损失，使结构能量排序与预测误差一致",
+    "在 7 个公开长时序基准与 4 个骨干上验证：结构门控在 Weather/Electricity/Traffic 等耦合强数据集上显著优于 TEM，与实例级能量互补"
+   ],
+   "benchmarks": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "Electricity",
+    "Traffic",
+    "Weather"
+   ]
+  }
+ }
 }

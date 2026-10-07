@@ -4,5 +4,35 @@
  "title": "Self-Retrospection-Distillation-Turning-Post-hoc-Experiences",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-10-07 08:11:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b3fa2f99-39e4-49bf-b5ff-96d2b9a2ef96.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b3fa2f99-39e4-49bf-b5ff-96d2b9a2ef96.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:40:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "reinforcement learning",
+    "self-distillation",
+    "agent reasoning",
+    "prospective learning",
+    "tool-integrated reasoning",
+    "reward-uniform groups"
+   ],
+   "field": "LLM Agent 训练与强化学习",
+   "innovations": [
+    "提出预期学习范式，以后见之明监督交互前的预测而非行为",
+    "设计SRD可组合蒸馏损失，使reward-uniform组仍可提供dense监督",
+    "理论证明并经验验证SRD在98%全失败极端场景下使2B模型从0%恢复至60.6%"
+   ],
+   "benchmarks": [
+    "AIME 2024/2026",
+    "LiveCodeBench-v6",
+    "HotpotQA",
+    "ALFWorld",
+    "BrowseComp-Plus",
+    "OJBench",
+    "WebShop"
+   ]
+  }
+ }
 }

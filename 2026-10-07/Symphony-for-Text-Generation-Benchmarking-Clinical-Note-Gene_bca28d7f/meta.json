@@ -4,5 +4,33 @@
  "title": "Symphony-for-Text-Generation-Benchmarking-Clinical-Note-Gene",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-10-07 08:09:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8b8a52f4-2865-48ab-8e1c-03872acef04e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8b8a52f4-2865-48ab-8e1c-03872acef04e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 17:42:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ambient clinical scribe",
+    "clinical note generation",
+    "LLM-as-judge",
+    "PDSQI-9",
+    "entailment metrics",
+    "MedConv",
+    "ACI-BENCH",
+    "template configurability"
+   ],
+   "field": "临床自然语言处理与医疗AI评测",
+   "innovations": [
+    "提出蕴含三指标与PDSQI-9成对偏好结合的多维评估协议，显式捕捉遗漏与临床维度差异",
+    "发布多语言MedConv并构建受控跨系统跨语言基准，区分生成质量与系统实现差异",
+    "演示通过少量模板/提示干预即可在简洁性-详尽性之间可控迁移，并保留正向总体偏好"
+   ],
+   "benchmarks": [
+    "ACI-BENCH",
+    "MedConv",
+    "PDSQI-9 pairwise preference"
+   ]
+  }
+ }
 }
