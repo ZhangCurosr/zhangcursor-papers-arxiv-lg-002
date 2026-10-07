@@ -4,5 +4,40 @@
  "title": "On-Policy-Distillation-with-Negative-Policy-Rollouts",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-07 08:13:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0e37e464-8874-44d0-9a94-98daba530e34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0e37e464-8874-44d0-9a94-98daba530e34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:11:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "negative policy",
+    "post-training",
+    "knowledge distillation",
+    "LLM reasoning"
+   ],
+   "field": "大语言模型后训练与蒸馏",
+   "innovations": [
+    "在rollout阶段混入低能力负策略轨迹为OPD注入显式负向信号，不修改reward",
+    "提出NSP/NOR诊断指标量化负压制与分布偏移",
+    "揭示ExOPD/OPD²隐式负信号来源并提供可叠加的负策略扩展"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "HMMT25",
+    "MATH500",
+    "OlympiadBench",
+    "RGMath",
+    "CodeForces",
+    "LCBv5",
+    "RGAlgo",
+    "GPQA",
+    "SuperGPQA",
+    "SciBench"
+   ]
+  }
+ }
 }

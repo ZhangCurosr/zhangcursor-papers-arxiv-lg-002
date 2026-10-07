@@ -4,5 +4,31 @@
  "title": "Learning-Explainable-Representations-of-Complex-Game-playing",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-07 08:15:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d2b4692b-1ea0-4f3c-9e40-dd00933eab68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d2b4692b-1ea0-4f3c-9e40-dd00933eab68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:08:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "strategy synthesis",
+    "decision transformer",
+    "inductive logic programming",
+    "interpretable policy",
+    "programmatic reinforcement learning",
+    "chess tactics",
+    "Karel"
+   ],
+   "field": "可解释强化学习与程序合成",
+   "innovations": [
+    "将策略合成建模为MDP并用决策Transformer生成离散DSL程序",
+    "把国际象棋战术用一阶逻辑/ILP从新手对局中学习",
+    "对DT做动作掩码/交叉熵/GRU状态嵌入的离散化改造"
+   ],
+   "benchmarks": [
+    "Karel tasks (cleanHouse/fourCorners/harvester/randomMaze/stairClimber/topOff)",
+    "Chess beginner positions vs Stockfish 14 and Maia-1600"
+   ]
+  }
+ }
 }

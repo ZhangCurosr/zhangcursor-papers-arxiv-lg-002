@@ -4,5 +4,34 @@
  "title": "Personal-Agent-Mediated-Recommendation-with-Cross-Platform-U",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-10-07 08:16:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b0e922ab-13ea-415b-b15a-dde0bb21e233.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b0e922ab-13ea-415b-b15a-dde0bb21e233.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:13:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Personal-Agent Mediated Recommendation",
+    "Cross-Platform History",
+    "MediateRec",
+    "PAMO",
+    "Reinforcement Learning for LLMs",
+    "Rescue-Harm Trade-off",
+    "User-Governed Personalization"
+   ],
+   "field": "个性化推荐系统与多平台用户建模",
+   "innovations": [
+    "形式化个人Agent中介推荐范式并刻画拯救-有害覆盖权衡",
+    "提出MediateRec基准含真实跨平台OpenPlay外部测试",
+    "设计PAMO通过反事实mask估计个人中介支持度并价值保留优势重分配"
+   ],
+   "benchmarks": [
+    "MediateRec-Movie",
+    "MediateRec-Toy",
+    "MediateRec-Grocery",
+    "MediateRec-Beauty",
+    "MediateRec-OpenPlay"
+   ]
+  }
+ }
 }

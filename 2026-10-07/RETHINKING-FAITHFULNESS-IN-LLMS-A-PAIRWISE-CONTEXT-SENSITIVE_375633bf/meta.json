@@ -4,5 +4,34 @@
  "title": "RETHINKING-FAITHFULNESS-IN-LLMS-A-PAIRWISE-CONTEXT-SENSITIVE",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-10-07 08:13:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b3cb807d-d7a5-486d-87fb-f848af75771f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b3cb807d-d7a5-486d-87fb-f848af75771f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:15:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "faithfulness",
+    "pairwise evaluation",
+    "over-answering",
+    "over-abstention",
+    "knowledge leakage",
+    "RAG",
+    "GRPO",
+    "data-centric analysis"
+   ],
+   "field": "大语言模型评估与对齐",
+   "innovations": [
+    "提出配对忠实性基准 PFaithBench，控制问题变量评估回答-拒绝切换能力",
+    "揭示过度回答偏差与内部知识泄漏的关联及训练数据构成的关键影响"
+   ],
+   "benchmarks": [
+    "PFaithBench",
+    "HotpotQA",
+    "2WikiMultihopQA",
+    "SQuAD",
+    "ConFiQA"
+   ]
+  }
+ }
 }

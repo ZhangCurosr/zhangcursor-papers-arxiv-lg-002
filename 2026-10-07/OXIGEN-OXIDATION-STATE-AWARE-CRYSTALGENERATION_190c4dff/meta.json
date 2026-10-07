@@ -4,5 +4,32 @@
  "title": "OXIGEN-OXIDATION-STATE-AWARE-CRYSTALGENERATION",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-07 08:17:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/595b0259-f8a4-491b-9240-8e2a9671d345.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/595b0259-f8a4-491b-9240-8e2a9671d345.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:11:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "crystal generation",
+    "diffusion model",
+    "oxidation state",
+    "structured inference",
+    "finite-state automaton",
+    "materials discovery",
+    "charge neutrality"
+   ],
+   "field": "无机晶体生成与逆设计",
+   "innovations": [
+    "将电荷中性约束建模为有限状态自动机并通过动态规划实现精确结构化采样",
+    "以物种（元素-氧化态对）替代元素作为离散扩散单位，显式学习氧化态频率分布",
+    "在 MatterGen 架构基础上最小改动实现氧化态感知晶体生成"
+   ],
+   "benchmarks": [
+    "MP-20-OS",
+    "LeMat-GenBench",
+    "ICSD oxidation-state prediction"
+   ]
+  }
+ }
 }

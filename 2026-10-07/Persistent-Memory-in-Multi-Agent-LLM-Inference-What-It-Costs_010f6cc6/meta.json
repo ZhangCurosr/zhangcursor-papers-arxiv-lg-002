@@ -4,5 +4,35 @@
  "title": "Persistent-Memory-in-Multi-Agent-LLM-Inference-What-It-Costs",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-10-07 08:14:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6b12a919-fb67-4d2c-8f3b-c814260c2a9e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/6b12a919-fb67-4d2c-8f3b-c814260c2a9e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:13:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent memory",
+    "multi-agent LLM",
+    "KV cache measurement",
+    "ablation integrity",
+    "long-context inference",
+    "benchmarking methodology"
+   ],
+   "field": "多智能体系统与长上下文推理的评估方法",
+   "innovations": [
+    "首次将峰值KV缓存作为可消融的系统级指标报告，证明架构分解本身即可将峰值KV降低约60%",
+    "揭示独立题项基准在验证跨查询记忆召回时的结构性零假设，并提出四项可复用的消融检测条件"
+   ],
+   "benchmarks": [
+    "HotpotQA",
+    "LB-HotpotQA",
+    "GPQA",
+    "MMLU-Pro",
+    "LB-2WikiMultihopQA",
+    "LB-MuSiQue",
+    "NarrativeQA",
+    "Qasper"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "REFOLD-TRAINING-FREE-REVERSIBLE-INTER-TURN-CONTEXT-FOLDING-F",
  "token": "sk-ZWbnnHdTr...",
  "created_at": "2026-10-07 08:17:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c7553510-6deb-4d41-8589-61b4e12d2bcc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c7553510-6deb-4d41-8589-61b4e12d2bcc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:15:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-horizon agents",
+    "context management",
+    "LLM serving",
+    "prefix cache",
+    "training-free compression"
+   ],
+   "field": "Agent 系统效率优化",
+   "innovations": [
+    "无训练可逆渲染层：通过 deduplication 和 folding 两个算子压缩 agent 渲染上下文，保留原始 append-only history",
+    "Chunked rendering 保护 prefix cache：每 k 步批量更新边界，使 cache hit 从 51% 恢复至 87%",
+    "严格可逆的内容移除：通过 restore 命令从 history 恢复被压缩内容，消除永久信息丢失风险"
+   ],
+   "benchmarks": [
+    "SWE-bench Verified",
+    "SWE-bench Pro",
+    "Multi-SWE-bench",
+    "Terminal-Bench 1.0",
+    "Terminal-Bench 2.1"
+   ]
+  }
+ }
 }

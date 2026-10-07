@@ -4,5 +4,33 @@
  "title": "PHBA-PREFIX-STATE-HYBRID-BLOCK-ATTENTION",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-10-07 08:16:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ae9a2ace-15f8-43be-b03a-814cd94d6c84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ae9a2ace-15f8-43be-b03a-814cd94d6c84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:12:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "block-sparse attention",
+    "hybrid architecture",
+    "prefix state",
+    "long-context modeling",
+    "hardware-efficient attention",
+    "gated slot memory"
+   ],
+   "field": "高效长上下文语言模型架构",
+   "innovations": [
+    "用内容相关的 top-k 块稀疏检索替代固定滑动窗口，使稀疏注意力预算按查询-历史相关性动态分配",
+    "在块边界构建门控槽位前缀状态，使每个检索到的历史块都能获得其 preceding context 的紧凑摘要并在统一 softmax 下联合归一化"
+   ],
+   "benchmarks": [
+    "FineWeb-Edu",
+    "RULER",
+    "NIAH",
+    "LongBench",
+    "WikiText",
+    "LAMBADA"
+   ]
+  }
+ }
 }

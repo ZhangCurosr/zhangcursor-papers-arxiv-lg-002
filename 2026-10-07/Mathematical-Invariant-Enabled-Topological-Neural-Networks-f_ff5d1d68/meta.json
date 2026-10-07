@@ -4,5 +4,34 @@
  "title": "Mathematical-Invariant-Enabled-Topological-Neural-Networks-f",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-07 08:14:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fdc6c82-5f89-4305-bc4b-d72233c4c863.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fdc6c82-5f89-4305-bc4b-d72233c4c863.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:10:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "persistent homology",
+    "topological deep learning",
+    "molecular property prediction",
+    "simplicial neural network",
+    "Forman curvature",
+    "mathematical invariants",
+    "MOF gas uptake",
+    "protein-ligand binding"
+   ],
+   "field": "拓扑深度学习与分子/材料性质预测",
+   "innovations": [
+    "提出数学多模态统一框架MITNN，整合5类多尺度不变量与4类神经架构的系统性配对",
+    "发现最优集成仅需6-9个基模型而非全量20个，揭示不变量-架构配对的选择性集成优于全量聚合",
+    "跨5项基准任务一致超越现有最先进方法，建立数学多模态科学机器学习的实证基础"
+   ],
+   "benchmarks": [
+    "CASF-2016",
+    "MOF O2/N2 gas uptake",
+    "PON-Sol2",
+    "LD50 toxicity prediction"
+   ]
+  }
+ }
 }

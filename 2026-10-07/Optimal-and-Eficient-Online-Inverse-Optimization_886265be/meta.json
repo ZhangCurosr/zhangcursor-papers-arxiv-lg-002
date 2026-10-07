@@ -4,5 +4,10 @@
  "title": "Optimal-and-Eficient-Online-Inverse-Optimization",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-07 08:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f5a5631d-f21f-4eb7-a2e8-4bd972b8e454.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f5a5631d-f21f-4eb7-a2e8-4bd972b8e454.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:12:31",
+  "chunks": 1
+ }
 }

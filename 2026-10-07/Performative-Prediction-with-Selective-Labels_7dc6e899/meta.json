@@ -4,5 +4,29 @@
  "title": "Performative-Prediction-with-Selective-Labels",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-07 08:13:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/66258af7-15ea-4b76-9b7b-1c9552358134.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/66258af7-15ea-4b76-9b7b-1c9552358134.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:13:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "performative prediction",
+    "selective labels",
+    "repeated risk minimization",
+    "robust optimization",
+    "fair lending",
+    "partial identification"
+   ],
+   "field": "performative machine learning",
+   "innovations": [
+    "证明在阈值化选择性标签下朴素RRM可偏离稳定解diam(Θ)量级",
+    "构造worst-case loss并提出Robust RRM，在强凸框架下有界逼近真正稳定解",
+    "利用历史接受样本的Lipschitz外推动态收紧标签概率区间，使误差界随迭代单调收缩"
+   ],
+   "benchmarks": [
+    "Fair Lending with FICO dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "QF3-Fast-Flow-RL-with-Filtered-Q-Gradients",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-10-07 08:15:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/81f2cced-1eb6-4ebb-be7c-e2a441cbf85b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/81f2cced-1eb6-4ebb-be7c-e2a441cbf85b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:14:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "flow matching",
+    "off-policy RL",
+    "robot policy",
+    "humanoid control",
+    "diffusion policy",
+    "manipulation fine-tuning"
+   ],
+   "field": "机器人强化学习",
+   "innovations": [
+    "提出 QF3：结合 flow matching 与 filtered Q-gradient 的 off-policy actor 更新，通过 velocity 空间裁剪实现 stable policy improvement",
+    "首次实现 off-policy flow RL 从零训练人形机器人并 zero-shot 部署到真实硬件",
+    "适用于 pretraining 策略的微调：通过 dual anchor 保持 pretrained behavior 同时允许 critic-driven 改进"
+   ],
+   "benchmarks": [
+    "Gymnasium MuJoCo-v4",
+    "Holosoma Unitree G1",
+    "ABC-Sim",
+    "Robomimic"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Machine-Learning-for-German-Redispatch-Forecasting-under-Dat",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-07 08:16:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82f2dd8a-1bab-4484-a06d-813dc26f5d45.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82f2dd8a-1bab-4484-a06d-813dc26f5d45.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:10:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Redispatch forecasting",
+    "probabilistic forecasting",
+    "conformal calibration",
+    "zero-inflated time series",
+    "temporal distribution shift",
+    "LightGBM",
+    "delayed information"
+   ],
+   "field": "能源系统概率预测",
+   "innovations": [
+    "延迟反馈滚动校准显著提升区间可靠性",
+    "零截断分位数输出头解决零值膨胀分布兼容性",
+    "聚合-条件覆盖率分离评估揭示极端事件欠覆盖"
+   ],
+   "benchmarks": [
+    "nWIS",
+    "empirical coverage",
+    "block-bootstrap inference"
+   ]
+  }
+ }
 }

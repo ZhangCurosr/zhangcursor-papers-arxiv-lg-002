@@ -4,5 +4,33 @@
  "title": "Recurrent-Looped-Transformer",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-10-07 08:16:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fd6dd77-2a68-4688-8a5b-5c98b5c550c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fd6dd77-2a68-4688-8a5b-5c98b5c550c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:16:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "循环Transformer",
+    "状态追踪",
+    "长度外推",
+    "反馈机制",
+    "算法推理",
+    "编码器-解码器分解"
+   ],
+   "field": "Transformer架构与长度泛化",
+   "innovations": [
+    "将Transformer层划分为并行因果编码器与循环解码器，通过每token最终状态反馈使有效计算路径随序列长度增长",
+    "提出反馈间隔B作为并行度-精度的可调设计轴（RLT-1/RLT-2/RLT-0）",
+    "系统揭示encoder-decoder深度分配因任务而异（奇偶校验偏好浅解码器，置换追踪偏好深解码器）"
+   ],
+   "benchmarks": [
+    "奇偶校验（parity）",
+    "swap-based S5置换追踪",
+    "标准S5状态追踪",
+    "模5算术（无括号/有括号）",
+    "加法"
+   ]
+  }
+ }
 }

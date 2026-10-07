@@ -4,5 +4,33 @@
  "title": "Learning-PDE-solution-operators-with-variable-initial-condit",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-07 08:17:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a762797c-8734-495a-9bc7-74303851020a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a762797c-8734-495a-9bc7-74303851020a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:09:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "PDE surrogate",
+    "latent dynamics network",
+    "meta-learning",
+    "encoder-free",
+    "neural ODE",
+    "operator learning",
+    "initial condition adaptation"
+   ],
+   "field": "科学机器学习/PDE算子学习",
+   "innovations": [
+    "将LDNet扩展至可变初始条件，提出两种无编码器适应策略（自解码与元学习）",
+    "证明元学习不仅加速推理（>10x），还自发形成具物理拓扑意义的潜在空间",
+    "基于CAVIA框架的端到端双循环训练，无需多阶段预训练即可快速适应新初始状态"
+   ],
+   "benchmarks": [
+    "1D Advection-Diffusion-Reaction",
+    "2D flow around static cylinder (Re=100)",
+    "2D flow around rotating cylinder",
+    "3D nonlinear solid dynamics of cantilever beam"
+   ]
+  }
+ }
 }

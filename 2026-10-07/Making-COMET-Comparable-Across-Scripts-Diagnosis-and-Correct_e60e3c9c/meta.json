@@ -4,5 +4,32 @@
  "title": "Making-COMET-Comparable-Across-Scripts-Diagnosis-and-Correct",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-10-07 08:09:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82d5902b-4e66-4956-b4d6-797baf8d7621.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82d5902b-4e66-4956-b4d6-797baf8d7621.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "machine translation evaluation",
+    "COMET",
+    "script bias",
+    "tokenization parity",
+    "quantile normalization",
+    " IndicMT Eval",
+    "metric robustness"
+   ],
+   "field": "机器翻译自动评测与多语言鲁棒性",
+   "innovations": [
+    "首次受控因果检验 COMET 脚本不变性并量化脚本方差占比",
+    "将脚本偏置分解为可精确校正的校准故障与不可保序修复的敏感性损失",
+    "提出无标签分位数归一化 COMET-QN 与奇偶特征回归器恢复跨脚本可比性"
+   ],
+   "benchmarks": [
+    "IndicMT Eval",
+    "WMT24 ENG-SPA/ENG-DEU",
+    "Dakshina 转写基准"
+   ]
+  }
+ }
 }

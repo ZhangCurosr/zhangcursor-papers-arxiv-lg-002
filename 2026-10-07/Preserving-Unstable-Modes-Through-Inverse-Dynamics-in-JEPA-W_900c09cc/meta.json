@@ -4,5 +4,31 @@
  "title": "Preserving-Unstable-Modes-Through-Inverse-Dynamics-in-JEPA-W",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-07 08:18:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/26408f07-7d00-4913-8425-95a79632b79f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/26408f07-7d00-4913-8425-95a79632b79f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:13:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "世界模型",
+    "逆动力学",
+    "不稳定模态",
+    "视觉控制",
+    "表征学习",
+    "可控性"
+   ],
+   "field": "机器人学习与世界模型",
+   "innovations": [
+    "揭示JEPA标准训练无法保证保留控制所需的不稳定模态",
+    "提出EP-IDM端点逆动力学损失并证明其保留可达子空间的理论保证"
+   ],
+   "benchmarks": [
+    "CartPole",
+    "Walker2D",
+    "PointMaze"
+   ]
+  }
+ }
 }

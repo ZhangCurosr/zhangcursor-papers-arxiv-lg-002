@@ -4,5 +4,31 @@
  "title": "Less-Is-More-A-Leakage-Controlled-Study-of-Dermoscopic-Prepr",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-07 08:13:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/14260cfa-c85c-4142-91f9-8deb81878451.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/14260cfa-c85c-4142-91f9-8deb81878451.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:09:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "皮肤镜图像分析",
+    "数据泄露控制",
+    "YOLO26",
+    "图像预处理",
+    "联合分类与分割",
+    "轻量级模型",
+    "HAM10000"
+   ],
+   "field": "医学图像分析",
+   "innovations": [
+    "首次实现病变级严格分离的泄露控制评估以准确衡量预处理效果",
+    "证明精简预处理配合在线增强优于复杂确定性预处理流水线",
+    "建立2.69M参数的轻量化YOLO26n-seg联合分类分割可复现基线"
+   ],
+   "benchmarks": [
+    "HAM10000",
+    "COCO协议（mask mAP）"
+   ]
+  }
+ }
 }

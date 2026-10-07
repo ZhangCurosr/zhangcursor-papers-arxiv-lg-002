@@ -4,5 +4,32 @@
  "title": "On-the-Computational-Tractability-of-Robust-Bandits",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-07 08:13:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/571621a9-0511-4479-aa5d-c38931ca2614.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/571621a9-0511-4479-aa5d-c38931ca2614.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:11:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robust bandits",
+    "computational tractability",
+    "unrealizable learning",
+    "regret bounds",
+    "QCQP",
+    "NP-hardness",
+    "AI alignment"
+   ],
+   "field": "在线学习与计算复杂性",
+   "innovations": [
+    "线性鲁棒上下文的 polytime O(√T) regret 学习器",
+    "界定线性鲁棒上下文的 NP-hard 边界",
+    "规划易但学习难的分离反例"
+   ],
+   "benchmarks": [
+    "stochastic linear bandits lower bound Ω(√T)",
+    "MAX-CUT reduction",
+    "CLIQUE reduction"
+   ]
+  }
+ }
 }

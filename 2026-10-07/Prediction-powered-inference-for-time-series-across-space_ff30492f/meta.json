@@ -4,5 +4,35 @@
  "title": "Prediction-powered-inference-for-time-series-across-space",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-10-07 08:11:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/aea12115-5cec-4ae5-9ec6-d80dfda6014b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/aea12115-5cec-4ae5-9ec6-d80dfda6014b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-07 11:13:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "prediction-powered inference",
+    "HAC",
+    "time series",
+    "spatiotemporal",
+    "confidence interval",
+    "Newey-West",
+    "bias correction"
+   ],
+   "field": "时空统计推断与机器学习校准",
+   "innovations": [
+    "在时间平稳性下将PPI偏差校正与Newey-West HAC方差估计结合，构造有效置信区间",
+    "提出面向时序的chunking数据划分策略并证明其在偏差估计上的优势",
+    "将含ML预测的推断框架从i.i.d.推广到时序依赖设定"
+   ],
+   "benchmarks": [
+    "simulated insurance/wx-style spacetime data",
+    "classical estimator",
+    "IWI",
+    "chunkPPI",
+    "HAC",
+    "oracle"
+   ]
+  }
+ }
 }
