@@ -4,5 +4,31 @@
  "title": "Variance-Averse-n-Step-Offline-Reinforcement-Learning-for-Sp",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-10-07 19:44:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/67fb3a9b-99e7-438f-820b-128146ea9344.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/67fb3a9b-99e7-438f-820b-128146ea9344.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "offline reinforcement learning",
+    "generative policy",
+    "n-step return",
+    "distributional value estimation",
+    "variance-averse",
+    "flow matching",
+    "rejection sampling"
+   ],
+   "field": "离线强化学习",
+   "innovations": [
+    "提出方差厌恶期望算子E(·)对分类返回分布平滑重加权，联合偏好高回报与低方差",
+    "flow-matching actor通过E(·)引导的拒绝采样选择可靠动作，并用单Euler步传递critic梯度",
+    "首次证明在异构高方差数据集上生成式actor的可靠性脆弱性并提出系统性解决方案"
+   ],
+   "benchmarks": [
+    "D4RL AntMaze",
+    "OGBench"
+   ]
+  }
+ }
 }

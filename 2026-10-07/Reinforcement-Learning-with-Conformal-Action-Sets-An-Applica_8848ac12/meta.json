@@ -4,5 +4,10 @@
  "title": "Reinforcement-Learning-with-Conformal-Action-Sets-An-Applica",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-07 19:43:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/40ef77fd-676d-482a-88a5-1c709e322944.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/40ef77fd-676d-482a-88a5-1c709e322944.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:19:23",
+  "chunks": 3
+ }
 }

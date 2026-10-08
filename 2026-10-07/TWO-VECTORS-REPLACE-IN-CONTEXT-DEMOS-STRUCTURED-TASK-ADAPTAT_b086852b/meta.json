@@ -4,5 +4,32 @@
  "title": "TWO-VECTORS-REPLACE-IN-CONTEXT-DEMOS-STRUCTURED-TASK-ADAPTAT",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-10-07 19:45:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/28154ef9-f6ea-4a7a-aabe-fd5979a729d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/28154ef9-f6ea-4a7a-aabe-fd5979a729d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:21:01",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "In-Context Learning",
+    "Prompt Compression",
+    "Structured Task Adaptation",
+    "Demo Distillation",
+    "Vectorized Prompt",
+    "Efficient Inference"
+   ],
+   "field": "高效大模型推理与提示工程",
+   "innovations": [
+    "用两个可训练向量完全替换 context demonstration，实现 >95% prompt 压缩率",
+    "提出 demo-to-vector 蒸馏框架，从示例分布中学习连续向量表示",
+    "构建结构化任务适应协议与多任务基准，验证向量替代的泛化能力"
+   ],
+   "benchmarks": [
+    "TabMMP",
+    "RE-Bench",
+    "ProofWriter",
+    "HumanEval-Struct"
+   ]
+  }
+ }
 }

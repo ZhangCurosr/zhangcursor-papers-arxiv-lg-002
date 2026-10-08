@@ -4,5 +4,33 @@
  "title": "Uniform-Discrete-Diffusion-Models-are-Minimax-Optimal-for-Es",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-07 19:45:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cbe4e4d5-22f5-4b5f-bbe2-f4ea2f0af6f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cbe4e4d5-22f5-4b5f-bbe2-f4ea2f0af6f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "均匀离散扩散",
+    "有效支撑集大小",
+    "minimax最优",
+    "score熵损失",
+    "离散分布估计",
+    "维数灾难",
+    "TEV保证",
+    "KL散度"
+   ],
+   "field": "扩散模型统计理论",
+   "innovations": [
+    "建立均匀离散扩散在有效支撑集大小下的TV/KL有限样本界，证明TV下minimax最优",
+    "引入有效支撑集大小作为扩散模型统计复杂度的新度量，摆脱对环境空间K^d的依赖",
+    "证明KL下rate仅差log n因子，并构造exact one-step sampler实现同等统计率"
+   ],
+   "benchmarks": [
+    "TinyStories",
+    "Teacher-NLL KS",
+    "1-MAUVE"
+   ]
+  }
+ }
 }

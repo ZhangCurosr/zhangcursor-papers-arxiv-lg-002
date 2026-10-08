@@ -4,5 +4,31 @@
  "title": "VETTA-COORDINATING-TURN-AND-TOKEN-LEVEL-CREDIT-ASSIGNMENT-FO",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-07 19:44:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/10a61002-d578-4b17-8e93-8b0a4ae3acb7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/10a61002-d578-4b17-8e93-8b0a4ae3acb7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "credit assignment",
+    "multi-turn LLM agent",
+    "reinforcement learning",
+    "PPO",
+    "value estimation",
+    "turn-level",
+    "token-level"
+   ],
+   "field": "多轮 LLM Agent 强化学习",
+   "innovations": [
+    "双粒度信用分解：turn-level 优势 + within-response-centered token 残差的融合机制",
+    "轻量共享 Critic：仅保留前 2 个 Transformer 块实现双粒度价值估计，性能超过全深度",
+    "中心化残差融合的理论保证：在 Euclidean 距离意义下最优逼近纯 token 优势"
+   ],
+   "benchmarks": [
+    "ALFWorld",
+    "WebShop"
+   ]
+  }
+ }
 }

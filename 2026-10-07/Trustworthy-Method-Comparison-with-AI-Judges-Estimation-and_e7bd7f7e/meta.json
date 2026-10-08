@@ -4,5 +4,29 @@
  "title": "Trustworthy-Method-Comparison-with-AI-Judges-Estimation-and",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-07 19:44:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3260a38e-a6cc-4c5d-a455-40a79402e8ea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3260a38e-a6cc-4c5d-a455-40a79402e8ea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:22:59",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "AI judge",
+    "GLMM",
+    "序列效应",
+    "结构性偏差",
+    "群体比较",
+    "Williams拉丁方设计"
+   ],
+   "field": "LLM评估方法论",
+   "innovations": [
+    "建立Markov GLMM统一刻画AI judge批处理中的序列/冷启动/批次效应",
+    "严格证明naive平均在群体比较中因非线性链接函数产生结构性偏差且假阳性率随预算趋近1",
+    "提出GLMM-Wald检验作为可靠替代并在所有设置下保持正确Type I error控制"
+   ],
+   "benchmarks": [
+    "30个研究提案×200批次"
+   ]
+  }
+ }
 }

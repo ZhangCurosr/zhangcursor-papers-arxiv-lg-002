@@ -4,5 +4,31 @@
  "title": "Multi-Label-Perceptual-Bug-Detection-in-Video-Games-using-De",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-10-07 08:14:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b68ea1b1-a0f6-4bc5-a355-d0a5687bc811.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b68ea1b1-a0f6-4bc5-a355-d0a5687bc811.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:18:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multi-label Bug Detection",
+    "Perceptual Bugs",
+    "Video Analysis",
+    "ResNet-BiLSTM",
+    "Game Testing",
+    "Asymmetric Loss"
+   ],
+   "field": "游戏软件质量保障与AI辅助测试",
+   "innovations": [
+    "提出ResNet-BiLSTM多任务架构实现游戏画面感知缺陷的多标签分类",
+    "构建首个包含多达3种并发感知缺陷的77969片段基准数据集",
+    "证明双向时序建模配合注意力机制可显著提升多缺陷联合检测精度（F1 85.78%）"
+   ],
+   "benchmarks": [
+    "Multi-Label Perceptual Bug Detection Dataset",
+    "I3D",
+    "R3D-18"
+   ]
+  }
+ }
 }

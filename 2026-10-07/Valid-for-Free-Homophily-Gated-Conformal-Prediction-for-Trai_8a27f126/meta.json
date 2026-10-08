@@ -4,5 +4,38 @@
  "title": "Valid-for-Free-Homophily-Gated-Conformal-Prediction-for-Trai",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-07 19:44:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7372b1e2-5bb9-44e7-b8c9-872c1d72195d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7372b1e2-5bb9-44e7-b8c9-872c1d72195d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "conformal prediction",
+    "tabular foundation models",
+    "node classification",
+    "homophily-gated diffusion",
+    "training-free",
+    "uncertainty quantification"
+   ],
+   "field": "图机器学习中的可靠性量化",
+   "innovations": [
+    "冻结in-context predictor的split conformal prediction在有限样本下精确有效（无需训练协议审计）",
+    "HG-DAPS：由上下文标签调整同配性零调参门控score扩散，同配图缩小预测集5.8%-17.1%同时保持覆盖率",
+    "预先注册的陷阱案例：原始同配性门控在类别不平衡异配图上导致低同配节点覆盖率骤降0.12-0.27而边际覆盖率掩盖该失败"
+   ],
+   "benchmarks": [
+    "Cora",
+    "CiteSeer",
+    "PubMed",
+    "Photo",
+    "Coauthor-CS",
+    "WikiCS",
+    "Actor",
+    "Amazon-Ratings",
+    "Minesweeper",
+    "Tolokers"
+   ]
+  }
+ }
 }

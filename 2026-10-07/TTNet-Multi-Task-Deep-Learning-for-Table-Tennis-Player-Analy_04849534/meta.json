@@ -4,5 +4,31 @@
  "title": "TTNet-Multi-Task-Deep-Learning-for-Table-Tennis-Player-Analy",
  "token": "sk-tFRB7xMvI...",
  "created_at": "2026-10-07 19:44:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/22910671-95ff-42fc-8670-635353e5aedf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/22910671-95ff-42fc-8670-635353e5aedf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:19:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多任务学习",
+    "时序分类",
+    "自注意力",
+    "Focal Loss",
+    "数据增强",
+    "体育智能",
+    "可穿戴传感器"
+   ],
+   "field": "运动感知与时序深度学习",
+   "innovations": [
+    "端到端CNN-ResNet-Self-Attention多任务架构用于六轴挥拍时序",
+    "两阶段训练结合任务异构损失（Focal+Label Smoothing）提升泛化",
+    "时间反转变换等时序专用增强策略适配个人运动特征"
+   ],
+   "benchmarks": [
+    "AI CUP 2025 智能球拍数据集",
+    "TTSwing"
+   ]
+  }
+ }
 }

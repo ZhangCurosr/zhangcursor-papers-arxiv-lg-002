@@ -4,5 +4,10 @@
  "title": "UNREAL-UNIFYING-RETRIEVAL-AND-LONG-CONTEXT-WITH-A-SINGLE-MOD",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-10-07 19:44:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/daa25202-da3d-4576-8e07-61fe460c4016.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/daa25202-da3d-4576-8e07-61fe460c4016.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:08",
+  "chunks": 1
+ }
 }

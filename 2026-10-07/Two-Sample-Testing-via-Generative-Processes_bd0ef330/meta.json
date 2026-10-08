@@ -4,5 +4,29 @@
  "title": "Two-Sample-Testing-via-Generative-Processes",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-10-07 19:44:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/427ae67c-57fb-4a9c-bc2e-4bb6af4a3218.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/427ae67c-57fb-4a9c-bc2e-4bb6af4a3218.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:23:30",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "two-sample testing",
+    "generative process",
+    "variational inference",
+    "distribution comparison",
+    "Bayesian deep learning"
+   ],
+   "field": "统计学习与生成模型",
+   "innovations": [
+    "提出基于生成过程的两样本检验新框架",
+    "联合后验不确定性量化使检验统计量自带置信度"
+   ],
+   "benchmarks": [
+    "UCI Covertype",
+    "FashionMNIST",
+    "MagicTelescope"
+   ]
+  }
+ }
 }

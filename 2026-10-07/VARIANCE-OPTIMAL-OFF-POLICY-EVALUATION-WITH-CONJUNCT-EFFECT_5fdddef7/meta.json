@@ -4,5 +4,32 @@
  "title": "VARIANCE-OPTIMAL-OFF-POLICY-EVALUATION-WITH-CONJUNCT-EFFECT",
  "token": "sk-kdPBKi9MQ...",
  "created_at": "2026-10-07 08:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/340fb258-beb1-4d26-90ec-c92a84fb93e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/340fb258-beb1-4d26-90ec-c92a84fb93e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:24:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "off-policy evaluation",
+    "doubly robust",
+    "importance weighting",
+    "variance reduction",
+    "conjunct effect model",
+    "contextual bandit",
+    "policy evaluation"
+   ],
+   "field": "离策略评估与无偏估计",
+   "innovations": [
+    "将DR与OffCEM统一为单参数无偏插值族并在方差意义下求闭式最优系数",
+    "提出VOCEM估计器直接从日志数据估计最优插值系数无需额外假设",
+    "证明最优系数对应方差严格不高于两端点且在23个条件下全部优于已有方法"
+   ],
+   "benchmarks": [
+    "EUR-Lex 4K",
+    "Wiki10-31K",
+    "OffCEM synthetic benchmark"
+   ]
+  }
+ }
 }

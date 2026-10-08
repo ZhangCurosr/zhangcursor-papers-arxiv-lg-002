@@ -4,5 +4,35 @@
  "title": "Retrieval-Is-Not-Enough-Refreshing-Memory-for-Frozen-Time-Se",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-07 19:44:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3375d04f-42c1-4676-b60b-fb0edd42729a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3375d04f-42c1-4676-b60b-fb0edd42729a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:19:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "time-series forecasting",
+    "retrieval-augmented",
+    "frozen forecaster",
+    "non-parametric memory",
+    "relational kernel regression",
+    "test-time adaptation"
+   ],
+   "field": "时间序列预测",
+   "innovations": [
+    "流式非参数记忆保持冻结预测器增强",
+    "双读取机制分离电平漂移与形状信息",
+    "验证段闭式校准融合权重并提供安全保证"
+   ],
+   "benchmarks": [
+    "ETTh1",
+    "ETTh2",
+    "ETTm1",
+    "ETTm2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+   ]
+  }
+ }
 }

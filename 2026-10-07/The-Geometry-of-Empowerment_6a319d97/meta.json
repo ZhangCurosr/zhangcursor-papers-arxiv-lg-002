@@ -4,5 +4,33 @@
  "title": "The-Geometry-of-Empowerment",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-10-07 19:44:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3166ed98-bac3-43bb-8374-ea8f493f917a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3166ed98-bac3-43bb-8374-ea8f493f917a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:20:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "empowerment",
+    "information geometry",
+    "reinforcement learning",
+    "skill learning",
+    "centrality",
+    "adaptation",
+    "temporal distance",
+    "mutual information"
+   ],
+   "field": "强化学习理论基础",
+   "innovations": [
+    "证明潜在赋能等于可达状态占据多面体的KL半径，首次严格建立赋能与信息几何中心性的等价关系",
+    "在表格型MDP下证明潜在赋能对isotropic奖励适应给出严格下界",
+    "揭示连续MDP和各向异性奖励下信息几何与奖励几何的根本分歧"
+   ],
+   "benchmarks": [
+    "5x5 GridWorld",
+    "8x8 Bottleneck GridWorld",
+    "Key-finding GridWorld"
+   ]
+  }
+ }
 }

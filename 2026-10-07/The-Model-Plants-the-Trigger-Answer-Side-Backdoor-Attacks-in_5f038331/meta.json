@@ -4,5 +4,33 @@
  "title": "The-Model-Plants-the-Trigger-Answer-Side-Backdoor-Attacks-in",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-07 19:45:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b8205053-e74d-4be2-9333-cbca9c445c6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b8205053-e74d-4be2-9333-cbca9c445c6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:20:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor attack",
+    "LLM safety",
+    "multi-turn dialogue",
+    "answer-side trigger",
+    "defenses",
+    "mechanistic interpretation"
+   ],
+   "field": "大语言模型安全与鲁棒性",
+   "innovations": [
+    "提出回答侧后门攻击范式，将触发器从用户输入转移至模型自生成的对话历史",
+    "两阶段对比训练框架在5% poisoning rate下实现近100% ASR 同时保持安全对齐",
+    "在表示层证明自生成触发器一致抑制残差流中的拒绝方向投影"
+   ],
+   "benchmarks": [
+    "MT-Bench",
+    "JailbreakBench",
+    "AdvBench",
+    "UltraChat-200K",
+    "ChatAlpaca-20K"
+   ]
+  }
+ }
 }

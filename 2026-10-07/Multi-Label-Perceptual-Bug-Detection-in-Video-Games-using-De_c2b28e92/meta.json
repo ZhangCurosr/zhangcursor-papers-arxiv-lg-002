@@ -4,5 +4,31 @@
  "title": "Multi-Label-Perceptual-Bug-Detection-in-Video-Games-using-De",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-10-07 19:44:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b68ea1b1-a0f6-4bc5-a355-d0a5687bc811.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b68ea1b1-a0f6-4bc5-a355-d0a5687bc811.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:18:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多标签分类",
+    "感知 Bug 检测",
+    "游戏测试自动化",
+    "ResNet-BiLSTM",
+    "时序建模",
+    "视频缺陷检测",
+    "Asymmetric Loss"
+   ],
+   "field": "软件缺陷检测",
+   "innovations": [
+    "提出结合 ResNet-18 与 BiLSTM 的多任务多标签 Bug 检测架构，首次在游戏视频帧中实现最多 3 类并发感知 Bug 的同时检测",
+    "构建首个含 77,969 个片段的开源多标签感知 Bug 视频基准数据集，覆盖 5 类 Bug 的任意组合",
+    "设计包含 ASL 类型损失、Focal CE 计数损失与 BCE 存在性损失的三头多任务联合损失函数"
+   ],
+   "benchmarks": [
+    "ResNet-BiLSTM 自建多标签感知 Bug 数据集",
+    "F1 Score 85.78% (Test set)"
+   ]
+  }
+ }
 }

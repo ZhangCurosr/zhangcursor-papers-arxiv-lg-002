@@ -4,5 +4,10 @@
  "title": "Toward-Alignment-Scaling-Laws-A-Framework-and-First-Preregis",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-10-07 19:44:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/44628898-057e-436a-87d8-088927c21e09.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/44628898-057e-436a-87d8-088927c21e09.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:21:04",
+  "chunks": 1
+ }
 }

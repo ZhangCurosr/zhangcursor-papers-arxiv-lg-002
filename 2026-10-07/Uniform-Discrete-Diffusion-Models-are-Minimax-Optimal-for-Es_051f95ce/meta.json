@@ -4,5 +4,33 @@
  "title": "Uniform-Discrete-Diffusion-Models-are-Minimax-Optimal-for-Es",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-10-07 08:16:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cbe4e4d5-22f5-4b5f-bbe2-f4ea2f0af6f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cbe4e4d5-22f5-4b5f-bbe2-f4ea2f0af6f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:23:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "discrete diffusion",
+    "uniform diffusion",
+    "minimax optimality",
+    "effective support size",
+    "score entropy",
+    "total variation bound",
+    "Kullback-Leibler divergence",
+    "distribution estimation"
+   ],
+   "field": "扩散模型统计理论",
+   "innovations": [
+    "引入有效支撑尺寸 s_n(P_0) 控制 uniform discrete diffusion 的有限样本风险",
+    "证明 TV 损失下达到极小极大最优率 sqrt(s_n/n)，KL 损失下 up to log n 因子最优",
+    "构造 exact one-step empirical reverse sampler 突破固定网格的计算指数依赖"
+   ],
+   "benchmarks": [
+    "TinyStories (byte-level BPE, K=2048)",
+    "teacher-NLL KS",
+    "1-MAUVE (GPT-2-large features)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Tram-FL-Reducing-Communication-and-Computation-Costs-through",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-07 08:13:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9801f8f7-c267-4d6d-a96a-b5c640975659.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9801f8f7-c267-4d6d-a96a-b5c640975659.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:21:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Decentralized Federated Learning",
+    "Model Circulation",
+    "Non-IID Data",
+    "Communication Efficiency",
+    "Quantized Momentum",
+    "Cross-silo FL"
+   ],
+   "field": "去中心化联邦学习",
+   "innovations": [
+    "提出单模型循环训练范式，将并行多模型架构转为串行单模型架构，从结构上消除重复计算和通信开销",
+    "设计小批量数量分配算法，通过最小化标签分布方差实现训练数据均衡",
+    "结合量化动量传输与路由确定策略，在不牺牲精度的情况下大幅降低通信成本"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "CIFAR-10"
+   ]
+  }
+ }
 }

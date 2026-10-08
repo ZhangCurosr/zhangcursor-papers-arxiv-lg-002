@@ -4,5 +4,30 @@
  "title": "Uncertainty-Quantification-Is-Indispensable-for-Reliable-Con",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-07 19:45:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c1a28c-8ffa-47df-a886-bf9533783a00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c1a28c-8ffa-47df-a886-bf9533783a00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:23:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Uncertainty Quantification",
+    "Connectome",
+    "Graph Neural Networks",
+    "Calibration",
+    "Monte Carlo Dropout",
+    "Conformal Prediction",
+    "Neuroimaging"
+   ],
+   "field": "医学影像AI / 图神经网络可信度",
+   "innovations": [
+    "揭示连接组图分类中高判别力与严重过置信共存的confidence paradox",
+    "建立面向连接组学的UQ分类学与校准审计框架",
+    "证明MC dropout在图编码器中epistemic分量低估的机制局限"
+   ],
+   "benchmarks": [
+    "SUDMEX CONN"
+   ]
+  }
+ }
 }

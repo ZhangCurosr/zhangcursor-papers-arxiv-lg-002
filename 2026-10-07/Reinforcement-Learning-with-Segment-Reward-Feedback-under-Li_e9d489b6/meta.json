@@ -4,5 +4,10 @@
  "title": "Reinforcement-Learning-with-Segment-Reward-Feedback-under-Li",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-10-07 19:44:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9578d550-e0ae-43d5-963f-603d78fb29ac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9578d550-e0ae-43d5-963f-603d78fb29ac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:21:17",
+  "chunks": 7
+ }
 }

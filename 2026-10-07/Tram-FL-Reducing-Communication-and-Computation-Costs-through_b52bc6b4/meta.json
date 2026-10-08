@@ -4,5 +4,34 @@
  "title": "Tram-FL-Reducing-Communication-and-Computation-Costs-through",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-07 19:44:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9801f8f7-c267-4d6d-a96a-b5c640975659.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9801f8f7-c267-4d6d-a96a-b5c640975659.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:21:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Decentralized Federated Learning",
+    "Model Circulation",
+    "Non-IID",
+    "Communication Efficiency",
+    "Mini-batch Allocation",
+    "Quantized Momentum",
+    "Sequential Training"
+   ],
+   "field": "去中心化联邦学习与低通信分布式训练",
+   "innovations": [
+    "将多模型并行 DFL 重构为单模型循环序列化训练，从结构上把通信与计算开销降至 $O(n)$ 级别",
+    "以累积标签直方图方差最小化为目标的 mini-batch 数量分配与配套路线确定策略",
+    "无状态动态仿射量化动量传输，在几乎不损失精度的前提下再削减约 40% 通信流量"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "CIFAR-10",
+    "Gossip-SGD",
+    "PDMM-SGD",
+    "Centralized IID"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Recurrent-Looped-Transformer",
  "token": "sk-LOQ24tRUh...",
  "created_at": "2026-10-07 19:45:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a61e2eee-6ded-4305-9a7a-fb8381487109.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a61e2eee-6ded-4305-9a7a-fb8381487109.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 23:18:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Recurrent Transformer",
+    "State Tracking",
+    "Length Generalization",
+    "Algorithmic Reasoning",
+    "Feedback Mechanism",
+    "Encoder-Decoder Architecture"
+   ],
+   "field": "算法推理与长度泛化",
+   "innovations": [
+    "将编码器-解码器深度分配作为可调设计变量，实现并行编码与循环反馈的解耦",
+    "提出门控merge机制结合反馈间隔B，系统性揭示不同任务对反馈频率的敏感性差异",
+    "在算法状态跟踪任务上实现远超固定深度Transformer的长度外推（parity 100%@256bit，swap-based S5 97%@8x训练长度）"
+   ],
+   "benchmarks": [
+    "Parity",
+    "Swap-based S5 State Tracking",
+    "Modular Arithmetic (mod-5)",
+    "Addition",
+    "Standard S5 State Tracking"
+   ]
+  }
+ }
 }
