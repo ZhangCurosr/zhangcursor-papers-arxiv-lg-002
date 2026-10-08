@@ -4,5 +4,31 @@
  "title": "Learning-consistent-molecular-mechanics-force-fields-from-fi",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-07 19:44:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ac50ae5c-13fb-44cf-a680-55faa6c3897b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ac50ae5c-13fb-44cf-a680-55faa6c3897b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:50:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "molecular mechanics force field",
+    "machine-learned potential",
+    "electrostatic potential regularization",
+    "Lennard-Jones parameter learning",
+    "grappa-fullFF",
+    "ab initio force field"
+   ],
+   "field": "机器学习分子力场",
+   "innovations": [
+    "端到端统一学习键合与非键合参数",
+    "反称键电荷流内化总电荷守恒",
+    "ESP与TS-vdW体积比双正则化解能量简并"
+   ],
+   "benchmarks": [
+    "SPICE/OMol25 geometry optimization",
+    "ACE-ALA-NME 500ns explicit-solvent MD",
+    "PubChem/Dipeptide/DES monomer ESP RMSE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Machine-Learning-for-German-Redispatch-Forecasting-under-Dat",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-10-07 19:44:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82f2dd8a-1bab-4484-a06d-813dc26f5d45.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/82f2dd8a-1bab-4484-a06d-813dc26f5d45.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:51:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "redispatch forecasting",
+    "probabilistic forecasting",
+    "conformal calibration",
+    "quantile regression",
+    "delayed feedback",
+    "zero-censored output",
+    "distribution shift",
+    "LightGBM"
+   ],
+   "field": "能源系统预测与概率建模",
+   "innovations": [
+    "延迟反馈滚动共形校准方法，在非平稳Redispatch序列上实现更窄区间与近名义覆盖",
+    "零截断分位数神经网络输出头，解决精确零值日的结构性覆盖失效",
+    "区分聚合与条件可靠性的双层评估框架，揭示极端拥堵事件的条件性覆盖不足"
+   ],
+   "benchmarks": [
+    "nWIS (normalized weighted interval score)",
+    "90% empirical coverage",
+    "MAE (MWh)"
+   ]
+  }
+ }
 }

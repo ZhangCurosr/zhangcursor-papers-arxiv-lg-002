@@ -4,5 +4,31 @@
  "title": "Learning-Grasp-Targeting-from-Point-Clouds-for-Log-Pile-Clea",
  "token": "sk-L0ZhgdlAv...",
  "created_at": "2026-10-07 19:45:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/982c213f-7c66-4400-b648-150248b95aab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/982c213f-7c66-4400-b648-150248b95aab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:49:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "log pile clearing",
+    "behavior cloning",
+    "reinforcement learning",
+    "point cloud grasp policy",
+    "asymmetric actor-critic",
+    "sim-to-real",
+    "hydraulic crane automation"
+   ],
+   "field": "工业机器人抓取与序列操作",
+   "innovations": [
+    "PointNet分类头替代回归头实现robust point selection在dense log pile",
+    "BC→RL fine-tuning with frozen encoder + privileged asymmetric critic",
+    "12次真实起重机场试验系统对比几何启发式与三种学习策略"
+   ],
+   "benchmarks": [
+    "100-episode simulation on shared pile seeds",
+    "12 field trials across single mound / double mound / flat rack"
+   ]
+  }
+ }
 }

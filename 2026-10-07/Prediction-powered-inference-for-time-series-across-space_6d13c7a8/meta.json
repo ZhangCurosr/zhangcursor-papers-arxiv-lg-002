@@ -4,5 +4,30 @@
  "title": "Prediction-powered-inference-for-time-series-across-space",
  "token": "sk-TTQuLp2ot...",
  "created_at": "2026-10-07 19:43:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/aea12115-5cec-4ae5-9ec6-d80dfda6014b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/aea12115-5cec-4ae5-9ec6-d80dfda6014b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:55:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prediction-Powered Inference",
+    "time series",
+    "spatiotemporal inference",
+    "HAC",
+    "Newey-West",
+    "confidence intervals",
+    "temporal dependence"
+   ],
+   "field": "统计学习与时空推断",
+   "innovations": [
+    "将PPI偏差校正与HAC方差估计结合，推广至时间依赖的时空设定",
+    "提出分块数据分割策略并证明其在时序PPI中优于交织策略",
+    "跨空间联合训练预测器以应对稀疏标签数据"
+   ],
+   "benchmarks": [
+    "模拟时空序列数据（高斯过程生成）"
+   ]
+  }
+ }
 }

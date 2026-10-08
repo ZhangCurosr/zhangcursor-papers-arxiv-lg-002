@@ -4,5 +4,33 @@
  "title": "MS-ECG-FM-Towards-a-More-Universal-Electrocardiogram-Foundat",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-07 19:45:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ee61f504-1d4a-4f3d-ac59-4d0d535cbb32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ee61f504-1d4a-4f3d-ac59-4d0d535cbb32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:51:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ECG foundation model",
+    "contrastive learning",
+    "multi-source alignment",
+    "structural heart disease detection",
+    "clinical notes",
+    "self-supervised learning"
+   ],
+   "field": "心电图基础模型与多模态对比学习",
+   "innovations": [
+    "多源对比对齐预训练：与ECG/超声/X光/出院报告多种临床笔记对齐，突破仅用ECG报告的局限",
+    "解决结构性心脏病检测盲区：在EchoNext-Mini等基准上显著超越SOTA",
+    "提出性能曲线图评估框架：提供比平均AUROC更全面的通用性评估"
+   ],
+   "benchmarks": [
+    "PTB-XL",
+    "CPSC2018",
+    "CSN",
+    "EchoNext-Mini",
+    "MIMIC-IV-ECG-Ext-ICD"
+   ]
+  }
+ }
 }

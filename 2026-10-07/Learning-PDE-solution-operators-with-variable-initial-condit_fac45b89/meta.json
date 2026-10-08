@@ -4,5 +4,33 @@
  "title": "Learning-PDE-solution-operators-with-variable-initial-condit",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-10-07 19:44:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a762797c-8734-495a-9bc7-74303851020a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a762797c-8734-495a-9bc7-74303851020a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:50:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Latent Dynamics Network",
+    "Neural ODE",
+    "meta-learning",
+    "PDE surrogate",
+    "encoder-free",
+    "operator learning",
+    "scientific machine learning"
+   ],
+   "field": "科学机器学习/PDE代理模型",
+   "innovations": [
+    "将变初始条件潜态初始化形式化为无编码器适配问题，保留离散无关性",
+    "提出基于CAVIA的Meta-IC-LDNet，在3步梯度内完成快速适配，推理提速超10倍",
+    "证明元学习自发诱导潜空间拓扑与物理结构对齐，优化景观显著良态化"
+   ],
+   "benchmarks": [
+    "1D Advection-Diffusion-Reaction equation",
+    "2D flow around static cylinder (Re=100)",
+    "2D flow around rotating cylinder",
+    "3D nonlinear cantilever beam (Neo-Hookean)"
+   ]
+  }
+ }
 }

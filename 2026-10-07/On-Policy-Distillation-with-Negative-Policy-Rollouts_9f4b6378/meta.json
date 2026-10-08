@@ -4,5 +4,41 @@
  "title": "On-Policy-Distillation-with-Negative-Policy-Rollouts",
  "token": "sk-buEDzpHKC...",
  "created_at": "2026-10-07 19:44:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0e37e464-8874-44d0-9a94-98daba530e34.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0e37e464-8874-44d0-9a94-98daba530e34.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:53:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-policy distillation",
+    "negative policy",
+    "knowledge distillation",
+    "RL post-training",
+    "LLM reasoning",
+    "preference optimization"
+   ],
+   "field": "大语言模型后训练与知识蒸馏",
+   "innovations": [
+    "在rollout阶段引入负策略提供负向信号，不修改蒸馏奖励设计",
+    "证明负策略token期望reward为负，理论上保证学生远离负策略",
+    "提出NSP和NOR两个可量化指标验证负信号机制的有效性"
+   ],
+   "benchmarks": [
+    "AIME24",
+    "AIME25",
+    "AMC23",
+    "MATH500",
+    "LiveCodeBench",
+    "GPQA",
+    "SciBench",
+    "OlympiadBench",
+    "SuperGPQA",
+    "HMMT25",
+    "RGMath",
+    "RGAlgo",
+    "CodeForces"
+   ]
+  }
+ }
 }

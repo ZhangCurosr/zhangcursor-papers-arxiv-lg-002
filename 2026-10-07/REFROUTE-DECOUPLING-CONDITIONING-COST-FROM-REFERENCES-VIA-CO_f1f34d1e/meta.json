@@ -4,5 +4,30 @@
  "title": "REFROUTE-DECOUPLING-CONDITIONING-COST-FROM-REFERENCES-VIA-CO",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-10-07 19:45:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3bae9e42-c3be-4850-999c-b150fd7f38b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3bae9e42-c3be-4850-999c-b150fd7f38b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:58:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多参考图像生成",
+    "条件路由",
+    "注意力路由",
+    "紧凑残差编码",
+    "扩散Transformer",
+    "推理效率优化"
+   ],
+   "field": "多参考可控图像生成",
+   "innovations": [
+    "紧凑残差条件编码：固定token预算+像素残差通道，使参考成本与分辨率解耦",
+    "条件与注意力路由：通过RoPE重映射与结构化attention mask显式绑定参考-区域对应关系",
+    "构建RefRoute-Data与ManyRef100基准，填补高参考数+空间绑定的训练与评测空白"
+   ],
+   "benchmarks": [
+    "ManyRef100",
+    "MICo-Bench"
+   ]
+  }
+ }
 }

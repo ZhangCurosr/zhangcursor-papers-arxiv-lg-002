@@ -4,5 +4,34 @@
  "title": "Personal-Agent-Mediated-Recommendation-with-Cross-Platform-U",
  "token": "sk-6puwYp2kk...",
  "created_at": "2026-10-07 19:45:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b0e922ab-13ea-415b-b15a-dde0bb21e233.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/b0e922ab-13ea-415b-b15a-dde0bb21e233.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:55:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "personal-agent recommendation",
+    "cross-platform history",
+    "mediated ranking",
+    "PAMO",
+    "GRPO for recommendation",
+    "rescue vs harmful override",
+    "MediateRec"
+   ],
+   "field": "个性化推荐与个人智能体",
+   "innovations": [
+    "提出冻结平台提案 + 个人智能体选择性中介的任务与评测框架",
+    "用反事实遮蔽估计跨平台依赖并作为归因信号",
+    "在保留 cutoff 级优势质量与平均价值的前提下做支持度加权重分配"
+   ],
+   "benchmarks": [
+    "MediateRec-Movie",
+    "MediateRec-Toy",
+    "MediateRec-Grocery",
+    "MediateRec-Beauty",
+    "MediateRec-OpenPlay"
+   ]
+  }
+ }
 }

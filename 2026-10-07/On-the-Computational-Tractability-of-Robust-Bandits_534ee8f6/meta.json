@@ -4,5 +4,32 @@
  "title": "On-the-Computational-Tractability-of-Robust-Bandits",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-10-07 19:43:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/571621a9-0511-4479-aa5d-c38931ca2614.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/571621a9-0511-4479-aa5d-c38931ca2614.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:54:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "robust bandits",
+    "computational tractability",
+    "unrealizable learning",
+    "ellipsoid method",
+    "QCQP",
+    "online learning",
+    "AI alignment"
+   ],
+   "field": "在线学习与强化学习理论",
+   "innovations": [
+    "证明了线性鲁棒半在线在仿射约束+欧几里得球结构下存在多项式时间Õ(√T) regret学习器",
+    "证明该设定是计算边界：D换成单纯形、X换成多面体或约束换为三线性均导致NP-hard",
+    "构造planning易但learning难的实例，证明仅靠planning oracle不足以实现高效学习"
+   ],
+   "benchmarks": [
+    "stochastic linear bandits下界Ω(√T)",
+    "NP-hardness via MAX-CUT归约",
+    "NP-hardness via CLIQUE归约"
+   ]
+  }
+ }
 }

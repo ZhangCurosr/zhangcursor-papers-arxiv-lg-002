@@ -4,5 +4,34 @@
  "title": "Less-Is-More-A-Leakage-Controlled-Study-of-Dermoscopic-Prepr",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-07 19:44:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/14260cfa-c85c-4142-91f9-8deb81878451.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/14260cfa-c85c-4142-91f9-8deb81878451.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:50:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "皮肤镜图像预处理",
+    "病灶分类",
+    "实例分割",
+    "YOLO26",
+    "数据泄漏控制",
+    " HAM10000",
+    "医学图像分析"
+   ],
+   "field": "医学图像计算病理",
+   "innovations": [
+    "构建SHA-256冻结的病灶级互斥划分实现泄漏控制评估",
+    "在固定架构与训练条件下隔离预处理与增强的独立效应",
+    "发现简约预处理配合在线增强优于复杂确定性预处理"
+   ],
+   "benchmarks": [
+    "HAM10000",
+    "mask mAP50:95",
+    "macro-F1",
+    "Dice score",
+    "BF1"
+   ]
+  }
+ }
 }

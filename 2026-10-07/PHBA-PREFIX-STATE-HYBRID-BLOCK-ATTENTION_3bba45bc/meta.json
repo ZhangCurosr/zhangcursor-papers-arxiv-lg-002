@@ -4,5 +4,37 @@
  "title": "PHBA-PREFIX-STATE-HYBRID-BLOCK-ATTENTION",
  "token": "sk-aEeqX9tmP...",
  "created_at": "2026-10-07 19:44:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ae9a2ace-15f8-43be-b03a-814cd94d6c84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/ae9a2ace-15f8-43be-b03a-814cd94d6c84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:54:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "长上下文建模",
+    "稀疏注意力",
+    "混合架构",
+    "块稀疏检索",
+    "门控槽记忆",
+    "online-softmax"
+   ],
+   "field": "高效序列建模",
+   "innovations": [
+    "将 top-K 块稀疏检索与块对齐门控前缀状态联合在统一 softmax 下，使检索 token 自带因果前序摘要",
+    "设计 online-softmax token-state merge 机制，避免显式拼接两类内存",
+    "提出 hardware-aware Triton 实现，仅物化整数路由元数据而流式加载原始 HBM 布局"
+   ],
+   "benchmarks": [
+    "RULER",
+    "NIAH",
+    "LongBench",
+    "WikiText",
+    "LAMBADA",
+    "ARC-E/C",
+    "HellaSwag",
+    "PIQA",
+    "WinoGrande"
+   ]
+  }
+ }
 }

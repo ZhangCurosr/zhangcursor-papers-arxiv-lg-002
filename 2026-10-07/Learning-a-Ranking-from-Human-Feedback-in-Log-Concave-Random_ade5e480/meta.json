@@ -4,5 +4,31 @@
  "title": "Learning-a-Ranking-from-Human-Feedback-in-Log-Concave-Random",
  "token": "sk-Nw8TqBTK6...",
  "created_at": "2026-10-07 19:44:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d1691ad-0ec8-4692-8ba6-f795e8a25912.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d1691ad-0ec8-4692-8ba6-f795e8a25912.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:50:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "排序学习",
+    "随机效用模型",
+    "对数凹噪声",
+    "ε-accuracy",
+    "样本复杂度下界",
+    "winner-only反馈",
+    "VUR",
+    "PAC排序恢复"
+   ],
+   "field": "排序学习与偏好学习理论",
+   "innovations": [
+    "提出基于效用差距的ε-accuracy度量，首次在对数凹RUM下建立完整排序恢复的分布无关PAC算法",
+    "揭示winner-only反馈中P_min为信息论瓶颈，证明FR与WO样本复杂度存在本质差异",
+    "利用对数凹性导出通用分辨率因子下界，实现仅需方差上界的分布无关方差感知算法"
+   ],
+   "benchmarks": [
+    "理论分析（无数值实验）"
+   ]
+  }
+ }
 }

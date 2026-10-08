@@ -4,5 +4,34 @@
  "title": "Preserving-Unstable-Modes-Through-Inverse-Dynamics-in-JEPA-W",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-10-07 19:45:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/26408f07-7d00-4913-8425-95a79632b79f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/26408f07-7d00-4913-8425-95a79632b79f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:55:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "JEPA",
+    "world models",
+    "inverse dynamics",
+    "controllability Gramian",
+    "unstable subspace",
+    "latent control",
+    "representation learning",
+    "feedback stabilization"
+   ],
+   "field": "视觉控制表示学习",
+   "innovations": [
+    "揭示JEPA标准预测+SIGReg会选择性坍塌不稳定模态",
+    "提出端点逆动力学损失EP-IDM保持有限视界可达子空间",
+    "证明可控性Gram矩阵主特征子空间渐近收敛至不稳定子空间"
+   ],
+   "benchmarks": [
+    "CartPole LQR success rate",
+    "Walker2D forward displacement",
+    "PointMaze CEM success rate",
+    "linear LDS stabilizability"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "RAPID-FREDHOLM-STABILIZATION-OF-THE-KURAMOTO-SIVASHINSKY-EQU",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-07 19:43:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/efce0332-e0b2-4335-b241-c649f812f98a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/efce0332-e0b2-4335-b241-c649f812f98a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:59:02",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "Kuramoto-Sivashinsky 方程",
+    "Fredholm 反推",
+    "双输入边界控制",
+    "神经算子",
+    "指数稳定化",
+    "谱分离"
+   ],
+   "field": "PDE 控制与算子学习交叉",
+   "innovations": [
+    "首个无临界集合限制、可任意指定衰减速率的 KS 方程双输入 Fredholm 稳定化设计",
+    "首次将 Fourier 神经算子用于 Fredholm 型反推增益的统一近似并给出稳定性传递保证"
+   ],
+   "benchmarks": [
+    "理论构造与紧参数类上一致逼近稳定性结果（数值实验信息论文未在本笔记材料中提供）"
+   ]
+  }
+ }
 }

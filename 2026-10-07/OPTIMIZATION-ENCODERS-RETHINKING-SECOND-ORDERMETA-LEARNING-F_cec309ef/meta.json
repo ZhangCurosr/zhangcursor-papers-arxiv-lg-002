@@ -4,5 +4,32 @@
  "title": "OPTIMIZATION-ENCODERS-RETHINKING-SECOND-ORDERMETA-LEARNING-F",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-10-07 19:45:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/38ecd258-06c7-4c0c-990c-0b5407bf92e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/38ecd258-06c7-4c0c-990c-0b5407bf92e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:52:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "optimization encoder",
+    "second-order meta-learning",
+    "equivariant neural fields",
+    "latent point cloud",
+    "bilevel optimization"
+   ],
+   "field": "元学习与隐式神经表示",
+   "innovations": [
+    "将少步元学习形式化为优化编码器，揭示二阶微分是训练编码器的必要路径",
+    "提出MetaLF等变Transformer神经场，通过自注意力协调潜点云实现快速重建与语义预测"
+   ],
+   "benchmarks": [
+    "CIFAR10",
+    "CelebA",
+    "ImageNet-1K",
+    "ShapeNet",
+    "ACDC",
+    "OASIS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "OXIGEN-OXIDATION-STATE-AWARE-CRYSTALGENERATION",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-07 19:44:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/595b0259-f8a4-491b-9240-8e2a9671d345.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/595b0259-f8a4-491b-9240-8e2a9671d345.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:53:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "晶体生成",
+    "扩散模型",
+    "氧化态",
+    "结构化推断",
+    "有限状态自动机",
+    "电荷中性",
+    "材料发现"
+   ],
+   "field": "材料信息学/生成式AI for Science",
+   "innovations": [
+    "将电荷中性约束建模为有限状态自动机并通过动态规划实现精确MAP解码与约束采样",
+    "提出OxiGen氧化态感知晶体扩散模型，在MatterGen基础上替换物种表示与离散扩散过程",
+    "仅在采样阶段使用结构化输出层，以最小计算开销显著提升氧化态保真度与S.U.N.率"
+   ],
+   "benchmarks": [
+    "MP-20-OS",
+    "ICSD",
+    "LeMat-GenBench"
+   ]
+  }
+ }
 }

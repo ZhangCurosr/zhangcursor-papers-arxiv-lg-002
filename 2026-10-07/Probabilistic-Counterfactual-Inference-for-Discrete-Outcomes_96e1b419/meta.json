@@ -4,5 +4,33 @@
  "title": "Probabilistic-Counterfactual-Inference-for-Discrete-Outcomes",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-10-07 19:43:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21579b95-60ff-45e6-84ce-c7c994ef6942.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/21579b95-60ff-45e6-84ce-c7c994ef6942.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:56:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "counterfactual inference",
+    "Gaussian process",
+    "structural causal models",
+    "discrete outcomes",
+    "Gumbel-max coupling",
+    "ordinal regression",
+    "noise abduction",
+    "causal machine learning"
+   ],
+   "field": "因果推理与反事实推断",
+   "innovations": [
+    "为 GP-SCM 推导二值/名义/有序三类离散结果的精确噪声 abduction 程序并证明 Compatibility/Consistency",
+    "揭示耦合误设导致反事实误差不可通过更多数据消除（TV_cf 趋于 floor），且观测拟合无法诊断该误设"
+   ],
+   "benchmarks": [
+    "Binary SCM",
+    "Single-parent SCM",
+    "Interaction SCM",
+    "Chain SCM"
+   ]
+  }
+ }
 }

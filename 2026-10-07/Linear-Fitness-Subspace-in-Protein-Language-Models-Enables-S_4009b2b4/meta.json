@@ -4,5 +4,34 @@
  "title": "Linear-Fitness-Subspace-in-Protein-Language-Models-Enables-S",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-10-07 19:45:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/4aa4f0b4-f5d6-487b-9107-ca87ecd14623.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/4aa4f0b4-f5d6-487b-9107-ca87ecd14623.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:51:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "protein language model",
+    "directed evolution",
+    "linear fitness subspace",
+    "PLS projection",
+    "budgeted search",
+    "SGES",
+    "site-delta feature",
+    "zero-shot alignment"
+   ],
+   "field": "蛋白质定向进化与表示几何",
+   "innovations": [
+    "提出 LFS 假说：突变局部 site-delta 特征中存在与适应度近似线性可及的低维子空间",
+    "将零样本评分形式化为 site-delta 固定方向并给出 cos(w_zs, w_lfs) 对齐度量",
+    "SGES 框架：PLS 学习 LFS 投影后在 k 维子空间做深度集成替代建模与 UCB 获取"
+   ],
+   "benchmarks": [
+    "ProteinGym v2 10 core assays",
+    "ProteinGym 87 extended assays",
+    "ProteinGym 18 search-statistics assays",
+    "5 multi-mutant benchmarks"
+   ]
+  }
+ }
 }

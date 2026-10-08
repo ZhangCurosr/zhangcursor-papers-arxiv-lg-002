@@ -4,5 +4,33 @@
  "title": "Mathematical-Invariant-Enabled-Topological-Neural-Networks-f",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-07 19:45:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fdc6c82-5f89-4305-bc4b-d72233c4c863.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/9fdc6c82-5f89-4305-bc4b-d72233c4c863.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:52:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持久同调",
+    "持久拉普拉斯",
+    "交换代数",
+    "Forman曲率",
+    "拓扑神经网络",
+    "分子性质预测",
+    "数学多模态"
+   ],
+   "field": "科学机器学习",
+   "innovations": [
+    "提出MITNN框架，系统整合PH/PL/CA/EIC/FPRC五类互补数学不变量与ANN/CNN/SNN/CTNN四类神经架构进行配对学习",
+    "发现最优预测性能取决于特定不变量-架构配对而非全量聚合，揭示数学多模态选择性集成规律",
+    "在蛋白-配体结合、MOF气体吸附、突变溶解度、分子毒性四类任务上均超越现有SOTA"
+   ],
+   "benchmarks": [
+    "CASF-2016",
+    "MOF O2/N2 uptake",
+    "PON-Sol2",
+    "LD50 toxicity"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Learning-Explainable-Representations-of-Complex-Game-playing",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-10-07 19:45:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d2b4692b-1ea0-4f3c-9e40-dd00933eab68.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/d2b4692b-1ea0-4f3c-9e40-dd00933eab68.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:49:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "strategy synthesis",
+    "explainable reinforcement learning",
+    "decision transformer",
+    "inductive logic programming",
+    "programmatic policy",
+    "chess tactics",
+    "Karel domain"
+   ],
+   "field": "可解释强化学习与程序合成",
+   "innovations": [
+    "将Decision Transformer改造为支持离散DSL程序合成的序列建模方法，样本效率较LEAPS提升2-3个数量级",
+    "首次用一阶逻辑Prolog规则建模国际象棋战术，并以覆盖率/分歧度作为可计算可解释性指标",
+    "提出用XAI可解释性度量替代心智对齐量化评估的策略合成框架"
+   ],
+   "benchmarks": [
+    "Karel six-task benchmark (cleanHouse, fourCorners, harvester, randomMaze, stairClimber, topOff)",
+    "Chess beginner game dataset (1297 position-move pairs)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Mechanistic-Interpretability-of-Atmospheric-Rivers-in-GraphC",
  "token": "sk-pPTU9MbMU...",
  "created_at": "2026-10-07 19:45:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8131de2a-b894-481c-8b05-7a0dc3c56e29.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/8131de2a-b894-481c-8b05-7a0dc3c56e29.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:52:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大气河流",
+    "机制可解释性",
+    "稀疏自编码器",
+    "Matryoshka SAE",
+    "GraphCast",
+    "激活干预",
+    "空间嵌套",
+    "IVT"
+   ],
+   "field": "AI气象模型可解释性",
+   "innovations": [
+    "首次将Matryoshka SAE应用于GNN气象模型并定义空间嵌套度量",
+    "发现GraphCast内部稳定计算未提供目标的IVT变量并经干预证实因果性",
+    "构建SAE+因果干预的可审计链路用于科学模型内部表征分析"
+   ],
+   "benchmarks": [
+    "ERA5",
+    "WeatherBench 2"
+   ]
+  }
+ }
 }

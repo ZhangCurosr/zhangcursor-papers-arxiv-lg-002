@@ -4,5 +4,30 @@
  "title": "Principled-Under-Pressure",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-10-07 19:43:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cf6e03fe-a11d-476b-921e-08268acf2731.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/cf6e03fe-a11d-476b-921e-08268acf2731.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:55:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "judgment-action gap",
+    "post-training alignment",
+    "moral deliberation",
+    "agentic misalignment",
+    "pre-registered evaluation"
+   ],
+   "field": "LLM对齐与安全评估",
+   "innovations": [
+    "构建pre-registered self-referenced judgment-action gap面板，引入pressure-removed twin与positive control三重校准",
+    "证明同一base weight下不同post-training recipe决定gap是否存在",
+    "发现moral deliberation作为低成本gap缓解brake机制"
+   ],
+   "benchmarks": [
+    "MACHIAVELLI",
+    "Agentic Misalignment",
+    "Sycophancy-under-Pushback"
+   ]
+  }
+ }
 }

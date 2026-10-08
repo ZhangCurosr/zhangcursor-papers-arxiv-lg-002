@@ -4,5 +4,29 @@
  "title": "Nash-Social-Welfare-for-Multi-Armed-Bandits-Trajectory-wise",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-10-07 19:44:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/22f38450-28e2-48bb-9637-55496adbbbd8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/22f38450-28e2-48bb-9637-55496adbbbd8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:52:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Nash Social Welfare",
+    "Multi-Armed Bandit",
+    "Trajectory-wise Regret",
+    "High Probability Regret",
+    "Fair Online Learning",
+    "Round Robin Exploration"
+   ],
+   "field": "公平在线学习与多臂老虎机",
+   "innovations": [
+    "提出轨迹层面Nash regret定义，首次捕捉跨轮reward联合分布的公平性",
+    "首次获得fair bandits的高概率Nash regret上界",
+    "设计RR-NCB两阶段算法在更强度量下保持最优O(sqrt(k/T)) regret缩放"
+   ],
+   "benchmarks": [
+    "Stochastic k-armed bandit simulation (k=25, mu*=0.9)"
+   ]
+  }
+ }
 }

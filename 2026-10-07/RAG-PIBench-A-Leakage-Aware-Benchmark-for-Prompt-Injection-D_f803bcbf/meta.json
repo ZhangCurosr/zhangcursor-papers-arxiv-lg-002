@@ -4,5 +4,30 @@
  "title": "RAG-PIBench-A-Leakage-Aware-Benchmark-for-Prompt-Injection-D",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-10-07 19:44:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0ceca6a0-806e-45ab-8306-26390ac2a6e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/0ceca6a0-806e-45ab-8306-26390ac2a6e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:57:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Injection",
+    "RAG Security",
+    "Benchmark",
+    "Leakage Awareness",
+    "Prompt Injection Detection",
+    "TF-IDF Baseline",
+    "DistilBERT"
+   ],
+   "field": "大语言模型安全与提示注入检测",
+   "innovations": [
+    "提出泄露感知型 RAG 提示注入检测基准 RAG-PIBench，含 4,876 条样本和严格冻结评估协议",
+    "系统性对比七类检测器（关键词/语义/Sparse/Transformer），揭示稀疏基线与 Transformer 的竞争力差距",
+    "透明报告失败结果（如 DeBERTa-v3 全正退化），强调负面案例对评估可信度的价值"
+   ],
+   "benchmarks": [
+    "RAG-PIBench"
+   ]
+  }
+ }
 }

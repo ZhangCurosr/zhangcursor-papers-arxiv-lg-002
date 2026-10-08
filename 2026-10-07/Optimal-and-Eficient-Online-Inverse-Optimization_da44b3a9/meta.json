@@ -4,5 +4,30 @@
  "title": "Optimal-and-Eficient-Online-Inverse-Optimization",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-07 19:43:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f5a5631d-f21f-4eb7-a2e8-4bd972b8e454.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f5a5631d-f21f-4eb7-a2e8-4bd972b8e454.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:54:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "在线逆优化",
+    "变量度量",
+    "可撤销更新",
+    "多项式时间算法",
+    "最优 regret",
+    "proper learner"
+   ],
+   "field": "在线学习与逆优化",
+   "innovations": [
+    "提出可撤销变量度量机制，首次以多项式时间确定性 proper 算法达到 O(√d) 最优 regret",
+    "引入 slab 边界触发撤销，破解永久累积导致的步长停滞问题",
+    "构建伴随矩阵整数算术版本，在 bit 模型下保持 O(R√d) regret 且位运算多项式有界"
+   ],
+   "benchmarks": [
+    "强分离预言机博弈",
+    "在线逆线性优化（单位球域）"
+   ]
+  }
+ }
 }

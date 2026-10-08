@@ -4,5 +4,33 @@
  "title": "MASKERADE-TOKEN-ROUTED-MASK-EXPERTS-FORDENSE-TO-MOE-UPCYCLIN",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-10-07 19:44:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3d9e45f5-f725-4638-b05b-223b27f53844.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3d9e45f5-f725-4638-b05b-223b27f53844.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 02:51:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Dense-to-MoE Upcycling",
+    "Mask Learning",
+    "Vision-Language Models",
+    "Sparse subnetworks",
+    "Token routing"
+   ],
+   "field": "大模型高效微调与架构转换",
+   "innovations": [
+    "将 MoE 专家定义为冻结预训练 FFN 上的学习性二元 mask，无需独立专家权重矩阵",
+    "提出重要性初始化（|W|+噪声）加速 mask 学习并提升最终性能",
+    "统一支持 neuron-structured、semi-structured 2:4 和 unstructured 三种 mask 粒度并系统评估"
+   ],
+   "benchmarks": [
+    "GQA",
+    "MME",
+    "POPE",
+    "ScienceQA",
+    "TextVQA"
+   ]
+  }
+ }
 }
