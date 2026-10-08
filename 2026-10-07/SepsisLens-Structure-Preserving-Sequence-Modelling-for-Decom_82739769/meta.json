@@ -4,5 +4,32 @@
  "title": "SepsisLens-Structure-Preserving-Sequence-Modelling-for-Decom",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-07 19:44:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/45bbc15f-8aa6-4cbb-bbaa-8d460cc43fe6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/45bbc15f-8aa6-4cbb-bbaa-8d460cc43fe6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:25:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sepsis early warning",
+    "structure-preserving modelling",
+    "clinical time series",
+    "Mamba2",
+    "ICU prediction",
+    "decomposable risk"
+   ],
+   "field": "临床时序建模与脓毒症早期预警",
+   "innovations": [
+    "变量级时间状态保留至风险组合阶段的结构保持设计",
+    "StructuredRiskHead 实现变量级→器官级→残差的三级风险组合路径",
+    "观测感知变量表示编码值/趋势/时长/永未观测四通道"
+   ],
+   "benchmarks": [
+    "MIMIC-IV AUC=.939 FAR=.046",
+    "MIMIC-III AUC=.996",
+    "eICU AUC=.948",
+    "Private AUC=.973 (11 variables)"
+   ]
+  }
+ }
 }

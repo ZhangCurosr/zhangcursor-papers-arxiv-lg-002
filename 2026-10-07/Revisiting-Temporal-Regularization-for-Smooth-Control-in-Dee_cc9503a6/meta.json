@@ -4,5 +4,31 @@
  "title": "Revisiting-Temporal-Regularization-for-Smooth-Control-in-Dee",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-07 08:17:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a72eb139-7636-48fd-8a0e-f383da46e3ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a72eb139-7636-48fd-8a0e-f383da46e3ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:21:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间正则化",
+    "空间平滑",
+    "动作振荡",
+    "深度强化学习",
+    "连续控制",
+    "CATS",
+    "sim-to-real"
+   ],
+   "field": "强化学习策略平滑与控制",
+   "innovations": [
+    "证明时间惩罚隐式约束共享下一状态的动作方差（L_S ≤ 2L_T）",
+    "提出仅用时问惩罚+线性ramp-up的CATS方法实现双重平滑",
+    "在五个MuJoCo任务及Franka真机上验证低开销高效平滑"
+   ],
+   "benchmarks": [
+    "Gymnasium/MuJoCo Ant-Hopper-LunarLander-Pendulum-Walker",
+    "Isaac Lab Reach and Place Cube (Franka Robot)"
+   ]
+  }
+ }
 }

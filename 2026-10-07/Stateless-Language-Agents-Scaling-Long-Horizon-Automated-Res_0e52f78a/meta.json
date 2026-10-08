@@ -4,5 +4,32 @@
  "title": "Stateless-Language-Agents-Scaling-Long-Horizon-Automated-Res",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-10-07 19:45:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de222cd7-207d-4c87-888b-bb32b06dbe5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:26:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动化研究",
+    "无状态智能体",
+    "长周期搜索",
+    "多智能体协调",
+    "LLM agent",
+    "token 效率"
+   ],
+   "field": "自动化科学研究（AutoResearch）",
+   "innovations": [
+    "提出有状态搜索+无状态智能体的框架原则，将研究状态与上下文严格分离",
+    "Harness 控制的上下文重建：Advisor 接收跨方向证据摘要，Worker 仅见分配与局部反馈",
+    "证据驱动的工作分配机制，防止并行 Worker 重复劳动且协调开销<0.6% token"
+   ],
+   "benchmarks": [
+    "FrontierSWE",
+    "Anthropic VLIW SIMD Kernel Optimization",
+    "SOL-ExecBench",
+    "FrontierCS Structured-LWE"
+   ]
+  }
+ }
 }

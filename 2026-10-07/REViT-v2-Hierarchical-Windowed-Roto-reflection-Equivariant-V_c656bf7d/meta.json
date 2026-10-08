@@ -4,5 +4,31 @@
  "title": "REViT-v2-Hierarchical-Windowed-Roto-reflection-Equivariant-V",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-10-07 19:45:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/962f41ea-93f9-4269-b85e-65d2b7c30246.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/962f41ea-93f9-4269-b85e-65d2b7c30246.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:20:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "group-equivariant",
+    "vision transformer",
+    "rotational symmetry",
+    "equivariant attention",
+    "ImageNet",
+    "hierarchical architecture",
+    "windowed attention"
+   ],
+   "field": "等变深度学习",
+   "innovations": [
+    "窗口化群卷积自注意力将等变注意力的空间复杂度从二次降至线性",
+    "分层等变特征金字塔使群等变ViT可扩展至ImageNet级分辨率",
+    "在ImageNet-1K上以较少参数超越非等变ViT基线"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "Rotated MNIST"
+   ]
+  }
+ }
 }

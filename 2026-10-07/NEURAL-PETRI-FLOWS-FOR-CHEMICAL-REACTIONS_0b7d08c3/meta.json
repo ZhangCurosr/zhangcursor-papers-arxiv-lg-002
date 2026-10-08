@@ -4,5 +4,36 @@
  "title": "NEURAL-PETRI-FLOWS-FOR-CHEMICAL-REACTIONS",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-10-07 19:43:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176f9ea3-5e89-4fa3-8aa3-420562d0d08c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176f9ea3-5e89-4fa3-8aa3-420562d0d08c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:20:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Petri net",
+    "chemical reaction prediction",
+    "atom mapping",
+    "reaction classification",
+    "mechanism prediction",
+    "conservation laws",
+    "token game"
+   ],
+   "field": "化学信息学与计算化学",
+   "innovations": [
+    "硬连线守恒律与使能规则为无参数层，任意权重保证价键合法",
+    "价键网统一原子映射、反应分类与正向预测于同一发射向量",
+    "电子网 token game 预测基元步骤，每步均自动生成合法 Lewis 结构"
+   ],
+   "benchmarks": [
+    "USPTO-480K",
+    "Schneider50k",
+    "Golden set",
+    "ECREACT",
+    "FlowER",
+    "EnzymeMap",
+    "CARE task 2"
+   ]
+  }
+ }
 }

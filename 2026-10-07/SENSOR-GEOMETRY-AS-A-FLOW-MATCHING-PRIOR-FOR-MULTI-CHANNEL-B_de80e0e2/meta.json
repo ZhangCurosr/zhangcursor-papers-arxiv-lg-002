@@ -4,5 +4,10 @@
  "title": "SENSOR-GEOMETRY-AS-A-FLOW-MATCHING-PRIOR-FOR-MULTI-CHANNEL-B",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-10-07 08:12:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e29e63db-29f8-4abd-aab9-35ce5d9b26d2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e29e63db-29f8-4abd-aab9-35ce5d9b26d2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:22:25",
+  "chunks": 1
+ }
 }

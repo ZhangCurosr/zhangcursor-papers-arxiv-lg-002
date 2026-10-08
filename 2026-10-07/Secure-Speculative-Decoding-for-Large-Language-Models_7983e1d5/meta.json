@@ -4,5 +4,35 @@
  "title": "Secure-Speculative-Decoding-for-Large-Language-Models",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-10-07 19:43:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/01a402af-7175-4e94-8bdd-1ca3e741aa83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:25:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "speculative decoding",
+    "LLM security",
+    "jailbreak",
+    "prompt injection",
+    "inference optimization",
+    "safety alignment",
+    "lossy verification",
+    "distributional deviation"
+   ],
+   "field": "大语言模型安全与推理优化",
+   "innovations": [
+    "首次系统揭示lossy speculative decoding的安全-效用非对称性：安全性退化远快于效用退化",
+    "提出SECURESD位置感知校正框架，通过早期token严格验证恢复安全性，最高降低92.4%攻击成功率",
+    "建立理论分解框架将性能退化分解为分布偏移与位置敏感度的乘积，指导防御设计"
+   ],
+   "benchmarks": [
+    "Jailbreak-SD",
+    "OpenPromptInjection",
+    "AgentDojo",
+    "HumanEval",
+    "GSM8K"
+   ]
+  }
+ }
 }

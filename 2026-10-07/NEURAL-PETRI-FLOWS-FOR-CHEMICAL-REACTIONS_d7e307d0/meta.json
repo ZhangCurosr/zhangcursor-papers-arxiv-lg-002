@@ -4,5 +4,35 @@
  "title": "NEURAL-PETRI-FLOWS-FOR-CHEMICAL-REACTIONS",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-10-07 08:13:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176f9ea3-5e89-4fa3-8aa3-420562d0d08c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/176f9ea3-5e89-4fa3-8aa3-420562d0d08c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:19:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Petri net",
+    "chemical reaction prediction",
+    "atom mapping",
+    "reaction classification",
+    "mechanism prediction",
+    "neural architecture",
+    "valence conservation"
+   ],
+   "field": "化学信息学与反应预测",
+   "innovations": [
+    "硬编码 Petri 网守恒与使能规则为无参数层，仅学习 rate law，保证任意权重下输出合法",
+    "价键网统一原子映射/反应分类/正向预测三任务，最小 firing vector 替代学习式 atom map",
+    "电子网以八隅体为使能规则预测反应机理基元步骤，100% 预测为合法分子"
+   ],
+   "benchmarks": [
+    "Golden set",
+    "USPTO-480K",
+    "Schneider50k",
+    "ECREACT",
+    "FlowER",
+    "EnzymeMap"
+   ]
+  }
+ }
 }

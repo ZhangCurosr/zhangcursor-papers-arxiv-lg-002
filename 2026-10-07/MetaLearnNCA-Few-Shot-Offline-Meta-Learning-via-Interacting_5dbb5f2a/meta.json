@@ -4,5 +4,10 @@
  "title": "MetaLearnNCA-Few-Shot-Offline-Meta-Learning-via-Interacting",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-10-07 19:44:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/709e0f97-83bc-41ae-9a39-c9c956c427f2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/709e0f97-83bc-41ae-9a39-c9c956c427f2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:19:34",
+  "chunks": 1
+ }
 }

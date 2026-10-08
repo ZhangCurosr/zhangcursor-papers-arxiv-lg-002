@@ -4,5 +4,29 @@
  "title": "ServeLearnBench-How-Well-Can-Agents-Self-Improve-from-Servin",
  "token": "sk-OncqSKRPE...",
  "created_at": "2026-10-07 19:44:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/12ec453f-788b-4091-b2a8-a5781527e138.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/12ec453f-788b-4091-b2a8-a5781527e138.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:26:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "持续学习",
+    "Agent评测",
+    "服务经验学习",
+    "动态环境",
+    "隐藏知识推断",
+    "探索行为"
+   ],
+   "field": "Agent持续学习与评测",
+   "innovations": [
+    "形式化EESD（ evolving-environment streaming dataset）持续学习环境",
+    "构建ServeLearnBench基准（53窗口/7718任务/3领域9难度）",
+    "揭示探索多样性与持续学习性能强相关的瓶颈发现"
+   ],
+   "benchmarks": [
+    "ServeLearnBench"
+   ]
+  }
+ }
 }

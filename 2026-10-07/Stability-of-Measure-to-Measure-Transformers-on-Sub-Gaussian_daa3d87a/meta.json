@@ -4,5 +4,30 @@
  "title": "Stability-of-Measure-to-Measure-Transformers-on-Sub-Gaussian",
  "token": "sk-1W4pDEr0k...",
  "created_at": "2026-10-07 19:45:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1cab5a6c-2cc6-418c-8d05-4c44868144a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1cab5a6c-2cc6-418c-8d05-4c44868144a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:28:21",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "mean-field transformer",
+    "sub-Gaussian measure",
+    "Wasserstein stability",
+    "Hölder continuity",
+    "sample complexity",
+    "cross-attention regularity",
+    "universal approximation"
+   ],
+   "field": "Transformer理论分析",
+   "innovations": [
+    "证明次高斯测度下mean-field transformer的保形性与Hölder连续性",
+    "给出样本复杂度上界N^(-γ/d)及log修正因子",
+    "揭示cross-attention关于两输入变量的非对称正则性"
+   ],
+   "benchmarks": [
+    "理论分析论文，无实验基准"
+   ]
+  }
+ }
 }

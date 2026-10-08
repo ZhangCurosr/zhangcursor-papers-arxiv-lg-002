@@ -4,5 +4,31 @@
  "title": "Mu-DisCoCat-A-Variational-Pipeline-for-Compositional-General",
  "token": "sk-NVka6yfS0...",
  "created_at": "2026-10-07 19:44:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e71cfccd-d237-43e9-b994-f9bb3e90af57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/e71cfccd-d237-43e9-b994-f9bb3e90af57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:19:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "组合概念泛化",
+    "CoCoGen",
+    "DisCoCat",
+    "变分量子电路",
+    "破坏性SWAP测试",
+    "视觉语言模型",
+    "量子硬件部署"
+   ],
+   "field": "量子机器学习",
+   "innovations": [
+    "多阶段训练策略实现视觉-语言组合泛化，单参数显著提升OOD关系准确率",
+    "破坏性SWAP测试替代后选择，实现Uhlmann保真度的硬件兼容估计",
+    "4-qubit降维角度编码模型在210参数下保持72.69%关系OOD准确率"
+   ],
+   "benchmarks": [
+    "CoBi2",
+    "CLEVR"
+   ]
+  }
+ }
 }

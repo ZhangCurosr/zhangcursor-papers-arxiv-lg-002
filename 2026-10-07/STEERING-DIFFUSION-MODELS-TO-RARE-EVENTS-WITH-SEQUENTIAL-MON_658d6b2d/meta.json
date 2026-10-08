@@ -4,5 +4,29 @@
  "title": "STEERING-DIFFUSION-MODELS-TO-RARE-EVENTS-WITH-SEQUENTIAL-MON",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-10-07 19:44:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/23905eab-8afd-478e-ac55-01bb9c0c2f84.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/23905eab-8afd-478e-ac55-01bb9c0c2f84.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:24:53",
+  "chunks": 5,
+  "meta": {
+   "keywords": [
+    "罕见事件采样",
+    "扩散模型",
+    "序贯蒙特卡洛",
+    "重要性采样",
+    "气候模拟",
+    "奖励引导"
+   ],
+   "field": "生成模型的罕见事件估计",
+   "innovations": [
+    "将 annealing 桥接嵌入扩散去噪轨迹，通过奖励路径实现无偏概率估计",
+    "构造仿射 score 转移核与闭式增量权重，计算高效且无需额外网络调用"
+   ],
+   "benchmarks": [
+    "7 模高斯混合",
+    "PNW 地区热浪复合高温‑干旱事件"
+   ]
+  }
+ }
 }

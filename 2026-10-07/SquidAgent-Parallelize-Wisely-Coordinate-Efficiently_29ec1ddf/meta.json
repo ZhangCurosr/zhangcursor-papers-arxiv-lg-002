@@ -4,5 +4,37 @@
  "title": "SquidAgent-Parallelize-Wisely-Coordinate-Efficiently",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-07 19:43:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d87c2dd-688e-43aa-8d8f-bfa64b333ee8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/2d87c2dd-688e-43aa-8d8f-bfa64b333ee8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:26:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多智能体系统",
+    "LLM Agent",
+    "并行调度",
+    "任务分解",
+    "成本感知执行",
+    "Token 预估"
+   ],
+   "field": "多智能体协同执行调度",
+   "innovations": [
+    "提出 token-cost 并行化准则，以输出 token 数替代不可靠的壁钟时间作为调度成本度量",
+    "设计上下文分叉与前置约定规划机制，将重探索成本近似归零并将对齐成本转为先验可估",
+    "给出估计误差下的调度决策鲁棒性理论保证（Proposition 1）"
+   ],
+   "benchmarks": [
+    "PixelCraft",
+    "ShopFlow",
+    "CompressKit",
+    "ArcadeBox",
+    "SlideKit",
+    "ClimateAnalysis",
+    "LinAlgBook",
+    "MathRef",
+    "CloudDocs"
+   ]
+  }
+ }
 }

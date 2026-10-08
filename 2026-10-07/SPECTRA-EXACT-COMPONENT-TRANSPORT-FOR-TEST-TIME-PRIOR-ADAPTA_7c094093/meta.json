@@ -4,5 +4,33 @@
  "title": "SPECTRA-EXACT-COMPONENT-TRANSPORT-FOR-TEST-TIME-PRIOR-ADAPTA",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-10-07 19:44:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1ab9cd33-8bb6-402e-90a3-1a2f0f6de51f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/1ab9cd33-8bb6-402e-90a3-1a2f0f6de51f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:22:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "simulation-based inference",
+    "diffusion model",
+    "test-time adaptation",
+    "prior shift",
+    "score transport",
+    "Bayesian inference"
+   ],
+   "field": "贝叶斯仿真推断与扩散模型",
+   "innovations": [
+    "精确 score transport 恒等式：对各向同性指数-二次型先验比因子，单次冻结模型查询即可获得适应后 score，无需 Jacobian 或高斯假设",
+    "正混合分解与路径空间权重估计：将复杂先验变化分解为可 transport 因子之和，通过 reverse trajectory likelihood ratio 估计观测特异组件权重，保持每步单查询开销"
+   ],
+   "benchmarks": [
+    "Two Moons",
+    "SLCP",
+    "OUP",
+    "BCI",
+    "GL-10D",
+    "GL-20D"
+   ]
+  }
+ }
 }

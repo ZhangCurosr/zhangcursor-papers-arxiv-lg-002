@@ -4,5 +4,10 @@
  "title": "Scalable-extraction-and-visualization-of-multi-attribute-log",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-10-07 19:44:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7e2684cc-5013-4164-b6c7-b9ae07ff70ad.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/7e2684cc-5013-4164-b6c7-b9ae07ff70ad.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:24:05",
+  "chunks": 1
+ }
 }

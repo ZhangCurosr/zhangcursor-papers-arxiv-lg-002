@@ -4,5 +4,31 @@
  "title": "NEUROMOTOR-HIERARCHY-NETWORK-PHYSIOLOG-ICAL-INDUCTIVE-BIASES",
  "token": "sk-P8BsCmEP8...",
  "created_at": "2026-10-07 19:45:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5d201849-b3c5-4fea-80e5-e194766eb236.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/5d201849-b3c5-4fea-80e5-e194766eb236.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:20:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sEMG decoding",
+    "neuromotor hierarchy",
+    "physiological inductive bias",
+    "cross-user generalization",
+    "motor primitives",
+    "latent state",
+    "wearable HCI"
+   ],
+   "field": "sEMG 解码与通用化",
+   "innovations": [
+    "受神经运动层级启发的紧凑潜在状态推断架构，含部分白化适配+多时标上下文+Henneman分级分配",
+    "统一架构同时支持连续姿态估计和离散打字识别，参数量减少约48%-66%",
+    "非负驱动积分+连续分级分配机制实现任务依赖的动态稀疏选择"
+   ],
+   "benchmarks": [
+    "emg2pose",
+    "emg2qwerty"
+   ]
+  }
+ }
 }

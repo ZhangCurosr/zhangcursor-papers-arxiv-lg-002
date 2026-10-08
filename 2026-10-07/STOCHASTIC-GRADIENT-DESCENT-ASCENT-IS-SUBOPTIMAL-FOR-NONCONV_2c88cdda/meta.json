@@ -4,5 +4,10 @@
  "title": "STOCHASTIC-GRADIENT-DESCENT-ASCENT-IS-SUBOPTIMAL-FOR-NONCONV",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-07 19:44:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/35c80807-ceb3-4cdb-8457-1d7c7ab0ce4b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/35c80807-ceb3-4cdb-8457-1d7c7ab0ce4b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:25:06",
+  "chunks": 4
+ }
 }

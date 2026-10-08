@@ -4,5 +4,34 @@
  "title": "Self-Retrospection-Distillation-Turning-Post-hoc-Experiences",
  "token": "sk-1TedD2e6f...",
  "created_at": "2026-10-07 19:44:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/085dc86c-40e3-4f6d-9224-4c1aa3ad8fd9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/085dc86c-40e3-4f6d-9224-4c1aa3ad8fd9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:25:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Reinforcement Learning",
+    "Self-Distillation",
+    "Agent Training",
+    "Prospective Learning",
+    "Tool-Integrated Reasoning",
+    "Reward-Silent Regime"
+   ],
+   "field": "大语言模型后训练与智能体强化学习",
+   "innovations": [
+    "将 hindsight 蒸馏为 pre-interaction foresight 的前瞻性学习范式",
+    "SRD 作为可组合辅助目标，在 reward-uniform 组中提取 dense token-level 监督信号"
+   ],
+   "benchmarks": [
+    "AIME 2024/2026",
+    "LiveCodeBench-v6",
+    "HotpotQA",
+    "ALFWorld",
+    "WebShop",
+    "BrowseComp-Plus",
+    "OJBench"
+   ]
+  }
+ }
 }

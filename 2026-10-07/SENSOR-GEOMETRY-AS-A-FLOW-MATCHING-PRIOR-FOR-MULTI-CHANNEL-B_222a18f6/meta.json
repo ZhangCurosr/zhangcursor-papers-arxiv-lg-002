@@ -4,5 +4,33 @@
  "title": "SENSOR-GEOMETRY-AS-A-FLOW-MATCHING-PRIOR-FOR-MULTI-CHANNEL-B",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-10-07 19:44:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/be6274dd-5bce-4788-ac05-dec2d91ce90e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/be6274dd-5bce-4788-ac05-dec2d91ce90e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:21:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Flow Matching",
+    "EEG生成",
+    "图Matern先验",
+    "多通道脑电",
+    "生成模型先验",
+    "传感器几何"
+   ],
+   "field": "神经信号生成建模",
+   "innovations": [
+    "将传感器空间几何编码为Flow Matching源分布先验，不增加学习参数",
+    "证明空间特征向量比谱衰减更重要，数据驱动协方差先验劣于各向同性噪声"
+   ],
+   "benchmarks": [
+    "PSD-KL (8个EEG数据集)",
+    "wPLI相关性",
+    "Mumtaz-MDD分类准确率",
+    "MEG/Wakeman-Henson",
+    "iEEG/CCEP ECoG",
+    "PEMS-BAY交通传感器"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "SSR-Sparse-Segment-Reduction-for-Ternary-GEMM-Acceleration",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-10-07 08:15:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/63145bf5-bc3d-44e7-aa3a-d30a216bf460.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/63145bf5-bc3d-44e7-aa3a-d30a216bf460.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:22:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "三元 GEMM",
+    "稀疏归约",
+    "三元 LLM",
+    "边缘推理",
+    "BitNet",
+    "RSR++",
+    "树形归约"
+   ],
+   "field": "低比特量化与稀疏矩阵乘加速",
+   "innovations": [
+    "提出 SSR 算法，在预处理阶段剔除全零行并构造紧凑树形归约，稀疏度>50%时渐近优于 RSR++",
+    "设计专用数据格式，同步缩短置换数组与分段列表，实现初始化与推理期双重复存压缩"
+   ],
+   "benchmarks": [
+    "Llama-3-1B MLP 块",
+    "Llama-3.1-1B 端到端 TTFT",
+    "三元 GEMM 单线程/多线程"
+   ]
+  }
+ }
 }

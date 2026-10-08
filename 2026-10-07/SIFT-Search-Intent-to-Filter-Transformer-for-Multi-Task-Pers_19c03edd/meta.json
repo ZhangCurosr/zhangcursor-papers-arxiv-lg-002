@@ -4,5 +4,31 @@
  "title": "SIFT-Search-Intent-to-Filter-Transformer-for-Multi-Task-Pers",
  "token": "sk-ckT2EzSkF...",
  "created_at": "2026-10-07 08:14:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a0683cf3-d91d-44a5-9d85-3eb93d521041.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a0683cf3-d91d-44a5-9d85-3eb93d521041.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:21:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "filter ranking",
+    "multi-task learning",
+    "transformer",
+    "sequence modeling",
+    "personalization",
+    "two-sided marketplace"
+   ],
+   "field": "推荐系统排序",
+   "innovations": [
+    "基于Transformer的用户旅程编码器替代手工聚合特征",
+    "多任务联合预测预订、交互与有序容量阈值",
+    "有序分解与信用折扣加权联合训练"
+   ],
+   "benchmarks": [
+    "Airbnb production MLP baseline",
+    "offline PR-AUC",
+    "online A/B test"
+   ]
+  }
+ }
 }

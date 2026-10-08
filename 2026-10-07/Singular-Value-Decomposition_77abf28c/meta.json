@@ -4,5 +4,27 @@
  "title": "Singular-Value-Decomposition",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-10-07 19:44:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c245f8c8-4b89-4347-83e3-99c5522b4eec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/c245f8c8-4b89-4347-83e3-99c5522b4eec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-08 10:25:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "奇异值分解",
+    "SVD",
+    "谱定理",
+    "核方法",
+    "幂迭代",
+    "变分构造",
+    "几何线性代数"
+   ],
+   "field": "线性代数与机器学习交叉基础理论",
+   "innovations": [
+    "以圆→椭圆的几何直觉自底向上构造SVD，将谱定理从前提转为结论",
+    "建立dg/dθ=2f导数恒等式连接拉伸极值与正交保持",
+    "系统追踪Part I证明结构在幂迭代、梯度下降、核PCA中的算法对应"
+   ]
+  }
+ }
 }
