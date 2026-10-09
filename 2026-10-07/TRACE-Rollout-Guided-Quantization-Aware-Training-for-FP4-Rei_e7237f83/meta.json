@@ -4,5 +4,33 @@
  "title": "TRACE-Rollout-Guided-Quantization-Aware-Training-for-FP4-Rei",
  "token": "sk-RsuYjp77g...",
  "created_at": "2026-10-07 19:44:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/47752944-121a-4d27-9632-18d9efb35f9b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/47752944-121a-4d27-9632-18d9efb35f9b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:44:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "FP4 quantization",
+    "reinforcement learning",
+    "MoE language models",
+    "quantization-aware training",
+    "train-rollout alignment",
+    "low-precision inference"
+   ],
+   "field": "低精度大模型训练",
+   "innovations": [
+    "Rollout-guided QAT：直接以rollout侧FP4码字为参照指导训练侧取整，最小化train-rollout discrepancy",
+    "Mantissa-only compact caching：仅缓存后半层1-bit尾数与scale，将每token缓存从~50 KB降至~7.5 KB"
+   ],
+   "benchmarks": [
+    "LiveCodeBench v6",
+    "AIME 2024/2025",
+    "HMMT 2025",
+    "Terminal-Bench 2.1",
+    "DeepSWE v1.1",
+    "GDPval"
+   ]
+  }
+ }
 }

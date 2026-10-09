@@ -4,5 +4,33 @@
  "title": "MANY-WAYS-TO-SUCCEED-DIVERSITY-DRIVEN-RL-FINE-TUNING-FOR-VLA",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-10-08 08:30:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b3bd7111-6860-4a8c-84b3-0d77924f077a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b3bd7111-6860-4a8c-84b3-0d77924f077a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:51:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "reinforcement fine-tuning",
+    "behavioral diversity",
+    "generalization",
+    "reward shaping",
+    "global alignment kernel",
+    "sim-to-real"
+   ],
+   "field": "具身智能与视觉语言动作模型",
+   "innovations": [
+    "揭示RFT中全局行为收缩与成功模式多样化的并存现象，为VLA泛化提供新视角",
+    "提出DRIVE框架，将成功轨迹的时序对齐多样性转化为成功条件内在奖励",
+    "证明多样性奖励塑形保持最优策略不变性，并在仿真与实物平台验证泛化增益"
+   ],
+   "benchmarks": [
+    "LIBERO-Plus",
+    "ManiSkill3",
+    "RoboTwin 2.0",
+    "AgileX PiPER-X real-robot platform"
+   ]
+  }
+ }
 }

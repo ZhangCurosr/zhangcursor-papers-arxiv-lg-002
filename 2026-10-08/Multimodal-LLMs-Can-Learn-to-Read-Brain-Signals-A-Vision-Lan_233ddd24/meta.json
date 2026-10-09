@@ -4,5 +4,32 @@
  "title": "Multimodal-LLMs-Can-Learn-to-Read-Brain-Signals-A-Vision-Lan",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-10-08 08:36:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/144e1b29-3ddc-4afa-b604-5e0d62826156.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/144e1b29-3ddc-4afa-b604-5e0d62826156.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:54:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG解码",
+    "视觉-语言模型",
+    "多任务学习",
+    "时频表示",
+    "指令条件化",
+    "基础模型适配"
+   ],
+   "field": "脑电信号解码与多模态大模型",
+   "innovations": [
+    "提出BraVista框架，通过STFT图像接口将通用VLM适配EEG解码，无需专属预训练",
+    "系统证明单模型统一多任务解码可行性及视觉接口选择的关键影响",
+    "通过噪声扰动实验验证模型依赖EEG信号结构而非浅层视觉模式"
+   ],
+   "benchmarks": [
+    "HMC睡眠分期",
+    "SEED情绪识别",
+    "EEGMAT认知工作量分类",
+    "TUAB异常检测"
+   ]
+  }
+ }
 }

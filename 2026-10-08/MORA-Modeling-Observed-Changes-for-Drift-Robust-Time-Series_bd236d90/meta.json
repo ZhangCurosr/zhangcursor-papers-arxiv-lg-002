@@ -4,5 +4,10 @@
  "title": "MORA-Modeling-Observed-Changes-for-Drift-Robust-Time-Series",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-08 19:49:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/101a0fcd-ec7f-440f-99e1-4ba113e8007f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/101a0fcd-ec7f-440f-99e1-4ba113e8007f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:52:33",
+  "chunks": 1
+ }
 }

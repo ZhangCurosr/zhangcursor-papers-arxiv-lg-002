@@ -4,5 +4,32 @@
  "title": "Leaner-Transformers-Can-Easily-Learn-to-Cluster",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-08 08:36:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0202fa28-160a-4ce0-9f5a-21fe2ac5102f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0202fa28-160a-4ce0-9f5a-21fe2ac5102f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:48:46",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "k-means",
+    "Transformer",
+    "in-context learning",
+    "binary embedding",
+    "sparsemax",
+    "algorithm learning",
+    "clustering"
+   ],
+   "field": "算法学习的可微分优化",
+   "innovations": [
+    "提出BN嵌入将transformer聚类参数量压缩最高75%",
+    "通过min-regularization实现端到端可微训练k-means",
+    "单步模型经重嵌入迭代可超越传统Lloyd算法"
+   ],
+   "benchmarks": [
+    "GMM合成数据",
+    "跨分布泛化测试",
+    "长度泛化测试"
+   ]
+  }
+ }
 }

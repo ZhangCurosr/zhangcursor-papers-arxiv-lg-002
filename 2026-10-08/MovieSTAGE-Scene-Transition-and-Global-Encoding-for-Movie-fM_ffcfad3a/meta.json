@@ -4,5 +4,31 @@
  "title": "MovieSTAGE-Scene-Transition-and-Global-Encoding-for-Movie-fM",
  "token": "sk-CCo3x8v2b...",
  "created_at": "2026-10-08 19:49:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/beca9f9e-2e9f-42dd-b756-258d13d1519e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/beca9f9e-2e9f-42dd-b756-258d13d1519e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:54:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "movie-fMRI",
+    "hypergraph neural network",
+    "ADHD classification",
+    "functional connectivity",
+    "naturalistic neuroimaging",
+    "event-aligned representation"
+   ],
+   "field": "自然态fMRI与图神经网络结合的精神障碍计算表型",
+   "innovations": [
+    "事件对齐的场景-过渡-全局三分支多尺度融合框架",
+    "基于FC-profile相似度的自适应超图构建与可学习超边权重"
+   ],
+   "benchmarks": [
+    "CMI-HBN Despicable Me movie-fMRI",
+    "NoDx vs ADHD",
+    "ADHD-I vs ADHD-C",
+    "三分类NoDx/ADHD-I/ADHD-C"
+   ]
+  }
+ }
 }

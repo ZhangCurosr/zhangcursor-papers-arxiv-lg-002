@@ -4,5 +4,30 @@
  "title": "Matching-of-signal-noise-and-hardware-timescales-for-filteri",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-10-08 08:35:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/64b8d0e4-7fd5-4b99-bb6b-9a5f27e426ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/64b8d0e4-7fd5-4b99-bb6b-9a5f27e426ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物理库容计算",
+    "忆阻器",
+    "有色噪声",
+    "时序预测",
+    "时间尺度匹配",
+    "记忆容量"
+   ],
+   "field": "物理机器学习与忆阻器计算",
+   "innovations": [
+    "提出物理RC处理含噪信号的时间尺度匹配规律与两种预测制度",
+    "定义记忆时间视界(MH)与预测制度指数(FRI)量化制度转换",
+    "建立AME+NRMSE联合诊断硬件滤波vs算法预测 regime 的评估框架"
+   ],
+   "benchmarks": [
+    "合成准周期+OU噪声信号(NRMSE最低0.002)",
+    "BTC/ETH/SOL/DOGE波动率预测(NRMSE随相关时间单调下降)"
+   ]
+  }
+ }
 }

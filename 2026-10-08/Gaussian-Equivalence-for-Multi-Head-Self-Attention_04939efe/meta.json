@@ -4,5 +4,30 @@
  "title": "Gaussian-Equivalence-for-Multi-Head-Self-Attention",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-08 19:46:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/26516bb9-f618-4119-b8e4-a898ae4ee817.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/26516bb9-f618-4119-b8e4-a898ae4ee817.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:47:44",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "多头自注意力",
+    "自由概率",
+    "谱极限",
+    "高斯等价性",
+    "有效自由度",
+    "K/V绑定"
+   ],
+   "field": " Transformer 理论基础",
+   "innovations": [
+    "建立 MHA 注意力律：谱极限为 ρ_γK ⊞ MP_{1/h} 的自由卷积形式",
+    "推导独立 V/O 投影下三重卷积极限及归一化方差四项分解公式",
+    "定义每 token 有效自由度 w_ν(λ) 作为头数效率的严格度量"
+   ],
+   "benchmarks": [
+    "高斯随机矩阵谱收敛验证",
+    "四种 MHA 配置谱极限数值比对"
+   ]
+  }
+ }
 }

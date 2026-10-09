@@ -4,5 +4,30 @@
  "title": "LeCuration-A-Tiny-World-Model-as-a-Data-Curation-Multi-Tool",
  "token": "sk-0H4qcWJwC...",
  "created_at": "2026-10-08 19:49:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/03a17a0c-ccb0-439d-8f38-e3765bd2555b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/03a17a0c-ccb0-439d-8f38-e3765bd2555b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:46:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "data curation",
+    "world model",
+    "JEPA",
+    "anomaly detection",
+    "embedding clustering",
+    "LeWorldModel",
+    "TAESD"
+   ],
+   "field": "物理AI数据工程",
+   "innovations": [
+    "首次将JEPA世界模型从规划控制转向数据策展工具",
+    "提出基于自回归嵌入散度的无监督异常检测信号",
+    "用轻量TAESD潜在空间实现48×压缩并加速JEPA训练"
+   ],
+   "benchmarks": [
+    "CS:GO de_dust2 gameplay"
+   ]
+  }
+ }
 }

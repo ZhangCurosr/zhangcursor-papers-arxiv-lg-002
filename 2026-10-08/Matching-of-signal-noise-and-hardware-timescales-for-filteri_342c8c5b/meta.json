@@ -4,5 +4,34 @@
  "title": "Matching-of-signal-noise-and-hardware-timescales-for-filteri",
  "token": "sk-5sRpPz5k4...",
  "created_at": "2026-10-08 19:50:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/170428e1-0397-4628-85bb-10a46a95aaf6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/170428e1-0397-4628-85bb-10a46a95aaf6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "physical reservoir computing",
+    "coloured noise",
+    "memristor",
+    "time-scale matching",
+    "memory horizon",
+    "forecasting regime index",
+    "oxide memristor"
+   ],
+   "field": "物理储层计算与神经形态时序预测",
+   "innovations": [
+    "提出信号-噪声-硬件时间尺度匹配原则，揭示过滤与预测两种 regime",
+    "定义记忆视界 MH 与预测模式指数 FRI 量化 regimes 转换",
+    "在忆阻器硬件与加密货币波动率上验证时间尺度匹配普适性"
+   ],
+   "benchmarks": [
+    "synthetic coloured-noise signal",
+    "BTC volatility",
+    "ETH volatility",
+    "SOL volatility",
+    "DOGE volatility"
+   ]
+  }
+ }
 }

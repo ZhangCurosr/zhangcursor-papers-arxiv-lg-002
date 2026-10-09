@@ -4,5 +4,31 @@
  "title": "Logarithmic-Regret-via-Passive-Change-Detection-in-Piecewise",
  "token": "sk-qf4fjeNDd...",
  "created_at": "2026-10-08 19:50:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f04b08ad-a8f4-4a72-b681-2e29a2aba7ae.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f04b08ad-a8f4-4a72-b681-2e29a2aba7ae.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:50:58",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "分段平稳 ARX",
+    "最小方差控制",
+    "对数遗憾界",
+    "门控 RLS",
+    "能量检测",
+    "被动切换识别"
+   ],
+   "field": "自适应控制 / 在线学习",
+   "innovations": [
+    "首次证明分段平稳 ARX 系统对数遗憾界 O((C+1)logT)",
+    "门控 RLS 抑制控制器漂移的通用稳定化机制",
+    "利用闭环控制器选择本身作为无源变化检测信号"
+   ],
+   "benchmarks": [
+    "合成 ARX 系统仿真",
+    "LS-CT 自校正基线",
+    "UCB-Style 切换控制基线"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "MORPHCL-MORPHOLOGICAL-CONTRASTIVE-LEARNING-FOR-INERTIAL-BASE",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-10-08 08:31:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8f0f0f39-4850-4946-9c8c-746e31479833.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8f0f0f39-4850-4946-9c8c-746e31479833.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:54:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自监督学习",
+    "形态对比学习",
+    "惯性数据",
+    "活动识别",
+    "运动原语",
+    "矩阵配置文件",
+    "HDBSCAN"
+   ],
+   "field": "可穿戴传感器信号处理",
+   "innovations": [
+    "提出形态学聚类系统从无标签加速度计数据中自动提取运动结构",
+    "设计组级对比损失MorphCL作为即插即用模块增强现有SSL方法",
+    "证明形态结构建模可在小规模数据上实现与大规模基础模型竞争的性能"
+   ],
+   "benchmarks": [
+    "WISDM",
+    "CAPTURE-24",
+    "WEAR",
+    "Wetlab",
+    "PAMAP2",
+    "Hangtime",
+    "RWHAR"
+   ]
+  }
+ }
 }

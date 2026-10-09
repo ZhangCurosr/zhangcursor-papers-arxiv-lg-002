@@ -4,5 +4,10 @@
  "title": "Gaussian-Equivalence-for-Multi-Head-Self-Attention",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-08 08:28:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6b0bfd41-8f1c-4734-bb4d-7045d6a1e3e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/6b0bfd41-8f1c-4734-bb4d-7045d6a1e3e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:47:59",
+  "chunks": 4
+ }
 }

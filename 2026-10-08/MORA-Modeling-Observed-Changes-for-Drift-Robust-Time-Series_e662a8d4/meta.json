@@ -4,5 +4,32 @@
  "title": "MORA-Modeling-Observed-Changes-for-Drift-Robust-Time-Series",
  "token": "sk-4XReLOXGN...",
  "created_at": "2026-10-08 08:33:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/53d4239a-cd1a-4b75-92dd-22b47430249f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/53d4239a-cd1a-4b75-92dd-22b47430249f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:52:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时序异常检测",
+    "漂移鲁棒性",
+    "上下文对比重构",
+    "单向修正",
+    "时间变化消歧",
+    "多视图探针"
+   ],
+   "field": "时序异常检测",
+   "innovations": [
+    "将漂移鲁棒异常检测重新定义为时间变化消歧问题，以局部异常证据+上下文修正证据的非对称分工替代传统融合方案",
+    "提出上下文对比重构机制，通过对同一局部目标在短/长视图下重构并比较误差，量化上下文可解释性并驱动单向保守修正",
+    "设计异构跨视图探针（ctx/loc/sign/mag四视图）提取修正强度cue，由数据依赖的 correction router 自适应控制修正权重"
+   ],
+   "benchmarks": [
+    "SMD",
+    "Exathlon",
+    "ESA",
+    "ASD"
+   ]
+  }
+ }
 }

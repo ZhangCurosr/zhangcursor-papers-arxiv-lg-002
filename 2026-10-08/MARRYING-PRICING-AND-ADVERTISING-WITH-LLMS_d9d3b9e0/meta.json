@@ -4,5 +4,32 @@
  "title": "MARRYING-PRICING-AND-ADVERTISING-WITH-LLMS",
  "token": "sk-buGER5YIq...",
  "created_at": "2026-10-08 19:48:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c9d52b8c-25bd-4743-a76c-ee6f333f218e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c9d52b8c-25bd-4743-a76c-ee6f333f218e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:52:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dynamic pricing",
+    "LLM advertisement generation",
+    "actor-critic",
+    "LoRA adaptation",
+    "sequential posted pricing",
+    "reinforcement learning"
+   ],
+   "field": "LLM-driven decision making",
+   "innovations": [
+    "在线actor-critic框架联合优化LLM广告生成与定价决策",
+    "用critic期望收入替代观测奖励构造leave-one-out优势估计以降低Bernoulli噪声",
+    "KL正则化防止LoRA适配导致的广告文本漂移"
+   ],
+   "benchmarks": [
+    "Logit demand model",
+    "Probit demand model",
+    "Price disclosure demand model",
+    "Avito marketplace simulator"
+   ]
+  }
+ }
 }

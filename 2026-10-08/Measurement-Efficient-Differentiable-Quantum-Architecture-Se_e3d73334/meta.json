@@ -4,5 +4,29 @@
  "title": "Measurement-Efficient-Differentiable-Quantum-Architecture-Se",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-08 19:51:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/be1d1050-868e-42e2-a1ea-92f6dfcd07d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/be1d1050-868e-42e2-a1ea-92f6dfcd07d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differentiable quantum architecture search",
+    "measurement efficiency",
+    "combinatorial optimization",
+    "parameter-shift rule",
+    "diagonal Hamiltonian",
+    "variational quantum algorithms"
+   ],
+   "field": "量子架构搜索",
+   "innovations": [
+    "提出ME-DQAS框架，利用对易关系将梯度估计从双偏移降至单偏移或零测量",
+    "推导零梯度充分条件与单偏移对角规则，针对性降低DQAS测量开销"
+   ],
+   "benchmarks": [
+    "3-SAT",
+    "MaxCut"
+   ]
+  }
+ }
 }

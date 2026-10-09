@@ -4,5 +4,30 @@
  "title": "MUNITE-UNIFIED-MULTIMODAL-LATENT-INFERENCE-FOR-ANY-TO-ANY-MU",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-10-08 08:31:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0afc1e41-1280-4621-a4c6-12e164a7ec5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0afc1e41-1280-4621-a4c6-12e164a7ec5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态生成",
+    "潜在变量模型",
+    "条件流匹配",
+    "自蒸馏",
+    "任何到任何生成"
+   ],
+   "field": "多模态生成",
+   "innovations": [
+    "统一潜在推理框架覆盖全观测到无观测谱系",
+    "自蒸馏扩展条件流匹配至部分观测数据",
+    "目标解耦重建促进共享信息学习"
+   ],
+   "benchmarks": [
+    "PolyMNIST-D-Q",
+    "FFHQ64",
+    "image-text-audio"
+   ]
+  }
+ }
 }

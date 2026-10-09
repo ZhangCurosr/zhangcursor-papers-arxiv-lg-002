@@ -4,5 +4,31 @@
  "title": "Measurement-Efficient-Differentiable-Quantum-Architecture-Se",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-10-08 08:38:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/635a19a4-bf08-424a-935f-9cb3090cfc0c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/635a19a4-bf08-424a-935f-9cb3090cfc0c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "differentiable quantum architecture search",
+    "measurement efficiency",
+    "parameter-shift rule",
+    "combinatorial optimization",
+    "variational quantum algorithms",
+    "diagonal Hamiltonian",
+    "gradient estimation"
+   ],
+   "field": "量子架构搜索与变分算法",
+   "innovations": [
+    "提出零梯度交换子证书，可判定部分参数梯度精确为零无需测量",
+    "推导对角哈密顿量下单移位梯度估计规则，将双移位降至单移位",
+    "提出 Clifford 后缀单移位方案，保持 Pauli 结构用于梯度估计"
+   ],
+   "benchmarks": [
+    "3-SAT",
+    "MaxCut"
+   ]
+  }
+ }
 }

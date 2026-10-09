@@ -4,5 +4,31 @@
  "title": "X-OPM-Explainable-Automatic-Digital-On-Chip-Power-Modeling-f",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-10-07 19:44:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c40199-42e7-4860-a71f-f8ac96420314.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c40199-42e7-4860-a71f-f8ac96420314.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:44:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-chip power meter",
+    "power modeling",
+    "explainable ML",
+    "feature engineering",
+    "ElasticNet",
+    "GBDT",
+    "proactive power management"
+   ],
+   "field": "片上功耗建模与主动功耗管理",
+   "innovations": [
+    "基于 RTL 设计规则的三分法白盒特征工程（控制/配置/数据信号后处理）",
+    "GBDT 作为可解释交互发现器 + ElasticNet 正则化线性预测的混合骨干",
+    "带物理约束（固定截距/非负系数/WLS/ADASYN）的自动化分层建模流程与硬件部署"
+   ],
+   "benchmarks": [
+    "CoreMark",
+    "C906 TSMC 28nm 后布局功耗仿真"
+   ]
+  }
+ }
 }

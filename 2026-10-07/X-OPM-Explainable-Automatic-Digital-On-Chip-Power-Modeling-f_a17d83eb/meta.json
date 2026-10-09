@@ -4,5 +4,33 @@
  "title": "X-OPM-Explainable-Automatic-Digital-On-Chip-Power-Modeling-f",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-10-07 08:16:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c40199-42e7-4860-a71f-f8ac96420314.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/f3c40199-42e7-4860-a71f-f8ac96420314.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:45:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "on-chip power meter",
+    "white-box modeling",
+    "feature engineering",
+    "explainable ML",
+    "proactive power management",
+    "ElasticNet",
+    "GBDT"
+   ],
+   "field": "芯片功耗建模与硬件感知机器学习",
+   "innovations": [
+    "基于RTL语义的三类信号分类与后处理框架，确保特征物理可解释性",
+    "GBDT自动提取特征交互+ElasticNet线性回归的混合建模骨架",
+    "人机协同的自动化全流水线（特征选择→交互→回归→剪枝→部署）"
+   ],
+   "benchmarks": [
+    "C906 RISC-V处理器(TSMC 28nm)",
+    "CoreMark",
+    "R^2>0.955测试集",
+    "面积开销<0.1%"
+   ]
+  }
+ }
 }

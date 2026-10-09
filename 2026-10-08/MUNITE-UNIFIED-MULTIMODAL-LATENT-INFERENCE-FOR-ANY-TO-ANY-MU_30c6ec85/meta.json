@@ -4,5 +4,31 @@
  "title": "MUNITE-UNIFIED-MULTIMODAL-LATENT-INFERENCE-FOR-ANY-TO-ANY-MU",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-10-08 19:46:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7b4871d-e473-4a99-b52b-938c25ae8e66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c7b4871d-e473-4a99-b52b-938c25ae8e66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:53:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "any-to-any generation",
+    "multimodal latent models",
+    "conditional flow matching",
+    "self-distillation",
+    "shared latent",
+    "coherence sufficiency"
+   ],
+   "field": "多模态生成模型",
+   "innovations": [
+    "统一条件潜在推理框架，将编码与生成视为同一条件分布的不同观测程度实例",
+    "基于tower property的自蒸馏方法，从部分观测样本学习条件潜在分布",
+    "coherence-sufficient潜在表示，保证多目标联合生成相合性"
+   ],
+   "benchmarks": [
+    "PolyMNIST-D-Q",
+    "FFHQ64",
+    "Image-text-audio"
+   ]
+  }
+ }
 }

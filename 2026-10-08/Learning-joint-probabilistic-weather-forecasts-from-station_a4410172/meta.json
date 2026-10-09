@@ -4,5 +4,10 @@
  "title": "Learning-joint-probabilistic-weather-forecasts-from-station",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-10-08 08:34:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/72ce0a3d-2399-4578-80b5-268e2142d002.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/72ce0a3d-2399-4578-80b5-268e2142d002.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:51:45",
+  "chunks": 4
+ }
 }

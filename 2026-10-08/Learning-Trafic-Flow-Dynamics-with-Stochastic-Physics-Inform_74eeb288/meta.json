@@ -4,5 +4,30 @@
  "title": "Learning-Trafic-Flow-Dynamics-with-Stochastic-Physics-Inform",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-10-08 08:29:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/e8a44ca2-d5b8-4793-85a8-19f3a6b40e5f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/e8a44ca2-d5b8-4793-85a8-19f3a6b40e5f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:48:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Cellular Automata",
+    "Physics-Informed Learning",
+    "Traffic Flow Modeling",
+    "Stochastic Dynamics",
+    "Cellular Automata",
+    "Fundamental Diagram"
+   ],
+   "field": "交通流智能建模",
+   "innovations": [
+    "提出PI-NCA架构，将车辆守恒律嵌入NCA的速度预测+显式更新机制，确保微观动力学物理一致",
+    "扩展至随机交通动力学，用Categorical分布学习概率转换规则并保持物理约束",
+    "在NaSch和KKW-1双基准上系统验证，证明物理先验显著提升复杂动力学学习和未见配置泛化"
+   ],
+   "benchmarks": [
+    "NaSch Cellular Automaton",
+    "KKW-1 Three-Phase Traffic Model"
+   ]
+  }
+ }
 }

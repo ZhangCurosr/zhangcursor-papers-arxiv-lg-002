@@ -4,5 +4,37 @@
  "title": "Which-and-When-to-Admit-Gradient-Admission-for-Data-Centric",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-07 08:15:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de1b7335-08d0-4a3b-a3e0-b4e9d2fc380f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/de1b7335-08d0-4a3b-a3e0-b4e9d2fc380f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 10:45:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA fine-tuning",
+    "gradient admission",
+    "data-centric",
+    "small language model",
+    "heterogeneous supervision",
+    "forward probe",
+    "subspace saturation",
+    "parameter-efficient tuning"
+   ],
+   "field": "高效微调与数据选择",
+   "innovations": [
+    "提出梯度 admission 两阶段闭环框架（状态感知对齐选择 + 自校准步级门控），解决异构监督下 LoRA 微调的梯度冲突、状态失配与子空间饱和问题",
+    "基于 forward probe 的无偏梯度内积代理与闭式 keep fraction 几何推导，无需人工调参",
+    "证明 sample-level 与 step-level admission 正交且联合必要，是唯一跨架构严格正收益的方法"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "HellaSwag",
+    "Winogrande",
+    "GSM8K",
+    "MMLU",
+    "BBH",
+    "TruthfulQA"
+   ]
+  }
+ }
 }
