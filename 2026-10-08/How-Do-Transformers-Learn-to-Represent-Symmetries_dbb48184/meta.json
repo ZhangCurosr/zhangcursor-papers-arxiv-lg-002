@@ -4,5 +4,34 @@
  "title": "How-Do-Transformers-Learn-to-Represent-Symmetries",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-08 08:37:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/41c9bbe1-ac4c-4eaf-ae85-15bcdeb10e76.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/41c9bbe1-ac4c-4eaf-ae85-15bcdeb10e76.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:55:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据增强",
+    "Transformer对称学习",
+    "不变性",
+    "等变性",
+    "几何深度学习",
+    "点云",
+    "有限增强"
+   ],
+   "field": "几何机器学习 / 对称性表示学习",
+   "innovations": [
+    "发现vanilla Transformer在有限增强下对保角基群（平移/旋转/缩放）的对称学习存在明确层次结构",
+    "识别并形式化证明三类可解释不变性机制：稳定注意力标量关系（旋转）、残差地标减法（平移）、LayerNorm+残差抑制（缩放）",
+    "证明近似不变性机制可作为等变性学习的构建模块，在ShapeNet等变任务上验证"
+   ],
+   "benchmarks": [
+    "ModelNet10",
+    "3D Topology",
+    "ShapeNet",
+    "3D Tetris",
+    "QM9"
+   ]
+  }
+ }
 }

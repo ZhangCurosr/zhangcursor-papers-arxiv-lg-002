@@ -4,5 +4,33 @@
  "title": "Identifiability-of-a-dissipative-knowledge-dynamics-model-ex",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-08 19:47:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8bece789-e04b-41a6-8369-9dc1ddf21729.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8bece789-e04b-41a6-8369-9dc1ddf21729.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:56:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识追踪",
+    "结构可识别性",
+    "耗散动力系统",
+    "物理信息神经网络",
+    "教育数据挖掘",
+    "参数恢复",
+    "观测数据退化"
+   ],
+   "field": "教育数据挖掘与可解释AI",
+   "innovations": [
+    "提出首个具有结构可识别性定理的连续时间知识动力学ODE模型",
+    "证明观测数据上强参数-难度相关性是Stationary结构的退化产物而非真实遗忘恢复",
+    "建立包含打乱时序与简单基线对照的最小验证协议以检验参数可解释性声明"
+   ],
+   "benchmarks": [
+    "ASSISTments-2009",
+    "ASSISTments-2015",
+    "ASSISTments-2017",
+    "Junyi-2015"
+   ]
+  }
+ }
 }

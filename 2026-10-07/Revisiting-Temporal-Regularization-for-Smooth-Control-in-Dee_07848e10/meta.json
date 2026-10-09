@@ -4,5 +4,30 @@
  "title": "Revisiting-Temporal-Regularization-for-Smooth-Control-in-Dee",
  "token": "sk-EKBGNBzZY...",
  "created_at": "2026-10-07 19:44:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a72eb139-7636-48fd-8a0e-f383da46e3ef.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/a72eb139-7636-48fd-8a0e-f383da46e3ef.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:46:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "动作平滑",
+    "时间正则化",
+    "空间平滑",
+    "深度强化学习",
+    "连续控制",
+    "Robotic RL"
+   ],
+   "field": "强化学习控制策略平滑性",
+   "innovations": [
+    "理论证明时间正则化隐式提供空间平滑性（L_S ≤ 2L_T）",
+    "提出仅需时间正则化+线性渐进增强的CATS方法",
+    "揭示空间惩罚导致性能下降源于多方向约束而非空间平滑本身"
+   ],
+   "benchmarks": [
+    "MuJoCo Ant/Hopper/Walker/Pendulum/LunarLander",
+    "Franka Research 3 Sim-to-Real Reach and Place Cube"
+   ]
+  }
+ }
 }

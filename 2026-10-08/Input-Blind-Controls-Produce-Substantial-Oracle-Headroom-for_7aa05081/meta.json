@@ -4,5 +4,32 @@
  "title": "Input-Blind-Controls-Produce-Substantial-Oracle-Headroom-for",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-10-08 19:45:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7c2b511a-a104-44d5-92e1-0a68989fd03c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/7c2b511a-a104-44d5-92e1-0a68989fd03c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:58:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "layer programs",
+    "oracle evaluation",
+    "input-blind control",
+    "multiple-choice",
+    "option order",
+    "adaptive computation"
+   ],
+   "field": "LLM推理效率与可解释性",
+   "innovations": [
+    "提出输入盲对照量化oracle头room的来源",
+    "揭示共享选项顺序是多项选择oracle增益的主要驱动",
+    "建议将选项旋转与半头room阈值纳入oracle评估标准流程"
+   ],
+   "benchmarks": [
+    "MMLU-Pro",
+    "BBH",
+    "ARC-Challenge",
+    "GSM8K-DART-Math"
+   ]
+  }
+ }
 }

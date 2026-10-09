@@ -4,5 +4,34 @@
  "title": "TAFFY-A-TASK-ADAPTIVE-TABULAR-FOUNDATION-MODEL-WITH-IN-CONTE",
  "token": "sk-vCZXYoScl...",
  "created_at": "2026-10-07 19:45:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/740554ba-e9ae-4831-807a-4c8bad82d060.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/740554ba-e9ae-4831-807a-4c8bad82d060.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:46:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "tabular foundation model",
+    "in-context learning",
+    "looped transformer",
+    "causal intervention",
+    "distribution shift",
+    "task-adaptive gating"
+   ],
+   "field": "表格数据基础模型与上下文学习",
+   "innovations": [
+    "In-Context Diversity Prior：通过因果相关的多环境混合构造合成任务，提供预测关系对比证据",
+    "Task-Conditioned Looped Transformer：用支持集统计量门控最终迭代更新，实现任务自适应的上下文细化"
+   ],
+   "benchmarks": [
+    "OpenML-CC18",
+    "BCCO",
+    "PFN",
+    "TALENT",
+    "TabArena",
+    "TabZilla",
+    "CTR23"
+   ]
+  }
+ }
 }

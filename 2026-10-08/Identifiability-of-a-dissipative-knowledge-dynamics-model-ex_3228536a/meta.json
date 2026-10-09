@@ -4,5 +4,32 @@
  "title": "Identifiability-of-a-dissipative-knowledge-dynamics-model-ex",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-10-08 08:30:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d78f6823-4d1a-4294-9bff-7ccdd0562f93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d78f6823-4d1a-4294-9bff-7ccdd0562f93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:56:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "knowledge tracing",
+    "structural identifiability",
+    "dissipative systems",
+    "cognitive modeling",
+    "inverse problems",
+    "educational data mining"
+   ],
+   "field": "可解释知识追踪",
+   "innovations": [
+    "Cognitive-PINN耗散ODE模型与机制参数",
+    "K=2构造性结构可辨识性定理及闭式恢复",
+    "批量求解器数值等价性证明与两个数量级加速"
+   ],
+   "benchmarks": [
+    "ASSISTments-2009",
+    "ASSISTments-2015",
+    "ASSISTments-2017",
+    "Junyi-2015"
+   ]
+  }
+ }
 }

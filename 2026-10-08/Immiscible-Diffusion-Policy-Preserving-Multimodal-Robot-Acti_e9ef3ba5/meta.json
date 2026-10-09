@@ -4,5 +4,35 @@
  "title": "Immiscible-Diffusion-Policy-Preserving-Multimodal-Robot-Acti",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-08 19:49:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/071b6ca2-4d2d-4089-bf81-b14db65eeaec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/071b6ca2-4d2d-4089-bf81-b14db65eeaec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:57:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Policy",
+    "多模态机器人学习",
+    "动作模态保留",
+    "Hungarian匹配",
+    "数据-噪声耦合",
+    "机器人模仿学习"
+   ],
+   "field": "机器人视觉-运动策略学习",
+   "innovations": [
+    "首次系统诊断并归因扩散策略的动作模态崩溃到独立动作-噪声配对导致的扩散路径混合",
+    "提出无标签训练时增强模块Immiscible Diffusion Policy，通过批次级Hungarian匹配显式耦合动作与噪声以保持多模态可达性",
+    "在7个仿真与真实任务上验证，非主导模态比例提升6.0×-14.6×并恢复vanilla完全缺失的模态"
+   ],
+   "benchmarks": [
+    "Push-T",
+    "Stack Blocks",
+    "Place Bread",
+    "Place Shoe",
+    "Rotate QR Code",
+    "Humanoid Fruit-to-Plate",
+    "Humanoid Can-to-Bin"
+   ]
+  }
+ }
 }

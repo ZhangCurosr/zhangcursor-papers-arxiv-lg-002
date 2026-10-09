@@ -4,5 +4,32 @@
  "title": "GeoPrior-Mamba-Structured-Process-Priors-with-Mamba-for-Fine",
  "token": "sk-GAGmasUl1...",
  "created_at": "2026-10-08 19:49:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/10d8aee7-42b2-42f5-ad20-21d664443578.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/10d8aee7-42b2-42f5-ad20-21d664443578.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:49:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "XCO2 重建",
+    "Mamba",
+    "语言模型先验",
+    "卫星遥感",
+    "碳源汇",
+    "知识引导机器学习"
+   ],
+   "field": "地球系统科学机器学习",
+   "innovations": [
+    "离线 LLM 构建结构化碳源汇过程先验表",
+    "多方向 Mamba 骨干配合空间门控知识适配器",
+    "知识与数值预测严格分离的确定性框架"
+   ],
+   "benchmarks": [
+    "OCO-2 2018-2020",
+    "TCCON 独立验证",
+    "CAMS 背景插值",
+    "Trans-XCO2"
+   ]
+  }
+ }
 }

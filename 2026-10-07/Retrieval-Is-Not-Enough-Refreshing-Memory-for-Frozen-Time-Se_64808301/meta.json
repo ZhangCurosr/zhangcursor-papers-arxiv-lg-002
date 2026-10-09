@@ -4,5 +4,32 @@
  "title": "Retrieval-Is-Not-Enough-Refreshing-Memory-for-Frozen-Time-Se",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-07 08:13:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3375d04f-42c1-4676-b60b-fb0edd42729a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/3375d04f-42c1-4676-b60b-fb0edd42729a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:44:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间序列预测",
+    "检索增强",
+    "冻结预测器",
+    "流式记忆",
+    "关系核回归",
+    "非平稳预测"
+   ],
+   "field": "时间序列预测",
+   "innovations": [
+    "提出即插即用FreshCast框架，在冻结预测器前提下通过流式非参数记忆和关系核回归持续更新检索记忆",
+    "在验证段闭式估计组合权重，确保检索修正与预测器残差误差对齐，避免训练段校准偏差"
+   ],
+   "benchmarks": [
+    "ETTh1/2",
+    "ETTm1/2",
+    "Weather",
+    "Electricity",
+    "Traffic"
+   ]
+  }
+ }
 }

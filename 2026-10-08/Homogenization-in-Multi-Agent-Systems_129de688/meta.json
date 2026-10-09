@@ -4,5 +4,31 @@
  "title": "Homogenization-in-Multi-Agent-Systems",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-10-08 19:46:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/59ffa84a-72e4-45da-8377-24923d5394c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/59ffa84a-72e4-45da-8377-24923d5394c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:54:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-agent systems",
+    "homogenization",
+    "correlated errors",
+    "algorithmic bias",
+    "peer review",
+    "code security"
+   ],
+   "field": "多智能体系统可靠性与公平性",
+   "innovations": [
+    "提出一致性/极化/惯性三个正交的同质化度量指标，统一刻画 MAS 多样性坍缩动态",
+    "在代码生成/招聘/同行评审三个高利害场景中实证揭示同质化引发的系统性安全风险",
+    "发现跨 LLM 家族的共享盲点，证明采样随机性和混合模型配置均无法缓解同质化"
+   ],
+   "benchmarks": [
+    "CodeLMSec",
+    "ICLR 2025 (1950 papers)",
+    "Synthetic Counterfactual Resume Dataset (8000 resumes)"
+   ]
+  }
+ }
 }

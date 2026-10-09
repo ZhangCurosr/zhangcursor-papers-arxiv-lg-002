@@ -4,5 +4,37 @@
  "title": "HOW-TO-TRAIN-YOUR-MODEL-ORGANISM",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-10-08 08:29:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0d20bde7-25f1-46c8-ba3a-a317fede9df3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/0d20bde7-25f1-46c8-ba3a-a317fede9df3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:53:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model organisms",
+    "interpretability",
+    "multi-objective training",
+    "DPO",
+    "model merging",
+    "activation naturalness",
+    "CoT naturalness",
+    "alignment auditing"
+   ],
+   "field": "可解释性与对齐审计",
+   "innovations": [
+    "提出行为安装+通用能力保持+输出自然性三目标验证框架",
+    "将SACPO约束优化适配为base↔finetuned线性模型合并以实现多目标训练",
+    "发现聊天数据混合损害CoT自然性并提出DPO+Merge训练指南"
+   ],
+   "benchmarks": [
+    "Pando car-purchase",
+    "Model Organism Lottery",
+    "MedQA",
+    "MMLU Professional Medicine",
+    "MedXpertQA",
+    "MedBullets",
+    "GSM8K"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Kinetic-Langevin-Meets-Split-Gibbs-Accelerated-Posterior-Sam",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-10-08 19:46:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ad7e563b-2846-475a-9095-8bd08c5a2b18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ad7e563b-2846-475a-9095-8bd08c5a2b18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:59:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Split Gibbs Sampling",
+    "Kinetic Langevin",
+    "Regularization by Denoising",
+    "Diffusion Priors",
+    "Image Restoration"
+   ],
+   "field": "贝叶斯成像反问题求解",
+   "innovations": [
+    "将欠阻尼动力学位入RED-SGS以提升收敛速度",
+    "联合动量变体改善感知指标",
+    "给出非渐近Wasserstein-2收敛与离散化偏差界"
+   ],
+   "benchmarks": [
+    "FFHQ 256×256",
+    "ImageNet 256×256",
+    "Gaussian deblurring",
+    "Motion deblurring",
+    "Super-resolution"
+   ]
+  }
+ }
 }

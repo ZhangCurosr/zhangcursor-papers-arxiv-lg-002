@@ -4,5 +4,10 @@
  "title": "Identifiability-and-Observability-of-Deep-Normalized-Attenti",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-10-08 19:48:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/21775d22-11a1-4fdf-b295-e59c204d2d6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/21775d22-11a1-4fdf-b295-e59c204d2d6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:57:32",
+  "chunks": 1
+ }
 }

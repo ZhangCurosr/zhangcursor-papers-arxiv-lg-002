@@ -4,5 +4,35 @@
  "title": "Immiscible-Diffusion-Policy-Preserving-Multimodal-Robot-Acti",
  "token": "sk-2ksG4dzmp...",
  "created_at": "2026-10-08 08:33:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/f796a6a4-5a40-4de1-b3b3-f97c773873e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/f796a6a4-5a40-4de1-b3b3-f97c773873e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:57:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Policy",
+    "Action Multimodality",
+    "Immiscible Diffusion",
+    "Robot Learning",
+    "Noise Assignment",
+    "Hungarian Matching"
+   ],
+   "field": "机器人模仿学习与扩散策略",
+   "innovations": [
+    "识别并理论化扩散策略模态坍缩现象及其与独立动作-噪声配对的因果关系",
+    "提出IDP：一种无需模态标签、仅通过匈牙利匹配在训练时组织噪声空间以保留多模态的轻量附加组件",
+    "建立模态响应范围度量并给出 assignment 激活时机的共享准则"
+   ],
+   "benchmarks": [
+    "Push-T",
+    "Stack Blocks",
+    "Place Bread",
+    "Place Shoe",
+    "Rotate QR Code",
+    "Fruit-to-Plate (Real)",
+    "Can-to-Bin (Real)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "How-Do-Transformers-Learn-to-Represent-Symmetries",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-10-08 19:51:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bd7d62ee-9da8-4a16-94fb-f00abf4c76e2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bd7d62ee-9da8-4a16-94fb-f00abf4c76e2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:55:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Transformer",
+    "data augmentation",
+    "symmetry learning",
+    "geometric deep learning",
+    "invariance",
+    "equivariance",
+    "point cloud"
+   ],
+   "field": "几何机器学习/对称性学习",
+   "innovations": [
+    "系统揭示 Transformer 在有限数据增强下对不同对称性的学习层次（基础保角群 > 组合保角群 > 非保角群）",
+    "识别旋转/平移/缩放三类基础不变性的可解释机制（attention score 稳定性、地标残差减法、LayerNorm 正齐次性）",
+    "证明近似不变性机制可组合为等变预测的基础组件，在 ShapeNet 上验证 O(3)-等变涌现"
+   ],
+   "benchmarks": [
+    "ModelNet10",
+    "3D Topology",
+    "ShapeNet",
+    "3D Tetris",
+    "QM9"
+   ]
+  }
+ }
 }

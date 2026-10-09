@@ -4,5 +4,10 @@
  "title": "Kernel-Autoresearch-for-Open-Ended-Model-Discovery",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-10-08 19:47:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9b1f2670-b87d-488a-9d33-375c4b29efa3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9b1f2670-b87d-488a-9d33-375c4b29efa3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 03:01:12",
+  "chunks": 4
+ }
 }

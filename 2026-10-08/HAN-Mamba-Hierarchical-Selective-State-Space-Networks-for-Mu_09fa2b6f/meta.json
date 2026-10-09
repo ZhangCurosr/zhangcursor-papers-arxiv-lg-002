@@ -4,5 +4,30 @@
  "title": "HAN-Mamba-Hierarchical-Selective-State-Space-Networks-for-Mu",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-10-08 19:49:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/46fff1d9-2b1b-4052-8963-745c92762c11.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/46fff1d9-2b1b-4052-8963-745c92762c11.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:50:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Volatility Forecasting",
+    "Mamba",
+    "State Space Models",
+    "Hierarchical Architecture",
+    "High-Frequency Finance",
+    "Time Series",
+    "Selective SSM"
+   ],
+   "field": "金融时间序列预测",
+   "innovations": [
+    "用选择性状态空间编码器替换层次Transformer编码器，仅保留注意力于三尺度摘要融合",
+    "论证集合vs序列融合结构，验证注意力对无序跨尺度整合的必要性与顺序敏感性",
+    "利用线性复杂度将高频上下文从60扩展至240桶实现误差进一步降低与流式常数时间更新"
+   ],
+   "benchmarks": [
+    "Optiver Realized Volatility Prediction (ORVP)"
+   ]
+  }
+ }
 }

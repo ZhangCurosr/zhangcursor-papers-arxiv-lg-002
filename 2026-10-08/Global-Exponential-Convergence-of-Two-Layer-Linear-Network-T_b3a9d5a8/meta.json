@@ -4,5 +4,10 @@
  "title": "Global-Exponential-Convergence-of-Two-Layer-Linear-Network-T",
  "token": "sk-hGbDG10SO...",
  "created_at": "2026-10-08 08:47:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d86d39ee-1bc6-4b01-8b18-024493205d6d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/d86d39ee-1bc6-4b01-8b18-024493205d6d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:54:07",
+  "chunks": 4
+ }
 }

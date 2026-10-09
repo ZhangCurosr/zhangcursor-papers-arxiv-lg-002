@@ -4,5 +4,35 @@
  "title": "How-Do-Agentic-LLMs-Decide-to-Call-Tools-A-Tool-Call-Vector",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-10-08 19:50:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/489b9999-861d-44a6-973e-c22ec7b2fd80.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/489b9999-861d-44a6-973e-c22ec7b2fd80.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:55:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "mechanistic interpretability",
+    "tool calling",
+    "activation patching",
+    "representation engineering",
+    "agent LLM",
+    "refusal direction analogy"
+   ],
+   "field": "LLM 机制可解释性与 agent 行为因果表征",
+   "innovations": [
+    "用单动词替换把数百 token agent 提示降维为可控对比接口",
+    "定位到 L24 预测位置的因果充分必要工具调用向量 μΔ 及其跨域/多轮/无动词零重估迁移",
+    "揭示格式模板安装调用先验、分析动词激活抑制特征覆盖先验的'先验+抑制'统一机制"
+   ],
+   "benchmarks": [
+    "MBPP",
+    "APPS",
+    "HumanEval",
+    "CodeContests",
+    "τ²-Bench Telecom",
+    "FEVER",
+    "Spider"
+   ]
+  }
+ }
 }

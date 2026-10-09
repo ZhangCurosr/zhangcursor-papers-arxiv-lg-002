@@ -4,5 +4,31 @@
  "title": "Kinetic-Langevin-Meets-Split-Gibbs-Accelerated-Posterior-Sam",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-10-08 08:35:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/e8997652-166e-45ff-8e53-1636de70b620.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/e8997652-166e-45ff-8e53-1636de70b620.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:59:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Split Gibbs Sampling",
+    "Kinetic Langevin",
+    "RED regularization",
+    "diffusion prior",
+    "Bayesian image restoration",
+    "inverse problems",
+    "Wasserstein convergence"
+   ],
+   "field": "贝叶斯成像逆问题与生成先验采样",
+   "innovations": [
+    "将欠阻尼 kinetic Langevin 动量引入 RED-SGS 框架，在单次迭代成本不变下使收敛迭代数减半",
+    "给出 RED-KLwSGS 非渐近 Wasserstein-2 收敛性证明（连续+离散时间）",
+    "提出 Joint-RED-KLwSGS 变体，对两个变量同时施加动量，扩展至非二次前向算子场景"
+   ],
+   "benchmarks": [
+    "FFHQ 256x256 高斯/运动去模糊、超分辨",
+    "ImageNet 256x256 高斯/运动去模糊、超分辨"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "IT-IS-NOT-SEEING-THE-HAZARD-A-FROZEN-VISION-LANGUAGE-SAFETY",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-10-08 19:49:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ecd9db47-f482-43ce-96ec-6cbb8c351f66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/ecd9db47-f482-43ce-96ec-6cbb8c351f66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 02:57:05",
+  "chunks": 1
+ }
 }
