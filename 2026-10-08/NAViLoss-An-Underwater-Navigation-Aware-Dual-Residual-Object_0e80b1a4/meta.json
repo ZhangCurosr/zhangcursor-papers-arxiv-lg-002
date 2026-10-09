@@ -4,5 +4,33 @@
  "title": "NAViLoss-An-Underwater-Navigation-Aware-Dual-Residual-Object",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-10-08 19:54:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f5a9a090-a50a-401f-b446-5a04c3f9cda8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/f5a9a090-a50a-401f-b446-5a04c3f9cda8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "underwater navigation",
+    "DVL velocity estimation",
+    "NAViLoss",
+    "DeepONet",
+    "physics-informed learning",
+    "robust loss",
+    "AUV",
+    "sensor fusion"
+   ],
+   "field": "水下自主导航与多传感器融合",
+   "innovations": [
+    "提出双残差有界鲁棒损失 NAViLoss，联合速度域与波束域一致性",
+    "基于 DVL 几何最小特征值的自适应不确定性衰减机制",
+    "将导航感知损失嵌入 DeepONet 算子学习框架实现物理引导速度估计"
+   ],
+   "benchmarks": [
+    "Mediterranean Sea AUV sea trial dataset (~10,000m)",
+    "NAVi-DeepONetV1/V2",
+    "Fold 1/2/3 three-fold cross-validation"
+   ]
+  }
+ }
 }

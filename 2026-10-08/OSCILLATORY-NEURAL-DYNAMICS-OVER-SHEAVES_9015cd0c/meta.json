@@ -4,5 +4,36 @@
  "title": "OSCILLATORY-NEURAL-DYNAMICS-OVER-SHEAVES",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-08 19:47:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/558268c9-5c24-41d8-85cd-d0b5ce042997.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/558268c9-5c24-41d8-85cd-d0b5ce042997.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:49:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sheaf neural networks",
+    "oscillatory dynamics",
+    "long-range graph propagation",
+    "over-squashing",
+    "wave equation GNN",
+    "heterophily"
+   ],
+   "field": "图神经网络的长距离传播与拓扑动力学",
+   "innovations": [
+    "将二阶振荡动力学引入 sheaf 神经网络，耦合矩阵值传输与波传播",
+    "证明 sheaf Laplacian 驱动的连续与离散敏感性矩阵交叉影响永不消失",
+    "在 ECHO-Synth/Barbell/Graph Transfer 等多基准上超越 SOAT sheaf 与振荡 GNN 基线"
+   ],
+   "benchmarks": [
+    "ECHO-Synth",
+    "Barbell",
+    "Graph Transfer",
+    "Roman-empire",
+    "Amazon-ratings",
+    "Minesweeper",
+    "Tolokers",
+    "Questions"
+   ]
+  }
+ }
 }

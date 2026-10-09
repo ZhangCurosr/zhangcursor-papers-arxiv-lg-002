@@ -4,5 +4,10 @@
  "title": "Kuration-SDK-Addressing-the-Virtual2Real-Gap-via-Data-Curati",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-10-08 08:37:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c30ef914-b599-46bc-b006-6c8fee58dcd7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/c30ef914-b599-46bc-b006-6c8fee58dcd7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:14",
+  "chunks": 1
+ }
 }

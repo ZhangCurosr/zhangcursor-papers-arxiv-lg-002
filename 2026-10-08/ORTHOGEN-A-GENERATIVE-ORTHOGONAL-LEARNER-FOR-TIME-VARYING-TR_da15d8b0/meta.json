@@ -4,5 +4,32 @@
  "title": "ORTHOGEN-A-GENERATIVE-ORTHOGONAL-LEARNER-FOR-TIME-VARYING-TR",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-08 19:47:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/08351d25-721d-4128-beff-a35d8a827a72.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/08351d25-721d-4128-beff-a35d8a827a72.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:49:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时变治疗",
+    "条件分布潜在结果",
+    "Neyman 正交",
+    "双重鲁棒",
+    "生成模型",
+    "递归 g-computation",
+    "因果推断"
+   ],
+   "field": "时变治疗因果推断与生成式分布估计",
+   "innovations": [
+    "提出生成式递归g-computation将g-computation从均值推广至完整条件分布",
+    "设计首个时变CDPO估计的双反复核正交学习器ORTHOGEN",
+    "证明速率双重鲁棒性与准oracle效率理论保证"
+   ],
+   "benchmarks": [
+    "全合成纵向DGP",
+    "半合成MIMIC-III",
+    "真实MIMIC-III"
+   ]
+  }
+ }
 }

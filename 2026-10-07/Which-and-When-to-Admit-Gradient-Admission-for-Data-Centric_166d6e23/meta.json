@@ -4,5 +4,32 @@
  "title": "Which-and-When-to-Admit-Gradient-Admission-for-Data-Centric",
  "token": "sk-pAWZK7ksy...",
  "created_at": "2026-10-07 19:45:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/fa509603-8e1c-464e-bd04-f35a07584f38.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-07/fa509603-8e1c-464e-bd04-f35a07584f38.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:45:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LoRA",
+    "小语言模型微调",
+    "数据选择",
+    "梯度准入",
+    "参数高效微调",
+    "异构监督",
+    "梯度对齐"
+   ],
+   "field": "参数高效微调与数据-centric 学习",
+   "innovations": [
+    "提出双级梯度准入框架GRADE，联合控制样本级对齐选择与步级更新门控",
+    "用单次随机方向前向探针替代全量反向传播估计per-sample梯度对齐",
+    "基于梯度协方差几何闭式推导自动选择比例"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "HellaSwag",
+    "Winogrande"
+   ]
+  }
+ }
 }

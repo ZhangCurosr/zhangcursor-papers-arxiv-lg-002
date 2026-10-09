@@ -4,5 +4,29 @@
  "title": "Koopman-Observers-for-Difusion-Acceleration-Correcting-Featu",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-10-08 19:45:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9131fc43-06a7-4557-8627-5446db665e40.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9131fc43-06a7-4557-8627-5446db665e40.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:45:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "扩散模型加速",
+    "特征缓存",
+    "Koopman 算子",
+    "状态观测器",
+    "推理优化"
+   ],
+   "field": "扩散模型高效推理",
+   "innovations": [
+    "首次将 Koopman 观测器框架引入冻结扩散模型的特征加速，显式分离时间预测与浅层观测校正",
+    "提出联合浅层-深层特征增量的有限维仿射建模，通过浅层预测残差对深层状态做校准更新",
+    "在同一采样预算下对 channelwise 基线、开环预测和观测校正进行受控对比，量化校正的独立贡献"
+   ],
+   "benchmarks": [
+    "CIFAR-10 (32x32, class-conditional U-Net)",
+    "ImageNet-10 subset (64x64)"
+   ]
+  }
+ }
 }

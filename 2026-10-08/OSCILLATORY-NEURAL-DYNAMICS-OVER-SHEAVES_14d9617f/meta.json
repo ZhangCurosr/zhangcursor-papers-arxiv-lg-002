@@ -4,5 +4,33 @@
  "title": "OSCILLATORY-NEURAL-DYNAMICS-OVER-SHEAVES",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-10-08 08:30:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9fc0c0e7-a5b1-4604-98de-0196c3b57d6b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/9fc0c0e7-a5b1-4604-98de-0196c3b57d6b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:50:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sheaf neural networks",
+    "oscillatory dynamics",
+    "long-range graph propagation",
+    "over-squashing",
+    "heterophilic graphs",
+    "cellular sheaves",
+    "wave equation GNN"
+   ],
+   "field": "长距离图神经网络传播动力学",
+   "innovations": [
+    "将二阶守恒波动力学引入纤维丛神经网络，使矩阵值限制映射控制信息变换的同时保持传播持久性",
+    "给出 stalk-wise 敏感性分析，严格证明 source-to-target 跨影响在保守振荡动力学下永不衰减",
+    "在 ECHO-Synth、Barbell 瓶颈、Graph Transfer 和异配图基准上系统性验证，SSSP 和 eccentricity 分别以 0.085 和 0.885 大幅超越次优方法"
+   ],
+   "benchmarks": [
+    "ECHO-Synth (SSSP, eccentricity, diameter)",
+    "Barbell bottleneck",
+    "Graph Transfer (line/ring/crossed-ring)",
+    "Heterophilic benchmarks (Roman-empire, Amazon-ratings, Minesweeper, Tolokers, Questions)"
+   ]
+  }
+ }
 }

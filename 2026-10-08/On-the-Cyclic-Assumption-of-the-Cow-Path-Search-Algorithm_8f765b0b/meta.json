@@ -4,5 +4,32 @@
  "title": "On-the-Cyclic-Assumption-of-the-Cow-Path-Search-Algorithm",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-08 19:45:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/02a585c8-aed5-48f9-9690-fe06c0d70afa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/02a585c8-aed5-48f9-9690-fe06c0d70afa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:50:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cow-path problem",
+    "competitive ratio",
+    "online search",
+    "cyclic algorithm",
+    "randomized algorithm",
+    "Yao's principle",
+    "online computation"
+   ],
+   "field": "在线算法与竞争性分析",
+   "innovations": [
+    "给出Cow-Path问题循环假设的完整证明，填补1998年原文的证明空白",
+    "建立剩余权重分析方法将期望竞争比分解为可微分结构",
+    "证明最优算法必满足最小前沿优先、扩展因子>β、步长单调三性质，联合推出循环性"
+   ],
+   "benchmarks": [
+    "w=2时最优竞争比≈4.5911",
+    "Baeza-Yates等确定性下界9",
+    "Kao-Reif-Tate循环算法竞争比公式R_w"
+   ]
+  }
+ }
 }

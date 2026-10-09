@@ -4,5 +4,32 @@
  "title": "PEACE-Covariant-learning-of-nonadiabatic-manifolds-with-pari",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-10-08 08:34:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/daa401cf-2409-4bcb-ba43-2a5b414bf5aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/daa401cf-2409-4bcb-ba43-2a5b414bf5aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:52:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非绝热分子动力学",
+    "等变神经网络",
+    "宇称对称性",
+    "自旋-轨道耦合",
+    "表面跳跃动力学",
+    "潜势哈密顿量"
+   ],
+   "field": "量子化学机器学习",
+   "innovations": [
+    "宇称解析潜势哈密顿量与学习电子联络的统一等变框架",
+    "通过协变导数统一保证能量-力-非绝热耦合的物理一致性",
+    "扩展到自旋-轨道耦合和系间窜越动力学模拟"
+   ],
+   "benchmarks": [
+    "C2H4 C3H6 C4H8 alkene benchmarks",
+    "CH2NH2+ ablation benchmark",
+    "CH2S SOC benchmark",
+    "SPaiNN SchNarc Exciting DeePMD baselines"
+   ]
+  }
+ }
 }

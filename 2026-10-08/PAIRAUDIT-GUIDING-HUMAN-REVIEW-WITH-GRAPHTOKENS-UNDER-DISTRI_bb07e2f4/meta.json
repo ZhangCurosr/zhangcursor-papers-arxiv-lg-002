@@ -4,5 +4,34 @@
  "title": "PAIRAUDIT-GUIDING-HUMAN-REVIEW-WITH-GRAPHTOKENS-UNDER-DISTRI",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-10-08 19:49:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c4783b53-5926-4750-b583-c9a850888ffa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c4783b53-5926-4750-b583-c9a850888ffa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:52:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "OOD 检测",
+    "图神经网络",
+    "主动审核",
+    "分布偏移",
+    "异常检测",
+    "人机协作"
+   ],
+   "field": "分布偏移下的人工审核策略优化",
+   "innovations": [
+    "图token特征条件化密度建模关系惊喜度排序",
+    "序贯配对审计结合Raw保留的预算感知审核策略",
+    "显式成本分解的净增益恒等式与Dirichlet后验决策"
+   ],
+   "benchmarks": [
+    "UNSW-NB15/Fuzzers",
+    "CICIDS2017/Hulk",
+    "X-IIoTID/RDOS",
+    "TON-IoT/XSS",
+    "IoT23/ARP",
+    "BoT-IoT/DDoS-TCP"
+   ]
+  }
+ }
 }

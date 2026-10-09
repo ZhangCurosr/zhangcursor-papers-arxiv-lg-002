@@ -4,5 +4,27 @@
  "title": "Optimal-Regret-for-Online-Market-Making-with-Limit-Order-Boo",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-08 19:47:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/76b88e8c-3d4f-4eab-92b2-73cb0ec6956e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/76b88e8c-3d4f-4eab-92b2-73cb0ec6956e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:51:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "online learning",
+    "market making",
+    "limit order book",
+    "regret analysis",
+    "adversarial bandits",
+    "EXP3",
+    "Hedge algorithm"
+   ],
+   "field": "在线学习与经济机制设计",
+   "innovations": [
+    "LOB反馈下对手市场价格实现最优O~(sqrt(T))高概率regret界",
+    "利用区间重建将EXP3探索代价从O(K)降至O(log K)",
+    "证明全对手设定下即使全反馈也存在线性regret下界"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Optimal-Regret-for-Online-Market-Making-with-Limit-Order-Boo",
  "token": "sk-zwDCnJqPG...",
  "created_at": "2026-10-08 08:31:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b4717737-3429-4a6e-96f7-785dd26cde2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/b4717737-3429-4a6e-96f7-785dd26cde2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:51:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "在线市场做市",
+    "限制订单簿反馈",
+    "遗憾界",
+    "Hedge算法",
+    "EXP3",
+    "部分可观测学习",
+    "对抗环境"
+   ],
+   "field": "在线学习与市场微观结构",
+   "innovations": [
+    "在LOB反馈下建立高概率O(√T)遗憾界，优于先前期望T^(2/3)界",
+    "证明双格偏移设计避免任意分布下的观测退化",
+    "证明完全对抗环境下全反馈亦无法实现次线性遗憾"
+   ],
+   "benchmarks": [
+    "Maran and Restelli 2026 期望 regret T^(2/3)",
+    "Cesa-Bianchi et al. 2024 two-bit feedback T^(2/3)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Multimodal-LLMs-Can-Learn-to-Read-Brain-Signals-A-Vision-Lan",
  "token": "sk-wmVet9QXD...",
  "created_at": "2026-10-08 19:50:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb4a351b-4034-4a35-a527-851d22dbf606.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/bb4a351b-4034-4a35-a527-851d22dbf606.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG decoding",
+    "vision-language model",
+    "multimodal LLM",
+    "multi-task learning",
+    "STFT spectrogram",
+    "foundation model",
+    "brain-computer interface"
+   ],
+   "field": "脑信号解码与多模态基础模型",
+   "innovations": [
+    "将多通道EEG的STFT谱图排列成结构化图像，作为通用VLM的可复用接口实现统一多任务解码",
+    "通过继续后训练（视觉编码器全量微调+LLM LoRA）适配Qwen3-VL-2B，无需EEG专用预训练",
+    "系统验证STFT表示作为EEG-VLM接口的优越性，并通过噪声扰动实验证明模型依赖真实信号结构"
+   ],
+   "benchmarks": [
+    "HMC sleep staging",
+    "SEED emotion recognition",
+    "EEGMAT cognitive workload",
+    "TUAB abnormality detection"
+   ]
+  }
+ }
 }

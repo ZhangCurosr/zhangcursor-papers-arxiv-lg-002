@@ -4,5 +4,10 @@
  "title": "On-the-Cyclic-Assumption-of-the-Cow-Path-Search-Algorithm",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-10-08 08:28:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/033aec42-1edb-4893-83e9-2b478f6b573a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/033aec42-1edb-4893-83e9-2b478f6b573a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:50:11",
+  "chunks": 1
+ }
 }

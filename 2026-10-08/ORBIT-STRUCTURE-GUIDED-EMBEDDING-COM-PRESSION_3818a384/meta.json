@@ -4,5 +4,32 @@
  "title": "ORBIT-STRUCTURE-GUIDED-EMBEDDING-COM-PRESSION",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-08 08:30:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2815d918-d906-4bac-b43a-08e89971daea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/2815d918-d906-4bac-b43a-08e89971daea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:48:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embedding compression",
+    "orbit dynamics",
+    "tight frame",
+    "additive quantization",
+    "LLM memory",
+    "redundant synthesis"
+   ],
+   "field": "语言模型表示压缩",
+   "innovations": [
+    "通过轨道动力学学习可复用局部几何并约束共享码本",
+    "重叠紧图表配合全局残差引导的顺序阶段分配",
+    "后粘合细化与编译消除构建状态"
+   ],
+   "benchmarks": [
+    "GPT-2",
+    "Llama-2-7B",
+    "Mistral-7B",
+    "Mistral-7B-Instruct"
+   ]
+  }
+ }
 }

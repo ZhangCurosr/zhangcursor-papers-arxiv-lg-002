@@ -4,5 +4,31 @@
  "title": "LIGHTWEIGHT-AND-VERSATILE-LEARNED-OPTIMIZA-TION-BY-RECOMBINA",
  "token": "sk-z9ycjZdD1...",
  "created_at": "2026-10-08 19:51:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6ea98394-4a1b-4784-9444-a6c52d57f159.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/6ea98394-4a1b-4784-9444-a6c52d57f159.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Learned Optimization",
+    "Gradient History",
+    "Multi-resolution History",
+    "Zero-shot Generalization",
+    "Lightweight Optimizer"
+   ],
+   "field": "Learned Optimization",
+   "innovations": [
+    "通过动态重组梯度历史以轻量方式（37k参数）实现跨域零样本泛化的学习优化器",
+    "多分辨率梯度历史存储机制，以对数空间开销覆盖任意长优化轨迹",
+    "在语言、视觉、图任务上统一超越Adam，且额外FLOPs开销仅0.3%"
+   ],
+   "benchmarks": [
+    "BERT-Tiny",
+    "GPT-Tiny",
+    "ViT/CIFAR-100",
+    "GCN/GraphSAGE/GAT on Cora, CiteSeer, PubMed"
+   ]
+  }
+ }
 }

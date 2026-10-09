@@ -4,5 +4,35 @@
  "title": "Neural-Sampling-with-Reweighted-Normalizing-Flows-via-the-Wa",
  "token": "sk-mBuyDYvkR...",
  "created_at": "2026-10-08 19:47:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db0eb7a5-07d6-4b2e-86b3-64c97a8f4ded.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/db0eb7a5-07d6-4b2e-86b3-64c97a8f4ded.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:47:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Wasserstein-Fisher-Rao",
+    "JKO scheme",
+    "neural sampling",
+    "normalizing flows",
+    "Boltzmann distribution",
+    "Metropolis-Hastings"
+   ],
+   "field": "变分采样与生成模型",
+   "innovations": [
+    "证明WFR-JKO方案对任意固定步长的指数收敛性，无需凸性假设",
+    "推导结合连续正则流与学习反应率的WFR-JKO可计算损失函数",
+    "设计重采样与MH复苏联合的神经采样流程，支持数据/潜空间Proposal"
+   ],
+   "benchmarks": [
+    "Mustache",
+    "Shifted 8 Modes",
+    "Shifted 8 Peaky",
+    "GMM-10",
+    "GMM-20",
+    "GMM-50",
+    "GMM-100"
+   ]
+  }
+ }
 }

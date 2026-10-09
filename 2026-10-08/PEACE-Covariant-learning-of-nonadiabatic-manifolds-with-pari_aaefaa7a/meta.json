@@ -4,5 +4,35 @@
  "title": "PEACE-Covariant-learning-of-nonadiabatic-manifolds-with-pari",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-10-08 19:49:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9e091b4c-b559-48be-bc87-ce04dd509147.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/9e091b4c-b559-48be-bc87-ce04dd509147.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:53:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "nonadiabatic molecular dynamics",
+    "equivariant machine learning",
+    "parity-resolved Hamiltonian",
+    "covariant derivative",
+    "spin-orbit coupling",
+    "surface hopping",
+    "excited-state dynamics"
+   ],
+   "field": "量子化学中的等变机器学习",
+   "innovations": [
+    "提出奇偶等变潜哈密顿量与学习电子联络的统一框架，通过协变导数同时给出保守力与能量gap加权SNAC",
+    "将反射对称性显式编码到Hamiltonian块（0e/0o通道）与联络（1e/1o通道）中，允许对称破缺处态混合",
+    "扩展至SOC，以等变读出预测Cartesian耦合矢量，实现单重态–三重态系间穿越模拟"
+   ],
+   "benchmarks": [
+    "SPaiNN (SchNet/PaiNN)",
+    "Exciting DeePMD D yad",
+    "SchNarc",
+    "SA(3)-CASSCF(2,2)/cc-pVDZ alkene benchmarks",
+    "MR-CISD/aug-cc-pVDZ CH2NH2+ benchmark",
+    "CASSCF(6,5)/def2-SVP CH2S SOC benchmark"
+   ]
+  }
+ }
 }

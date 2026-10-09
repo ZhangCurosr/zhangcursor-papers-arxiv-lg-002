@@ -4,5 +4,32 @@
  "title": "NAViLoss-An-Underwater-Navigation-Aware-Dual-Residual-Object",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-10-08 08:46:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ea2d8ae3-8faa-4235-a0e1-53ef5e952d53.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/ea2d8ae3-8faa-4235-a0e1-53ef5e952d53.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NAViLoss",
+    "DeepONet",
+    "DVL",
+    "AUV导航",
+    "物理引导学习",
+    "鲁棒损失函数",
+    "不确定性感知",
+    "水下导航"
+   ],
+   "field": "水下自主导航与多传感器融合",
+   "innovations": [
+    "提出双域有界不确定性感知损失NAViLoss，联合速度残差与波束一致性残差",
+    "基于活跃波束几何信息自适应构造不确定性标量，实现退化条件下的自动权重衰减",
+    "将NAViLoss嵌入DeepONet构建NAVi-DeepONet，支持全波束与部分波束恢复两种运行模式"
+   ],
+   "benchmarks": [
+    "Mediterranean Sea Sea Trials AUV Dataset (Snapir AUV, ~10,000m)",
+    "VRMSE/VMAE/R²/VAF (噪声感知速度估计与DVL波束丢失恢复)"
+   ]
+  }
+ }
 }

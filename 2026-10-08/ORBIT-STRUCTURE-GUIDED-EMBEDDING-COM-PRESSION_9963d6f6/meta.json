@@ -4,5 +4,32 @@
  "title": "ORBIT-STRUCTURE-GUIDED-EMBEDDING-COM-PRESSION",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-10-08 19:44:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/894984c2-c038-444b-ac5b-2b42c01a7698.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/894984c2-c038-444b-ac5b-2b42c01a7698.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:49:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embedding compression",
+    "orbit framework",
+    "additive quantization",
+    "redundant frames",
+    "tight-frame gluing",
+    "structure-guided coding"
+   ],
+   "field": "语言模型嵌入压缩",
+   "innovations": [
+    "用轨道动力学发现局部编码几何并约束共享加法码字",
+    "全局残差驱动的跨图表顺序码本分配",
+    "冗余紧图表拼接消除不一致分量并提供可证明误差界"
+   ],
+   "benchmarks": [
+    "GPT-2 embedding table",
+    "Llama-2-7B embedding table",
+    "Mistral-7B embedding table",
+    "Mistral-7B-Instruct embedding table"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "LEARNING-UNKNOWN-CONSTRAINTS-WITHOUT-UN-SAFE-DATA-VIA-OPTIMA",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-10-08 08:34:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8bdeaa92-755f-4187-b64a-501d24a0157a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8bdeaa92-755f-4187-b64a-501d24a0157a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:46:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "约束学习",
+    "逆最优控制",
+    "KKT条件",
+    "对抗正则化",
+    "离线强化学习",
+    "安全控制"
+   ],
+   "field": "安全约束学习",
+   "innovations": [
+    "提出CF-KKT框架，通过KKT最优性条件与合成对抗轨迹结合，无需违反数据即可学习未知神经约束",
+    "证明正值增强优势蕴含不可行性（Lemma 1），为对抗筛选提供理论保证",
+    "将CIOC与ICRL桥接：学习动力学支持KKT推理，同时保留神经网络约束表示的灵活性"
+   ],
+   "benchmarks": [
+    "MuJoCo locomotion (Ant_ls, BlockedAnt, BlockedHopper, HalfCheetah, Walker_ls)",
+    "2D continuous maze navigation (Obstacle, Wide, Disk, Zigzag)",
+    "ICSDICE benchmark"
+   ]
+  }
+ }
 }

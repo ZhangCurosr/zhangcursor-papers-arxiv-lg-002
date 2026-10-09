@@ -4,5 +4,28 @@
  "title": "Oracle-Eficient-and-Parameter-Free-Agnostic-Smoothed-Online",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-10-08 08:29:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8e9216b4-d498-434e-855b-ff7dcce8291f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/8e9216b4-d498-434e-855b-ff7dcce8291f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:51:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "平滑在线学习",
+    "oracle-efficient",
+    "FTPL",
+    "agnostic学习",
+    "VC维度",
+    "surprise引理"
+   ],
+   "field": "在线学习理论",
+   "innovations": [
+    "首个agnostic平滑在线学习的parameter-free oracle-efficient算法",
+    "改进的二次矩surprise引理及FTPL与指数权重的桥接分析"
+   ],
+   "benchmarks": [
+    "理论regret界分析"
+   ]
+  }
+ }
 }

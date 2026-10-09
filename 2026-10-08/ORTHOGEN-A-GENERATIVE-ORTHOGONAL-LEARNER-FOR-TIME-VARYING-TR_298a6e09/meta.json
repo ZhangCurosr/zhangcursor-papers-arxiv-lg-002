@@ -4,5 +4,33 @@
  "title": "ORTHOGEN-A-GENERATIVE-ORTHOGONAL-LEARNER-FOR-TIME-VARYING-TR",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-10-08 08:30:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1675ea12-5cb4-4d13-ae2c-8f5732766efb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/1675ea12-5cb4-4d13-ae2c-8f5732766efb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:48:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间依赖治疗",
+    "条件分布潜在结果",
+    "生成递归g计算",
+    "Neyman正交性",
+    "双稳健估计",
+    "扩散模型",
+    "归一化流",
+    "MIMIC-III"
+   ],
+   "field": "因果机器学习与纵向数据",
+   "innovations": [
+    "提出生成递归g计算，首次将g计算扩展到时间依赖治疗下的完整条件分布估计",
+    "设计ORTHOGEN正交学习器，兼具Neyman正交性、双稳健性与速率双稳健性",
+    "证明扩散模型/归一化流作为正交生成骨干的理论可行性与实证有效性"
+   ],
+   "benchmarks": [
+    "完全合成纵向数据",
+    "半合成MIMIC-III",
+    "真实MIMIC-III机械通气队列"
+   ]
+  }
+ }
 }

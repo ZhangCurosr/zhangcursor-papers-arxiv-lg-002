@@ -4,5 +4,30 @@
  "title": "ORDERS-An-Empirical-Study-of-Norm-Rank-Aggregation-for-Perso",
  "token": "sk-LV19Ft0NN...",
  "created_at": "2026-10-08 08:34:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/21fbdcf0-d6db-4c7a-a4d8-27503f5710ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-08/21fbdcf0-d6db-4c7a-a4d8-27503f5710ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 16:49:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "personalized federated learning",
+    "norm-rank aggregation",
+    "weighted aggregation",
+    "residual adapter",
+    "feature alignment",
+    "reproducible evaluation"
+   ],
+   "field": "个性化联邦学习",
+   "innovations": [
+    "对ORDERS配置进行端到端可审计的实证刻画并区分原生与通用微调端点",
+    "给出范数排序加权算子的数学边界与攻击面分析",
+    "通过单组件消融与后验多数标签诊断揭示评估设置对结论的影响"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "Sent140"
+   ]
+  }
+ }
 }
